@@ -27,7 +27,6 @@ requires		'Switch';
 
 install_script 		'openpgp-applet';
 install_share 		'share';
-auto_manifest;
 
 
 WriteAll;
