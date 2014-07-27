@@ -2,7 +2,11 @@
 
 =head1 NAME
 
-OpenPGP_Applet - GNOME applet for OpenGPG text encryption
+OpenPGP_Applet
+
+=head1 ABSTRACT
+
+GNOME applet for OpenPGP text encryption
 
 =head1 DESCRIPTION
 
@@ -19,13 +23,31 @@ offer terminal interaction unless explicitly run from there, it relies
 in practice on some kind of GnuPG agent such as pinentry, Seahorse 2.x
 or GNOME keyring 3.x to manage passphrase input.
 
+=head1 SEE ALSO
+
+User documentation, with screenshots, can be found on https://tails.boum.org/doc/encryption_and_privacy/gpgapplet/
+
+
+=head1 AUTHOR
+
+Tails developers <tails@boum.org>
+
+=head1 COPYRIGHT
+
+This program is free software; you can redistribute it and/or modify it under the terms of either:
+
+a) the GNU General Public License as published by the Free Software Foundation; either version 1, or (at your option) any later version, or
+
+b) the "Artistic License" which comes with Perl.
+
 =cut
 
 use strict;
 use warnings FATAL => 'all';
 use 5.10.0;
 
-# VERSION
+use vars qw{VERSION};
+$VERSION = 0.9
 
 use Glib qw{TRUE FALSE};
 use Gtk2 qw{-init};

@@ -4,8 +4,6 @@ use warnings;
 use inc::Module::Install;
 
 name 			'OpenPGP_Applet';
-version			'0.9';
-author			'Tails developers <tails@boum.org>';
 license			'gpl,artistic';
 all_from 		'script/openpgp-applet';
 
@@ -29,6 +27,7 @@ requires		'Switch';
 
 install_script 		'openpgp-applet';
 install_share 		'share';
+auto_manifest;
 
 
 WriteAll;
