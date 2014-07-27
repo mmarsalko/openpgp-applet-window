@@ -1,4 +1,4 @@
-package gpgApplet::GnuPG::Interface;
+package OpenPGP_Applet::GnuPG::Interface;
 use Any::Moose;
 extends 'GnuPG::Interface';
 
