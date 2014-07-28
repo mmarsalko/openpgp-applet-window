@@ -47,7 +47,7 @@ use warnings FATAL => 'all';
 use 5.10.0;
 
 use vars qw{VERSION};
-$VERSION = 0.9
+$VERSION = 0.8
 
 use Glib qw{TRUE FALSE};
 use Gtk2 qw{-init};
