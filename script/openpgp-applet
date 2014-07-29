@@ -8,6 +8,10 @@ OpenPGP_Applet
 
 GNOME applet for OpenPGP text encryption
 
+=head1 VERSION
+
+Version 0.8
+
 =head1 DESCRIPTION
 
 OpenPGP_Applet allows encrypting and decrypting the content of the
@@ -27,7 +31,6 @@ or GNOME keyring 3.x to manage passphrase input.
 
 User documentation, with screenshots, can be found on https://tails.boum.org/doc/encryption_and_privacy/gpgapplet/
 
-
 =head1 AUTHOR
 
 Tails developers <tails@boum.org>
@@ -46,8 +49,7 @@ use strict;
 use warnings FATAL => 'all';
 use 5.10.0;
 
-use vars qw{VERSION};
-$VERSION = 0.8
+our $VERSION = 0.8;
 
 use Glib qw{TRUE FALSE};
 use Gtk2 qw{-init};
