@@ -2,11 +2,7 @@
 
 =head1 NAME
 
-OpenPGP_Applet
-
-=head1 ABSTRACT
-
-GNOME applet for OpenPGP text encryption
+OpenPGP_Applet - GNOME applet for OpenPGP text encryption
 
 =head1 VERSION
 
