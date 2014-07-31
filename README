@@ -1,22 +1,22 @@
-Copyright (c) 1999-2014 Tails developpers <tails@boum.org>
+Copyright (c) 1999-2014 Tails developers <tails@boum.org>
 
 **** OpenPGP_Applet - GNOME applet for OpenPGP text encryption ****
 
 
-OpenPGP_Applet is a gnome applet written in perl that allows encrypting and decrypting the
-content of the clipboard with a symmetric cipher using a passphrase. This is a
-graphical frontend on top of GnuPG.
+OpenPGP_Applet is a gnome applet written in Perl that allows encryption and
+decryption of the clipboard's content with a symmetric cipher using a
+passphrase. This is a graphical front-end on top of GnuPG.
 
 Asymmetric decryption and clipboard verification are also supported.
 
-Formally a part of Tails - tails.boum.org, now available separatly.
+Formally a part of Tails - tails.boum.org, now available separately.
 
 
 IMPORTANT: 
 
 OpenPGP_Applet does not handle passphrase input. Since it also does not offer
 terminal interaction unless explicitly run from there, it relies in practice on
-some kind of GnuPG agent such as pinentry, Seahorse 2.x or GNOME keyring 3.x to
+some kind of GnuPG agent such as Pinentry, Seahorse 2.x or GNOME Keyring 3.x to
 manage passphrase input.
 
 Full user documentation, with screenshots, is available at
@@ -24,9 +24,9 @@ https://tails.boum.org/doc/encryption_and_privacy/gpgapplet/
 
 INSTALLATION
 
-	OpenPGP_Applet is packaged as a (mostly) standard perl module.
+	OpenPGP_Applet is packaged as a (mostly) standard Perl module.
 
-	To install, you'll need perl and a few perl module available from CPAN and,
+	To install, you'll need Perl and a few Perl module available from CPAN and,
 	chances are, as package for your OS.
 
 	Just run 
@@ -34,7 +34,7 @@ INSTALLATION
 		perl Makefile.PL
 
 	If you miss some required modules, it will warn you. Install them (via CPAN or
-	using your prefered packaging system)¸
+	using your preferred packaging system)¸
 
 	Then, as root or using sudo :
 
@@ -46,14 +46,14 @@ INSTALLATION
 USAGE
 
 	To launch the applet, run "openpgp-applet". It should sit in the system tray or
-	the notifcation area.
+	the notification area.
 
 	If you encounter issues, find a bug, or want to suggest a feature, point your
 	browser to https://tails.boum.org and check the Help/Support section for
 	instructions.
 
 TODO
-	I18N translation, available in the tail version, are missing.
+	I18N translations, available in the Tails version, are missing.
 
 LICENSE
 
