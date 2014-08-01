@@ -3,7 +3,7 @@ Copyright (c) 1999-2014 Tails developers <tails@boum.org>
 **** OpenPGP_Applet - GNOME applet for OpenPGP text encryption ****
 
 
-OpenPGP_Applet is a gnome applet written in Perl that allows encryption and
+OpenPGP_Applet is a GNOME applet written in Perl that allows encryption and
 decryption of the clipboard's content with a symmetric cipher using a
 passphrase. This is a graphical front-end on top of GnuPG.
 
@@ -59,9 +59,14 @@ LICENSE
 
 	This program is free software; you can redistribute it and/or modify it under the terms of either:
 
-	a) the GNU General Public License as published by the Free Software Foundation; either version 1, or (at your option)
-	any later version, or
+	a) the GNU General Public License as published by the Free Software
+	   Foundation; either version 1, or (at your option) any later version, or
 
 	b) the "Artistic License" which comes with Perl.
 
     	Both are included in the LICENSE file. 
+
+	The pixmaps and icons under share/pixmaps are licensed using the
+	Creative Common Atribution ShareAlike 2.0 (CC-BY-SA-2.0), included in the
+	LICENSE file as well. Humans may want to refer to
+	https://creativecommons.org/licenses/by-sa/2.0/

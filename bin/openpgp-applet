@@ -10,7 +10,7 @@ Version 0.8
 
 =head1 DESCRIPTION
 
-OpenPGP_Applet allows encryption and decryption of the clipboard's content with
+OpenPGP Applet allows encryption and decryption of the clipboard's content with
 a symmetric cipher using a passphrase. This is a graphical frontend on top of
 GnuPG.
 
@@ -38,6 +38,10 @@ This program is free software; you can redistribute it and/or modify it under th
 a) the GNU General Public License as published by the Free Software Foundation; either version 1, or (at your option) any later version, or
 
 b) the "Artistic License" which comes with Perl.
+
+Pixmaps and icons are licensed under the "CC-BY-SA-2.0" Creative Common License.
+
+See README and LICENSE for details.
 
 =cut
 
