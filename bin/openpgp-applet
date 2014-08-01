@@ -18,7 +18,7 @@ Asymmetric decryption and clipboard verification are also supported.
 
 =head1 PREREQUISITES
 
-OpenPGP_Applet does not handle passphrase input. Since it also does not
+OpenPGP Applet does not handle passphrase input. Since it also does not
 offer terminal interaction unless explicitly run from there, it relies
 in practice on some kind of GnuPG agent such as pinentry, Seahorse 2.x
 or GNOME keyring 3.x to manage passphrase input.
@@ -166,7 +166,7 @@ sub build_statusicon {
     my $mabout = Gtk2::MenuItem->new($encoding->decode(gettext('About')));
     $mabout->signal_connect('activate' => sub { Gtk2->show_about_dialog(
         $main_window,
-        'program-name' => 'OpenPGP_Applet',
+        'program-name' => 'OpenPGP Applet',
         'license'      => q{This program is free software; you can redistribute it and/or modify it under the terms of either:
 
 a) the GNU General Public License as published by the Free Software Foundation; either version 1, or (at your option) any later version, or
