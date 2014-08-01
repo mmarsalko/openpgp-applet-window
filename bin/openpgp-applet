@@ -39,7 +39,7 @@ a) the GNU General Public License as published by the Free Software Foundation; 
 
 b) the "Artistic License" which comes with Perl.
 
-Pixmaps and icons are licensed under the "CC-BY-SA-2.0" Creative Common License.
+Pixmaps and icons are licensed under the terms of Creative Commons ShareAlike 2.0 (CC-BY-SA-2.0)
 
 See README and LICENSE for details.
 
@@ -172,6 +172,8 @@ sub build_statusicon {
 a) the GNU General Public License as published by the Free Software Foundation; either version 1, or (at your option) any later version, or
 
 b) the "Artistic License" which comes with Perl.
+
+Pixmaps and icons are licensed under the terms of Creative Commons ShareAlike 2.0 (CC-BY-SA-2.0)
 },
         'wrap-license' => 1,
         'website'      => 'https://tails.boum.org/',
