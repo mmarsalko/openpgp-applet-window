@@ -23,6 +23,9 @@ offer terminal interaction unless explicitly run from there, it relies
 in practice on some kind of GnuPG agent such as pinentry, Seahorse 2.x
 or GNOME keyring 3.x to manage passphrase input.
 
+'xclip' (http://xclip.sourceforge.net) is used to get input from clipboard.
+
+
 =head1 SEE ALSO
 
 User documentation, with screenshots, can be found on https://tails.boum.org/doc/encryption_and_privacy/gpgapplet/

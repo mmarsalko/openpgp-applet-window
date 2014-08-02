@@ -23,6 +23,7 @@ requires		'Locale::gettext';
 requires		'namespace::autoclean';
 requires		'POSIX';
 requires		'Switch';
+requires_external_bin 	'xclip';
 
 
 install_script 		'openpgp-applet';
