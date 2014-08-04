@@ -1,5 +1,6 @@
 ~$
-^.git
+# Dist::Zilla takes care of this one
+#^.git
 ^(|.*/)\..*\.sw[op]$
 ^debian
 \.bak$
