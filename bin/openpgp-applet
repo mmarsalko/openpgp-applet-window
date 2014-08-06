@@ -61,7 +61,7 @@ use Gtk2::SimpleList;
 
 use Encode qw{decode encode find_encoding};
 use English;
-use Crypt::OpenPGP_Applet::GnuPG::Interface;
+use OpenPGP_Applet::GnuPG::Interface;
 use IO::Handle;
 use I18N::Langinfo qw{langinfo CODESET};
 use List::MoreUtils qw{none};
@@ -94,7 +94,7 @@ use constant COMBO_KEYID       => 1;
 use constant COMBO_FINGERPRINT => 2;
 use constant COMBO_ROLE        => 3;
 
-my $gnupg         = Crypt::OpenPGP_Applet::GnuPG::Interface->new();
+my $gnupg         = OpenPGP_Applet::GnuPG::Interface->new();
 my $codeset       = langinfo(CODESET());
 my $encoding      = find_encoding($codeset);
 my $main_window   = Gtk2::Window->new();
@@ -963,7 +963,7 @@ sub make_icon_source {
     my $ext  = shift;
     my $size = shift;
 
-    my $pixmapdir = File::ShareDir::dist_dir('Crypt/OpenPGP_Applet') . "/pixmaps";
+    my $pixmapdir = File::ShareDir::dist_dir('OpenPGP_Applet') . "/pixmaps";
     my $filename = "$pixmapdir/$base/$icon.$ext";
     my $source = Gtk2::IconSource->new();
     $source->set_filename($filename);
