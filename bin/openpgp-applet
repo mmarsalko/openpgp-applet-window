@@ -963,7 +963,7 @@ sub make_icon_source {
     my $ext  = shift;
     my $size = shift;
 
-    my $pixmapdir = File::ShareDir::dist_dir('Crypt/OpenPGP_Applet') . "/pixmaps";
+    my $pixmapdir = File::ShareDir::dist_dir('OpenPGP_Applet') . "/pixmaps";
     my $filename = "$pixmapdir/$base/$icon.$ext";
     my $source = Gtk2::IconSource->new();
     $source->set_filename($filename);
