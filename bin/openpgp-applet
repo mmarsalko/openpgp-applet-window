@@ -309,7 +309,7 @@ sub set_clipboards_text {
         $_->set_text($encoded_text);
     }
     # GTK fails setting the primary selection above, so let's use xclip :/
-    open(my $xclip, '| xclip') or die "Error opening pipe to xclip";
+    open(my $xclip, '|-', 'xclip') or die "Error opening pipe to xclip";
     print $xclip $encoded_text or die "Error copying data to X clipboard";
     close $xclip or die "Error closing pipe to xclip";
 }
