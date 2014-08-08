@@ -1,7 +1,7 @@
 package Crypt::OpenPGP_Applet::GnuPG::Interface;
 use strict;
 
-use Any::Moose;
+use Moo;
 extends 'GnuPG::Interface';
 
 use namespace::autoclean;
@@ -235,5 +235,5 @@ sub get_keys_light {
     return @returned_keys;
 }
 
-no Any::Moose;
+no Moo;
 1;
