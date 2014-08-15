@@ -2,7 +2,7 @@ package Crypt::OpenPGP_Applet::GnuPG::Interface;
 use strict;
 
 use Moo;
-extends 'GnuPG::Interface';
+extends 'GnuPG::Interface' => { -version => 0.50 };
 
 use namespace::autoclean;
 use Carp;
