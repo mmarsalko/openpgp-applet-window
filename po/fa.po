@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# adriano <eb.ae@aol.com>, 2013
+# signal89 <ali.faraji90@gmail.com>, 2014
+# Danial Keshani <dani@daanial.com>, 2013
+# Mohammad Hossein <desmati@gmail.com>, 2014
+# Gilberto, 2014
+# Mohammad Hossein <desmati@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2014-09-28 23:53+0200\n"
+"PO-Revision-Date: 2014-06-24 13:41+0000\n"
+"Last-Translator: Gilberto\n"
+"Language-Team: Persian (http://www.transifex.com/projects/p/torproject/"
+"language/fa/)\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../bin/openpgp-applet:164
+msgid "OpenPGP encryption applet"
+msgstr "اپلت رمزنگاری OpenPGP"
+
+#: ../bin/openpgp-applet:167
+msgid "Exit"
+msgstr "خروج"
+
+#: ../bin/openpgp-applet:169
+msgid "About"
+msgstr "درباره"
+
+#: ../bin/openpgp-applet:222
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "کلیپ برد را به وسیله یک عبورواژه رمزگذاری کنید."
+
+#: ../bin/openpgp-applet:225
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "کلیپ برد را به وسیله یک کلید عمومی رمزگذاری/امضا کنید."
+
+#: ../bin/openpgp-applet:230
+msgid "_Decrypt/Verify Clipboard"
+msgstr "رمزگشایی/تایید امضای کلیپ‌برد"
+
+#: ../bin/openpgp-applet:234
+msgid "_Manage Keys"
+msgstr "مدیریت کلید‌ها"
+
+#: ../bin/openpgp-applet:274
+msgid "The clipboard does not contain valid input data."
+msgstr "کلیپ‌برد دادهٔ معتبری ندارد"
+
+#: ../bin/openpgp-applet:324 ../bin/openpgp-applet:326
+#: ../bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "قابل اطمینان نیست"
+
+#: ../bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "به سختی قابل اطمینان است"
+
+#: ../bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "قابل اطمینان است"
+
+#: ../bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "کاملاً قابل اطمینان است"
+
+#: ../bin/openpgp-applet:387
+msgid "Name"
+msgstr "نام"
+
+#: ../bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "آی‌دی کلید"
+
+#: ../bin/openpgp-applet:389
+msgid "Status"
+msgstr "وضعیت"
+
+#: ../bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "اثر انگشت:"
+
+#: ../bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "شناسه‌های کاربری:"
+
+#: ../bin/openpgp-applet:454
+msgid "None (Don't sign)"
+msgstr "هیچ کدام (امضا نکن)"
+
+#: ../bin/openpgp-applet:517
+msgid "Select recipients:"
+msgstr "دریافت کننده‌ها:"
+
+#: ../bin/openpgp-applet:525
+msgid "Hide recipients"
+msgstr "دریافت کننده ها را مخفی کن"
+
+#: ../bin/openpgp-applet:528
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"شناسه کاربری تمام دریافت کننده‌های یک پیغام رمزنگاری شده را پنهان کن. در غیر "
+"اینصورت هر کسی که این پیغام رمزنگاری شده را دریافت می کند، می تواند بفهمد چه "
+"کسان دیگری آن را دریافت کرده اند."
+
+#: ../bin/openpgp-applet:534
+msgid "Sign message as:"
+msgstr "پیام را به این عنوان امضا کن:"
+
+#: ../bin/openpgp-applet:538
+msgid "Choose keys"
+msgstr "کلید رمزنگاری را انتخاب کن"
+
+#: ../bin/openpgp-applet:578
+msgid "Do you trust these keys?"
+msgstr "آیا به این کلیدهای رمزنگاری اطمینان دارید؟"
+
+#: ../bin/openpgp-applet:581
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "کلیدهایی زیر کاملاً قابل اطمینان نیستند:"
+
+#: ../bin/openpgp-applet:599
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] ""
+"آیا به اندازی کافی به این کلیدها اطمینان دارید تا به هر حال استفاده شوند؟"
+
+#: ../bin/openpgp-applet:612
+msgid "No keys selected"
+msgstr "کلیدی انتخاب نشده است"
+
+#: ../bin/openpgp-applet:614
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"با انتخاب یک کلید خصوصی می‌توانید این پیام را امضا و با انتخاب کلید عمومی "
+"می‌توانید آن‌را رمزنگاری کنید؛ استفاده از هر دو مورد نیز امکان‌پذیر است."
+
+#: ../bin/openpgp-applet:642
+msgid "No keys available"
+msgstr "هیچ کلیدی در دسترس نیست"
+
+#: ../bin/openpgp-applet:644
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"شما یک کلید خصوصی نیاز دارید تا پیام‌ها را امضا کنید و یا یک کلید عمومی نیاز "
+"دارید تا بتوانید پیام‌ها را رمزنگاری کنید."
+
+#: ../bin/openpgp-applet:772
+msgid "GnuPG error"
+msgstr "خطای GnuPG"
+
+#: ../bin/openpgp-applet:793
+msgid "Therefore the operation cannot be performed."
+msgstr "بنابراین عملیات قابل اجرا نیست."
+
+#: ../bin/openpgp-applet:843
+msgid "GnuPG results"
+msgstr "نتایج GnuPG"
+
+#: ../bin/openpgp-applet:849
+msgid "Output of GnuPG:"
+msgstr "خروجی GnuPG:"
+
+#: ../bin/openpgp-applet:874
+msgid "Other messages provided by GnuPG:"
+msgstr "سایر پیغام هایی که GnuPG محیا کرده است:"

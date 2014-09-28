@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# GabSeb, 2014
+# falk3n <johan.falkenstrom@gmail.com>, 2014
+# WinterFairy <winterfairy@riseup.net>, 2013-2014
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2014-09-28 23:53+0200\n"
+"PO-Revision-Date: 2014-06-03 18:52+0000\n"
+"Last-Translator: GabSeb\n"
+"Language-Team: Swedish (http://www.transifex.com/projects/p/torproject/"
+"language/sv/)\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../bin/openpgp-applet:164
+msgid "OpenPGP encryption applet"
+msgstr "Panelprogram för OpenPGP-kryptering"
+
+#: ../bin/openpgp-applet:167
+msgid "Exit"
+msgstr "Avsluta"
+
+#: ../bin/openpgp-applet:169
+msgid "About"
+msgstr "Om"
+
+#: ../bin/openpgp-applet:222
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "Kryptera urklipp med _lösenord"
+
+#: ../bin/openpgp-applet:225
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "Signera/kryptera urklipp med _publik nyckel"
+
+#: ../bin/openpgp-applet:230
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Dekryptera/verifiera urklipp"
+
+#: ../bin/openpgp-applet:234
+msgid "_Manage Keys"
+msgstr "_Hantera nycklar"
+
+#: ../bin/openpgp-applet:274
+msgid "The clipboard does not contain valid input data."
+msgstr "Urklippet innehåller ingen giltig data."
+
+#: ../bin/openpgp-applet:324 ../bin/openpgp-applet:326
+#: ../bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "Okänd tillit"
+
+#: ../bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "Marginell tillit"
+
+#: ../bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "Full tillit"
+
+#: ../bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "Ultimat tillit"
+
+#: ../bin/openpgp-applet:387
+msgid "Name"
+msgstr "Namn"
+
+#: ../bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "Nyckel ID"
+
+#: ../bin/openpgp-applet:389
+msgid "Status"
+msgstr "Status"
+
+#: ../bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "Fingeravtryck:"
+
+#: ../bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "Användar ID:"
+msgstr[1] "Användar IDn:"
+
+#: ../bin/openpgp-applet:454
+msgid "None (Don't sign)"
+msgstr "Ingen (signera inte)"
+
+#: ../bin/openpgp-applet:517
+msgid "Select recipients:"
+msgstr "Välj mottagare:"
+
+#: ../bin/openpgp-applet:525
+msgid "Hide recipients"
+msgstr "Dölj mottagare"
+
+#: ../bin/openpgp-applet:528
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"Dölj användar IDn för alla mottagare av krypterade meddelanden. Annars kan "
+"vem som helst som ser meddelandet också se vilka mottagarna är."
+
+#: ../bin/openpgp-applet:534
+msgid "Sign message as:"
+msgstr "Signera meddelandet som:"
+
+#: ../bin/openpgp-applet:538
+msgid "Choose keys"
+msgstr "Välj nycklar"
+
+#: ../bin/openpgp-applet:578
+msgid "Do you trust these keys?"
+msgstr "Litar du på dessa nycklar?"
+
+#: ../bin/openpgp-applet:581
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "Följande vald nyckel är inte helt betrodd:"
+msgstr[1] "Följande valda nycklar är inte helt betrodda:"
+
+#: ../bin/openpgp-applet:599
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "Litar du på den här nyckeln tillräckligt för att använda den ändå?"
+msgstr[1] "Litar du på de här nycklarna tillräckligt för att använda dem ändå?"
+
+#: ../bin/openpgp-applet:612
+msgid "No keys selected"
+msgstr "Inga nycklar valda"
+
+#: ../bin/openpgp-applet:614
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"Du måste välja en privat nyckel för att signera meddelandet, eller några "
+"publika nycklar för att kryptera meddelandet, eller både och."
+
+#: ../bin/openpgp-applet:642
+msgid "No keys available"
+msgstr "Inga nycklar tillgängliga"
+
+#: ../bin/openpgp-applet:644
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"Du behöver en privat nyckel för att signera meddelanden eller publik nyckel "
+"för att kryptera meddelanden."
+
+#: ../bin/openpgp-applet:772
+msgid "GnuPG error"
+msgstr "Fel från GnuPG"
+
+#: ../bin/openpgp-applet:793
+msgid "Therefore the operation cannot be performed."
+msgstr "Därför kan inte åtgärden utföras."
+
+#: ../bin/openpgp-applet:843
+msgid "GnuPG results"
+msgstr "Resultat från GnuPG"
+
+#: ../bin/openpgp-applet:849
+msgid "Output of GnuPG:"
+msgstr "Utmatning från GnuPG:"
+
+#: ../bin/openpgp-applet:874
+msgid "Other messages provided by GnuPG:"
+msgstr "Andra meddelanden givna av GnuPG:"

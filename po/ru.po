@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Denis <stereodenis@gmail.com>, 2014
+# Eugene, 2013
+# jujjer <jujjer@gmail.com>, 2013
+# mendov <mr.mendov@gmail.com>, 2013
+# Oul Gocke <beandonlybe@yandex.ru>, 2013-2014
+# Valid Olov, 2013
+# Руслан <nasretdinov.r.r@ya.ru>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2014-09-28 23:53+0200\n"
+"PO-Revision-Date: 2014-06-18 20:00+0000\n"
+"Last-Translator: Denis <stereodenis@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/torproject/"
+"language/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../bin/openpgp-applet:164
+msgid "OpenPGP encryption applet"
+msgstr "OpenPGP апплет шифрования"
+
+#: ../bin/openpgp-applet:167
+msgid "Exit"
+msgstr "Выход"
+
+#: ../bin/openpgp-applet:169
+msgid "About"
+msgstr "О программе ..."
+
+#: ../bin/openpgp-applet:222
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "Шифрование буфера обмена с _Passphrase"
+
+#: ../bin/openpgp-applet:225
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr ""
+"Подпись/Шифрование буфера обмена с помощью Открытых ключей /Public _Keys/"
+
+#: ../bin/openpgp-applet:230
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Расшифровка/Проверка буфера обмена"
+
+#: ../bin/openpgp-applet:234
+msgid "_Manage Keys"
+msgstr "_Управление ключами"
+
+#: ../bin/openpgp-applet:274
+msgid "The clipboard does not contain valid input data."
+msgstr "Буфер обмена не содержит допустимых входных данных."
+
+#: ../bin/openpgp-applet:324 ../bin/openpgp-applet:326
+#: ../bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "Неизвестный уровень доверия"
+
+#: ../bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "Незначительный уровень доверия"
+
+#: ../bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "Полное доверие"
+
+#: ../bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "Абсолютный уровень доверия"
+
+#: ../bin/openpgp-applet:387
+msgid "Name"
+msgstr "Имя"
+
+#: ../bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "ID ключа"
+
+#: ../bin/openpgp-applet:389
+msgid "Status"
+msgstr "Статус"
+
+#: ../bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "Отпечаток:"
+
+#: ../bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "Пользовательский ID:"
+msgstr[1] "Пользовательские ID:"
+msgstr[2] "Пользовательские ID:"
+
+#: ../bin/openpgp-applet:454
+msgid "None (Don't sign)"
+msgstr "Ничего (не подписывать)"
+
+#: ../bin/openpgp-applet:517
+msgid "Select recipients:"
+msgstr "Выбор получателей:"
+
+#: ../bin/openpgp-applet:525
+msgid "Hide recipients"
+msgstr "Скрыть получателей"
+
+#: ../bin/openpgp-applet:528
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"Скрыть пользовательские ID всех получателей зашифрованного сообщения. В "
+"обратном случае, любой, кто видит зашифрованное сообщение, может видеть "
+"получателей этого сообщения."
+
+#: ../bin/openpgp-applet:534
+msgid "Sign message as:"
+msgstr "Подписать сообщение как:"
+
+#: ../bin/openpgp-applet:538
+msgid "Choose keys"
+msgstr "Выбор ключей"
+
+#: ../bin/openpgp-applet:578
+msgid "Do you trust these keys?"
+msgstr "Вы доверяете этим ключам?"
+
+#: ../bin/openpgp-applet:581
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "Нет полного доверия следующему ключу:"
+msgstr[1] "Нет полного доверия следующим ключам:"
+msgstr[2] "К следующим выбранным ключам нет полного доверия:"
+
+#: ../bin/openpgp-applet:599
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] ""
+"Доверяете ли Вы данным ключам в той мере, чтобы в любом случае "
+"воспользоваться ими?"
+msgstr[1] ""
+"Доверяете ли вы данным ключам в той мере, чтобы в любом случае "
+"воспользоваться ими?"
+msgstr[2] ""
+"Доверяете ли Вы данным ключам настолько, что согласны в любом случае "
+"воспользоваться ими?"
+
+#: ../bin/openpgp-applet:612
+msgid "No keys selected"
+msgstr "Ключи не выбраны"
+
+#: ../bin/openpgp-applet:614
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"Вы должны выбрать закрытый ключ, чтобы подписать сообщение, и/или несколько "
+"открытых ключей, чтобы зашифровать его."
+
+#: ../bin/openpgp-applet:642
+msgid "No keys available"
+msgstr "Нет доступных ключей"
+
+#: ../bin/openpgp-applet:644
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"Нужен секретный ключ для подписывания сообщений, либо открытый ключ для "
+"шифрования сообщений."
+
+#: ../bin/openpgp-applet:772
+msgid "GnuPG error"
+msgstr "Ошибка GnuPG"
+
+#: ../bin/openpgp-applet:793
+msgid "Therefore the operation cannot be performed."
+msgstr "Таким образом, данная операция не может быть выполнена."
+
+#: ../bin/openpgp-applet:843
+msgid "GnuPG results"
+msgstr "Результаты GnuPG"
+
+#: ../bin/openpgp-applet:849
+msgid "Output of GnuPG:"
+msgstr "Вывод GnuPG:"
+
+#: ../bin/openpgp-applet:874
+msgid "Other messages provided by GnuPG:"
+msgstr "Другие сообщения от GnuPG:"

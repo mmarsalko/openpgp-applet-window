@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Sokhem Khoem <sokhem@open.org.kh>, 2014
+# Sok Sophea <sksophea@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2014-09-28 23:53+0200\n"
+"PO-Revision-Date: 2014-06-10 02:40+0000\n"
+"Last-Translator: Sokhem Khoem <sokhem@open.org.kh>\n"
+"Language-Team: Khmer (http://www.transifex.com/projects/p/torproject/"
+"language/km/)\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../bin/openpgp-applet:164
+msgid "OpenPGP encryption applet"
+msgstr "អាប់ភ្លេត​ការ​ដាក់​លេខ​កូដ OpenPGP"
+
+#: ../bin/openpgp-applet:167
+msgid "Exit"
+msgstr "ចេញ"
+
+#: ../bin/openpgp-applet:169
+msgid "About"
+msgstr "អំពី"
+
+#: ../bin/openpgp-applet:222
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "ដាក់​លេខ​កូដ​ក្ដារ​តម្បៀត​ខ្ទាស់​ដោយ​ប្រើ​ពាក្យសម្ងាត់"
+
+#: ../bin/openpgp-applet:225
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "ចុះហត្ថលេខា/ដាក់​លេខ​កូដ​ក្ដារ​តម្បៀត​ខ្ទាស់​ដោយ​ប្រើ​ពាក្យ​គន្លឹះ​សាធារណៈ"
+
+#: ../bin/openpgp-applet:230
+msgid "_Decrypt/Verify Clipboard"
+msgstr "ដោះ​លេខ​កូដ/ផ្ទៀងផ្ទាត់​ក្ដារ​តម្បៀត​ខ្ទាស់"
+
+#: ../bin/openpgp-applet:234
+msgid "_Manage Keys"
+msgstr "គ្រប់គ្រង​ពាក្យ​គន្លឹះ"
+
+#: ../bin/openpgp-applet:274
+msgid "The clipboard does not contain valid input data."
+msgstr "ក្ដារ​តម្បៀត​ខ្ទាស់​មិន​មាន​ទិន្នន័យ​ត្រឹមត្រូវ។"
+
+#: ../bin/openpgp-applet:324 ../bin/openpgp-applet:326
+#: ../bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "មិន​ទុកចិត្ត"
+
+#: ../bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "ទុកចិត្ត​មធ្យម"
+
+#: ../bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "ទុកចិត្ត​ទាំងស្រុង"
+
+#: ../bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "ទុកចិត្ត​បំផុត"
+
+#: ../bin/openpgp-applet:387
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+#: ../bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "លេខ​សម្គាល់​ពាក្យ​គន្លឹះ"
+
+#: ../bin/openpgp-applet:389
+msgid "Status"
+msgstr "ស្ថានភាព"
+
+#: ../bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "ស្នាម​ម្រាមដៃ៖"
+
+#: ../bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "លេខ​សម្គាល់​អ្នកប្រើ៖"
+
+#: ../bin/openpgp-applet:454
+msgid "None (Don't sign)"
+msgstr "គ្មាន (កុំ​ចុះហត្ថលេខា)"
+
+#: ../bin/openpgp-applet:517
+msgid "Select recipients:"
+msgstr "ជ្រើស​អ្នកទទួល៖"
+
+#: ../bin/openpgp-applet:525
+msgid "Hide recipients"
+msgstr "លាក់​អ្នកទទួល"
+
+#: ../bin/openpgp-applet:528
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"លាក់​លេខ​សម្គាល់​អ្នកប្រើ​របស់​អ្នកទទួល​សារ​ដែល​បាន​ដាក់​លេខ​កូដ​ទាំងអស់។ បើមិនដូច្នោះទេ អ្នក​ដែល​មើល​ឃើញ​សារ​"
+"ដែល​បាន​ដាក់​លេខ​កូដ អាច​មើល​ឃើញ​អ្នកទទួល​ដែរ។"
+
+#: ../bin/openpgp-applet:534
+msgid "Sign message as:"
+msgstr "ចុះហត្ថលេខា​ជា៖"
+
+#: ../bin/openpgp-applet:538
+msgid "Choose keys"
+msgstr "ជ្រើស​ពាក្យ​គន្លឹះ"
+
+#: ../bin/openpgp-applet:578
+msgid "Do you trust these keys?"
+msgstr "តើ​អ្នក​ទុកចិត្ត​ពាក្យគន្លឹះ​ទាំងនេះ​ទេ?"
+
+#: ../bin/openpgp-applet:581
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "ពាក្យ​គន្លឹះ​ដែល​បាន​ជ្រើស​ខាងក្រោម​គឺ​មិន​បាន​ទុកចិត្ត​ទាំងស្រុង​ទេ៖"
+
+#: ../bin/openpgp-applet:599
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "តើ​អ្នក​ទុកចិត្ត​ពាក្យ​គន្លឹះ​ទាំងនេះ​ថា​អាច​ប្រើ​បាន​ដែរ​ឬទេ?"
+
+#: ../bin/openpgp-applet:612
+msgid "No keys selected"
+msgstr "មិន​បាន​ជ្រើស​ពាក្យ​គន្លឹះ"
+
+#: ../bin/openpgp-applet:614
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"អ្នក​ត្រូវ​ជ្រើស​​ពាក្យ​គន្លឹះ​ឯកជន​ដើម្បី​ចុះហត្ថលេខា​សារ ឬ​ជ្រើស​ពាក្យ​គន្លឹះ​សាធារណៈ​មួយ​ចំនួន​ដើម្បី​ដាក់​លេខ​កូដ​"
+"សារ ឬ​ជ្រើស​ទាំងពីរ។"
+
+#: ../bin/openpgp-applet:642
+msgid "No keys available"
+msgstr "មិន​មាន​ពាក្យ​គន្លឹះ"
+
+#: ../bin/openpgp-applet:644
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr "អ្នក​ត្រូវ​មាន​ពាក្យ​គន្លឹះ​ឯកជន​ដើម្បី​ចុះហត្ថលេខា​សារ ឬ​ពាក្យ​គន្លឹះ​សាធារណៈ​ដើម្បី​ដាក់​លេខ​កូដ​សារ។"
+
+#: ../bin/openpgp-applet:772
+msgid "GnuPG error"
+msgstr "កំហុស GnuPG"
+
+#: ../bin/openpgp-applet:793
+msgid "Therefore the operation cannot be performed."
+msgstr "ដូច្នេះ​ប្រតិបត្តិការ​មិន​អាច​ដំណើរការ​បាន​ទេ។"
+
+#: ../bin/openpgp-applet:843
+msgid "GnuPG results"
+msgstr "លទ្ធផល GnuPG"
+
+#: ../bin/openpgp-applet:849
+msgid "Output of GnuPG:"
+msgstr "កន្លែង​បញ្ចេញ​របស់ GnuPG ៖"
+
+#: ../bin/openpgp-applet:874
+msgid "Other messages provided by GnuPG:"
+msgstr "សារ​ផ្សេងទៀត​ដែល​បាន​ផ្ដល់​ដោយ GnuPG ៖"

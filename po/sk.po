@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# elo, 2014
+# Michal Slovák <michalslovak2@hotmail.com>, 2013
+# Roman 'Kaktuxista' Benji <romanbeno273@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2014-09-28 23:53+0200\n"
+"PO-Revision-Date: 2014-07-03 22:30+0000\n"
+"Last-Translator: elo\n"
+"Language-Team: Slovak (http://www.transifex.com/projects/p/torproject/"
+"language/sk/)\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../bin/openpgp-applet:164
+msgid "OpenPGP encryption applet"
+msgstr "OpenPGP šifrovací aplet"
+
+#: ../bin/openpgp-applet:167
+msgid "Exit"
+msgstr "Ukončiť"
+
+#: ../bin/openpgp-applet:169
+msgid "About"
+msgstr "O aplikácií"
+
+#: ../bin/openpgp-applet:222
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "Šifrovať schránku s _prístupovým heslom"
+
+#: ../bin/openpgp-applet:225
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "Prihlásiť/Šifrovať schránku s verejnými _kľúčmi"
+
+#: ../bin/openpgp-applet:230
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Dešifrovať/Overiť schránku"
+
+#: ../bin/openpgp-applet:234
+msgid "_Manage Keys"
+msgstr "_manažovať kľúče"
+
+#: ../bin/openpgp-applet:274
+msgid "The clipboard does not contain valid input data."
+msgstr "Schránka neobsahuje platné vstupné dáta."
+
+#: ../bin/openpgp-applet:324 ../bin/openpgp-applet:326
+#: ../bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "Neznáma dôvera"
+
+#: ../bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "Okrajová dôvera"
+
+#: ../bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "Plná dôvera"
+
+#: ../bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "Maximálna dôvera"
+
+#: ../bin/openpgp-applet:387
+msgid "Name"
+msgstr "Meno"
+
+#: ../bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "ID kľúča"
+
+#: ../bin/openpgp-applet:389
+msgid "Status"
+msgstr "Stav"
+
+#: ../bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "Odtlačok:"
+
+#: ../bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "ID užívateľa"
+msgstr[1] "ID užívateľov:"
+msgstr[2] "ID užívateľov:"
+
+#: ../bin/openpgp-applet:454
+msgid "None (Don't sign)"
+msgstr "Žiadne (nepodpisovať)"
+
+#: ../bin/openpgp-applet:517
+msgid "Select recipients:"
+msgstr "Zvoľte si príjemcov:"
+
+#: ../bin/openpgp-applet:525
+msgid "Hide recipients"
+msgstr "Skryť príjemcov"
+
+#: ../bin/openpgp-applet:528
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"Skryť uživateľské ID všetkých príjemcov šifrovanej správy. V opačnom prípade "
+"každý, kto túto správu zazrie, bude schopný odhaliť ich identitu."
+
+#: ../bin/openpgp-applet:534
+msgid "Sign message as:"
+msgstr "Podpísať správu ako:"
+
+#: ../bin/openpgp-applet:538
+msgid "Choose keys"
+msgstr "Zvoľte si kľúče"
+
+#: ../bin/openpgp-applet:578
+msgid "Do you trust these keys?"
+msgstr "Dôverujete týmto kľúčom?"
+
+#: ../bin/openpgp-applet:581
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "Nasledujúci zvolený kľúč nie je plne dôveryhodný:"
+msgstr[1] "Nasledujúce zvolené kľúče nie sú plne dôveryhodne:"
+msgstr[2] "Nasledujúce zvolené kľúče nie sú plne dôveryhodne:"
+
+#: ../bin/openpgp-applet:599
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "Napriek tomu dôverujete tomuto kľúču tak, že ho hodláte použiť?"
+msgstr[1] "Napriek tomu dôverujete týmto kľúčom tak, že ich hodláte použiť?"
+msgstr[2] "Napriek tomu dôverujete týmto kľúčom tak, že ich hodláte použiť?"
+
+#: ../bin/openpgp-applet:612
+msgid "No keys selected"
+msgstr "Neboli zvolené žiadne kľúče"
+
+#: ../bin/openpgp-applet:614
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"Na podpísanie správy si musíte zvoliť súkromný kľúč alebo nejaké verejné "
+"kľúče pre jej zašifrovanie, prípadne oboje."
+
+#: ../bin/openpgp-applet:642
+msgid "No keys available"
+msgstr "Nie sú dostupné žiadne kľúče."
+
+#: ../bin/openpgp-applet:644
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"Potrebujete súkromný kľúč na podpísanie správ alebo verejný kľúč na ich "
+"šifrovanie."
+
+#: ../bin/openpgp-applet:772
+msgid "GnuPG error"
+msgstr "GnuPG chyba"
+
+#: ../bin/openpgp-applet:793
+msgid "Therefore the operation cannot be performed."
+msgstr "Operácia teda nemohla byť vykonaná."
+
+#: ../bin/openpgp-applet:843
+msgid "GnuPG results"
+msgstr "GnuPG výsledky"
+
+#: ../bin/openpgp-applet:849
+msgid "Output of GnuPG:"
+msgstr "Výstup GnuPG:"
+
+#: ../bin/openpgp-applet:874
+msgid "Other messages provided by GnuPG:"
+msgstr "Ostatné správy poskytnuté GnuPG:"

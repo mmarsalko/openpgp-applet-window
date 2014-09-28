@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# jjjdddsssxxx <a227675@drdrb.net>, 2014
+# Adriaan Callaerts <adriaan.callaerts@gmail.com>, 2013
+# cialenhh <c1914502@drdrb.com>, 2013
+# erwindelaat <erwin.de.laat@cleveridge.org>, 2014
+# joostrijneveld <joostrijneveld@gmail.com>, 2014
+# LittleNacho <louisboy@msn.com>, 2013
+# Midgard, 2014
+# Syrion <transifex@syrion.net>, 2014
+# Lazlo <transifex@lazlo.me>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2014-09-28 23:53+0200\n"
+"PO-Revision-Date: 2014-05-29 20:11+0000\n"
+"Last-Translator: Midgard\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/torproject/"
+"language/nl/)\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../bin/openpgp-applet:164
+msgid "OpenPGP encryption applet"
+msgstr "OpenPGP versleutel applicatie "
+
+#: ../bin/openpgp-applet:167
+msgid "Exit"
+msgstr "Sluit af"
+
+#: ../bin/openpgp-applet:169
+msgid "About"
+msgstr "Over"
+
+#: ../bin/openpgp-applet:222
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "Versleutel Klembord met  Wachtwoord"
+
+#: ../bin/openpgp-applet:225
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "Teken/Versleutel Klembord met Openbare Sleutels"
+
+#: ../bin/openpgp-applet:230
+msgid "_Decrypt/Verify Clipboard"
+msgstr "Ontcijfer/Controleer Klembord"
+
+#: ../bin/openpgp-applet:234
+msgid "_Manage Keys"
+msgstr "Beheer Sleutels"
+
+#: ../bin/openpgp-applet:274
+msgid "The clipboard does not contain valid input data."
+msgstr "Het klembord bevat geen geldige gegevens."
+
+#: ../bin/openpgp-applet:324 ../bin/openpgp-applet:326
+#: ../bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "Onbekend Vertrouwen"
+
+#: ../bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "Marginaal Vertrouwen"
+
+#: ../bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "Volledig Vertrouwen"
+
+#: ../bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "Ultiem Vertrouwen"
+
+#: ../bin/openpgp-applet:387
+msgid "Name"
+msgstr "Naam"
+
+#: ../bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "Sleutel ID"
+
+#: ../bin/openpgp-applet:389
+msgid "Status"
+msgstr "Status"
+
+#: ../bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "Vingerafdruk:"
+
+#: ../bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "GebruikersID:"
+msgstr[1] "GebruikersID's:"
+
+#: ../bin/openpgp-applet:454
+msgid "None (Don't sign)"
+msgstr "Geen (Onderteken niet)"
+
+#: ../bin/openpgp-applet:517
+msgid "Select recipients:"
+msgstr "Selecteer ontvangers:"
+
+#: ../bin/openpgp-applet:525
+msgid "Hide recipients"
+msgstr "Verberg ontvangers"
+
+#: ../bin/openpgp-applet:528
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"Verberg de gebruikersID's van alle ontvangers van een versleuteld bericht. "
+"Anders kan iedereen die het versleuteld bericht kan lezen zien wie de "
+"ontvangers zijn."
+
+#: ../bin/openpgp-applet:534
+msgid "Sign message as:"
+msgstr "Onderteken bericht als:"
+
+#: ../bin/openpgp-applet:538
+msgid "Choose keys"
+msgstr "Kies sleutels"
+
+#: ../bin/openpgp-applet:578
+msgid "Do you trust these keys?"
+msgstr "Vertrouw je deze sleutels?"
+
+#: ../bin/openpgp-applet:581
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "De volgende geselecteerde sleutel is niet helemaal vertrouwd:"
+msgstr[1] "De volgende geselecteerde sleutels zijn niet helemaal vertrouwd:"
+
+#: ../bin/openpgp-applet:599
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "Vertrouw je deze sleutel genoeg om hem toch te gebruiken?"
+msgstr[1] "Vertrouw je deze sleutels genoeg om ze toch te gebruiken?"
+
+#: ../bin/openpgp-applet:612
+msgid "No keys selected"
+msgstr "Geen sleutel geselecteerd"
+
+#: ../bin/openpgp-applet:614
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"Je moet een private sleutel selecteren om het bericht mee te ondertekenen, "
+"ofwel enkele publieke sleutels om het bericht te versleutelen, of beide."
+
+#: ../bin/openpgp-applet:642
+msgid "No keys available"
+msgstr "Geen sleutels beschikbaar"
+
+#: ../bin/openpgp-applet:644
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"Je hebt een private sleutel nodig om berichten te ondertekenen of een "
+"publieke sleutel om berichten te versleutelen."
+
+#: ../bin/openpgp-applet:772
+msgid "GnuPG error"
+msgstr "GnuPG-fout"
+
+#: ../bin/openpgp-applet:793
+msgid "Therefore the operation cannot be performed."
+msgstr "Daarom kan de actie niet uitgevoerd worden."
+
+#: ../bin/openpgp-applet:843
+msgid "GnuPG results"
+msgstr "GnuPG resultaten"
+
+#: ../bin/openpgp-applet:849
+msgid "Output of GnuPG:"
+msgstr "Uitvoer van GnuPG:"
+
+#: ../bin/openpgp-applet:874
+msgid "Other messages provided by GnuPG:"
+msgstr "Andere berichten die door GnuPG gegeven worden:"
