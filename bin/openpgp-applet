@@ -72,7 +72,7 @@ use File::ShareDir;
 use Locale::gettext;
 use POSIX;
 setlocale(LC_MESSAGES, "");
-textdomain("tails");
+textdomain("OpenPGP_Applet");
 
 
 =head1 GLOBALS

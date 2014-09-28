@@ -1,0 +1,44 @@
+# Makefile snippet that holds all package-dependent information.
+
+# Add more languages here!  Beware that this is a makefile snippet and
+# you have to adhere to make syntax.
+LINGUAS = ar \
+	  cy \
+	  da \
+	  de \
+	  el \
+	  en_GB \
+	  es \
+	  fa \
+	  fi \
+	  fr_CA \
+	  fr \
+	  hr_HR \
+	  hu \
+	  it \
+	  ja \
+	  km \
+	  ko \
+	  nb \
+	  nl \
+	  pl \
+	  pt_BR \
+	  pt \
+	  ru \
+	  sk \
+	  sv \
+	  tr \
+	  uk \
+	  zh_CN \
+	  zh \
+	  zh_TW
+
+# Textdomain for our package.
+TEXTDOMAIN = OpenPGP_Applet
+
+# Initial copyright holder added to pot and po files.
+COPYRIGHT_HOLDER = Tails developers
+
+# Where to send msgid bugs?  
+MSGID_BUGS_ADDRESS = Tails developers <tails@boum.org>
+
