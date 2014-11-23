@@ -3,192 +3,191 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Communia <ameaneantie@riseup.net>, 2013-2014
-# carlo giusepe tadei valente sasaki <carlo.gt.valente@gmail.com>, 2014
-# Eduardo Bonsi, 2013-2014
-# Eduardo Luis Voltolini Tafner, 2013
-# Isabel Ferreira, 2014
-# possatti <lucas.c.possatti+transifex@gmail.com>, 2014
-# Matheus Boni Vicari <matheus_boni_vicari@hotmail.com>, 2014
-# Matheus  Martins <m.vmartins@hotmail.com>, 2013
+# A5h8d0wf0x <littleslyfoxie28@gmail.com>, 2014
+# Adam Slovacek <adamslovacek@gmail.com>, 2013
+# Filip Hruska <fhr@fhrnet.eu>, 2014
+# Jiří Vírava <appukonrad@gmail.com>, 2013-2014
+# mxsedlacek, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-18 05:10+0000\n"
-"Last-Translator: possatti <lucas.c.possatti+transifex@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
-"torproject/language/pt_BR/)\n"
-"Language: pt_BR\n"
+"PO-Revision-Date: 2014-10-15 17:12+0000\n"
+"Last-Translator: A5h8d0wf0x <littleslyfoxie28@gmail.com>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/torproject/"
+"language/cs/)\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: bin/openpgp-applet:163
 msgid "OpenPGP encryption applet"
-msgstr "Applet de criptografia OpenPGP"
+msgstr "OpenPGP šifrovací applet"
 
 #: bin/openpgp-applet:166
 msgid "Exit"
-msgstr "Sair"
+msgstr "Konec"
 
 #: bin/openpgp-applet:168
 msgid "About"
-msgstr "Sobre"
+msgstr "O aplikaci"
 
 #: bin/openpgp-applet:221
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Criptografar a Área de Transferência com a_frase secreta"
+msgstr "Šifrovat schránku s _Heslem"
 
 #: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Assinar/Criptografar a Área de Transferência com Chaves_Públicas"
+msgstr "Přihlásit/Zašifrovat Schránku s Veřejnými_Klíči"
 
 #: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"
-msgstr "_Descriptografar/Verificar a Área de Transferência"
+msgstr "_Dešifrovat/Ověřit Schránku"
 
 #: bin/openpgp-applet:233
 msgid "_Manage Keys"
-msgstr "_Gerenciar as Chaves"
+msgstr "_Spravovat Klávesy"
 
 #: bin/openpgp-applet:273
 msgid "The clipboard does not contain valid input data."
-msgstr "A Área de Transferência não contém dados de entrada válidos."
+msgstr "Schránka neobsahuje validní vstupní data."
 
 #: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
 msgid "Unknown Trust"
-msgstr "Confiança Desconhecida"
+msgstr "Neznámá důvěra"
 
 #: bin/openpgp-applet:330
 msgid "Marginal Trust"
-msgstr "Confiança Marginal"
+msgstr "Marginální důvěra"
 
 #: bin/openpgp-applet:332
 msgid "Full Trust"
-msgstr "Confiança Completa"
+msgstr "Plná důvěra"
 
 #: bin/openpgp-applet:334
 msgid "Ultimate Trust"
-msgstr "Confiança definitiva"
+msgstr "Nekonečná důvěra"
 
 #: bin/openpgp-applet:387
 msgid "Name"
-msgstr "Nome"
+msgstr "Jméno"
 
 #: bin/openpgp-applet:388
 msgid "Key ID"
-msgstr "Identidade da Chave"
+msgstr "ID klíče"
 
 #: bin/openpgp-applet:389
 msgid "Status"
-msgstr "Status"
+msgstr "Stav"
 
 #: bin/openpgp-applet:421
 msgid "Fingerprint:"
-msgstr "Impressão digital:"
+msgstr "Otisk:"
 
 #: bin/openpgp-applet:424
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "Identidade de Usuário:"
-msgstr[1] "Identidades de Usuário:"
+msgstr[0] "Uživatelské ID:"
+msgstr[1] "Uživatelská ID:"
+msgstr[2] "Uživatelská ID:"
 
 #: bin/openpgp-applet:453
 msgid "None (Don't sign)"
-msgstr "Nenhuma (Não assinar)"
+msgstr "Žádný (Nepřipojovat) "
 
 #: bin/openpgp-applet:516
 msgid "Select recipients:"
-msgstr "Selecione os destinatários:"
+msgstr "Označit příjemce:"
 
 #: bin/openpgp-applet:524
 msgid "Hide recipients"
-msgstr "Ocultar destinatários"
+msgstr "Skrýtí příjemci"
 
 #: bin/openpgp-applet:527
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Oculte as IDs de usuário de todos os destinatários de uma mensagem "
-"criptografada. Caso contrário, qualquer um que vir a mensagem criptografada "
-"poderá saber quem são os destinatários."
+"Skrýt uživatelská jména všech příjemců šifrované zprávy. Jinak každý, kdo "
+"uvidí zašifrovanou zprávu můžete vidět, kdo jsou příjemci."
 
 #: bin/openpgp-applet:533
 msgid "Sign message as:"
-msgstr "Assinar a mensagem como:"
+msgstr "Podepsat zprávu jako:"
 
 #: bin/openpgp-applet:537
 msgid "Choose keys"
-msgstr "Escolha as chaves"
+msgstr "Vybrat klíče"
 
 #: bin/openpgp-applet:577
 msgid "Do you trust these keys?"
-msgstr "Você confia nestas chaves?"
+msgstr "Důvěřujete těmto klíčům?"
 
 #: bin/openpgp-applet:580
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "A chave selecionada seguinte não é plenamente confiável:"
-msgstr[1] "As seguintes chaves selecionadas não são totalmente confiáveis​​:"
+msgstr[0] "Následující vybraný klíč není plně důvěryhodný:"
+msgstr[1] "Následující vybrané klíče nejsou plně důvěryhodné:"
+msgstr[2] "Následující vybrané klíče nejsou plně důvěryhodné:"
 
 #: bin/openpgp-applet:598
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Você confia nesta chave o suficiente para usá-la mesmo assim?"
-msgstr[1] "Você confia nestas chaves o suficiente para usá-las mesmo assim?"
+msgstr[0] "Věříte tomuto klíči dostatečně na to, abyste ho přesto použili?"
+msgstr[1] "Věříte těmto klíčům dostatečně na to, abyste je přesto použili?"
+msgstr[2] "Věříte těmto klíčům dostatečně na to, abyste je přesto použili?"
 
 #: bin/openpgp-applet:611
 msgid "No keys selected"
-msgstr "Nenhuma chave foi selecionada"
+msgstr "Nebyly vybrány žádné klíče"
 
 #: bin/openpgp-applet:613
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"Você deve selecionar uma chave privada para assinar a mensagem, ou algumas "
-"chaves públicas para criptografar a mensagem, ou ambas as opções."
+"Musíte vybrat soukromý klíč na podepsání nebo veřejný klíč na zašifrování "
+"zprávy nebo oba."
 
 #: bin/openpgp-applet:641
 msgid "No keys available"
-msgstr "Nenhuma chave encontra-se disponível"
+msgstr "Žádné dostupné klíče"
 
 #: bin/openpgp-applet:643
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
-"Você precisa de uma chave privada para assinar as mensagens ou de uma chave "
-"pública para criptografá-las."
+"Potřebujete soukromý klíč na podepsání zpráv nebo veřejný klíč na "
+"zašifrování zpráv."
 
 #: bin/openpgp-applet:771
 msgid "GnuPG error"
-msgstr "Erro do GnuPG"
+msgstr "Chyba GnuPG"
 
 #: bin/openpgp-applet:792
 msgid "Therefore the operation cannot be performed."
-msgstr "Portanto, a operação não pode ser executada."
+msgstr "Proto nemůže být operace provedena."
 
 #: bin/openpgp-applet:842
 msgid "GnuPG results"
-msgstr "Resultados do GnuPG"
+msgstr "GnuPG výsledky"
 
 #: bin/openpgp-applet:848
 msgid "Output of GnuPG:"
-msgstr "Saída do GnuPG:"
+msgstr "Výstup z GnuPG"
 
 #: bin/openpgp-applet:873
 msgid "Other messages provided by GnuPG:"
-msgstr "Outras mensagens fornecidas pelo GnuPG:"
+msgstr "Další zprávy poskytnuté GnuPG:"
 
 #~ msgid "Tor is ready"
-#~ msgstr "O Tor está pronto"
+#~ msgstr "Tor je připraven"
 
 #~ msgid "You can now access the Internet."
-#~ msgstr "Agora você pode acessar a Internet."
+#~ msgstr "Nyní můžete přistupovat k Internetu."
 
 #~ msgid ""
 #~ "<h1>Help us fix your bug!</h1>\n"
@@ -205,79 +204,78 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "a Tails user. Time to wonder how much you trust your\n"
 #~ "Internet and mailbox providers?</p>\n"
 #~ msgstr ""
-#~ "<h1>Ajude-nos a corrigir o seu bug!</h1>\n"
-#~ "<p>Leia <a href=\"%s\">as nossas instruções do relatório de bug</a>.</p>\n"
-#~ "<p><strong>Não inclua mais informações pessoais do que o necessário!</"
-#~ "strong></p>\n"
-#~ "<h2>Sobre você nos fornecer um endereço de e-mail</h2>\n"
-#~ "<p>Se você não se importar em revelar um pouco da sua identidade \n"
-#~ "aos desenvolvedores do Tails, você pode nos fornecer um endereço de e-"
-#~ "mail para que \n"
-#~ "possamos perguntar mais detalhes sobre o bug ocorrido no programa.\n"
-#~ "Inserir\n"
-#~ "uma chave PGP pública nos permite criptografar as comunicações\n"
-#~ "futuras.</p>\n"
-#~ "<p>Qualquer um que possa ver esta resposta provavelmente deduzirá\n"
-#~ "que você é \n"
-#~ "um usuário do Tails. É hora de você se perguntar sobre o quanto confia "
-#~ "nos seus \n"
-#~ "provedores de Internet e de e-mail.</p>\n"
+#~ "<h1>Pomozte nám spravit váš problém!</h1>\n"
+#~ " <p>Přečtěte si <a href=\"%s\">naše instrukce pro nahlášení problému</a>."
+#~ "</p>\n"
+#~ " <p><strong>Nepřikládejte více osobních informací než je \n"
+#~ " třeba!</strong></p>\n"
+#~ " <h2>Pokud nám chcete dát svou emailovou adresu</h2>\n"
+#~ " <p>Nevadí-li vám částečné odhalení vaší identity\n"
+#~ " vývojářům softwaru Tails, můžete poskytnout svou emailovou adresu\\n "
+#~ "abychom se vás mohli zeptat na podrobnosti kolem vámi pozorovaného "
+#~ "problému.. Přidáním\n"
+#~ " veřejného PGP klíče nám umožní naší budoucí korespondenci s vámi "
+#~ "zabezpečit \n"
+#~ " šifrováním.</p>\n"
+#~ " <p>Kdokoli kdo uvidí tuto odpověď, bude vědět že jste\n"
+#~ " uživatelem softwaru Tails. Není na čase zvážit, nakolik věříte vašemu\n"
+#~ " poskytovateli internetu a emailu?</p>\n"
 
 #~ msgid "Shutdown Immediately"
-#~ msgstr "Desligar imediatamente"
+#~ msgstr "Vypnout okamžitě"
 
 #~ msgid "Reboot Immediately"
-#~ msgstr "Reiniciar imediatamente"
+#~ msgstr "Restartovat okamžitě"
 
 #~ msgid "not available"
-#~ msgstr "não disponível"
+#~ msgstr "nedostupné"
 
 #~ msgid "Tails"
 #~ msgstr "Tails"
 
 #~ msgid "The Amnesic Incognito Live System"
-#~ msgstr "O Sistema Ativo Amnésico Incógnito (TAILS)"
+#~ msgstr "Amnesic Incognito Systém Živě"
 
 #~ msgid ""
 #~ "Build information:\n"
 #~ "%s"
 #~ msgstr ""
-#~ "Compilar informação:\n"
+#~ "Buildovací informace:\n"
 #~ "%s"
 
 #~ msgid "About Tails"
-#~ msgstr "Sobre o Tails"
+#~ msgstr "O Tails"
 
 #~ msgid "Your additional software"
-#~ msgstr "O seu programa adicional"
+#~ msgstr "Vaše další programy"
 
 #~ msgid ""
 #~ "The upgrade failed. This might be due to a network problem. Please check "
 #~ "your network connection, try to restart Tails, or read the system log to "
 #~ "understand better the problem."
 #~ msgstr ""
-#~ "A atualização falhou. Isto pode ser devido a um problema de rede. Por "
-#~ "favor, verifique a sua conexão de rede, tente reiniciar o Tails, ou leia "
-#~ "o registro do sistema para compreender melhor o problema."
+#~ "Aktualizace se npodařila. Mohlo se to stát kvůli problému s připojením. "
+#~ "Prosíme zkontrolujte své internetové připojení, pokuste se restartovat "
+#~ "Tails nebo si přečtěte systémový log pro lepší porozumění problému."
 
 #~ msgid "The upgrade was successful."
-#~ msgstr "A atualização foi bem-sucedida."
+#~ msgstr "Aktualizace byla úspěšná."
 
 #~ msgid "Synchronizing the system's clock"
-#~ msgstr "Sincronizando o relógio do sistema"
+#~ msgstr "Synchronizace systémového času"
 
 #~ msgid ""
 #~ "Tor needs an accurate clock to work properly, especially for Hidden "
 #~ "Services. Please wait..."
 #~ msgstr ""
-#~ "O Tor precisa de um relógio preciso para funcionar corretamente, "
-#~ "especialmente para Serviços Ocultos. Por favor, aguarde..."
+#~ "Tor potřebuje přesné hodiny aby pracoval správně, zejména kvůli Skrytým "
+#~ "Službám. Prosíme čekejte..."
 
 #~ msgid "Failed to synchronize the clock!"
-#~ msgstr "Falha ao sincronizar o relógio!"
+#~ msgstr "Synchronizace hodin se nezdařila!"
 
 #~ msgid "Network connection blocked?"
-#~ msgstr "Conexão de rede bloqueada?"
+#~ msgstr "Internetové připojení blokováno?"
 
 #~ msgid ""
 #~ "It looks like you are blocked from the network. This may be related to "
@@ -285,17 +283,16 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
 #~ "mac_spoofing.en.html#blocked\\\">MAC spoofing documentation</a>."
 #~ msgstr ""
-#~ "Aparentemente, você foi bloqueado da rede. Isso pode estar relacionado à "
-#~ "funcionalidade de burla de identidade MAC. Para mais informações, "
-#~ "consulte a  <a href=\\\"file:///usr/share/doc/tails/website/doc/"
-#~ "first_steps/startup_options/mac_spoofing.en.html#blocked\\\"> "
-#~ "documentação sobre burla de identidade MAC</a>."
+#~ "Vypadá to že jste blokování ze sítě. To může být kvůli MAC funkci "
+#~ "spoofing. pro více informací se podívejte na <a href=\\\"file:///usr/"
+#~ "share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en."
+#~ "html#blocked\\\">MAC spoofing documentation</a>."
 
 #~ msgid "This version of Tails has known security issues:"
-#~ msgstr "Esta versão do Tails tem problemas de segurança conhecidos:"
+#~ msgstr "Tato verze Tails obsahuje následující bezpečnostní problémy:"
 
 #~ msgid "Network card ${nic} disabled"
-#~ msgstr "Placa de rede ${nic} desabilitada"
+#~ msgstr "Síťová karta ${nic} vypnuta"
 
 #~ msgid ""
 #~ "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
@@ -304,14 +301,14 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
 #~ "mac_spoofing.en.html'>documentation</a>."
 #~ msgstr ""
-#~ "A burla de identidade MAC falhou para a placa de rede ${nic_name} "
-#~ "(${nic}), portanto, está temporariamente desabilitada.\n"
-#~ "Talvez seja melhor reiniciar o Tails e desabilitar a burla de identidade "
-#~ "MAC. Veja a  <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
-#~ "startup_options/mac_spoofing.en.html'>documentação</a>."
+#~ "MAC spoofing selhalo pro síťovou kartu ${nic_name} (${nic}) takže je "
+#~ "momentálně nedostupné. Možná budete preferovat restarování Tails a "
+#~ "odpojení MAC spoofingu. Podívejte se na <a href='file:///usr/share/doc/"
+#~ "tails/website/doc/first_steps/startup_options/mac_spoofing.en."
+#~ "html'>documentation</a>."
 
 #~ msgid "All networking disabled"
-#~ msgstr "Todas as redes foram desabilitadas"
+#~ msgstr "Veškeré síťování vypnuto"
 
 #~ msgid ""
 #~ "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
@@ -320,18 +317,17 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en."
 #~ "html'>documentation</a>."
 #~ msgstr ""
-#~ "A burla de identidade MAC falhou para a placa de rede ${nic_name} "
-#~ "(${nic}). A recuperação do erro também falhou. Assim, todas as redes "
-#~ "estão desabilitadas.\n"
-#~ "talvez seja melhor reiniciar o Tails e desabilitar a burla de identidade "
-#~ "MAC. Veja a <a href='file:///usr/share/doc/first_steps/startup_options/"
-#~ "mac_spoofing.en.html'>documentação</a>."
+#~ "MAC spoofing selhalo pro síťovou kartu ${nic_name} (${nic}). Oprava chyb "
+#~ "také sehlaha takže je veškerá síťová komunikace odpojena.\n"
+#~ "Můžete preferovat restartování Tails a odpojit MAC spoofing. Podívejte se "
+#~ "na <a href='file:///usr/share/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html'>documentation</a>."
 
 #~ msgid "error:"
-#~ msgstr "erro:"
+#~ msgstr "chyba:"
 
 #~ msgid "Error"
-#~ msgstr "Erro"
+#~ msgstr "Chyba"
 
 #~ msgid ""
 #~ "<b>Not enough memory available to check for upgrades.</b>\n"
@@ -344,105 +340,106 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "Or do a manual upgrade.\n"
 #~ "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 #~ msgstr ""
-#~ "<b>Memória disponível insuficiente para procurar por atualizações.</b>\n"
+#~ "<b>Není k dispozici dostatek paměti potřebné ke kontrole aktualizací</b>\n"
 #~ "\n"
-#~ "Confira se esse sistema satisfaz os requerimentos para executar o Tails.\n"
-#~ "Veja file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
+#~ "Ujistěte se že tento systém splňuje požadavky ke spuštění Tails.\n"
+#~ "Podívejte se na dokument :///usr/share/doc/tails/website/doc/requirements."
+#~ "en.html\n"
 #~ "\n"
-#~ "Tente reiniciar o Tails para procurar por atualizações novamente.\n"
+#~ "Pokuste se restartovat Tails a znovu zkontrolujte aktualizace.\n"
 #~ "\n"
-#~ "Ou faça uma atualização manual.\n"
-#~ "Veja https://tails.boum.org/doc/first_steps/upgrade#manual"
+#~ "Nebo spusťte manuální aktualizaci.\n"
+#~ "\n"
+#~ "Podívejte se na https://tails.boum.org/doc/first_steps/upgrade#manual"
 
 #~ msgid "Warning: virtual machine detected!"
-#~ msgstr "Aviso: máquina virtual detectada!"
+#~ msgstr "Varování: zjištěn virtuální stroj!"
 
 #~ msgid ""
 #~ "Both the host operating system and the virtualization software are able "
 #~ "to monitor what you are doing in Tails."
 #~ msgstr ""
-#~ "Tanto o sistema operacional hospedeiro quanto o programa de virtualização "
-#~ "são capazes de monitorar as suas atividades no Tails."
+#~ "Jak hostitelský operační systém tak virtualizační software je schopen "
+#~ "sledovat, co děláte v Tails."
 
 #~ msgid ""
 #~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
 #~ "virtualization.en.html'>Learn more...</a>"
 #~ msgstr ""
 #~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
-#~ "virtualization.en.html'>Em Inglês - Saiba mais...</a>"
+#~ "virtualization.en.html'>Více informací ...</a>"
 
 #~ msgid "Tor is not ready"
-#~ msgstr "O Tor não está pronto"
+#~ msgstr "Tor není připraven"
 
 #~ msgid "Tor is not ready. Start Tor Browser anyway?"
-#~ msgstr "O Tor não está pronto. Iniciar o Navegador Tor assim mesmo?"
+#~ msgstr "Tor není připraven. Přesto spustit Tor Browser?"
 
 #~ msgid "Start Tor Browser"
-#~ msgstr "Iniciar o Navegador Tor"
+#~ msgstr "Nastartovat Tor Browser"
 
 #~ msgid "Cancel"
-#~ msgstr "Cancelar"
+#~ msgstr "Zrušit"
 
 #~ msgid "Do you really want to launch the Unsafe Browser?"
-#~ msgstr "Você realmente deseja iniciar o Navegador não-confiável?"
+#~ msgstr "Opravdu chcete spustit Nebezpečný prohlížeč?"
 
 #~ msgid ""
 #~ "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only "
 #~ "use the Unsafe Browser if necessary, for example if you have to login or "
 #~ "register to activate your Internet connection."
 #~ msgstr ""
-#~ "A atividade de rede que utiliza um Navegador não-confiável <b>não é "
-#~ "anônima</b>. Utilize um Navegador não-confiável somente se for "
-#~ "necessário, por exemplo, se você tiver que se identificar ou se registrar "
-#~ "para ativar a sua conexão a Internet."
+#~ "Aktivita sítě s Nebezpečným Prohlížečem <b>není anonymní</b>. Používejte "
+#~ "Unsafe browser pouze pokud je to nutné například pokud se musíte "
+#~ "přihlásit nebo registrovat při připojení k internetu."
 
 #~ msgid "_Launch"
-#~ msgstr "_Lançar"
+#~ msgstr "_Spustit"
 
 #~ msgid "_Exit"
-#~ msgstr "_Saída"
+#~ msgstr "_Odejít"
 
 #~ msgid "Starting the Unsafe Browser..."
-#~ msgstr "Iniciando o Navegador não-confiável..."
+#~ msgstr "Spoštění nebezpečného prohlížeče..."
 
 #~ msgid "This may take a while, so please be patient."
-#~ msgstr "Isto pode demorar um pouco; por favor, seja paciente."
+#~ msgstr "Může to nějakou dobu trvat, takže buďte trpěliví."
 
 #~ msgid "Failed to setup chroot."
-#~ msgstr "Falha ao configurar chroot."
+#~ msgstr "Nepodařilo se nastavit \"chroot\""
 
 #~ msgid "Unsafe Browser"
-#~ msgstr "Navegador não-confiável"
+#~ msgstr "Nebezpečný prohlížeč"
 
 #~ msgid "Shutting down the Unsafe Browser..."
-#~ msgstr "Encerrando o Navegador não-confiável..."
+#~ msgstr "Ukončování nebezpečného prohlížeče..."
 
 #~ msgid ""
 #~ "This may take a while, and you may not restart the Unsafe Browser until "
 #~ "it is properly shut down."
 #~ msgstr ""
-#~ "Isto pode demorar um pouco e você não poderá reiniciar o Navegador não-"
-#~ "confiável até que ele seja encerrado adequadamente."
+#~ "Tohle může chvíli trvat a nemusíte spustit Nebezpečný Prohlížeč dokud "
+#~ "nebude spárvně vypnut."
 
 #~ msgid "Failed to restart Tor."
-#~ msgstr "Falha ao reiniciar o Tor."
+#~ msgstr "Znovuspuštění TORu nebylo úspěšné"
 
 #~ msgid ""
 #~ "Another Unsafe Browser is currently running, or being cleaned up. Please "
 #~ "retry in a while."
 #~ msgstr ""
-#~ "Um outro Navegador não-confiável está atualmente em execução ou sendo "
-#~ "limpo. Por favor, tente novamente mais tarde."
+#~ "Další Nebezpečný Prohlížeč je nyní spuštěn nebo se čistí. Prosíme vraťte "
+#~ "se později."
 
 #~ msgid ""
 #~ "No DNS server was obtained through DHCP or manually configured in "
 #~ "NetworkManager."
 #~ msgstr ""
-#~ "Nenhum provedor de DNS foi obtido através de DHCP ou configurado "
-#~ "manualmente no Gerenciamento de Rede."
+#~ "Nebyl získán prostřednictvím DHCP nebo ručně nastaven v Síťovém správci "
+#~ "žádný DNS server."
 
 #~ msgid "TrueCrypt will be removed in Tails 1.2.1"
-#~ msgstr "TrueCrypt será removido no Tails 1.2.1"
+#~ msgstr "TrueCrypt bude odstraněn v Tails verzi 1.2.1"
 
 #~ msgid ""
 #~ "TrueCrypt is no longer maintained and is said to be insecure by its own "
@@ -451,88 +448,89 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>open "
 #~ "TrueCrypt volumes with cryptsetup</a> as soon as possible."
 #~ msgstr ""
-#~ "TrueCrypt não é mais mantido e seus próprios autores dizem ser inseguro. "
-#~ "Portanto, ele será removido do Tails 1.2.1 (25 de Novembro). Nós "
-#~ "recomendamos que você aprenda como <a href='file:///usr/share/doc/tails/"
-#~ "website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>abrir "
-#~ "volumes do TrueCrypt com cryptsetup</a> o quanto antes for possível."
+#~ "TrueCrypt už není nadále udržován a jeho autorové jej prohlásili za "
+#~ "nedůvěryhodný. Proto bude odstraněn v Tails 1.2.1 (25. listopad) "
+#~ "Doporučujeme aby jste se naučili jak <a href='file:///usr/share/doc/tails/"
+#~ "website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'> otevřít "
+#~ "TrueCrypt svazky s cryptsetupem </a> hned jakmile to bude možné."
 
 #~ msgid "I2P failed to start"
-#~ msgstr "I2P falhou ao iniciar"
+#~ msgstr "I2P se nepodařilo spustit"
 
 #~ msgid ""
 #~ "Something went wrong when I2P was starting. Check the logs in /var/log/"
 #~ "i2p for more information."
 #~ msgstr ""
-#~ "Algo de errado aconteceu quando o I2P estava iniciando. Verifique os "
-#~ "registros em /var/log/i2p para mais informação."
+#~ "Něco se pokazilo při startu I2P. Zkontrolujte záznamy ve /var/log/i2p pro "
+#~ "více informací."
 
 #~ msgid "I2P's router console is ready"
-#~ msgstr "O console do roteador do I2P está pronto"
+#~ msgstr "I2P konzole routeru je připravena."
 
 #~ msgid "You can now access I2P's router console on http://127.0.0.1:7657."
 #~ msgstr ""
-#~ "Você pode acessar o console do roteador do I2P em http://127.0.0.1:7657."
+#~ "Nyní se můžete připojit k I2P konzoli routeru na http://127.0.0.1:7657."
 
 #~ msgid "I2P is not ready"
-#~ msgstr "I2P não está pronto"
+#~ msgstr "I2P není připraveno."
 
 #~ msgid ""
 #~ "Eepsite tunnel not built within six minutes. Check the router console at "
 #~ "http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more "
 #~ "information. Reconnect to the network to try again."
 #~ msgstr ""
-#~ "O túnel Eepsite não se construiu dentro de seis minutos. Verifique o "
-#~ "console do roteador em http://127.0.0.1:7657/logs ou os registros em /var/"
-#~ "log/i2p para mais informação. Reconecte-se a rede e tente novamente."
+#~ "Eepsite tunel nebyl vybudován během šesti minut. Zkontrolujte konzoli "
+#~ "routeru na  http://127.0.0.1:7657/logs nebo zkontrolujte záznamy ve /var/"
+#~ "log/i2p pro více informací. Znovu se připojte k síti a zkuste to prosím "
+#~ "znovu."
 
 #~ msgid "I2P is ready"
-#~ msgstr "I2P está pronto"
+#~ msgstr "I2P je připraveno"
 
 #~ msgid "You can now access services on I2P."
-#~ msgstr "Você pode agora acessar serviços no I2P."
+#~ msgstr "Nyní se můžete připojit ke službám na I2P."
 
 #~ msgid "Report an error"
-#~ msgstr "Reportar um erro"
+#~ msgstr "Nahlásit chybu"
 
 #~ msgid "Tails documentation"
-#~ msgstr "Documentação do Tails"
+#~ msgstr "Dokumentace Tails"
 
 #~ msgid "Learn how to use Tails"
-#~ msgstr "Saiba como usar o Tails"
+#~ msgstr "Naučte se používat Tails"
 
 #~ msgid "Anonymous overlay network browser"
-#~ msgstr "Navegador anônimo de rede sobreposta"
+#~ msgstr "Anonymní překrytí síťového prohlížeče"
 
 #~ msgid "I2P Browser"
-#~ msgstr "Navegador I2P"
+#~ msgstr "I2P Prohlížeč"
 
 #~ msgid "Learn more about Tails"
-#~ msgstr "Saiba mais sobre o Tails"
+#~ msgstr "Zjistěte více o Tails"
 
 #~ msgid "Reboot"
-#~ msgstr "Reiniciar"
+#~ msgstr "Restartovat"
 
 #~ msgid "Immediately reboot computer"
-#~ msgstr "Reiniciar imediatamente o computador"
+#~ msgstr "Okamžitě restartovat počítač"
 
 #~ msgid "Power Off"
-#~ msgstr "Desligar"
+#~ msgstr "Vypnout"
 
 #~ msgid "Immediately shut down computer"
-#~ msgstr "Desligar o computador imediatamente"
+#~ msgstr "Okamžitě vypnout počítač"
 
 #~ msgid "Tor Browser"
-#~ msgstr "Navegador Tor"
+#~ msgstr "Tor Browser"
 
 #~ msgid "Anonymous Web Browser"
-#~ msgstr "Navegador Web Anônimo"
+#~ msgstr "Anonymní webový prohlížeč"
 
 #~ msgid "Browse the World Wide Web without anonymity"
-#~ msgstr "Navegar pela World Wide Web sem anonimato"
+#~ msgstr "Procházet World Wide Web bez anonymity"
 
 #~ msgid "Unsafe Web Browser"
-#~ msgstr "Navegador não-confiável"
+#~ msgstr "Nebezpečný webový prohlížeč"
 
 #~ msgid "Tails specific tools"
-#~ msgstr "Ferramentas específicas do Tails"
+#~ msgstr "Specifické nástroje Tails"

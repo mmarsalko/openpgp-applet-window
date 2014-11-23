@@ -16,8 +16,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
-"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-09-28 23:53+0200\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2014-11-23 00:54+0100\n"
 "PO-Revision-Date: 2014-07-04 13:40+0000\n"
 "Last-Translator: 0xidz <ghoucine@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/torproject/"
@@ -29,72 +29,71 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: ../bin/openpgp-applet:164
+#: bin/openpgp-applet:163
 msgid "OpenPGP encryption applet"
 msgstr "إضافة OpenPGP للتشفير"
 
-#: ../bin/openpgp-applet:167
+#: bin/openpgp-applet:166
 msgid "Exit"
 msgstr "خروج"
 
-#: ../bin/openpgp-applet:169
+#: bin/openpgp-applet:168
 msgid "About"
 msgstr "عن"
 
-#: ../bin/openpgp-applet:222
+#: bin/openpgp-applet:221
 msgid "Encrypt Clipboard with _Passphrase"
 msgstr "شفر ذاكرة النسخ المؤقتة بالعبارة السرية"
 
-#: ../bin/openpgp-applet:225
+#: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
 msgstr "شفر/وقع الكترونيا على ذاكرة النسخ المؤقتة بالمفتاح العام"
 
-#: ../bin/openpgp-applet:230
+#: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"
 msgstr "افتح تشفير/تحقق من التوقيع الالكتروني على ذاكرة النسخ المؤقتة"
 
-#: ../bin/openpgp-applet:234
+#: bin/openpgp-applet:233
 msgid "_Manage Keys"
 msgstr "إدارة المفاتيح"
 
-#: ../bin/openpgp-applet:274
+#: bin/openpgp-applet:273
 msgid "The clipboard does not contain valid input data."
 msgstr "ذاكرة النسخ المؤقتة لا تحتوي مدخلات سليمة."
 
-#: ../bin/openpgp-applet:324 ../bin/openpgp-applet:326
-#: ../bin/openpgp-applet:328
+#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
 msgid "Unknown Trust"
 msgstr "غير موثوق به"
 
-#: ../bin/openpgp-applet:330
+#: bin/openpgp-applet:330
 msgid "Marginal Trust"
 msgstr "ثقة جزئية"
 
-#: ../bin/openpgp-applet:332
+#: bin/openpgp-applet:332
 msgid "Full Trust"
 msgstr "ثقة كاملة"
 
-#: ../bin/openpgp-applet:334
+#: bin/openpgp-applet:334
 msgid "Ultimate Trust"
 msgstr "ثقة نهائية"
 
-#: ../bin/openpgp-applet:387
+#: bin/openpgp-applet:387
 msgid "Name"
 msgstr "الاسم"
 
-#: ../bin/openpgp-applet:388
+#: bin/openpgp-applet:388
 msgid "Key ID"
 msgstr "هوية المفتاح"
 
-#: ../bin/openpgp-applet:389
+#: bin/openpgp-applet:389
 msgid "Status"
 msgstr "الحالة"
 
-#: ../bin/openpgp-applet:421
+#: bin/openpgp-applet:421
 msgid "Fingerprint:"
 msgstr "بصمة المفتاح:"
 
-#: ../bin/openpgp-applet:424
+#: bin/openpgp-applet:424
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] " "
@@ -104,19 +103,19 @@ msgstr[3] "هويات المستخدمين:"
 msgstr[4] "هويات المستخدمين:"
 msgstr[5] "هويات المستخدمين:"
 
-#: ../bin/openpgp-applet:454
+#: bin/openpgp-applet:453
 msgid "None (Don't sign)"
 msgstr "دون اختيار (لا توقع الكترونيا)"
 
-#: ../bin/openpgp-applet:517
+#: bin/openpgp-applet:516
 msgid "Select recipients:"
 msgstr "اختر المستلمين:"
 
-#: ../bin/openpgp-applet:525
+#: bin/openpgp-applet:524
 msgid "Hide recipients"
 msgstr "إخفاء المستلمين"
 
-#: ../bin/openpgp-applet:528
+#: bin/openpgp-applet:527
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
@@ -124,19 +123,19 @@ msgstr ""
 "اخفي هويات المستلمين لكل الرسائل المشفرة. اذا لم تقم بهذا فسيستطيع كل من "
 "يشاهد الرسائل المشفرة أن يعرف من أرسلت له."
 
-#: ../bin/openpgp-applet:534
+#: bin/openpgp-applet:533
 msgid "Sign message as:"
 msgstr "وقع الرسالة الكترونيا بصفة:"
 
-#: ../bin/openpgp-applet:538
+#: bin/openpgp-applet:537
 msgid "Choose keys"
 msgstr "اختار المفاتيح"
 
-#: ../bin/openpgp-applet:578
+#: bin/openpgp-applet:577
 msgid "Do you trust these keys?"
 msgstr "هل تثق بهذه المفاتيح؟"
 
-#: ../bin/openpgp-applet:581
+#: bin/openpgp-applet:580
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] " "
@@ -146,7 +145,7 @@ msgstr[3] "المفاتيح التالية غير موثوقة بالكامل:"
 msgstr[4] "المفاتيح التالية غير موثوقة بالكامل:"
 msgstr[5] "المفاتيح التالية غير موثوقة بالكامل:"
 
-#: ../bin/openpgp-applet:599
+#: bin/openpgp-applet:598
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] " "
@@ -156,11 +155,11 @@ msgstr[3] "هل تثق بهذه المفاتيح بالقدر الكافي لا�
 msgstr[4] "هل تثق بهذه المفاتيح بالقدر الكافي لاستخدامها على أية حال؟"
 msgstr[5] "هل تثق بهذه المفاتيح بالقدر الكافي لاستخدامها على أية حال؟"
 
-#: ../bin/openpgp-applet:612
+#: bin/openpgp-applet:611
 msgid "No keys selected"
 msgstr "لا يوجد مفاتيح محددة"
 
-#: ../bin/openpgp-applet:614
+#: bin/openpgp-applet:613
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
@@ -168,33 +167,377 @@ msgstr ""
 "يجب عليك اختيار مفتاح تشفير خاص لتوقيع الرسالة الكترونيا، أو بعض المفاتيح "
 "العامة لتشفير الرسالة، أو كلاهما معاً:"
 
-#: ../bin/openpgp-applet:642
+#: bin/openpgp-applet:641
 msgid "No keys available"
 msgstr "لا يوجد مفاتيح متاحة"
 
-#: ../bin/openpgp-applet:644
+#: bin/openpgp-applet:643
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
 "تحتاج لمفتاح تشفير خاص لتوقيع الرسائل الكترونياً، أو مفتاح تشفير عام لتشفير "
 "الرسائل."
 
-#: ../bin/openpgp-applet:772
+#: bin/openpgp-applet:771
 msgid "GnuPG error"
 msgstr "خطأ في GnuPG"
 
-#: ../bin/openpgp-applet:793
+#: bin/openpgp-applet:792
 msgid "Therefore the operation cannot be performed."
 msgstr "ولهذا لا يمكن اتمام العملية."
 
-#: ../bin/openpgp-applet:843
+#: bin/openpgp-applet:842
 msgid "GnuPG results"
 msgstr "نتائج GnuPG"
 
-#: ../bin/openpgp-applet:849
+#: bin/openpgp-applet:848
 msgid "Output of GnuPG:"
 msgstr "مخرجات GnuPG:"
 
-#: ../bin/openpgp-applet:874
+#: bin/openpgp-applet:873
 msgid "Other messages provided by GnuPG:"
 msgstr "رسائل أخرى من GnuPG:"
+
+#~ msgid "Tor is ready"
+#~ msgstr "تور جاهز"
+
+#~ msgid "You can now access the Internet."
+#~ msgstr "يمكنك الأن تصفح الأنترنت."
+
+#~ msgid ""
+#~ "<h1>Help us fix your bug!</h1>\n"
+#~ "<p>Read <a href=\"%s\">our bug reporting instructions</a>.</p>\n"
+#~ "<p><strong>Do not include more personal information than\n"
+#~ "needed!</strong></p>\n"
+#~ "<h2>About giving us an email address</h2>\n"
+#~ "<p>If you don't mind disclosing some bits of your identity\n"
+#~ "to Tails developers, you can provide an email address to\n"
+#~ "let us ask more details about the bug. Additionally entering\n"
+#~ "a public PGP key enables us to encrypt such future\n"
+#~ "communication.</p>\n"
+#~ "<p>Anyone who can see this reply will probably infer you are\n"
+#~ "a Tails user. Time to wonder how much you trust your\n"
+#~ "Internet and mailbox providers?</p>\n"
+#~ msgstr ""
+#~ "<h1>ساعدنا في حل المشكلة!</h1>\n"
+#~ "<p> اقرأ <a href=\"%s\">تعليمات الابلاغ عن مشكلة </a>.</p>\n"
+#~ "<p><strong>لا تقم بتوفير معلومات شخصية اكثر من اللازم!</strong></p>\n"
+#~ "<h2>بما يتعلق بتزويدنا ببريدك الالكتروني</h2>\n"
+#~ "<p>اذا لم تمانع من كشف بعض بياناتك الخصوصية لفريق مبرمجي تايلز، يمكنك "
+#~ "تزويدنا ببريدك الالكتروني حتى نسآلك عن تفاصيل المشكلة. ادخال مفتاح تشفير "
+#~ "بي جي بي يساعدنا على تشفير الاتصال</p>\n"
+#~ "<p>أي شخص يقرأ هذا الرد سيعلم انك تستخدم تايلز. يا ترى هل تثق بمزود "
+#~ "الانترنت لديك أو مزود خدمة البريد الالكتروني؟</p>\n"
+
+#~ msgid "Shutdown Immediately"
+#~ msgstr "إيقاف التشغيل في الحال"
+
+#~ msgid "Reboot Immediately"
+#~ msgstr "إعادة التشغيل في الحال"
+
+#~ msgid "not available"
+#~ msgstr "غير متاح"
+
+#~ msgid "Tails"
+#~ msgstr "تيلز"
+
+#~ msgid "The Amnesic Incognito Live System"
+#~ msgstr "نظام التشغيل ذو الذاكرة المعدومة والهوية المجهولة (تايلز)"
+
+#~ msgid ""
+#~ "Build information:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "معلومات النسخة:\n"
+#~ "%s"
+
+#~ msgid "About Tails"
+#~ msgstr "عن تيلز"
+
+#~ msgid "Your additional software"
+#~ msgstr "برامجك الاضافية"
+
+#~ msgid ""
+#~ "The upgrade failed. This might be due to a network problem. Please check "
+#~ "your network connection, try to restart Tails, or read the system log to "
+#~ "understand better the problem."
+#~ msgstr ""
+#~ "فشل التحديث. ربما يكون السبب مشكلة في الشبكة. تأكد من اتصالك بالشبكة، "
+#~ "حاول إعادة تشغيل تايلز أو اقرأ سجل رسائل النظام لفهم المشكلة بشكل أفضل."
+
+#~ msgid "The upgrade was successful."
+#~ msgstr "تم التحديث بنجاح."
+
+#~ msgid "Synchronizing the system's clock"
+#~ msgstr "جاري تزامن ساعة النظام."
+
+#~ msgid ""
+#~ "Tor needs an accurate clock to work properly, especially for Hidden "
+#~ "Services. Please wait..."
+#~ msgstr "تور يحتاج ساعة دقيقة للعمل، خصوصاً للخدمات المخفية. يرجى الانتظار..."
+
+#~ msgid "Failed to synchronize the clock!"
+#~ msgstr "فشل في تزامن ساعة النظام!"
+
+#~ msgid "Network connection blocked?"
+#~ msgstr "حُظر الاتصال بالشبكة ؟"
+
+#~ msgid ""
+#~ "It looks like you are blocked from the network. This may be related to "
+#~ "the MAC spoofing feature. For more information, see the <a href=\\"
+#~ "\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html#blocked\\\">MAC spoofing documentation</a>."
+#~ msgstr ""
+#~ "يبدوا أنّك محجوب من الشّبكة. هذا قد يكون له علاقة بخاصيّة تغيير الـMAC. "
+#~ "لمزيد من المعلومات، زر <a href=\\\"file:///usr/share/doc/tails/website/"
+#~ "doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">وثائق "
+#~ "تغيير الـMAC</a>."
+
+#~ msgid "This version of Tails has known security issues:"
+#~ msgstr "هذه النسخة من تيلز تحتوي مشاكل أمنية:"
+
+#~ msgid "Network card ${nic} disabled"
+#~ msgstr "كرت الشبكة ${nic} معطّل"
+
+#~ msgid ""
+#~ "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
+#~ "temporarily disabled.\n"
+#~ "You might prefer to restart Tails and disable MAC spoofing. See the <a "
+#~ "href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html'>documentation</a>."
+#~ msgstr ""
+#~ "فشلت عملية انتحال وحدة تحكم وصول الوسائط لبطاقة الشبكة ${nic_name} "
+#~ "(${nic}) لذا فقد تم تعطيلها مؤقتا.\n"
+#~ "ربما تفضل إعادة تشغيل Tails وتعطيل انتحال وحدة تحكم وصول الوسائط. راجع <a "
+#~ "href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html'>الوثائق</a>."
+
+#~ msgid "All networking disabled"
+#~ msgstr "جميع الشبكات معطّلة"
+
+#~ msgid ""
+#~ "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
+#~ "recovery also failed so all networking is disabled.\n"
+#~ "You might prefer to restart Tails and disable MAC spoofing. See the <a "
+#~ "href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en."
+#~ "html'>documentation</a>."
+#~ msgstr ""
+#~ "فشلت عملية انتحال وحدة تحكم وصول الوسائط لبطاقة الشبكة ${nic_name} "
+#~ "(${nic}). كما فشلت عملية إصلاح الأخطاء لذا فقد تم تعطيل كل عمليات "
+#~ "الشبكة.\n"
+#~ "ربما تفضل إعادة تشغيل Tails وتعطيل انتحال وحدة تحكم وصول الوسائط. راجع<a "
+#~ "href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en."
+#~ "html'>الوثائق</a>."
+
+#~ msgid "error:"
+#~ msgstr "خطأ:"
+
+#~ msgid "Error"
+#~ msgstr "خطأ"
+
+#~ msgid ""
+#~ "<b>Not enough memory available to check for upgrades.</b>\n"
+#~ "\n"
+#~ "Make sure this system satisfies the requirements for running Tails.\n"
+#~ "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
+#~ "\n"
+#~ "Try to restart Tails to check for upgrades again.\n"
+#~ "\n"
+#~ "Or do a manual upgrade.\n"
+#~ "See https://tails.boum.org/doc/first_steps/upgrade#manual"
+#~ msgstr ""
+#~ "<b>لا يوجد ذاكرة كافية متاحة لفحص وجود ترقيات.</b>\n"
+#~ "\n"
+#~ "تأكّد من أنّ نظامك يلبّي حاجات تشغيل Tails.\n"
+#~ "أنظر للملف file:///usr/share/doc/tails/website/doc/about/requirements.en."
+#~ "html\n"
+#~ "\n"
+#~ "قم بإعادة تشغيل Tails لإعادة التحقق من وجود ترقيات\n"
+#~ "\n"
+#~ "أو قم بالترقية يدويًّا.\n"
+#~ "أنظر https://tails.boum.org/doc/first_steps/upgrade#manual"
+
+#~ msgid "Warning: virtual machine detected!"
+#~ msgstr "تحذير: تم اكتشاف بيئة عمل افتراضية!"
+
+#~ msgid ""
+#~ "Both the host operating system and the virtualization software are able "
+#~ "to monitor what you are doing in Tails."
+#~ msgstr ""
+#~ "كلا من نظام التشغيل المستضيف وبرنامج تشغيل البيئة الافتراضية قادرين على "
+#~ "معرفة ما تفعله في تايلز."
+
+#~ msgid ""
+#~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
+#~ "virtualization.en.html'>Learn more...</a>"
+#~ msgstr ""
+#~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
+#~ "virtualization.en.html'> لمعرفة المزيد...</a>"
+
+#~ msgid "Tor is not ready"
+#~ msgstr "تور غير جاهز"
+
+#~ msgid "Tor is not ready. Start Tor Browser anyway?"
+#~ msgstr "تور غير جاهز. بدء متصفح تور على أي حال؟"
+
+#~ msgid "Start Tor Browser"
+#~ msgstr "أبدأ متصفح تور"
+
+#~ msgid "Cancel"
+#~ msgstr "إلغاء"
+
+#~ msgid "Do you really want to launch the Unsafe Browser?"
+#~ msgstr "هل حقاً تريد تشغيل المتصفح غير الآمن؟"
+
+#~ msgid ""
+#~ "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only "
+#~ "use the Unsafe Browser if necessary, for example if you have to login or "
+#~ "register to activate your Internet connection."
+#~ msgstr ""
+#~ "نشاطاتك بالشبكة أثناء استخدام المتصفح غير الآمن تكون <b>غير مجهولة "
+#~ "الهوية</b>. فقط استخدم المتصفح غير الآمن عند الضرورة، مثلاً اذا احتجت "
+#~ "لتسجيل الدخول أو الاشتراك لتفعيل خدمة الانترنت."
+
+#~ msgid "_Launch"
+#~ msgstr "_Launch"
+
+#~ msgid "_Exit"
+#~ msgstr "_Exit"
+
+#~ msgid "Starting the Unsafe Browser..."
+#~ msgstr "جاري تشغيل المتصفح الغير آمن..."
+
+#~ msgid "This may take a while, so please be patient."
+#~ msgstr "قد يستغرق هذا بعض الوقت، يرجى التحلي بالصبر."
+
+#~ msgid "Failed to setup chroot."
+#~ msgstr "فشلت محاولة تشغيل chroot."
+
+#~ msgid "Unsafe Browser"
+#~ msgstr "المتصفح الغير الآمن"
+
+#~ msgid "Shutting down the Unsafe Browser..."
+#~ msgstr "جاري إيقاف تشغيل المتصفح الغير الآمن..."
+
+#~ msgid ""
+#~ "This may take a while, and you may not restart the Unsafe Browser until "
+#~ "it is properly shut down."
+#~ msgstr ""
+#~ "هذه العملية قد تأخذ وقتاً طويلاً، وقد لا تتمكن من إعادة تشغيل المتصفح غير "
+#~ "الآمن حتى يتم اغلاقه بشكل كامل."
+
+#~ msgid "Failed to restart Tor."
+#~ msgstr "فشلت محاولة إعادة تشغيل تور."
+
+#~ msgid ""
+#~ "Another Unsafe Browser is currently running, or being cleaned up. Please "
+#~ "retry in a while."
+#~ msgstr ""
+#~ "توجد نسخة أخرى تعمل أو يتم تنظيفها من المتصفح غير الآمن. رجاءً حاول بعد "
+#~ "قليل."
+
+#~ msgid ""
+#~ "No DNS server was obtained through DHCP or manually configured in "
+#~ "NetworkManager."
+#~ msgstr ""
+#~ "لم يتم الحصول على سيرفر DNS من خلال بروتوكول DHCP أو عن طريق الادخال "
+#~ "اليدوي في NetworkManager."
+
+#, fuzzy
+#~ msgid "TrueCrypt will be removed in Tails 1.2.1"
+#~ msgstr "ستتم إزالة TrueCrypt من تيلز قريباً"
+
+#~ msgid "I2P failed to start"
+#~ msgstr "I2P فشل في بدء التشغيل"
+
+#, fuzzy
+#~ msgid ""
+#~ "Something went wrong when I2P was starting. Check the logs in /var/log/"
+#~ "i2p for more information."
+#~ msgstr ""
+#~ "حصل خطأ ما عند تشغيل I2P. راجع ملفات السجل بالمجلد التالي للمزيد من "
+#~ "المعلومات:"
+
+#, fuzzy
+#~ msgid "I2P's router console is ready"
+#~ msgstr "سيتم فتح لوحة تحكم راوتر I2P عند بدء التشغيل."
+
+#, fuzzy
+#~ msgid "I2P is not ready"
+#~ msgstr "تور غير جاهز"
+
+#, fuzzy
+#~ msgid "I2P is ready"
+#~ msgstr "تور جاهز"
+
+#, fuzzy
+#~ msgid "You can now access services on I2P."
+#~ msgstr "يمكنك الأن تصفح الأنترنت."
+
+#~ msgid "Report an error"
+#~ msgstr "ابلغ عن خطأ"
+
+#~ msgid "Tails documentation"
+#~ msgstr "وثائق تيلز"
+
+#~ msgid "Learn how to use Tails"
+#~ msgstr "تعلم كيف تستخدم Tails"
+
+#, fuzzy
+#~ msgid "Anonymous overlay network browser"
+#~ msgstr "شبكة غطاء مجهولة"
+
+#, fuzzy
+#~ msgid "I2P Browser"
+#~ msgstr "المتصفح الغير الآمن"
+
+#~ msgid "Learn more about Tails"
+#~ msgstr "إطلع أكثر حول Tails"
+
+#~ msgid "Reboot"
+#~ msgstr "إعادة التشغيل"
+
+#~ msgid "Immediately reboot computer"
+#~ msgstr "إعد تشغيل الكمبيوتر حالاً"
+
+#~ msgid "Power Off"
+#~ msgstr "إيقاف التشغيل"
+
+#~ msgid "Immediately shut down computer"
+#~ msgstr "اوقف تشغيل الكمبيوتر حالاً"
+
+#, fuzzy
+#~ msgid "Tor Browser"
+#~ msgstr "أبدأ متصفح تور"
+
+#, fuzzy
+#~ msgid "Anonymous Web Browser"
+#~ msgstr "متصفح غير آمن"
+
+#~ msgid "Browse the World Wide Web without anonymity"
+#~ msgstr "تصفح الانترنت دون اخفاء هويتك"
+
+#~ msgid "Unsafe Web Browser"
+#~ msgstr "متصفح غير آمن"
+
+#~ msgid "Tails specific tools"
+#~ msgstr "ادوات خاصة بتيلز"
+
+#~ msgid "Starting I2P..."
+#~ msgstr "بدء تشغيل I2P...."
+
+#~ msgid ""
+#~ "Make sure that you have a working Internet connection, then try to start "
+#~ "I2P again."
+#~ msgstr "تأكد من وجود اشتراك انترنت فعال ثم حاول تشغيل I2P مرة أخرى."
+
+#~ msgid ""
+#~ "TrueCrypt will soon be removed from Tails due to license and development "
+#~ "concerns."
+#~ msgstr "ستتم إزالة TrueCrypt من تايلز قريباً بسبب الرخصة ومشاكل بالتطوير."
+
+#~ msgid "i2p"
+#~ msgstr "i2p"
+
+#~ msgid "Anonymous overlay network"
+#~ msgstr "شبكة غطاء مجهولة"

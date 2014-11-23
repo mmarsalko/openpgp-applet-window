@@ -3,192 +3,187 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# huwwaters <huwwaters@gmail.com>, 2014
-# littlegreykida <theinfinitygap@gmail.com>, 2014
+# once, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-04-30 09:10+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
-"Language-Team: Welsh (http://www.transifex.com/projects/p/torproject/"
-"language/cy/)\n"
-"Language: cy\n"
+"PO-Revision-Date: 2014-07-27 11:30+0000\n"
+"Last-Translator: once\n"
+"Language-Team: Slovak (Slovakia) (http://www.transifex.com/projects/p/"
+"torproject/language/sk_SK/)\n"
+"Language: sk_SK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
-"11) ? 2 : 3;\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: bin/openpgp-applet:163
 msgid "OpenPGP encryption applet"
-msgstr "Rhaglennig amgryptio OpenPGP"
+msgstr "OpenPGP šifrovací applet"
 
 #: bin/openpgp-applet:166
 msgid "Exit"
-msgstr "Gadael"
+msgstr "Ukončiť"
 
 #: bin/openpgp-applet:168
 msgid "About"
-msgstr "Ynghylch"
+msgstr "O nás"
 
 #: bin/openpgp-applet:221
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Amgryptiwch y Clipfwrdd gydag _cyfrinair"
+msgstr "Šifrovať Schránku prístupovým heslom"
 
 #: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Llofnodi/Amgryptio'r Clipfwrdd efo Allweddi_Cyhoeddus"
+msgstr "Podpísať/zašifrovať Schránku verejným kľúčom"
 
 #: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"
-msgstr "Dadgryptio/Gwirio'r Clipfwrdd"
+msgstr "_Dešifrovať/overiť Schránku"
 
 #: bin/openpgp-applet:233
 msgid "_Manage Keys"
-msgstr "Rheoli Allweddi"
+msgstr "_Spravovať kľúče"
 
 #: bin/openpgp-applet:273
 msgid "The clipboard does not contain valid input data."
-msgstr "Nid yw'r clipfwrdd yn cynnwys data mewnbwn ddilys."
+msgstr "Schránka neobsahuje platné vstupné údaje."
 
 #: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
 msgid "Unknown Trust"
-msgstr "Ymddiriediaeth anhysbys"
+msgstr "Nejasná dôvera"
 
 #: bin/openpgp-applet:330
 msgid "Marginal Trust"
-msgstr "Ymddiriediaeth ymylol"
+msgstr "Minimálna dôvera"
 
 #: bin/openpgp-applet:332
 msgid "Full Trust"
-msgstr "Ymddiriediaeth llawn"
+msgstr "Plná dôvera"
 
 #: bin/openpgp-applet:334
 msgid "Ultimate Trust"
-msgstr "Ymddiriediaeth terfynol"
+msgstr "Neobmedzená dôvera"
 
 #: bin/openpgp-applet:387
 msgid "Name"
-msgstr "Enw"
+msgstr "Názov"
 
 #: bin/openpgp-applet:388
 msgid "Key ID"
-msgstr "ID Allweddol"
+msgstr "ID kľúča"
 
 #: bin/openpgp-applet:389
 msgid "Status"
-msgstr "Statws"
+msgstr "Stav"
 
 #: bin/openpgp-applet:421
 msgid "Fingerprint:"
-msgstr "Olion Bysedd:"
+msgstr "Odtlačok:"
 
 #: bin/openpgp-applet:424
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "ID Defnyddiwr:"
-msgstr[1] "IDau Defnyddiwr:"
-msgstr[2] "IDau Defnyddiwr:"
-msgstr[3] "IDau Defnyddiwr:"
+msgstr[0] "Identifikátor užívateľa:"
+msgstr[1] "Identifikátor užívateľa:"
+msgstr[2] "Identifikátory užívateľa:"
 
 #: bin/openpgp-applet:453
 msgid "None (Don't sign)"
-msgstr "Ddim (Peidiwch llofnodi)"
+msgstr "Žiadne (Nepodpisovať)"
 
 #: bin/openpgp-applet:516
 msgid "Select recipients:"
-msgstr "Dewiswch derbynwyr:"
+msgstr "Vybrať príjemcov:"
 
 #: bin/openpgp-applet:524
 msgid "Hide recipients"
-msgstr "Cyddiwch derbynwyr"
+msgstr "Skryť príjemcov"
 
 #: bin/openpgp-applet:527
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Cyddiwch yr IDau o phob derbynwr o neges amgryptiedig. Neu gall unrhyw un "
-"sy'n gweld y neges amlgryptiedig gallu gweld pwy yw'r derbynwyr."
+"Skryť identifikátory všetkých príjemcov šifrovanej správy. V opačnom prípade "
+"môže ktokoľvek vidieť, kto je príjemcom šifrovanej správy."
 
 #: bin/openpgp-applet:533
 msgid "Sign message as:"
-msgstr "Llofnodwch y neges fel:"
+msgstr "Podpísať správu ako:"
 
 #: bin/openpgp-applet:537
 msgid "Choose keys"
-msgstr "Dewiswch allweddi"
+msgstr "Zvoliť kľúče"
 
 #: bin/openpgp-applet:577
 msgid "Do you trust these keys?"
-msgstr "Ydych chi'n ymddiried yn yr allweddi rhain?"
+msgstr "Dôverujete týmto kľúčom?"
 
 #: bin/openpgp-applet:580
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "Nid yw'r allwedd hon yn hollol ymddiriedig:"
-msgstr[1] "Nid yw'r allweddi hyn yn hollol ymddiriedig:"
-msgstr[2] "Nid yw'r allweddi hyn yn hollol ymddiriedig:"
-msgstr[3] "Nid yw'r allweddi hyn yn hollol ymddiriedig:"
+msgstr[0] "Nasledujúci zvolený kľúč nemá plnú dôveru:"
+msgstr[1] "Nasledujúci zvolený kľúč nemá plnú dôveru:"
+msgstr[2] "Nasledujúce zvolené kľúče nemájú plnú dôveru:"
 
 #: bin/openpgp-applet:598
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Ydych chi'n ymddirio digon yn yr allwedd hon i'w ddefnyddio?"
-msgstr[1] "Ydych chi'n ymddirio digon yn yr allweddi hyn i'w ddefnyddio?"
-msgstr[2] "Ydych chi'n ymddirio digon yn yr allweddi hyn i'w ddefnyddio?"
-msgstr[3] "Ydych chi'n ymddirio digon yn yr allweddi hyn i'w ddefnyddio?"
+msgstr[0] "Dôverujete tomuto kľúču natoľko, aby ste ho použili?"
+msgstr[1] "Dôverujete tomuto kľúčo natoľko, aby ste ho použili?"
+msgstr[2] "Dôverujete týmto kľúčom natoľko, aby ste ich použili?"
 
 #: bin/openpgp-applet:611
 msgid "No keys selected"
-msgstr "Ddim allweddi wedi'i ddewis"
+msgstr "Žiadne vybrané kľúče"
 
 #: bin/openpgp-applet:613
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"Maen rhaid i chithau dewis allwedd preifat i llofnodi'r neges, neu rhai "
-"allweddi gyhoeddus i amgryptio'r neges, neu'r ddwy."
+"Musíte vybrať súkromný kľúč, ktorým podpíšte správu, verejné kľúče na "
+"zašifrovanie správy, alebo oboje."
 
 #: bin/openpgp-applet:641
 msgid "No keys available"
-msgstr "Ddim allweddi ar gael"
+msgstr "Žiadne dostupné kľúče"
 
 #: bin/openpgp-applet:643
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
-"Rydych chi angen allwedd preifat i llofnodi negeseuon, neu allwedd gyhoeddus "
-"i amgryptio negeseuon."
+"Potrebujete súkromný kľúč na podpísanie správy alebo verejný kľúč na "
+"zašifrovanie správy."
 
 #: bin/openpgp-applet:771
 msgid "GnuPG error"
-msgstr "Gwall GnuPG"
+msgstr "Chyba GnuPG"
 
 #: bin/openpgp-applet:792
 msgid "Therefore the operation cannot be performed."
-msgstr "Felly, ni all yr gweithred fynd ymlaen."
+msgstr "Preto nemohla byť operácia vykonaná."
 
 #: bin/openpgp-applet:842
 msgid "GnuPG results"
-msgstr "Canlyniadau GnuPG"
+msgstr "Výsledok GnuPG"
 
 #: bin/openpgp-applet:848
 msgid "Output of GnuPG:"
-msgstr "Allbwn o GnuPG"
+msgstr "Výstup GnuPG:"
 
 #: bin/openpgp-applet:873
 msgid "Other messages provided by GnuPG:"
-msgstr "Negeseuon eraill a ddarperir gan GnuPG:"
+msgstr "Ďalšie správy poskytnuté GnuPG:"
 
 #~ msgid "Tor is ready"
-#~ msgstr "Mae Tor yn barod"
+#~ msgstr "Tor je pripravený"
 
 #~ msgid "You can now access the Internet."
-#~ msgstr "Yn awr, gallwch cysylltu a'r We."
+#~ msgstr "Môžete sa pripojiť na Internet."
 
 #~ msgid ""
 #~ "<h1>Help us fix your bug!</h1>\n"
@@ -205,76 +200,76 @@ msgstr "Negeseuon eraill a ddarperir gan GnuPG:"
 #~ "a Tails user. Time to wonder how much you trust your\n"
 #~ "Internet and mailbox providers?</p>\n"
 #~ msgstr ""
-#~ "<h1>Helpwch ni atgyweirio'ch byg!</h1>\n"
-#~ "<p>Darllenwch <a href=\"%s\">ein cyfarwyddiadau i adroddi bygiau</a>.</"
-#~ "p>\n"
-#~ "<p><strong>Peidiwch cynnwys fwy o gwybodaeth personol \n"
-#~ "nag sydd rhaid!</strong></p>\n"
-#~ "<h2>Amdan rhoi eich cyfeiriad e-bost</h2>\n"
-#~ "<p>Os nad ydych yn poeni rhoi rhai rhannau o'ch hunaniaeth\n"
-#~ "i'r datblygwyr Tails, gallwch rhoi e-bost i adael i ninnau ofyn\n"
-#~ "am fwy o wybodaeth am y byg. Hefyd, wrth gynnwys allwedd\n"
-#~ "PGP cyhoeddus, gallen ni amgryptio unrhyw cyfarthrebiad\n"
-#~ "dyfodol.</p>\n"
-#~ "<p>Bydd unrhyw un sydd gallu darllen y neges hon yn ôl pob tebyg \n"
-#~ "yn tybu eich fod yn defnyddwyr Tails. Amser feddwl am faint o\n"
-#~ "ymddiriediaeth rydych yn rhoi i'ch datparwyr We ac e-bost?</p>\n"
+#~ "<h1>Pomôžte nám s vašou chybou!</h1>\n"
+#~ "<p>Prečítajte si <a href=\"%s\">naše inštrukcie hlásenia chýb</a>.</p>\n"
+#~ "<p><strong>Neuvádzajte viac osobných informácií, než je skutočne\n"
+#~ "potrebné!</strong></p>\n"
+#~ "<h2>O poskytnutí vašej e-mailovej adresy</h2>\n"
+#~ "<p>Ak vám nevadí, že odhalíte kúsok vašej identity vývojárom Tails,\n"
+#~ "môžete nám poskytnúť e-mailovú adresu, aby sme sa mohli\n"
+#~ "spýtať na ďalšie podrobnosti ohľadne hlásenej chyby. Poskytnutie\n"
+#~ "verejného PGP kľúča nám dovolí takúto budúcu komunikáciu\n"
+#~ "šifrovať.</p>\n"
+#~ "<p>Ktokoľvek, kto uvidí takúto odpoveď, si odvodí, že\n"
+#~ "ste pravdepodobne užívateľ Tails. Tu nastáva čas pouvažovať,\n"
+#~ "či skutočne veríte svojim poskytovateľom Internetu a e-mailovej\n"
+#~ "schránky.</p>\n"
 
 #~ msgid "Shutdown Immediately"
-#~ msgstr "Cau lawr ar unwaith"
+#~ msgstr "Okamžite ukončiť"
 
 #~ msgid "Reboot Immediately"
-#~ msgstr "Ailgychwynwch ar unwaith"
+#~ msgstr "Okamžite reštartovať"
 
 #~ msgid "not available"
-#~ msgstr "ddim ar gael"
+#~ msgstr "nedostupné"
 
 #~ msgid "Tails"
 #~ msgstr "Tails"
 
 #~ msgid "The Amnesic Incognito Live System"
-#~ msgstr "Y System Cyddiad Collcof Fyw"
+#~ msgstr "The Amnesic Incognito Live System"
 
 #~ msgid ""
 #~ "Build information:\n"
 #~ "%s"
 #~ msgstr ""
-#~ "Gwybodaeth adeilad:\n"
+#~ "Build informácie:\n"
 #~ "%s"
 
 #~ msgid "About Tails"
-#~ msgstr "Amdan Tails"
+#~ msgstr "O Tails"
 
 #~ msgid "Your additional software"
-#~ msgstr "Eich meddalwedd ychwanegol"
+#~ msgstr "Váš prídavný software"
 
 #~ msgid ""
 #~ "The upgrade failed. This might be due to a network problem. Please check "
 #~ "your network connection, try to restart Tails, or read the system log to "
 #~ "understand better the problem."
 #~ msgstr ""
-#~ "Methwyd y uwchraddiad. Efallai mae hyn oherwydd broblem rhwydwaith. "
-#~ "Gwiriwch eich cysylltiad rhwydwaith, ceisiwch ailddechrau Tails, neu "
-#~ "ddarllenwch y cyfnod system i ddeall y broblem yn well."
+#~ "Aktualizácia zlyhala. Toto mohlo nastať z dôvodu problémov s pripojením. "
+#~ "Skontrolujte, prosím, vaše pripojenie, skúste reštartovať Tails alebo si "
+#~ "prečítajte záznam z konzoly, aby ste problém lepšie pochopili."
 
 #~ msgid "The upgrade was successful."
-#~ msgstr "Roedd yr uwchraddiad yn llwyddianus."
+#~ msgstr "Aktualizácia prebehla úspešne."
 
 #~ msgid "Synchronizing the system's clock"
-#~ msgstr "Cydsoni cloc y system"
+#~ msgstr "Synchronizácia systémového času"
 
 #~ msgid ""
 #~ "Tor needs an accurate clock to work properly, especially for Hidden "
 #~ "Services. Please wait..."
 #~ msgstr ""
-#~ "Mae Tor angen cloc cywir i gweithio'n iawn, yn enwedig Gwasanaethau Cydd. "
-#~ "Arhoswch funud, os gwelwch yn dda..."
+#~ "Tor potrebuje presný čas, aby pracoval správne, hlave kvôli skrytému "
+#~ "protokolu Hidden Service. Prosím, čakajte..."
 
 #~ msgid "Failed to synchronize the clock!"
-#~ msgstr "Methu cysoni'r cloc!"
+#~ msgstr "Synchronizácia času zlyhala!"
 
 #~ msgid "Network connection blocked?"
-#~ msgstr "Cysylltiad rhwydwaith wedi'i wahardd?"
+#~ msgstr "Je pripojenie blokované?"
 
 #~ msgid ""
 #~ "It looks like you are blocked from the network. This may be related to "
@@ -282,16 +277,16 @@ msgstr "Negeseuon eraill a ddarperir gan GnuPG:"
 #~ "\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
 #~ "mac_spoofing.en.html#blocked\\\">MAC spoofing documentation</a>."
 #~ msgstr ""
-#~ "Mae'n edrych fel yr ydych wedi ei wahardd o'r rhwydwaith. Efallai mae hyn "
-#~ "oherwydd y nodwedd ffugio MAC. Am fwy o wybodaeth, gwelwch <a href=\\"
+#~ "Zdá sa, že máte blokovaný prístup do siete. To môže súvisieť s funkciou "
+#~ "predstierania MAC. Pre viac informácií si otvorte stránku <a href=\\"
 #~ "\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
-#~ "mac_spoofing.en.html#blocked\\\">dogfenniaeth ffugio MAC Saesneg</a>."
+#~ "mac_spoofing.en.html#blocked\\\">dokumentáciu predstierania MAC</a>."
 
 #~ msgid "This version of Tails has known security issues:"
-#~ msgstr "Mae gan y fersiwn yma o Tails problemau diogelwich hysbys:"
+#~ msgstr "Táto verzia Tails má známe bezpečnostné riziká:"
 
 #~ msgid "Network card ${nic} disabled"
-#~ msgstr "Cerdyn rhwydwaith ${nic} wedi'i analluogi"
+#~ msgstr "Sieťová karta ${nic} zakázaná"
 
 #~ msgid ""
 #~ "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
@@ -300,14 +295,14 @@ msgstr "Negeseuon eraill a ddarperir gan GnuPG:"
 #~ "href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
 #~ "mac_spoofing.en.html'>documentation</a>."
 #~ msgstr ""
-#~ "Wnaeth ffugio MAC fethu i'r cerdyn rhwydwaith ${nic_name} (${nic}) felly "
-#~ "mae hi wedi'i analluogi am y tro.\n"
-#~ "Efallai bydden well gennych chi ailgychwyn Tails ac analluogi ffugio MAC. "
-#~ "Gwelwch y <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
-#~ "startup_options/mac_spoofing.en.html'>dogfenniaeth Saesneg</a>."
+#~ "Predstieranie MAC pre sieťovú kartu ${nic_name} (${nic}) zlyhalo, takže "
+#~ "bolo dočasne zakázané.\n"
+#~ "Možno bude lepšie reštartovať Tails a zakázať predstieranie MAC. Pozrite "
+#~ "si <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
+#~ "startup_options/mac_spoofing.en.html'>dokumentáciu</a>."
 
 #~ msgid "All networking disabled"
-#~ msgstr "Pob rhwydweithiau wedi'i analluogi"
+#~ msgstr "Pripojenie celej siete zakázané"
 
 #~ msgid ""
 #~ "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
@@ -316,18 +311,17 @@ msgstr "Negeseuon eraill a ddarperir gan GnuPG:"
 #~ "href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en."
 #~ "html'>documentation</a>."
 #~ msgstr ""
-#~ "Wnaeth ffugio MAC fethu i'r cerdyn rhwydwaith ${nic_name} (${nic}). "
-#~ "Wnaeth adferiad gwall hefyd fethu, felly mae rhwydweithio wedi'i "
-#~ "alluogi.\n"
-#~ "Efallai bydden well gennych chi ailgychwyn Tails ac analluogi ffugio MAC. "
-#~ "Gwelwch y <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
-#~ "startup_options/mac_spoofing.en.html'>dogfenniaeth Saesneg</a>."
+#~ "Predstieranie MAC pre sieťovú kartu ${nic_name} (${nic}) zlyhalo. Náprava "
+#~ "chyby taktiež zlyhala, takže bolo zakázané celé pripojenie k sieti.\n"
+#~ "Možno bude lepšie reštartovať Tails a zakázať predstieranie MAC. Pozrite "
+#~ "si <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
+#~ "startup_options/mac_spoofing.en.html'>dokumentáciu</a>."
 
 #~ msgid "error:"
-#~ msgstr "gwall:"
+#~ msgstr "chyba:"
 
 #~ msgid "Error"
-#~ msgstr "Gwall"
+#~ msgstr "Chyba"
 
 #~ msgid ""
 #~ "<b>Not enough memory available to check for upgrades.</b>\n"
@@ -340,209 +334,203 @@ msgstr "Negeseuon eraill a ddarperir gan GnuPG:"
 #~ "Or do a manual upgrade.\n"
 #~ "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 #~ msgstr ""
-#~ "<b>Does ddim digon o atgof i gwirio am uwchraddau.</b>\n"
+#~ "<b>Nedostatok pamäte pre kontrolu aktualizácií.</b>\n"
 #~ "\n"
-#~ "Byddwch yn siwr mae'r system hyn yn cwrdd a'r gofynion i rhedeg Tails.\n"
-#~ "Gwelwch file:///usr/share/doc/tails/website/doc/about/requirements.en."
-#~ "html - yn Saesneg\n"
+#~ "Uistite sa, že tento systém spĺňa požiadavky na beh Tails.\n"
+#~ "Pozrite si file:///usr/share/doc/tails/website/doc/about/requirements.en."
+#~ "html\n"
 #~ "\n"
-#~ "Ceisiwch ailgychwyn Tails i edrych am uwchraddiau eto.\n"
+#~ "Skúste Tails reštartovať a znova prekontrolujte aktualizácie.\n"
 #~ "\n"
-#~ "Neu gwnewch uwchraddiad â llaw.\n"
-#~ "Gwelwch https://tails.boum.org/doc/first_steps/upgrade#manual - yn Saesneg"
+#~ "Alebo tiež môžete vykonať manuálnu aktualizáciu.\n"
+#~ "Pozrite si https://tails.boum.org/doc/first_steps/upgrade#manual"
 
 #~ msgid "Warning: virtual machine detected!"
-#~ msgstr "Rhybydd: peiriant rhithwyr wedi'i canfod!"
+#~ msgstr "Upozornenie: bol objavený virtuálny stroj!"
 
 #~ msgid ""
 #~ "Both the host operating system and the virtualization software are able "
 #~ "to monitor what you are doing in Tails."
 #~ msgstr ""
-#~ "Gall y system weithredu a'r meddalwedd rhithwir gallu monitro beth yr "
-#~ "ydych yn gwneud yn Tails."
+#~ "Hlavný operačný systém aj virtualizačný software sú schopné monitorovať "
+#~ "vašu aktivitu v Tails."
 
 #~ msgid ""
 #~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
 #~ "virtualization.en.html'>Learn more...</a>"
 #~ msgstr ""
 #~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
-#~ "virtualization.en.html'>Dysgwch fwy yn Saesneg...</a>"
+#~ "virtualization.en.html'>Zistiť viac...</a>"
 
 #~ msgid "Tor is not ready"
-#~ msgstr "Nid yw Tor yn barod"
+#~ msgstr "Tor nie je pripravený"
 
 #~ msgid "Tor is not ready. Start Tor Browser anyway?"
-#~ msgstr "Nid yw Tor yn barod. Dechrau Tor beth bynnag?"
+#~ msgstr "Tor nie je pripravený. Spustiť Tor Browser aj napriek tomu?"
 
 #~ msgid "Start Tor Browser"
-#~ msgstr "Cychwyn Porwr Tor"
+#~ msgstr "Spustiť Tor Browser"
 
 #~ msgid "Cancel"
-#~ msgstr "Canslo"
+#~ msgstr "Zrušiť"
 
 #~ msgid "Do you really want to launch the Unsafe Browser?"
-#~ msgstr "Ydych chi wir eisiau llwytho'r porwr anniogel?"
+#~ msgstr "Skutočne si prajete spustiť nezabezpečený prehliadač?"
 
 #~ msgid ""
 #~ "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only "
 #~ "use the Unsafe Browser if necessary, for example if you have to login or "
 #~ "register to activate your Internet connection."
 #~ msgstr ""
-#~ "<b>Nid</b> yw gweithgarwch rhwydwaith o fewn y porwr anniogel yn "
-#~ "<b>anhysbys</b>. Ddim ond defnyddio'r porwr os mae hi'n angenrheidiol, er "
-#~ "engraifft os maen rhaid i chithai fewngofnodi neu gofrestru er mwyn "
-#~ "llwytho eich cysylltiad We. "
+#~ "Sieťová aktivita nezabezpečeného prehliadača <b>nie je anonymná</b>. "
+#~ "Nezabezpečený prehliadač používajte len v nevyhnutných prípadoch, "
+#~ "napríklad v prípade prihlásenia sa alebo registrácie vášho internetového "
+#~ "pripojenia."
 
 #~ msgid "_Launch"
-#~ msgstr "_Llwythwch"
+#~ msgstr "_Spustiť"
 
 #~ msgid "_Exit"
-#~ msgstr "_Gadael"
+#~ msgstr "_Ukončiť"
 
 #~ msgid "Starting the Unsafe Browser..."
-#~ msgstr "Dechrau'r porwr anniogel..."
+#~ msgstr "Spúšťanie nezabezpečeného prehliadača..."
 
 #~ msgid "This may take a while, so please be patient."
-#~ msgstr ""
-#~ "Efallai bydd hyn yn cymryd tipyn o amser, felly byddwch yn amineddgar, os "
-#~ "gwelwch yn dda."
+#~ msgstr "Toto môže chvíľu trvať, prosím, buďte trpezliví."
 
 #~ msgid "Failed to setup chroot."
-#~ msgstr "Methu sefydlu'r croot."
+#~ msgstr "Nastavenie chroot zlyhalo."
 
 #~ msgid "Unsafe Browser"
-#~ msgstr "Porwr anniogel"
+#~ msgstr "Nezabezpečený prehliadač"
 
 #~ msgid "Shutting down the Unsafe Browser..."
-#~ msgstr "Yn cae lawr y porwr anniogel..."
+#~ msgstr "Vypínam nezabezpečený prehliadač"
 
 #~ msgid ""
 #~ "This may take a while, and you may not restart the Unsafe Browser until "
 #~ "it is properly shut down."
 #~ msgstr ""
-#~ "Efallai bydd hyn yn cymryd tipyn o amser. Ni allwch ailgychwyn y porwr "
-#~ "anniogel tan ei fod wedi'i cau lawr yn iawn."
+#~ "Toto môže chvíľu trvať a nebude možné nezabezpečený prehliadač "
+#~ "reštartovať, až kým sa úplne nevypne."
 
 #~ msgid "Failed to restart Tor."
-#~ msgstr "Methu ailgychwyn Tor."
+#~ msgstr "Reštart Tor zlyhal."
 
 #~ msgid ""
 #~ "Another Unsafe Browser is currently running, or being cleaned up. Please "
 #~ "retry in a while."
 #~ msgstr ""
-#~ "Mae porwr anniogel arall yn rhedeg, neu yn cael ei daclyso. Ceisiwch eto "
-#~ "mewn funud neu ddwy."
+#~ "Iný nezabezpečený prehliadač je práve spustený alebo sa vypína. Skúste o "
+#~ "chvíľu znova, prosím."
 
 #~ msgid ""
 #~ "No DNS server was obtained through DHCP or manually configured in "
 #~ "NetworkManager."
 #~ msgstr ""
-#~ "Doedd ddim gwasanaethwr DNS wedi'i sicrhau trwy DHCP, na trwy "
-#~ "ffyrffweddiad â llaw yn NetworkManager."
+#~ "Nepodarilo sa získať DNS server pomocou DHCP, ani pomocou manuálneho "
+#~ "nastavenia v NetworkManager."
 
 #, fuzzy
 #~ msgid "TrueCrypt will be removed in Tails 1.2.1"
-#~ msgstr "Bydd Tails yn cael gwared o TrueCrypt yn fuan"
+#~ msgstr "TrueCrypt bude čoskoro z Tails odstránený"
 
 #~ msgid "I2P failed to start"
-#~ msgstr "Methu dechrau I2P"
+#~ msgstr "Zlyhalo spúšťanie I2P"
 
 #, fuzzy
 #~ msgid ""
 #~ "Something went wrong when I2P was starting. Check the logs in /var/log/"
 #~ "i2p for more information."
 #~ msgstr ""
-#~ "Wnaeth rhywbeth mynd yn anghywir pan roedd I2P yn llwytho. Am fwy o "
-#~ "wybodaeth, edrychwch yn y cofnodau yn yr gyfeiriadur hon:"
+#~ "Nastala chyba pri spúšťaní I2P. Pre viac informácií si prezrite záznam "
+#~ "konzoly v uvedenom priečinku:"
 
 #, fuzzy
 #~ msgid "I2P's router console is ready"
-#~ msgstr "Bydd consol llwybrydd I2P yn agor wrth llwythi."
+#~ msgstr "I2P konzola smerovača bude otvorená po štarte."
 
 #, fuzzy
 #~ msgid "I2P is not ready"
-#~ msgstr "Nid yw Tor yn barod"
+#~ msgstr "Tor nie je pripravený"
 
 #, fuzzy
 #~ msgid "I2P is ready"
-#~ msgstr "Mae Tor yn barod"
+#~ msgstr "Tor je pripravený"
 
 #, fuzzy
 #~ msgid "You can now access services on I2P."
-#~ msgstr "Yn awr, gallwch cysylltu a'r We."
+#~ msgstr "Môžete sa pripojiť na Internet."
 
 #~ msgid "Report an error"
-#~ msgstr "Adrodd gwall"
+#~ msgstr "Nahlásiť chybu"
 
 #~ msgid "Tails documentation"
-#~ msgstr "Dogfennaeth Tails"
+#~ msgstr "Tails dokumentácia"
 
 #~ msgid "Learn how to use Tails"
-#~ msgstr "Dysgwch sut i ddefnyddio Tails"
+#~ msgstr "Naučte sa používať Tails"
 
 #, fuzzy
 #~ msgid "Anonymous overlay network browser"
-#~ msgstr "Rhwydwaith troshaen anhysbys"
+#~ msgstr "Anonymná vrstva siete"
 
 #, fuzzy
 #~ msgid "I2P Browser"
-#~ msgstr "Porwr anniogel"
+#~ msgstr "Nezabezpečený prehliadač"
 
-#, fuzzy
 #~ msgid "Learn more about Tails"
-#~ msgstr "Dysgwch sut i ddefnyddio Tails"
+#~ msgstr "Zistiť viac o Tails"
 
 #~ msgid "Reboot"
-#~ msgstr "Ailgychwyn"
+#~ msgstr "Reštartovať"
 
 #~ msgid "Immediately reboot computer"
-#~ msgstr "Ailgychwynwch y cyfrifiadur ar unwaith"
+#~ msgstr "Okamžite reštartovať počítač"
 
 #~ msgid "Power Off"
-#~ msgstr "Pŵer bant"
+#~ msgstr "Vypnúť"
 
 #~ msgid "Immediately shut down computer"
-#~ msgstr "Cau lawr y cyfrifiadur ar unwaith"
+#~ msgstr "Okamžite vypnúť počítač"
 
 #, fuzzy
 #~ msgid "Tor Browser"
-#~ msgstr "Cychwyn Porwr Tor"
+#~ msgstr "Spustiť Tor Browser"
 
 #, fuzzy
 #~ msgid "Anonymous Web Browser"
-#~ msgstr "Porwr We anniogel"
+#~ msgstr "Nezabezpečený webový prehliadač"
 
 #~ msgid "Browse the World Wide Web without anonymity"
-#~ msgstr "Porwch yr We heb anhysbysrwydd"
+#~ msgstr "Prehliadať Web bez anonymity"
 
 #~ msgid "Unsafe Web Browser"
-#~ msgstr "Porwr We anniogel"
+#~ msgstr "Nezabezpečený webový prehliadač"
 
 #~ msgid "Tails specific tools"
-#~ msgstr "Teclynau penodol Tails"
-
-#~ msgid "Shutdown Helper"
-#~ msgstr "Cynorthwydd cau lawr"
+#~ msgstr "Špecifické nástroje Tails"
 
 #~ msgid "Starting I2P..."
-#~ msgstr "Yn dechrau I2P..."
+#~ msgstr "Spúštanie I2P..."
 
 #~ msgid ""
 #~ "Make sure that you have a working Internet connection, then try to start "
 #~ "I2P again."
 #~ msgstr ""
-#~ "Gwnewch yn siwr eich bod chi gyda cysylltiad We sy'n gweithio, wedyn "
-#~ "triwch dechrau I2P eto."
+#~ "Uistite sa, že vaše pripojenie k Internetu pracuje správne a skúste znova "
+#~ "spustiť I2P."
 
 #~ msgid ""
 #~ "TrueCrypt will soon be removed from Tails due to license and development "
 #~ "concerns."
 #~ msgstr ""
-#~ "Bydd Tails yn cael gwared o TrueCrypt yn fuan oherwydd pryderon "
-#~ "datblygiadwy ac trwydded."
+#~ "TrueCrypt bude čoskoro z Tails odstránený z dôvodu licenčných záležitostí "
+#~ "a záležitostí tákajúcich sa vývoja."
 
 #~ msgid "i2p"
 #~ msgstr "i2p"
 
 #~ msgid "Anonymous overlay network"
-#~ msgstr "Rhwydwaith troshaen anhysbys"
+#~ msgstr "Anonymná vrstva siete"

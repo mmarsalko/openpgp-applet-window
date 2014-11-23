@@ -3,188 +3,191 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Cesar Enrique Sanchez Medina <cesare01@gmail.com>, 2014
-# Jose Luis <joseluis.tirado@gmail.com>, 2014
-# Manuel Herrera <ma_herrer@yahoo.com.mx>, 2013
-# strel, 2013-2014
+# Dušan <dusan.k@zoho.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-15 17:21+0000\n"
-"Last-Translator: strel\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/torproject/"
-"language/es/)\n"
-"Language: es\n"
+"PO-Revision-Date: 2014-10-21 07:35+0000\n"
+"Last-Translator: Dušan <dusan.k@zoho.com>\n"
+"Language-Team: Slovenian (Slovenia) (http://www.transifex.com/projects/p/"
+"torproject/language/sl_SI/)\n"
+"Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
 
 #: bin/openpgp-applet:163
 msgid "OpenPGP encryption applet"
-msgstr "Applet de cifrado OpenPGP"
+msgstr "Odpri PGP šifrirni programček"
 
 #: bin/openpgp-applet:166
 msgid "Exit"
-msgstr "Salir"
+msgstr "Izhod"
 
 #: bin/openpgp-applet:168
 msgid "About"
-msgstr "Acerca de"
+msgstr "Vizitka"
 
 #: bin/openpgp-applet:221
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Cifrar Portapapeles con _FraseClave"
+msgstr "Šifriranje odložišča z _Geslom za ključe"
 
 #: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Firmar/Cifrar Portapapeles con Claves_Públicas"
+msgstr "Vpis / Šifriranje odložišča z javnimi _Ključi"
 
 #: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"
-msgstr "_Descifrar/Verificar Portapapeles"
+msgstr "_Dešifriranje/Preverite Odložišče"
 
 #: bin/openpgp-applet:233
 msgid "_Manage Keys"
-msgstr "_Gestionar Claves"
+msgstr "_Upravljanje s Ključi"
 
 #: bin/openpgp-applet:273
 msgid "The clipboard does not contain valid input data."
-msgstr "El portapapeles no contiene datos de entrada válidos."
+msgstr "Odložišče ne vsebuje veljavnih vhodnih podatkov"
 
 #: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
 msgid "Unknown Trust"
-msgstr "Confianza desconocida"
+msgstr "Neznan Skrbnik"
 
 #: bin/openpgp-applet:330
 msgid "Marginal Trust"
-msgstr "Confianza reducida"
+msgstr "Mejni Skrbnik"
 
 #: bin/openpgp-applet:332
 msgid "Full Trust"
-msgstr "Confianza completa"
+msgstr "Zaupanja vreden Skrbnik"
 
 #: bin/openpgp-applet:334
 msgid "Ultimate Trust"
-msgstr "Confianza superior"
+msgstr "Dokončni Skrbnik"
 
 #: bin/openpgp-applet:387
 msgid "Name"
-msgstr "Nombre"
+msgstr "Ime"
 
 #: bin/openpgp-applet:388
 msgid "Key ID"
-msgstr "Identificador de Clave"
+msgstr "Ključ ID"
 
 #: bin/openpgp-applet:389
 msgid "Status"
-msgstr "Estado"
+msgstr "Stanje"
 
 #: bin/openpgp-applet:421
 msgid "Fingerprint:"
-msgstr "Huella de validación:"
+msgstr "Prstni odtis:"
 
 #: bin/openpgp-applet:424
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "Identificador de usuario:"
-msgstr[1] "Identificadores de usuario:"
+msgstr[0] "Uporbnik ID:"
+msgstr[1] "Uporabnika ID:"
+msgstr[2] "Uporabniki ID:"
+msgstr[3] "User IDs:"
 
 #: bin/openpgp-applet:453
 msgid "None (Don't sign)"
-msgstr "Ninguno (no firmar)"
+msgstr "Nobeden (Brez podpisa)"
 
 #: bin/openpgp-applet:516
 msgid "Select recipients:"
-msgstr "Seleccionar destinatarios:"
+msgstr "Izbira prejemnikov:"
 
 #: bin/openpgp-applet:524
 msgid "Hide recipients"
-msgstr "Esconder destinatarios"
+msgstr "Skrij prejemnike"
 
 #: bin/openpgp-applet:527
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Esconder los identificadores de usuario de todos los destinatarios de un "
-"mensaje cifrado. De otra manera cualquiera que vea el mensaje cifrado puede "
-"ver quienes son los destinatarios."
+"Skrij ID uporabnika vsem prejemnikom šifriranega sporočila. Drugače lahko "
+"vsak, ki šifrirano sporočilo vidi, ve kdo je prejemnik."
 
 #: bin/openpgp-applet:533
 msgid "Sign message as:"
-msgstr "Firmar mensaje como:"
+msgstr "Podpiši sporočilo kot:"
 
 #: bin/openpgp-applet:537
 msgid "Choose keys"
-msgstr "Elegir claves"
+msgstr "Izberite ključe"
 
 #: bin/openpgp-applet:577
 msgid "Do you trust these keys?"
-msgstr "¿Confía en estas claves?"
+msgstr "Ali zaupate tem ključem?"
 
 #: bin/openpgp-applet:580
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "La siguiente clave seleccionada no goza de confianza completa:"
-msgstr[1] "Las siguientes claves seleccionadas no gozan de confianza completa:"
+msgstr[0] "Sledeči izbran ključ ni vreden popolnega zaupanja:"
+msgstr[1] "Sledeča izbrana ključa nista vredna popolnega zaupanja:"
+msgstr[2] "Sledeči izbrani ključi niso vredni popolnega zaupanja:"
+msgstr[3] "Sledeči izbrani ključi niso vredni popolnega zaupanja:"
 
 #: bin/openpgp-applet:598
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "¿Confía lo suficiente en esta clave para usarla de todos modos?"
-msgstr[1] "¿Confía lo suficiente en estas claves para usarlas de todos modos?"
+msgstr[0] "Ali dovolj zaupate temu ključu, da ga vseeno uporabite?"
+msgstr[1] "Ali dovolj zaupate tema ključema, da ju vseeno uporabite?"
+msgstr[2] "Ali dovolj zaupate tem ključem, da jih vseeno uporabite?"
+msgstr[3] "Ali dovolj zaupate tem ključem, da jih vseeno uporabite?"
 
 #: bin/openpgp-applet:611
 msgid "No keys selected"
-msgstr "No se seleccionaron claves"
+msgstr "Ključ ni izbran"
 
 #: bin/openpgp-applet:613
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"Debe seleccionar una clave privada para firmar este mensaje, o algunas "
-"claves públicas para cifrar el mensaje, o ambas."
+"Izbrati morate zasebni ključ za podpisovanje sporočila, ali kateri javni "
+"ključi za šifriranje sporočila, ali pa oboje."
 
 #: bin/openpgp-applet:641
 msgid "No keys available"
-msgstr "No hay claves disponibles"
+msgstr "Ni uporabnega ključa"
 
 #: bin/openpgp-applet:643
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
-"Necesita una clave privada para firmar mensajes o una clave pública para "
-"cifrar mensajes."
+"Rabite zasebni ključ za podpis sporočila ali javni ključ za šifriranje le "
+"tega."
 
 #: bin/openpgp-applet:771
 msgid "GnuPG error"
-msgstr "Error de GnuPG"
+msgstr "GnuPG napaka"
 
 #: bin/openpgp-applet:792
 msgid "Therefore the operation cannot be performed."
-msgstr "Por lo tanto la operación no pudo ser realizada."
+msgstr "Zato ni mogoče izvesti operacijo."
 
 #: bin/openpgp-applet:842
 msgid "GnuPG results"
-msgstr "Resultados de GnuPG"
+msgstr "GnuPG rezultati"
 
 #: bin/openpgp-applet:848
 msgid "Output of GnuPG:"
-msgstr "Datos de salida de GnuPG:"
+msgstr "Izhod iz GnuPG:"
 
 #: bin/openpgp-applet:873
 msgid "Other messages provided by GnuPG:"
-msgstr "Otros mensajes emitidos por GnuPG:"
+msgstr "Druga sporočila ponujena od GnuPG:"
 
 #~ msgid "Tor is ready"
-#~ msgstr "Tor está listo"
+#~ msgstr "Tor je pripravljen"
 
 #~ msgid "You can now access the Internet."
-#~ msgstr "Ahora puede acceder a Internet."
+#~ msgstr "Sedaj lahko dostopate do omrežja"
 
 #~ msgid ""
 #~ "<h1>Help us fix your bug!</h1>\n"
@@ -201,78 +204,75 @@ msgstr "Otros mensajes emitidos por GnuPG:"
 #~ "a Tails user. Time to wonder how much you trust your\n"
 #~ "Internet and mailbox providers?</p>\n"
 #~ msgstr ""
-#~ "<h1>¡Ayúdenos a arreglar este fallo!</h1>\n"
-#~ "<p>Lea <a href=\"%s\">nuestas instrucciones para informar de errores</a>."
-#~ "</p> \n"
-#~ "<p><strong>¡No incluya más información personal de la necesaria! </"
-#~ "strong></p> \n"
-#~ "<h2>En referencia a darnos una dirección de correo</h2> \n"
-#~ "<p>Si no le importa revelar algunos pequeños detalles de su identidad a "
-#~ "los desarrolladores de Tails, puede proporcionar un correo electrónico "
-#~ "para permitirnos preguntarle un poco más sobre el error. Además, "
-#~ "introduciendo una clave pública PGP nos permitirá encriptar estas futuras "
-#~ "comunicaciones con usted.</p> \n"
-#~ "<p>Cualquiera que pueda ver esta respuesta probablemente inferirá que "
-#~ "usted es un usuario de Tails. ¿Es el momento de preguntarse cuánto puede "
-#~ "confiar en sus proveedores de Internet y correo electrónico?</p>\n"
+#~ "<h1>Pomagajte nam popraviti vašega hrošča! </h1>\n"
+#~ "<p>Preberite<a href=\"%s\">naša navodila za poročanje o hrošču</a>.</p>\n"
+#~ "<p><strong>Ne vključujte več osebnih podatkov kot je\n"
+#~ "potrebno!</strong></p>\n"
+#~ "<h2>O dajanju naslova e-pošte</h2>\n"
+#~ "Če vam ni odveč odkriti nekaj delčkov svoje identitete\n"
+#~ "razvijalcem Sledi, nam lahko podate svoj e-naslov,\n"
+#~ "da vas vprašamo o podrobnostih hrošča. Dodan\n"
+#~ "javni PGP ključ nam pomaga dešifrirati podobna bodoča\n"
+#~ "sporočila.</p>\n"
+#~ "<p>Vsakdo, ki vidi ta odgovor, bo verjetno zaključil, da ste\n"
+#~ "uporabnik Sledi. Čas je, da se vprašamo koliko zaupamo našim\n"
+#~ "Internet in poštnim ponudnikom?</p>\n"
 
 #~ msgid "Shutdown Immediately"
-#~ msgstr "Apagar inmediatamente"
+#~ msgstr "Nemudoma Ugasni"
 
 #~ msgid "Reboot Immediately"
-#~ msgstr "Reiniciar inmediatamente"
+#~ msgstr "Nemudoma znova zaženi"
 
 #~ msgid "not available"
-#~ msgstr "no disponible"
+#~ msgstr "ni primeren"
 
 #~ msgid "Tails"
-#~ msgstr "Tails"
+#~ msgstr "Sledi"
 
 #~ msgid "The Amnesic Incognito Live System"
-#~ msgstr ""
-#~ "El sistema Incognito amnésico y sin instalación (The Amnesic Incognito "
-#~ "Live System)"
+#~ msgstr "aktivni sistem The Amnesic Incognito"
 
 #~ msgid ""
 #~ "Build information:\n"
 #~ "%s"
 #~ msgstr ""
-#~ "Información de versión del paquete (build):\n"
+#~ "Oblikuje informacije\n"
 #~ "%s"
 
 #~ msgid "About Tails"
-#~ msgstr "Acerca de Tails"
+#~ msgstr "Vizitka Sledi"
 
 #~ msgid "Your additional software"
-#~ msgstr "Su software adicional"
+#~ msgstr "Vaša dodatna programska oprema"
 
 #~ msgid ""
 #~ "The upgrade failed. This might be due to a network problem. Please check "
 #~ "your network connection, try to restart Tails, or read the system log to "
 #~ "understand better the problem."
 #~ msgstr ""
-#~ "La actualización falló. Esto puede ser debido a un problema de la red. "
-#~ "Por favor, compruebe su conexión de red, intente reiniciar Tails, o lea "
-#~ "el registro ('log') del sistema para comprender mejor el problema."
+#~ "Nadgradnja ni uspela. To je lahko zaradi težav v omrežju. Preverite "
+#~ "omrežno povezavo, poskusite ponovno zagnati Sledi, ali pa preberite "
+#~ "sistemski dnevnik za boljše razumevanje problema."
 
 #~ msgid "The upgrade was successful."
-#~ msgstr "La actualización se realizó con éxito."
+#~ msgstr "Nadgradnja je bila uspešna."
 
 #~ msgid "Synchronizing the system's clock"
-#~ msgstr "Sincronizando el reloj del sistema"
+#~ msgstr "Sinhronizacija sistemske ure"
 
 #~ msgid ""
 #~ "Tor needs an accurate clock to work properly, especially for Hidden "
 #~ "Services. Please wait..."
 #~ msgstr ""
-#~ "Tor necesita un reloj preciso para trabajar adecuadamente, especialmente "
-#~ "para los Servicios Ocultos. Por favor, espere..."
+#~ "Tor potrebuje točno uro za pravilno delovanje, predvsem za Skrite "
+#~ "storitve. Prosimo, počakajte ..."
 
 #~ msgid "Failed to synchronize the clock!"
-#~ msgstr "¡Fallo al sincronizar el reloj!"
+#~ msgstr "Sinhronizacija ure ni bila uspešna!"
 
 #~ msgid "Network connection blocked?"
-#~ msgstr "¿Está bloqueada la conexión a la red?"
+#~ msgstr "Omrežna povezava blokirana?"
 
 #~ msgid ""
 #~ "It looks like you are blocked from the network. This may be related to "
@@ -280,17 +280,16 @@ msgstr "Otros mensajes emitidos por GnuPG:"
 #~ "\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
 #~ "mac_spoofing.en.html#blocked\\\">MAC spoofing documentation</a>."
 #~ msgstr ""
-#~ "Parece como si estuviera bloqueado desde la red. Esto puede estar "
-#~ "relacionado con la característica de simulación de la MAC. Para más "
-#~ "información, vea la <a href=\\\"file:///usr/share/doc/tails/website/doc/"
-#~ "first_steps/startup_options/mac_spoofing.en.html#blocked\\"
-#~ "\">documentación de simulación de la MAC</a>."
+#~ "Izgleda, da vas blokira omrežje. To se lahko nanaša na funkcijo MAC "
+#~ "sleparjenje. Za več informacij si oglejte < href=\\\"file:///usr/share/"
+#~ "doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en."
+#~ "html#blocked\\\">dokumentacija MAC sleparjenje </a>."
 
 #~ msgid "This version of Tails has known security issues:"
-#~ msgstr "Esta versión de Tails tiene problemas de seguridad conocidos:"
+#~ msgstr "Ta verzija Sledi ima znane varnostne izhode:"
 
 #~ msgid "Network card ${nic} disabled"
-#~ msgstr "Tarjeta de red ${nic} deshabilitada"
+#~ msgstr "Omrežna kartra ${nic} onemogočena"
 
 #~ msgid ""
 #~ "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
@@ -299,14 +298,14 @@ msgstr "Otros mensajes emitidos por GnuPG:"
 #~ "href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
 #~ "mac_spoofing.en.html'>documentation</a>."
 #~ msgstr ""
-#~ "La simulación de la MAC falló para la tarjeta de red ${nic_name} (${nic}) "
-#~ "así que será deshabilitada temporalmente.\n"
-#~ "Puede que prefiera reiniciar Tails y deshabilitar la simulación de la "
-#~ "MAC. Vea la <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
-#~ "startup_options/mac_spoofing.es.html'>documentación</a>."
+#~ "Sleparjenje MAC mrežne kartice neuspešno ${nic_name} ($ {nic}), tako da "
+#~ "je začasno onemogočeno.\n"
+#~ "Morda vam je ljubše, da resetirate Sledi in onemogočite sleparjenje MAC. "
+#~ "Glejte < href='file:///usr/share/doc/tails/website/doc/first_steps/"
+#~ "startup_options/mac_spoofing.en.html'>dokumentacijo</a>."
 
 #~ msgid "All networking disabled"
-#~ msgstr "Se deshabilitaron todas las redes"
+#~ msgstr "Vsa omrežja onemogočena"
 
 #~ msgid ""
 #~ "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
@@ -315,18 +314,17 @@ msgstr "Otros mensajes emitidos por GnuPG:"
 #~ "href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en."
 #~ "html'>documentation</a>."
 #~ msgstr ""
-#~ "La simulación de MAC falló para la tarjeta de red ${nic_name} (${nic}). "
-#~ "La recuperación de errores también falló así que todas las redes están "
-#~ "deshabilitadas.\n"
-#~ "Puede que prefiera reiniciar Tails y deshabilitar la simulación de MAC. "
-#~ "Vea la <a href='file:///usr/share/doc/first_steps/startup_options/"
-#~ "mac_spoofing.es.html'>documentación</a>."
+#~ "Sleparjenje MAC omrežne kartice neuspešno ${nic_name} (${nic}). Okrevanje "
+#~ "po napaki tudi neuspešno, zato so vsa omrežja onemogočena\n"
+#~ "Morda vam je ljubše, da resetirate Sledi in onemogočite sleparjenje MAC. "
+#~ "Glejte <a href='file:///usr/share/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html'>dokumentacijo</a>."
 
 #~ msgid "error:"
-#~ msgstr "error:"
+#~ msgstr "napaka:"
 
 #~ msgid "Error"
-#~ msgstr "Error"
+#~ msgstr "Napaka"
 
 #~ msgid ""
 #~ "<b>Not enough memory available to check for upgrades.</b>\n"
@@ -339,106 +337,105 @@ msgstr "Otros mensajes emitidos por GnuPG:"
 #~ "Or do a manual upgrade.\n"
 #~ "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 #~ msgstr ""
-#~ "<b>No hay suficiente memoria disponible para comprobar las "
-#~ "actualizaciones.</b>\n"
+#~ "<b>Ni dovolj spomina za preverjanje nadgradnje.</b>\n"
 #~ "\n"
-#~ "Asegúrese de que el sistema cumple con los requisitos para ejecutar "
-#~ "Tails.\n"
-#~ "Vea file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
+#~ "Prepričajte se, da  ta sistem ustreza zahtevam za zagon Sledi.\n"
+#~ "Glejte datoteko:///usr/share/doc/tails/website/doc/about/requirements.en."
+#~ "html\n"
 #~ "\n"
-#~ "Intente reiniciar Tails para comprobar las actualizaciones de nuevo.\n"
+#~ "Poskusite resetirati Sledi za ponovno preverjanje nadgradnje.\n"
 #~ "\n"
-#~ "O realice una actualización manual.\n"
-#~ "Vea https://tails.boum.org/doc/first_steps/upgrade#manual"
+#~ "Ali izvedite nadgradnjo ročno\n"
+#~ "Glejte https://tails.boum.org/doc/first_steps/upgrade#manual"
 
 #~ msgid "Warning: virtual machine detected!"
-#~ msgstr "Advertencia: ¡máquina virtual detectada!"
+#~ msgstr "Opozorilo: Zaznan virtualni stroj!"
 
 #~ msgid ""
 #~ "Both the host operating system and the virtualization software are able "
 #~ "to monitor what you are doing in Tails."
 #~ msgstr ""
-#~ "Ambos, el sistema operativo anfitrión y el software de virtualización, "
-#~ "son capaces de monitorizar lo que está haciendo en Tails."
+#~ "Operacijski sistem gostitelja in programska oprema za virtualizacijo "
+#~ "lahko spremljata, kaj počnete v Sledi."
 
 #~ msgid ""
 #~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
 #~ "virtualization.en.html'>Learn more...</a>"
 #~ msgstr ""
 #~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
-#~ "virtualization.es.html'>Conozca más...</a>"
+#~ "virtualization.en.html'>Več ...</a>"
 
 #~ msgid "Tor is not ready"
-#~ msgstr "Tor no está listo"
+#~ msgstr "Tor ni pripravljen"
 
 #~ msgid "Tor is not ready. Start Tor Browser anyway?"
-#~ msgstr "Tor no está listo. ¿Iniciar el Navegador Tor de todos modos?"
+#~ msgstr "Tor ni pripravljen. Zaženem Tor brskalnik vseeno?"
 
 #~ msgid "Start Tor Browser"
-#~ msgstr "Iniciar Navegador Tor"
+#~ msgstr "Zagon Tor brskalnik"
 
 #~ msgid "Cancel"
-#~ msgstr "Cancelar"
+#~ msgstr "Opusti"
 
 #~ msgid "Do you really want to launch the Unsafe Browser?"
-#~ msgstr "¿De veras quiere iniciar el Navegador No Seguro?"
+#~ msgstr "Resnično želite zagnati nezanesljiv Brskalnik?"
 
 #~ msgid ""
 #~ "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only "
 #~ "use the Unsafe Browser if necessary, for example if you have to login or "
 #~ "register to activate your Internet connection."
 #~ msgstr ""
-#~ "La actividad de red dentro del Navegador No Seguro <b>no es anónima</b>. "
-#~ "Use el Navegador No Seguro sólo si es necesario, por ejemplo, si tiene "
-#~ "que autentificarse o registrarse para activar su conexión a Internet."
+#~ "Omrežne aktivnosti z nezanesljivim Brskalnikom <b>niso anonimne</b>. Le v "
+#~ "nujnih primerih uporabite nezanesljiv Brskalnik, npr.: če se morate "
+#~ "prijaviti ali registrirati za aktiviranje omrežne povezave."
 
 #~ msgid "_Launch"
-#~ msgstr "_Iniciar"
+#~ msgstr "_Zagon"
 
 #~ msgid "_Exit"
-#~ msgstr "_Salir"
+#~ msgstr "_Izhod"
 
 #~ msgid "Starting the Unsafe Browser..."
-#~ msgstr "Iniciando el Navegador No Seguro..."
+#~ msgstr "Zagon nezanesljivega Brskalnika ..."
 
 #~ msgid "This may take a while, so please be patient."
-#~ msgstr "Esto puede llevar un tiempo, por favor, sea paciente."
+#~ msgstr "To lahko traja, zato bodite potrpežjivi."
 
 #~ msgid "Failed to setup chroot."
-#~ msgstr "Fallo al establecer chroot."
+#~ msgstr "Neuspešna nastavitev chroot."
 
 #~ msgid "Unsafe Browser"
-#~ msgstr "Navegador No Seguro"
+#~ msgstr "Nezanesljiv Brskalnik"
 
 #~ msgid "Shutting down the Unsafe Browser..."
-#~ msgstr "Cerrando el Navegador No Seguro..."
+#~ msgstr "Ugašanje nezanesljivega Brskalnika .."
 
 #~ msgid ""
 #~ "This may take a while, and you may not restart the Unsafe Browser until "
 #~ "it is properly shut down."
 #~ msgstr ""
-#~ "Esto puede llevar un tiempo, y no puede reiniciar el Navegador No Seguro "
-#~ "hasta que se haya cerrado adecuadamente."
+#~ "To lahko traja in ne smete ponoviti zagona nezanesljivega Brskalnika "
+#~ "dokler ni pravilno ugasnjen."
 
 #~ msgid "Failed to restart Tor."
-#~ msgstr "Fallo al reiniciar Tor."
+#~ msgstr "Ponoven zagon Tor-a neuspešen. "
 
 #~ msgid ""
 #~ "Another Unsafe Browser is currently running, or being cleaned up. Please "
 #~ "retry in a while."
 #~ msgstr ""
-#~ "Otro Navegador No Seguro está ejecutándose actualmente, o está siendo "
-#~ "limpiado. Inténtelo de nuevo dentro de un rato."
+#~ "Drugi nezanesljiv Brskalnik se trenutno izvaja ali se čisti. Poskusite "
+#~ "malo kasneje. "
 
 #~ msgid ""
 #~ "No DNS server was obtained through DHCP or manually configured in "
 #~ "NetworkManager."
 #~ msgstr ""
-#~ "Ningún servidor DNS fue obtenido a través de DHCP o configurado "
-#~ "manualmente en el Administrador de Red (NetworkManager)."
+#~ "Noben DNS server ni bil pridobljen iz DHCP ali ročno nastavljen v "
+#~ "NetworkManager."
 
 #~ msgid "TrueCrypt will be removed in Tails 1.2.1"
-#~ msgstr "TrueCrypt será removido en Tails 1.2.1"
+#~ msgstr "TrueCrypt bodo odstranjeni v Sledi 1.2.1"
 
 #~ msgid ""
 #~ "TrueCrypt is no longer maintained and is said to be insecure by its own "
@@ -447,88 +444,87 @@ msgstr "Otros mensajes emitidos por GnuPG:"
 #~ "website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>open "
 #~ "TrueCrypt volumes with cryptsetup</a> as soon as possible."
 #~ msgstr ""
-#~ "TrueCrypt ya no es sustentado y dicho ser inseguro por sus propios "
-#~ "autores. Por lo tanto, será removido en Tails 1.2.1 (25 Noviembre). "
-#~ "Recomendamos que aprenda cómo <a href='file:///usr/share/doc/tails/"
-#~ "website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>abrir "
-#~ "volumenes de TrueCrypt con crypsetup</a> tan pronto como sea posible."
+#~ "TrueCrypt ni več podprt in je po besedah njegovih avtorjev  nezanesljiv. "
+#~ "Zato bo odstranjen iz Sledi 1.2.1. (25-ega nov.). Priporočamo vam, da se "
+#~ "naučite, kako <a href='file:///usr/share/doc/tails/website/doc/"
+#~ "encryption_and_privacy/truecrypt.en.html#cryptsetup'> odpreti TrueCrypt "
+#~ "nosilce z cryptsetup-om </a> čim prej."
 
 #~ msgid "I2P failed to start"
-#~ msgstr "I2P falló al iniciarse"
+#~ msgstr "I2P se ni zagnal"
 
 #~ msgid ""
 #~ "Something went wrong when I2P was starting. Check the logs in /var/log/"
 #~ "i2p for more information."
 #~ msgstr ""
-#~ "Algo salió mal cuando I2P estaba iniciando. Revisar los registros en /var/"
-#~ "log/i2p para mayor información."
+#~ "Pri zagonu I2P je nekaj narobe. Preverite dnevnik log v /var/log/i2p za "
+#~ "nadaljne informacije"
 
 #~ msgid "I2P's router console is ready"
-#~ msgstr "La consola de router I2P esta listo"
+#~ msgstr "I2P konzola usmerjevalnika je pripravljena"
 
 #~ msgid "You can now access I2P's router console on http://127.0.0.1:7657."
-#~ msgstr ""
-#~ "Ahora puedes acceder la consola de router I2P en http://127.0.0.1:7657."
+#~ msgstr "Konzolo I2P usmerjevalnika lahko dosegate na http://127.0.0.1:7657."
 
 #~ msgid "I2P is not ready"
-#~ msgstr "I2P no esta listo"
+#~ msgstr "I2P ni propravljen"
 
 #~ msgid ""
 #~ "Eepsite tunnel not built within six minutes. Check the router console at "
 #~ "http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more "
 #~ "information. Reconnect to the network to try again."
 #~ msgstr ""
-#~ "Tunel Eepsite no creado en los últimos 6 meses. Revisar la consola de "
-#~ "router en http://127.0.0.1:7657/logs o los registros en /var/logs/i2p "
-#~ "para mayor información. Reconectar a la red para intentar nuevamente."
+#~ "Eepsite predor ni zgrajena v šestih minutah. Preverite usmerjevalnik "
+#~ "konzolo na http://127.0.0.1:7657/logs ali dnevnike v / var / log / i2p za "
+#~ "več informacij. Ponovno se priklopite na omrežje in poskusite znova."
 
 #~ msgid "I2P is ready"
-#~ msgstr "I2P esta listo"
+#~ msgstr "I2P je pripravljen"
 
 #~ msgid "You can now access services on I2P."
-#~ msgstr "Ahora puedes acceder a los servicios en I2P."
+#~ msgstr "sedaj lahko dostopate do storitev I2P"
 
 #~ msgid "Report an error"
-#~ msgstr "Informar de un error"
+#~ msgstr "Sporočite napako"
 
 #~ msgid "Tails documentation"
-#~ msgstr "Documentación de Tails"
+#~ msgstr "Dokumentacija Sledi"
 
 #~ msgid "Learn how to use Tails"
-#~ msgstr "Aprenda cómo usar Tails"
+#~ msgstr "Učenje uporabe Sledi"
 
 #~ msgid "Anonymous overlay network browser"
-#~ msgstr "Superposición anónima de navegador de red"
+#~ msgstr "Brskalnik anonimnega prikrivanja"
 
 #~ msgid "I2P Browser"
-#~ msgstr "Navegador I2P"
+#~ msgstr "I2P brskalnik"
 
 #~ msgid "Learn more about Tails"
-#~ msgstr "Aprenda más acerca de Tails"
+#~ msgstr "Več o Sledi"
 
 #~ msgid "Reboot"
-#~ msgstr "Reiniciar"
+#~ msgstr "Ponoven zagon"
 
 #~ msgid "Immediately reboot computer"
-#~ msgstr "Reinicia inmediatamente su computadora"
+#~ msgstr "Nemudoma ponovno zaženite računalnik"
 
 #~ msgid "Power Off"
-#~ msgstr "Apagar"
+#~ msgstr "Izklop"
 
 #~ msgid "Immediately shut down computer"
-#~ msgstr "Apaga inmediatamente su computadora"
+#~ msgstr "Nemudoma ugasnite računalnik"
 
 #~ msgid "Tor Browser"
-#~ msgstr "Navegador Tor"
+#~ msgstr "Tor Iskalnik"
 
 #~ msgid "Anonymous Web Browser"
-#~ msgstr "Navegador web anónimo"
+#~ msgstr "Anonimni web brskalnik"
 
 #~ msgid "Browse the World Wide Web without anonymity"
-#~ msgstr "Navegar la World Wide Web sin anonimato"
+#~ msgstr "Brskajte po spletu brez anonimnosti"
 
 #~ msgid "Unsafe Web Browser"
-#~ msgstr "Navegador No Seguro"
+#~ msgstr "Nezanesljiv web brskalnik"
 
 #~ msgid "Tails specific tools"
-#~ msgstr "Herramientas específicas de Tails"
+#~ msgstr "posebna orodja Sledi"

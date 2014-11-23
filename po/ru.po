@@ -3,7 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Denis <stereodenis@gmail.com>, 2014
+# Adriano <morros@ro.ru>, 2014
+# Evgrafov Denis <stereodenis@gmail.com>, 2014
 # Eugene, 2013
 # jujjer <jujjer@gmail.com>, 2013
 # mendov <mr.mendov@gmail.com>, 2013
@@ -13,10 +14,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
-"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-09-28 23:53+0200\n"
-"PO-Revision-Date: 2014-06-18 20:00+0000\n"
-"Last-Translator: Denis <stereodenis@gmail.com>\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"PO-Revision-Date: 2014-10-15 17:12+0000\n"
+"Last-Translator: Adriano <morros@ro.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/torproject/"
 "language/ru/)\n"
 "Language: ru\n"
@@ -26,171 +27,524 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../bin/openpgp-applet:164
+#: bin/openpgp-applet:163
 msgid "OpenPGP encryption applet"
-msgstr "OpenPGP апплет шифрования"
+msgstr "апплет шифрования OpenPGP"
 
-#: ../bin/openpgp-applet:167
+#: bin/openpgp-applet:166
 msgid "Exit"
 msgstr "Выход"
 
-#: ../bin/openpgp-applet:169
+#: bin/openpgp-applet:168
 msgid "About"
-msgstr "О программе ..."
+msgstr "О программе…"
 
-#: ../bin/openpgp-applet:222
+#: bin/openpgp-applet:221
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Шифрование буфера обмена с _Passphrase"
+msgstr "Зашифровать буфер обмена с помощью ‘_Passphrase’"
 
-#: ../bin/openpgp-applet:225
+#: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
 msgstr ""
-"Подпись/Шифрование буфера обмена с помощью Открытых ключей /Public _Keys/"
+"Подписать/зашифровать буфер обмена с помощью открытых ключей ‘Public _Keys’"
 
-#: ../bin/openpgp-applet:230
+#: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"
-msgstr "_Расшифровка/Проверка буфера обмена"
+msgstr "_Расшифровать/проверить буфер обмена"
 
-#: ../bin/openpgp-applet:234
+#: bin/openpgp-applet:233
 msgid "_Manage Keys"
 msgstr "_Управление ключами"
 
-#: ../bin/openpgp-applet:274
+#: bin/openpgp-applet:273
 msgid "The clipboard does not contain valid input data."
-msgstr "Буфер обмена не содержит допустимых входных данных."
+msgstr "Буфер обмена не содержит данных, пригодных для обработки."
 
-#: ../bin/openpgp-applet:324 ../bin/openpgp-applet:326
-#: ../bin/openpgp-applet:328
+#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
 msgid "Unknown Trust"
 msgstr "Неизвестный уровень доверия"
 
-#: ../bin/openpgp-applet:330
+#: bin/openpgp-applet:330
 msgid "Marginal Trust"
 msgstr "Незначительный уровень доверия"
 
-#: ../bin/openpgp-applet:332
+#: bin/openpgp-applet:332
 msgid "Full Trust"
 msgstr "Полное доверие"
 
-#: ../bin/openpgp-applet:334
+#: bin/openpgp-applet:334
 msgid "Ultimate Trust"
 msgstr "Абсолютный уровень доверия"
 
-#: ../bin/openpgp-applet:387
+#: bin/openpgp-applet:387
 msgid "Name"
 msgstr "Имя"
 
-#: ../bin/openpgp-applet:388
+#: bin/openpgp-applet:388
 msgid "Key ID"
 msgstr "ID ключа"
 
-#: ../bin/openpgp-applet:389
+#: bin/openpgp-applet:389
 msgid "Status"
 msgstr "Статус"
 
-#: ../bin/openpgp-applet:421
+#: bin/openpgp-applet:421
 msgid "Fingerprint:"
-msgstr "Отпечаток:"
+msgstr "Дактилоскоп:"
 
-#: ../bin/openpgp-applet:424
+#: bin/openpgp-applet:424
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "Пользовательский ID:"
-msgstr[1] "Пользовательские ID:"
-msgstr[2] "Пользовательские ID:"
+msgstr[0] "ID пользователя:"
+msgstr[1] "ID пользователей:"
+msgstr[2] "ID пользователей:"
 
-#: ../bin/openpgp-applet:454
+#: bin/openpgp-applet:453
 msgid "None (Don't sign)"
 msgstr "Ничего (не подписывать)"
 
-#: ../bin/openpgp-applet:517
+#: bin/openpgp-applet:516
 msgid "Select recipients:"
-msgstr "Выбор получателей:"
+msgstr "Выбрать получателей:"
 
-#: ../bin/openpgp-applet:525
+#: bin/openpgp-applet:524
 msgid "Hide recipients"
 msgstr "Скрыть получателей"
 
-#: ../bin/openpgp-applet:528
+#: bin/openpgp-applet:527
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Скрыть пользовательские ID всех получателей зашифрованного сообщения. В "
-"обратном случае, любой, кто видит зашифрованное сообщение, может видеть "
-"получателей этого сообщения."
+"Скрыть пользовательские ID всех получателей зашифрованного сообщения. Иначе "
+"любой, кто увидит зашифрованное сообщение, также увидит и его получателей."
 
-#: ../bin/openpgp-applet:534
+#: bin/openpgp-applet:533
 msgid "Sign message as:"
 msgstr "Подписать сообщение как:"
 
-#: ../bin/openpgp-applet:538
+#: bin/openpgp-applet:537
 msgid "Choose keys"
 msgstr "Выбор ключей"
 
-#: ../bin/openpgp-applet:578
+#: bin/openpgp-applet:577
 msgid "Do you trust these keys?"
 msgstr "Вы доверяете этим ключам?"
 
-#: ../bin/openpgp-applet:581
+#: bin/openpgp-applet:580
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "Нет полного доверия следующему ключу:"
-msgstr[1] "Нет полного доверия следующим ключам:"
-msgstr[2] "К следующим выбранным ключам нет полного доверия:"
+msgstr[0] "Нет полного доверия к указанному выбранному ключу:"
+msgstr[1] "Нет полного доверия к указанным выбранным ключам:"
+msgstr[2] "Нет полного доверия к указанным выбранным ключам:"
 
-#: ../bin/openpgp-applet:599
+#: bin/openpgp-applet:598
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] ""
-"Доверяете ли Вы данным ключам в той мере, чтобы в любом случае "
-"воспользоваться ими?"
+"Доверяете ли вы этому ключу настолько, чтобы использовать его, несмотря ни "
+"на что?"
 msgstr[1] ""
-"Доверяете ли вы данным ключам в той мере, чтобы в любом случае "
-"воспользоваться ими?"
+"Доверяете ли вы этим ключам настолько, чтобы использовать их, несмотря ни на "
+"что?"
 msgstr[2] ""
-"Доверяете ли Вы данным ключам настолько, что согласны в любом случае "
-"воспользоваться ими?"
+"Доверяете ли вы этим ключам настолько, чтобы использовать их, несмотря ни на "
+"что?"
 
-#: ../bin/openpgp-applet:612
+#: bin/openpgp-applet:611
 msgid "No keys selected"
 msgstr "Ключи не выбраны"
 
-#: ../bin/openpgp-applet:614
+#: bin/openpgp-applet:613
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"Вы должны выбрать закрытый ключ, чтобы подписать сообщение, и/или несколько "
-"открытых ключей, чтобы зашифровать его."
+"Вы должны выбрать закрытый ключ, чтобы подписать сообщение, и/или какие-либо "
+"открытые ключи, чтобы зашифровать его."
 
-#: ../bin/openpgp-applet:642
+#: bin/openpgp-applet:641
 msgid "No keys available"
 msgstr "Нет доступных ключей"
 
-#: ../bin/openpgp-applet:644
+#: bin/openpgp-applet:643
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
-"Нужен секретный ключ для подписывания сообщений, либо открытый ключ для "
-"шифрования сообщений."
+"Вам требуется либо личный закрытый ключ для подписывания сообщений, либо "
+"открытый ключ для их шифрования."
 
-#: ../bin/openpgp-applet:772
+#: bin/openpgp-applet:771
 msgid "GnuPG error"
 msgstr "Ошибка GnuPG"
 
-#: ../bin/openpgp-applet:793
+#: bin/openpgp-applet:792
 msgid "Therefore the operation cannot be performed."
 msgstr "Таким образом, данная операция не может быть выполнена."
 
-#: ../bin/openpgp-applet:843
+#: bin/openpgp-applet:842
 msgid "GnuPG results"
 msgstr "Результаты GnuPG"
 
-#: ../bin/openpgp-applet:849
+#: bin/openpgp-applet:848
 msgid "Output of GnuPG:"
 msgstr "Вывод GnuPG:"
 
-#: ../bin/openpgp-applet:874
+#: bin/openpgp-applet:873
 msgid "Other messages provided by GnuPG:"
 msgstr "Другие сообщения от GnuPG:"
+
+#~ msgid "Tor is ready"
+#~ msgstr "Tor готов"
+
+#~ msgid "You can now access the Internet."
+#~ msgstr "Теперь у вас есть доступ в Интернет."
+
+#~ msgid ""
+#~ "<h1>Help us fix your bug!</h1>\n"
+#~ "<p>Read <a href=\"%s\">our bug reporting instructions</a>.</p>\n"
+#~ "<p><strong>Do not include more personal information than\n"
+#~ "needed!</strong></p>\n"
+#~ "<h2>About giving us an email address</h2>\n"
+#~ "<p>If you don't mind disclosing some bits of your identity\n"
+#~ "to Tails developers, you can provide an email address to\n"
+#~ "let us ask more details about the bug. Additionally entering\n"
+#~ "a public PGP key enables us to encrypt such future\n"
+#~ "communication.</p>\n"
+#~ "<p>Anyone who can see this reply will probably infer you are\n"
+#~ "a Tails user. Time to wonder how much you trust your\n"
+#~ "Internet and mailbox providers?</p>\n"
+#~ msgstr ""
+#~ "<h1>Помогите нам исправить эту ошибку!</h1>\n"
+#~ "<p>Прочтите <a href=\\\"%s\\\">наши инструкции по отправке отчета об "
+#~ "ошибке</a>.</p>\n"
+#~ "<p><strong>Не сообщайте персональной информации сверх той, которая "
+#~ "требуется!</strong></p>\n"
+#~ "<h2>По поводу сообщения нам вашего e-mail адреса</h2>\n"
+#~ "<p>Если вы согласны раскрыть разработчикам Tails некоторые идентификаторы "
+#~ "своей личности,</p><p>сообщите нам свой e-mail, чтобы мы смогли запросить "
+#~ "у вас дополнительную информацию об ошибке.</p><p>Если кроме того вы "
+#~ "введете публичный ключ PGP, это позволит нам с вами шифровать нашу "
+#~ "переписку и в дальнейшем.</p>\n"
+#~ "<p>Имейте в виду, что любой, кто зафиксирует отправку вами ответов в наш "
+#~ "адрес, может сделать вывод, что вы являетесь пользователем Tails.</"
+#~ "p><p>Самое время задуматься, насколько вы доверяете своим провайдерам "
+#~ "интернета и сервисов e-mail!</p>\n"
+
+#~ msgid "Shutdown Immediately"
+#~ msgstr "Выключить незамедлительно"
+
+#~ msgid "Reboot Immediately"
+#~ msgstr "Перезагрузить незамедлительно"
+
+#~ msgid "not available"
+#~ msgstr "не найдено"
+
+#~ msgid "Tails"
+#~ msgstr "Tails"
+
+#~ msgid "The Amnesic Incognito Live System"
+#~ msgstr "Онлайн-система для забывчивых инкогнито"
+
+#~ msgid ""
+#~ "Build information:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Информация о сборке:\n"
+#~ "%s"
+
+#~ msgid "About Tails"
+#~ msgstr "О программе"
+
+#~ msgid "Your additional software"
+#~ msgstr "Ваше дополнительное ПО"
+
+#~ msgid ""
+#~ "The upgrade failed. This might be due to a network problem. Please check "
+#~ "your network connection, try to restart Tails, or read the system log to "
+#~ "understand better the problem."
+#~ msgstr ""
+#~ "Обновление сорвалось.  Возможно, причина на стороне сетевого соединения. "
+#~ "Пожалуйста, убедитесь в наличии подключения к сети и попробуйте "
+#~ "перезапустить Tails, либо изучите системный журнал, чтобы детализировать "
+#~ "причины сбоя."
+
+#~ msgid "The upgrade was successful."
+#~ msgstr "Обновление прошло успешно."
+
+#~ msgid "Synchronizing the system's clock"
+#~ msgstr "Синхронизация системных часов"
+
+#~ msgid ""
+#~ "Tor needs an accurate clock to work properly, especially for Hidden "
+#~ "Services. Please wait..."
+#~ msgstr ""
+#~ "Для корректной работы Tor, и особенно скрытых сервисов, требуется "
+#~ "установка точного времени. Пожалуйста, подождите…"
+
+#~ msgid "Failed to synchronize the clock!"
+#~ msgstr "Синхронизация системного времени не удалась!"
+
+#~ msgid "Network connection blocked?"
+#~ msgstr "Сетевое подключение заблокировано?"
+
+#~ msgid ""
+#~ "It looks like you are blocked from the network. This may be related to "
+#~ "the MAC spoofing feature. For more information, see the <a href=\\"
+#~ "\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html#blocked\\\">MAC spoofing documentation</a>."
+#~ msgstr ""
+#~ "Похоже, ваш доступ в сеть заблокирован. Возможно, это связано с подменой "
+#~ "MAC-адресов. Дополнительные сведения вы можете узнать из <a href=\\"
+#~ "\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html#blocked\\\">документации по подмене MAC-адресов</a>."
+
+#~ msgid "This version of Tails has known security issues:"
+#~ msgstr "Эта версия Tails имеет известные проблемы безопасности:"
+
+#~ msgid "Network card ${nic} disabled"
+#~ msgstr "Сетевая карта ${nic} отключена"
+
+#~ msgid ""
+#~ "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
+#~ "temporarily disabled.\n"
+#~ "You might prefer to restart Tails and disable MAC spoofing. See the <a "
+#~ "href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html'>documentation</a>."
+#~ msgstr ""
+#~ "MAC-адрес сетевой карты ${nic_name} (${nic}) подменить не удалось, и "
+#~ "поэтому она временно отключена.\n"
+#~ "Возможно, вам придётся перезагрузить Tails и отключить режим подмены MAC-"
+#~ "адреса. См. <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
+#~ "startup_options/mac_spoofing.en.html'>документацию</a>."
+
+#~ msgid "All networking disabled"
+#~ msgstr "Весь сетевой сервис полностью отключен"
+
+#~ msgid ""
+#~ "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
+#~ "recovery also failed so all networking is disabled.\n"
+#~ "You might prefer to restart Tails and disable MAC spoofing. See the <a "
+#~ "href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en."
+#~ "html'>documentation</a>."
+#~ msgstr ""
+#~ "MAC-адрес сетевой карты ${nic_name} (${nic}) подменить не удалось. Не "
+#~ "сработало и восстановление после ошибки, и поэтому весь сетевой сервис "
+#~ "полностью отключен.\n"
+#~ "Возможно, вам придётся перезагрузить Tails и отключить режим подмены MAC-"
+#~ "адреса. См. <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
+#~ "startup_options/mac_spoofing.en.html'>документацию</a>."
+
+#~ msgid "error:"
+#~ msgstr "ошибка:"
+
+#~ msgid "Error"
+#~ msgstr "Ошибка"
+
+#~ msgid ""
+#~ "<b>Not enough memory available to check for upgrades.</b>\n"
+#~ "\n"
+#~ "Make sure this system satisfies the requirements for running Tails.\n"
+#~ "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
+#~ "\n"
+#~ "Try to restart Tails to check for upgrades again.\n"
+#~ "\n"
+#~ "Or do a manual upgrade.\n"
+#~ "See https://tails.boum.org/doc/first_steps/upgrade#manual"
+#~ msgstr ""
+#~ "<b>Недостаточно памяти для проверки обновлений.</b>\n"
+#~ "\n"
+#~ "Убедитесь, что конфигурация компьютера соответствует требованиям Tails:\n"
+#~ "file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
+#~ "\n"
+#~ "Попробуйте перезапустить Tails, и ещё раз попытайтесь проверить наличие "
+#~ "обновлений. Вы также можете произвести обновление в ручном режиме — см.: "
+#~ "https://tails.boum.org/doc/first_steps/upgrade#manual"
+
+#~ msgid "Warning: virtual machine detected!"
+#~ msgstr "Внимание: обнаружена виртуальная машина!"
+
+#~ msgid ""
+#~ "Both the host operating system and the virtualization software are able "
+#~ "to monitor what you are doing in Tails."
+#~ msgstr ""
+#~ "Как операционная система хост-машины, так и ПО, создающее виртуальную "
+#~ "машину, могут отслеживать вашу работу в Tails."
+
+#~ msgid ""
+#~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
+#~ "virtualization.en.html'>Learn more...</a>"
+#~ msgstr ""
+#~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
+#~ "virtualization.en.html'>Узнайте больше…</a>"
+
+#~ msgid "Tor is not ready"
+#~ msgstr "Tor не готов"
+
+#~ msgid "Tor is not ready. Start Tor Browser anyway?"
+#~ msgstr "Tor не готов. Всё равно запустить Tor Browser?"
+
+#~ msgid "Start Tor Browser"
+#~ msgstr "Запустить Tor Browser"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Do you really want to launch the Unsafe Browser?"
+#~ msgstr "Вы действительно хотите запустить небезопасный браузер?"
+
+#~ msgid ""
+#~ "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only "
+#~ "use the Unsafe Browser if necessary, for example if you have to login or "
+#~ "register to activate your Internet connection."
+#~ msgstr ""
+#~ "Небезопасный браузер — тот, который <b>не обеспечивает анонимности</b> "
+#~ "вашей работы в сети. Используйте небезопасные браузеры только при особой "
+#~ "необходимости, — например, когда нужно активировать ваше сетевое "
+#~ "подключение или ввести логин для входа в интернет."
+
+#~ msgid "_Launch"
+#~ msgstr "_Launch"
+
+#~ msgid "_Exit"
+#~ msgstr "_Exit"
+
+#~ msgid "Starting the Unsafe Browser..."
+#~ msgstr "Запускается небезопасный браузер…"
+
+#~ msgid "This may take a while, so please be patient."
+#~ msgstr "Это займёт некоторое время. Пожалуйста, потерпите."
+
+#~ msgid "Failed to setup chroot."
+#~ msgstr "Не удалось установить chroot."
+
+#~ msgid "Unsafe Browser"
+#~ msgstr "Небезопасный браузер"
+
+#~ msgid "Shutting down the Unsafe Browser..."
+#~ msgstr "Отключение небезопасного браузера…"
+
+#~ msgid ""
+#~ "This may take a while, and you may not restart the Unsafe Browser until "
+#~ "it is properly shut down."
+#~ msgstr ""
+#~ "Это займёт некоторое время. Вы не сможете перезапустить небезопасный "
+#~ "браузер прежде, чем будут корректно завершены процедуры его выгрузки из "
+#~ "системы."
+
+#~ msgid "Failed to restart Tor."
+#~ msgstr "Невозможно перезапустить Tor."
+
+#~ msgid ""
+#~ "Another Unsafe Browser is currently running, or being cleaned up. Please "
+#~ "retry in a while."
+#~ msgstr ""
+#~ "В данный момент либо работает другой небезопасный браузер, либо не "
+#~ "завершена процедура его выгрузки. Пожалуйста, повторите попытку спустя "
+#~ "некоторое время."
+
+#~ msgid ""
+#~ "No DNS server was obtained through DHCP or manually configured in "
+#~ "NetworkManager."
+#~ msgstr ""
+#~ "DNS сервер либо не был получен через DHCP, либо не был установлен вручную "
+#~ "через NetworkManager."
+
+#~ msgid "TrueCrypt will be removed in Tails 1.2.1"
+#~ msgstr "TrueCrypt в версии Tails 1.2.1 будет удалён"
+
+#~ msgid ""
+#~ "TrueCrypt is no longer maintained and is said to be insecure by its own "
+#~ "authors. Therefore, it will be removed in Tails 1.2.1 (November 25). We "
+#~ "recommend that you learn how to <a href='file:///usr/share/doc/tails/"
+#~ "website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>open "
+#~ "TrueCrypt volumes with cryptsetup</a> as soon as possible."
+#~ msgstr ""
+#~ "TrueCrypt больше не поддерживается, так как со слов его создателей, он "
+#~ "небезопасен. По этой причине начиная с версии Tails 1.2.1 (25 ноября) он "
+#~ "будет удалён.\n"
+#~ "Рекомендуем вам как можно скорее изучить <a href='file:///usr/share/doc/"
+#~ "tails/website/doc/encryption_and_privacy/truecrypt.en."
+#~ "html#cryptsetup'>документацию по работе с открытыми массивами TrueCrypt с "
+#~ "установкой шифрования</a>."
+
+#~ msgid "I2P failed to start"
+#~ msgstr "Запустить I2P не удалось"
+
+#~ msgid ""
+#~ "Something went wrong when I2P was starting. Check the logs in /var/log/"
+#~ "i2p for more information."
+#~ msgstr ""
+#~ "При запуске I2P произошёл сбой. Подробности вы можете выяснить в "
+#~ "системном журнале /var/log/i2p."
+
+#~ msgid "I2P's router console is ready"
+#~ msgstr "Консоль маршрутизатора I2P готова"
+
+#~ msgid "You can now access I2P's router console on http://127.0.0.1:7657."
+#~ msgstr ""
+#~ "Доступ к консоли маршрутизатора I2P через http://127.0.0.1:7657 открыт."
+
+#~ msgid "I2P is not ready"
+#~ msgstr "I2P не готов"
+
+#~ msgid ""
+#~ "Eepsite tunnel not built within six minutes. Check the router console at "
+#~ "http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more "
+#~ "information. Reconnect to the network to try again."
+#~ msgstr ""
+#~ "6 минут на создание туннеля Eepsite истекли. Проверьте консоль "
+#~ "маршрутизатора I2P через http://127.0.0.1:7657/logs или журналы в /var/"
+#~ "log/i2p для получения дополнительной информации. Выйдите из сети и "
+#~ "войдите вновь для повторения попытки."
+
+#~ msgid "I2P is ready"
+#~ msgstr "I2P готов"
+
+#~ msgid "You can now access services on I2P."
+#~ msgstr "Службы I2P доступны."
+
+#~ msgid "Report an error"
+#~ msgstr "Сообщить об ошибке"
+
+#~ msgid "Tails documentation"
+#~ msgstr "Документация Tails"
+
+#~ msgid "Learn how to use Tails"
+#~ msgstr "Научитесь пользоваться Tails"
+
+#~ msgid "Anonymous overlay network browser"
+#~ msgstr "Сетевой браузер с анонимным оверлеем"
+
+#~ msgid "I2P Browser"
+#~ msgstr "Браузер I2P"
+
+#~ msgid "Learn more about Tails"
+#~ msgstr "Узнать больше о Tails"
+
+#~ msgid "Reboot"
+#~ msgstr "Перезагрузка"
+
+#~ msgid "Immediately reboot computer"
+#~ msgstr "Перезагрузить компьютер незамедлительно"
+
+#~ msgid "Power Off"
+#~ msgstr "Выключение"
+
+#~ msgid "Immediately shut down computer"
+#~ msgstr "Выключить компьютер незамедлительно"
+
+#~ msgid "Tor Browser"
+#~ msgstr "Tor Browser"
+
+#~ msgid "Anonymous Web Browser"
+#~ msgstr "Анонимный веб-браузер"
+
+#~ msgid "Browse the World Wide Web without anonymity"
+#~ msgstr "Работа в интернете без соблюдения анонимности"
+
+#~ msgid "Unsafe Web Browser"
+#~ msgstr "Небезопасный браузер"
+
+#~ msgid "Tails specific tools"
+#~ msgstr "Специальные инструменты Tails"

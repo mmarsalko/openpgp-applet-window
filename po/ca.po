@@ -3,192 +3,189 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Communia <ameaneantie@riseup.net>, 2013-2014
-# carlo giusepe tadei valente sasaki <carlo.gt.valente@gmail.com>, 2014
-# Eduardo Bonsi, 2013-2014
-# Eduardo Luis Voltolini Tafner, 2013
-# Isabel Ferreira, 2014
-# possatti <lucas.c.possatti+transifex@gmail.com>, 2014
-# Matheus Boni Vicari <matheus_boni_vicari@hotmail.com>, 2014
-# Matheus  Martins <m.vmartins@hotmail.com>, 2013
+# Aleix Vidal i Gaya <aleix.vidal@gmail.com>, 2014
+# Assumpta Anglada <assumptaanglada@gmail.com>, 2014
+# Eloi García i Fargas, 2014
+# Humbert <humbert.costas@gmail.com>, 2014
+# laia_ <laiaadorio@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-18 05:10+0000\n"
-"Last-Translator: possatti <lucas.c.possatti+transifex@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
-"torproject/language/pt_BR/)\n"
-"Language: pt_BR\n"
+"PO-Revision-Date: 2014-10-15 17:12+0000\n"
+"Last-Translator: laia_ <laiaadorio@gmail.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/projects/p/torproject/"
+"language/ca/)\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bin/openpgp-applet:163
 msgid "OpenPGP encryption applet"
-msgstr "Applet de criptografia OpenPGP"
+msgstr "Applet de xifrat OpenPGP"
 
 #: bin/openpgp-applet:166
 msgid "Exit"
-msgstr "Sair"
+msgstr "Surt"
 
 #: bin/openpgp-applet:168
 msgid "About"
-msgstr "Sobre"
+msgstr "En quant a"
 
 #: bin/openpgp-applet:221
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Criptografar a Área de Transferência com a_frase secreta"
+msgstr "Xifra el Portapapers amb la _Contrasenya"
 
 #: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Assinar/Criptografar a Área de Transferência com Chaves_Públicas"
+msgstr "Signar/Xifrar el Portapapers amb les _Claus Públiques"
 
 #: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"
-msgstr "_Descriptografar/Verificar a Área de Transferência"
+msgstr "_Desxifrar/Xifrar el Portapapers"
 
 #: bin/openpgp-applet:233
 msgid "_Manage Keys"
-msgstr "_Gerenciar as Chaves"
+msgstr "_Gestió de Claus"
 
 #: bin/openpgp-applet:273
 msgid "The clipboard does not contain valid input data."
-msgstr "A Área de Transferência não contém dados de entrada válidos."
+msgstr "El portapapers no conté dades d'entrada vàlides."
 
 #: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
 msgid "Unknown Trust"
-msgstr "Confiança Desconhecida"
+msgstr "Confiança desconeguda"
 
 #: bin/openpgp-applet:330
 msgid "Marginal Trust"
-msgstr "Confiança Marginal"
+msgstr "Confiança marginal"
 
 #: bin/openpgp-applet:332
 msgid "Full Trust"
-msgstr "Confiança Completa"
+msgstr "Plena confiança"
 
 #: bin/openpgp-applet:334
 msgid "Ultimate Trust"
-msgstr "Confiança definitiva"
+msgstr "Confiança fins al final"
 
 #: bin/openpgp-applet:387
 msgid "Name"
-msgstr "Nome"
+msgstr "Nom"
 
 #: bin/openpgp-applet:388
 msgid "Key ID"
-msgstr "Identidade da Chave"
+msgstr "ID de la Clau"
 
 #: bin/openpgp-applet:389
 msgid "Status"
-msgstr "Status"
+msgstr "Estat"
 
 #: bin/openpgp-applet:421
 msgid "Fingerprint:"
-msgstr "Impressão digital:"
+msgstr "Empremta digital:"
 
 #: bin/openpgp-applet:424
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "Identidade de Usuário:"
-msgstr[1] "Identidades de Usuário:"
+msgstr[0] "ID d'usuari:"
+msgstr[1] "IDs d'usuari:"
 
 #: bin/openpgp-applet:453
 msgid "None (Don't sign)"
-msgstr "Nenhuma (Não assinar)"
+msgstr "Cap (no signat)"
 
 #: bin/openpgp-applet:516
 msgid "Select recipients:"
-msgstr "Selecione os destinatários:"
+msgstr "Sel·lecciona destinataris"
 
 #: bin/openpgp-applet:524
 msgid "Hide recipients"
-msgstr "Ocultar destinatários"
+msgstr "Oculta destinataris"
 
 #: bin/openpgp-applet:527
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Oculte as IDs de usuário de todos os destinatários de uma mensagem "
-"criptografada. Caso contrário, qualquer um que vir a mensagem criptografada "
-"poderá saber quem são os destinatários."
+"Oculta els IDs d'usuari de tots els receptors del missatge xifrat. "
+"Altrament, qualsevol persona que vegi el missatge xifrat veurà qui són els "
+"destinataris."
 
 #: bin/openpgp-applet:533
 msgid "Sign message as:"
-msgstr "Assinar a mensagem como:"
+msgstr "Signa el missatge com:"
 
 #: bin/openpgp-applet:537
 msgid "Choose keys"
-msgstr "Escolha as chaves"
+msgstr "Tria les claus"
 
 #: bin/openpgp-applet:577
 msgid "Do you trust these keys?"
-msgstr "Você confia nestas chaves?"
+msgstr "Confies en aquestes claus?"
 
 #: bin/openpgp-applet:580
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "A chave selecionada seguinte não é plenamente confiável:"
-msgstr[1] "As seguintes chaves selecionadas não são totalmente confiáveis​​:"
+msgstr[0] "La clau seleccionada no és de plena confiança:"
+msgstr[1] "Les claus seleccionades no són de plena confiança:"
 
 #: bin/openpgp-applet:598
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Você confia nesta chave o suficiente para usá-la mesmo assim?"
-msgstr[1] "Você confia nestas chaves o suficiente para usá-las mesmo assim?"
+msgstr[0] "Tens prou confiança amb aquesta clau per fer-ne ús?"
+msgstr[1] "Tens prou confiança amb aquestes claus per usar-les?"
 
 #: bin/openpgp-applet:611
 msgid "No keys selected"
-msgstr "Nenhuma chave foi selecionada"
+msgstr "Cap clau seleccionada"
 
 #: bin/openpgp-applet:613
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"Você deve selecionar uma chave privada para assinar a mensagem, ou algumas "
-"chaves públicas para criptografar a mensagem, ou ambas as opções."
+"Has de seleccionar una clau privada per signar el missatge, o alguna clau "
+"pública per xifrar el missatge, o ambdues."
 
 #: bin/openpgp-applet:641
 msgid "No keys available"
-msgstr "Nenhuma chave encontra-se disponível"
+msgstr "No hi ha claus disponibles"
 
 #: bin/openpgp-applet:643
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
-"Você precisa de uma chave privada para assinar as mensagens ou de uma chave "
-"pública para criptografá-las."
+"Necessites una clau privada per signar missatges o una clau pública per "
+"xifrar missatges."
 
 #: bin/openpgp-applet:771
 msgid "GnuPG error"
-msgstr "Erro do GnuPG"
+msgstr "Error GnuPG"
 
 #: bin/openpgp-applet:792
 msgid "Therefore the operation cannot be performed."
-msgstr "Portanto, a operação não pode ser executada."
+msgstr "Per tant, la operació no es pot realitzar."
 
 #: bin/openpgp-applet:842
 msgid "GnuPG results"
-msgstr "Resultados do GnuPG"
+msgstr "Resultats GnuPG"
 
 #: bin/openpgp-applet:848
 msgid "Output of GnuPG:"
-msgstr "Saída do GnuPG:"
+msgstr "Sortida de GnuPG:"
 
 #: bin/openpgp-applet:873
 msgid "Other messages provided by GnuPG:"
-msgstr "Outras mensagens fornecidas pelo GnuPG:"
+msgstr "Altres missatges entregats per GnuPG:"
 
 #~ msgid "Tor is ready"
-#~ msgstr "O Tor está pronto"
+#~ msgstr "Tor es troba actiu"
 
 #~ msgid "You can now access the Internet."
-#~ msgstr "Agora você pode acessar a Internet."
+#~ msgstr "Ara ja pots accedir a Internet."
 
 #~ msgid ""
 #~ "<h1>Help us fix your bug!</h1>\n"
@@ -205,79 +202,77 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "a Tails user. Time to wonder how much you trust your\n"
 #~ "Internet and mailbox providers?</p>\n"
 #~ msgstr ""
-#~ "<h1>Ajude-nos a corrigir o seu bug!</h1>\n"
-#~ "<p>Leia <a href=\"%s\">as nossas instruções do relatório de bug</a>.</p>\n"
-#~ "<p><strong>Não inclua mais informações pessoais do que o necessário!</"
+#~ "<h1>Ajudeu-nos a solucionar l'error!</h1>\n"
+#~ "<p>Llegiu les nostres <a href=\"%s\">instruccions d'informes d'errors</a>."
+#~ "</p>\n"
+#~ "<p><strong>No inclogueu més informació personal de la necessària.</"
 #~ "strong></p>\n"
-#~ "<h2>Sobre você nos fornecer um endereço de e-mail</h2>\n"
-#~ "<p>Se você não se importar em revelar um pouco da sua identidade \n"
-#~ "aos desenvolvedores do Tails, você pode nos fornecer um endereço de e-"
-#~ "mail para que \n"
-#~ "possamos perguntar mais detalhes sobre o bug ocorrido no programa.\n"
-#~ "Inserir\n"
-#~ "uma chave PGP pública nos permite criptografar as comunicações\n"
-#~ "futuras.</p>\n"
-#~ "<p>Qualquer um que possa ver esta resposta provavelmente deduzirá\n"
-#~ "que você é \n"
-#~ "um usuário do Tails. É hora de você se perguntar sobre o quanto confia "
-#~ "nos seus \n"
-#~ "provedores de Internet e de e-mail.</p>\n"
+#~ "<h2>Pel que fa a donar-nos una adreça de correu electrònic</h2>\n"
+#~ "<p>Si no us importa desvetllar alguns trossets de la vostra identitat\n"
+#~ "als programadors de Tails, podeu donar-nos una adreça de correu per\n"
+#~ "a què us puguem preguntar més detalls sobre l'error. A més, si incloeu\n"
+#~ "una clau PGP pública, ens permetrà encriptar les comunicacions futures.</"
+#~ "p>\n"
+#~ "<p>Qualsevol que pugui veure aquesta resposta podrà deduir probablement\n"
+#~ "que sou un usuari de Tails. ¿Potser és el moment d'imaginar fins on "
+#~ "confieu\n"
+#~ "en els proveïdors d'Internet i del vostre compte de correu?</p>\n"
 
 #~ msgid "Shutdown Immediately"
-#~ msgstr "Desligar imediatamente"
+#~ msgstr "Apaga immediatament"
 
 #~ msgid "Reboot Immediately"
-#~ msgstr "Reiniciar imediatamente"
+#~ msgstr "Re-inicia immediatament "
 
 #~ msgid "not available"
-#~ msgstr "não disponível"
+#~ msgstr "no disponible"
 
 #~ msgid "Tails"
 #~ msgstr "Tails"
 
 #~ msgid "The Amnesic Incognito Live System"
-#~ msgstr "O Sistema Ativo Amnésico Incógnito (TAILS)"
+#~ msgstr "The Amnesic Incognito Live System"
 
 #~ msgid ""
 #~ "Build information:\n"
 #~ "%s"
 #~ msgstr ""
-#~ "Compilar informação:\n"
+#~ "Construir informació:\n"
 #~ "%s"
 
 #~ msgid "About Tails"
-#~ msgstr "Sobre o Tails"
+#~ msgstr "Sobre Tails"
 
 #~ msgid "Your additional software"
-#~ msgstr "O seu programa adicional"
+#~ msgstr "El teu software adicional"
 
 #~ msgid ""
 #~ "The upgrade failed. This might be due to a network problem. Please check "
 #~ "your network connection, try to restart Tails, or read the system log to "
 #~ "understand better the problem."
 #~ msgstr ""
-#~ "A atualização falhou. Isto pode ser devido a um problema de rede. Por "
-#~ "favor, verifique a sua conexão de rede, tente reiniciar o Tails, ou leia "
-#~ "o registro do sistema para compreender melhor o problema."
+#~ "L'actualització ha fallat. És possible que hi hagi un problema a la "
+#~ "xarxa. Comproveu la  connexió de la xarxa, intenteu reiniciar Tails, o "
+#~ "llegiu el registre del sistema per entendre millor el problema. "
 
 #~ msgid "The upgrade was successful."
-#~ msgstr "A atualização foi bem-sucedida."
+#~ msgstr "La millora s'ha fet satisfactòriament."
 
 #~ msgid "Synchronizing the system's clock"
-#~ msgstr "Sincronizando o relógio do sistema"
+#~ msgstr "Sincronitzant el rellotge del sistema"
 
 #~ msgid ""
 #~ "Tor needs an accurate clock to work properly, especially for Hidden "
 #~ "Services. Please wait..."
 #~ msgstr ""
-#~ "O Tor precisa de um relógio preciso para funcionar corretamente, "
-#~ "especialmente para Serviços Ocultos. Por favor, aguarde..."
+#~ "Tor necessita un rellotge precís per a funcionar correctament, "
+#~ "especialment per als serveis ocults. Siusplau espera...."
 
 #~ msgid "Failed to synchronize the clock!"
-#~ msgstr "Falha ao sincronizar o relógio!"
+#~ msgstr "Error al sincronitzar el rellotge"
 
 #~ msgid "Network connection blocked?"
-#~ msgstr "Conexão de rede bloqueada?"
+#~ msgstr "Connexió de xarxa bloquejada?"
 
 #~ msgid ""
 #~ "It looks like you are blocked from the network. This may be related to "
@@ -285,17 +280,16 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
 #~ "mac_spoofing.en.html#blocked\\\">MAC spoofing documentation</a>."
 #~ msgstr ""
-#~ "Aparentemente, você foi bloqueado da rede. Isso pode estar relacionado à "
-#~ "funcionalidade de burla de identidade MAC. Para mais informações, "
-#~ "consulte a  <a href=\\\"file:///usr/share/doc/tails/website/doc/"
-#~ "first_steps/startup_options/mac_spoofing.en.html#blocked\\\"> "
-#~ "documentação sobre burla de identidade MAC</a>."
+#~ "Sembla que esteu bloquejats de la xarxa. Això pot estar relacionat amb la "
+#~ "propietat MAC spoofing. PEr a més informació, visiteu la  <a href=\\"
+#~ "\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html#blocked\\\">documentació MAC spoofing</a>."
 
 #~ msgid "This version of Tails has known security issues:"
-#~ msgstr "Esta versão do Tails tem problemas de segurança conhecidos:"
+#~ msgstr "Aquesta versió de Tails té problemes de seguretat coneguts:"
 
 #~ msgid "Network card ${nic} disabled"
-#~ msgstr "Placa de rede ${nic} desabilitada"
+#~ msgstr "Targeta de xarxa ${nic} deshabilitada"
 
 #~ msgid ""
 #~ "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
@@ -304,14 +298,14 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
 #~ "mac_spoofing.en.html'>documentation</a>."
 #~ msgstr ""
-#~ "A burla de identidade MAC falhou para a placa de rede ${nic_name} "
-#~ "(${nic}), portanto, está temporariamente desabilitada.\n"
-#~ "Talvez seja melhor reiniciar o Tails e desabilitar a burla de identidade "
-#~ "MAC. Veja a  <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
-#~ "startup_options/mac_spoofing.en.html'>documentação</a>."
+#~ "MAC spoofing ha fallat per la tarja de xarxa ${nic_name} (${nic}) i està "
+#~ "temporalment deshabilitada. \n"
+#~ "Potser preferiu reiniciar Tails i desactivar el MAC spoofing. Vegeu la  "
+#~ "<a href='file:///usr/share/doc/tails/website/doc/first_steps/"
+#~ "startup_options/mac_spoofing.en.html'>documentació</a>.  "
 
 #~ msgid "All networking disabled"
-#~ msgstr "Todas as redes foram desabilitadas"
+#~ msgstr "Totes les xarxes deshabilitades"
 
 #~ msgid ""
 #~ "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
@@ -320,18 +314,18 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en."
 #~ "html'>documentation</a>."
 #~ msgstr ""
-#~ "A burla de identidade MAC falhou para a placa de rede ${nic_name} "
-#~ "(${nic}). A recuperação do erro também falhou. Assim, todas as redes "
-#~ "estão desabilitadas.\n"
-#~ "talvez seja melhor reiniciar o Tails e desabilitar a burla de identidade "
-#~ "MAC. Veja a <a href='file:///usr/share/doc/first_steps/startup_options/"
-#~ "mac_spoofing.en.html'>documentação</a>."
+#~ "MAC spoofing ha fallat per a la tarja de xarxa  ${nic_name} (${nic}). La "
+#~ "recuperació d'errors també ha fallat i totes les connexions de xarxa "
+#~ "estan deshabilitades. \n"
+#~ "Potser preferiu reiniciar Tails i desactivar el MAC spoofing. Vegeu la  "
+#~ "<a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing."
+#~ "en.html'>documentació</a>."
 
 #~ msgid "error:"
-#~ msgstr "erro:"
+#~ msgstr "error:"
 
 #~ msgid "Error"
-#~ msgstr "Erro"
+#~ msgstr "Error"
 
 #~ msgid ""
 #~ "<b>Not enough memory available to check for upgrades.</b>\n"
@@ -344,105 +338,106 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "Or do a manual upgrade.\n"
 #~ "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 #~ msgstr ""
-#~ "<b>Memória disponível insuficiente para procurar por atualizações.</b>\n"
+#~ "<b>No hi ha memòria suficient per a buscar actualitzacions.</b>\n"
 #~ "\n"
-#~ "Confira se esse sistema satisfaz os requerimentos para executar o Tails.\n"
-#~ "Veja file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
+#~ "Assegureu-vos que aquest sistema compleix els requisits tècnics per a "
+#~ "executar Tails. \n"
+#~ "Vegeu file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 #~ "\n"
-#~ "Tente reiniciar o Tails para procurar por atualizações novamente.\n"
+#~ "Intenteu reiniciar Tails per cercar actualitzacions una altra vegada. \n"
 #~ "\n"
-#~ "Ou faça uma atualização manual.\n"
-#~ "Veja https://tails.boum.org/doc/first_steps/upgrade#manual"
+#~ "O feu una actualització manual. \n"
+#~ "Vegeu https://tails.boum.org/doc/first_steps/upgrade#manual"
 
 #~ msgid "Warning: virtual machine detected!"
-#~ msgstr "Aviso: máquina virtual detectada!"
+#~ msgstr "Alerta: Màquina virtual detectada!"
 
 #~ msgid ""
 #~ "Both the host operating system and the virtualization software are able "
 #~ "to monitor what you are doing in Tails."
 #~ msgstr ""
-#~ "Tanto o sistema operacional hospedeiro quanto o programa de virtualização "
-#~ "são capazes de monitorar as suas atividades no Tails."
+#~ "Tant el sistema operatiu instal·lat com el programari de virtualització "
+#~ "estan preparats per gravar el que feu a Tails. "
 
 #~ msgid ""
 #~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
 #~ "virtualization.en.html'>Learn more...</a>"
 #~ msgstr ""
 #~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
-#~ "virtualization.en.html'>Em Inglês - Saiba mais...</a>"
+#~ "virtualization.en.html'>Apreneu-ne més...</a>"
 
 #~ msgid "Tor is not ready"
-#~ msgstr "O Tor não está pronto"
+#~ msgstr "Tor no es troba actiu"
 
 #~ msgid "Tor is not ready. Start Tor Browser anyway?"
-#~ msgstr "O Tor não está pronto. Iniciar o Navegador Tor assim mesmo?"
+#~ msgstr "Tor no es troba actiu. Iniciar el navegador Tor indiferentment?"
 
 #~ msgid "Start Tor Browser"
-#~ msgstr "Iniciar o Navegador Tor"
+#~ msgstr "Inicia el navegador Tor"
 
 #~ msgid "Cancel"
-#~ msgstr "Cancelar"
+#~ msgstr "Cancel·la"
 
 #~ msgid "Do you really want to launch the Unsafe Browser?"
-#~ msgstr "Você realmente deseja iniciar o Navegador não-confiável?"
+#~ msgstr "De debò vols obrir el Browser Insegur?"
 
 #~ msgid ""
 #~ "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only "
 #~ "use the Unsafe Browser if necessary, for example if you have to login or "
 #~ "register to activate your Internet connection."
 #~ msgstr ""
-#~ "A atividade de rede que utiliza um Navegador não-confiável <b>não é "
-#~ "anônima</b>. Utilize um Navegador não-confiável somente se for "
-#~ "necessário, por exemplo, se você tiver que se identificar ou se registrar "
-#~ "para ativar a sua conexão a Internet."
+#~ "L'activitat de xarxa amb el navegador insegur <b>no és anònim</b>. "
+#~ "Utilitzeu només el navegador insegur si és necessari, per exemple si heu "
+#~ "d'iniciar sessió o registrar-vos per a activar la vostra connexió a "
+#~ "internet. "
 
 #~ msgid "_Launch"
-#~ msgstr "_Lançar"
+#~ msgstr "_Launch"
 
 #~ msgid "_Exit"
-#~ msgstr "_Saída"
+#~ msgstr "_Surt"
 
 #~ msgid "Starting the Unsafe Browser..."
-#~ msgstr "Iniciando o Navegador não-confiável..."
+#~ msgstr "Iniciant el Navegador Insegur..."
 
 #~ msgid "This may take a while, so please be patient."
-#~ msgstr "Isto pode demorar um pouco; por favor, seja paciente."
+#~ msgstr "Això pot portar una estona, siusplau esperi."
 
 #~ msgid "Failed to setup chroot."
-#~ msgstr "Falha ao configurar chroot."
+#~ msgstr "Fallada en configurar chroot."
 
 #~ msgid "Unsafe Browser"
-#~ msgstr "Navegador não-confiável"
+#~ msgstr "Navegador Insegur"
 
 #~ msgid "Shutting down the Unsafe Browser..."
-#~ msgstr "Encerrando o Navegador não-confiável..."
+#~ msgstr "Apagant el Navegador Insegur"
 
 #~ msgid ""
 #~ "This may take a while, and you may not restart the Unsafe Browser until "
 #~ "it is properly shut down."
 #~ msgstr ""
-#~ "Isto pode demorar um pouco e você não poderá reiniciar o Navegador não-"
-#~ "confiável até que ele seja encerrado adequadamente."
+#~ "Això pot tardar una mica, no reinicii el Browser Insegur fins que no "
+#~ "s'hagi tancat correctament."
 
 #~ msgid "Failed to restart Tor."
-#~ msgstr "Falha ao reiniciar o Tor."
+#~ msgstr "Error al reiniciar Tor."
 
 #~ msgid ""
 #~ "Another Unsafe Browser is currently running, or being cleaned up. Please "
 #~ "retry in a while."
 #~ msgstr ""
-#~ "Um outro Navegador não-confiável está atualmente em execução ou sendo "
-#~ "limpo. Por favor, tente novamente mais tarde."
+#~ "Un altre navegador insegur està essent executat o netejat. Si us plau, "
+#~ "provi-ho d'aquí una estona. "
 
 #~ msgid ""
 #~ "No DNS server was obtained through DHCP or manually configured in "
 #~ "NetworkManager."
 #~ msgstr ""
-#~ "Nenhum provedor de DNS foi obtido através de DHCP ou configurado "
-#~ "manualmente no Gerenciamento de Rede."
+#~ "No s'ha obtingut cap servidor DNS a través del DHCP o configurat "
+#~ "manualment al NetworkManager. "
 
 #~ msgid "TrueCrypt will be removed in Tails 1.2.1"
-#~ msgstr "TrueCrypt será removido no Tails 1.2.1"
+#~ msgstr "TrueCrypt s'eliminarà a Tails 1.2.1"
 
 #~ msgid ""
 #~ "TrueCrypt is no longer maintained and is said to be insecure by its own "
@@ -451,88 +446,87 @@ msgstr "Outras mensagens fornecidas pelo GnuPG:"
 #~ "website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>open "
 #~ "TrueCrypt volumes with cryptsetup</a> as soon as possible."
 #~ msgstr ""
-#~ "TrueCrypt não é mais mantido e seus próprios autores dizem ser inseguro. "
-#~ "Portanto, ele será removido do Tails 1.2.1 (25 de Novembro). Nós "
-#~ "recomendamos que você aprenda como <a href='file:///usr/share/doc/tails/"
-#~ "website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>abrir "
-#~ "volumes do TrueCrypt com cryptsetup</a> o quanto antes for possível."
+#~ "TrueCrypt ja no es manté i els seus autors diuen que és insegur. Per "
+#~ "tant, s'eliminarà a Tails 1.2.1 (25 de novembre). Recomanem que aprengueu "
+#~ "com  <a href='file:///usr/share/doc/tails/website/doc/"
+#~ "encryption_and_privacy/truecrypt.en.html#cryptsetup'> obrir volums "
+#~ "TrueCrypt amb cryptsetup</a> tan aviat com sigui possible. "
 
 #~ msgid "I2P failed to start"
-#~ msgstr "I2P falhou ao iniciar"
+#~ msgstr "Error per iniciar I2P."
 
 #~ msgid ""
 #~ "Something went wrong when I2P was starting. Check the logs in /var/log/"
 #~ "i2p for more information."
 #~ msgstr ""
-#~ "Algo de errado aconteceu quando o I2P estava iniciando. Verifique os "
-#~ "registros em /var/log/i2p para mais informação."
+#~ "Hi ha hagut un error quan s'iniciava l' I2P. Reviseu els registres a  /"
+#~ "var/log/i2p per a més informació."
 
 #~ msgid "I2P's router console is ready"
-#~ msgstr "O console do roteador do I2P está pronto"
+#~ msgstr "La consola I2P està preparada"
 
 #~ msgid "You can now access I2P's router console on http://127.0.0.1:7657."
-#~ msgstr ""
-#~ "Você pode acessar o console do roteador do I2P em http://127.0.0.1:7657."
+#~ msgstr "Podeu accedir a la consola I2P a http://127.0.0.1:7657."
 
 #~ msgid "I2P is not ready"
-#~ msgstr "I2P não está pronto"
+#~ msgstr "L'I2P no està preparada"
 
 #~ msgid ""
 #~ "Eepsite tunnel not built within six minutes. Check the router console at "
 #~ "http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more "
 #~ "information. Reconnect to the network to try again."
 #~ msgstr ""
-#~ "O túnel Eepsite não se construiu dentro de seis minutos. Verifique o "
-#~ "console do roteador em http://127.0.0.1:7657/logs ou os registros em /var/"
-#~ "log/i2p para mais informação. Reconecte-se a rede e tente novamente."
+#~ "El túnel Eepsite no s'ha construit en sis minuts. Reviseu la consola a "
+#~ "http://127.0.0.1:7657/logs o els registres a /var/log/i2p per a més "
+#~ "informació. Torneu-vos a connectar a la xarxa per tonar-ho a provar. "
 
 #~ msgid "I2P is ready"
-#~ msgstr "I2P está pronto"
+#~ msgstr "L'I2P està preparada"
 
 #~ msgid "You can now access services on I2P."
-#~ msgstr "Você pode agora acessar serviços no I2P."
+#~ msgstr "Podeu acedir a serveis a l'I2P."
 
 #~ msgid "Report an error"
-#~ msgstr "Reportar um erro"
+#~ msgstr "Reporta un error"
 
 #~ msgid "Tails documentation"
-#~ msgstr "Documentação do Tails"
+#~ msgstr "Documentacio de Tails"
 
 #~ msgid "Learn how to use Tails"
-#~ msgstr "Saiba como usar o Tails"
+#~ msgstr "Aprén com usar Tails"
 
 #~ msgid "Anonymous overlay network browser"
-#~ msgstr "Navegador anônimo de rede sobreposta"
+#~ msgstr "Navegador de xarxa de superposició anònima"
 
 #~ msgid "I2P Browser"
 #~ msgstr "Navegador I2P"
 
 #~ msgid "Learn more about Tails"
-#~ msgstr "Saiba mais sobre o Tails"
+#~ msgstr "Aprén més sobre Tails"
 
 #~ msgid "Reboot"
-#~ msgstr "Reiniciar"
+#~ msgstr "Re-inicia"
 
 #~ msgid "Immediately reboot computer"
-#~ msgstr "Reiniciar imediatamente o computador"
+#~ msgstr "Re-inicia l'ordinador immediatament"
 
 #~ msgid "Power Off"
-#~ msgstr "Desligar"
+#~ msgstr "Apaga"
 
 #~ msgid "Immediately shut down computer"
-#~ msgstr "Desligar o computador imediatamente"
+#~ msgstr "Apaga l'ordinador immediatament"
 
 #~ msgid "Tor Browser"
 #~ msgstr "Navegador Tor"
 
 #~ msgid "Anonymous Web Browser"
-#~ msgstr "Navegador Web Anônimo"
+#~ msgstr "Navegador web anònim"
 
 #~ msgid "Browse the World Wide Web without anonymity"
-#~ msgstr "Navegar pela World Wide Web sem anonimato"
+#~ msgstr "Navegar per la World Wide Web sense anonimitzar"
 
 #~ msgid "Unsafe Web Browser"
-#~ msgstr "Navegador não-confiável"
+#~ msgstr "Navegador Web Insegur"
 
 #~ msgid "Tails specific tools"
-#~ msgstr "Ferramentas específicas do Tails"
+#~ msgstr "Eines específiques de Tails"

@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-21 01:59+0200\n"
-"PO-Revision-Date: 2014-06-16 13:30+0000\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"PO-Revision-Date: 2014-11-15 10:50+0000\n"
 "Last-Translator: Ojārs Balcers <ojars.balcers@gmail.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/projects/p/torproject/"
 "language/lv/)\n"
@@ -20,130 +20,90 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
-msgid "Tor is ready"
-msgstr "Tor ir sagatavots"
-
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:44
-msgid "You can now access the Internet."
-msgstr "Jūs tagad varat piekļūt internetam."
-
-#: config/chroot_local-includes/etc/whisperback/config.py:64
-#, python-format
-msgid ""
-"<h1>Help us fix your bug!</h1>\n"
-"<p>Read <a href=\"%s\">our bug reporting instructions</a>.</p>\n"
-"<p><strong>Do not include more personal information than\n"
-"needed!</strong></p>\n"
-"<h2>About giving us an email address</h2>\n"
-"<p>If you don't mind disclosing some bits of your identity\n"
-"to Tails developers, you can provide an email address to\n"
-"let us ask more details about the bug. Additionally entering\n"
-"a public PGP key enables us to encrypt such future\n"
-"communication.</p>\n"
-"<p>Anyone who can see this reply will probably infer you are\n"
-"a Tails user. Time to wonder how much you trust your\n"
-"Internet and mailbox providers?</p>\n"
-msgstr ""
-"<h1>Palīdziet mums atrisināt Jūsu problēmu!</h1>\n"
-"<p>Lasiet <a href=\"%s\">mūsu kļūdu pieteikšanas instrukcijas</a>.</p>\n"
-"<p><strong>Nenorādiet vairāk personiskas informācijas kā nepieciešams!</"
-"strong></p>\n"
-"<h2>Par e-pasta adreses norādīšanu</h2>\n"
-"<p>Ja neiebilstat atklāt daļu no savas identitātes Tails izstrādātājiem, "
-"variet norādīt savu e-pasta adresi, lai mēs varētu uzdot vairāk jautājumus "
-"par kļūdu. Turklāt publiskas PGP atslēgas norādīšana sniegtu mums iespēju "
-"šifrēt mūsu turpmāko saziņu.</p>\n"
-"<p>Ikviens, kas var redzēt šo atbildi, tā varētu domāt, uzskatīs Jūs par "
-"Tails lietotāju. Varbūt ir pienācis laiks izvērtēt cik daudz Jūs uzticaties "
-"saviem interneta un e-pasta pakalpojumu sniedzējiem?</p>\n"
-
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:136
+#: bin/openpgp-applet:163
 msgid "OpenPGP encryption applet"
 msgstr "OpenPGP šifrēšanas sīklietotne"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:139
+#: bin/openpgp-applet:166
 msgid "Exit"
 msgstr "Iziet"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:141
+#: bin/openpgp-applet:168
 msgid "About"
 msgstr "Par"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:192
+#: bin/openpgp-applet:221
 msgid "Encrypt Clipboard with _Passphrase"
 msgstr "Šifrēt Clipboard ar _Passphrase"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:195
+#: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
 msgstr "Parakstīt/šifrēt Clipboard ar Public _Keys"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:200
+#: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"
 msgstr "_Decrypt/Verify Clipboard"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:204
+#: bin/openpgp-applet:233
 msgid "_Manage Keys"
 msgstr "_Manage Keys"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:244
+#: bin/openpgp-applet:273
 msgid "The clipboard does not contain valid input data."
 msgstr "Starpliktuvē nav derīgu ievades datu."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:294
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:296
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:298
+#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
 msgid "Unknown Trust"
 msgstr "Nezināms uzticamības līmenis"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:300
+#: bin/openpgp-applet:330
 msgid "Marginal Trust"
 msgstr "Mazzināms uzticamības līmenis"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:302
+#: bin/openpgp-applet:332
 msgid "Full Trust"
 msgstr "Pilns uzticamības līmenis"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:304
+#: bin/openpgp-applet:334
 msgid "Ultimate Trust"
 msgstr "Augstākais uzticamības līmenis"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:357
+#: bin/openpgp-applet:387
 msgid "Name"
 msgstr "Nosaukums"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:358
+#: bin/openpgp-applet:388
 msgid "Key ID"
 msgstr "Atslēgas ID"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:359
+#: bin/openpgp-applet:389
 msgid "Status"
 msgstr "Statuss"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:391
+#: bin/openpgp-applet:421
 msgid "Fingerprint:"
 msgstr "Ciparvirkne:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:394
+#: bin/openpgp-applet:424
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] "Lietotāja IDes:"
 msgstr[1] "Lietotāja ID:"
 msgstr[2] "Lietotāja IDes:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:424
+#: bin/openpgp-applet:453
 msgid "None (Don't sign)"
 msgstr "Nav (neparakstīt)"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:487
+#: bin/openpgp-applet:516
 msgid "Select recipients:"
 msgstr "Atlasīt saņēmējus:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:495
+#: bin/openpgp-applet:524
 msgid "Hide recipients"
 msgstr "Slēpt saņēmējus"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:498
+#: bin/openpgp-applet:527
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
@@ -151,37 +111,37 @@ msgstr ""
 "Slēpt visu šifrētā ziņojuma saņēmēju lietotāju IDes. Savādāk, katrs, kas "
 "redz šifrēto ziņojumu var redzēt kas ir tā saņēmēji. "
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:504
+#: bin/openpgp-applet:533
 msgid "Sign message as:"
 msgstr "Parakstīt ziņojumu kā:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:508
+#: bin/openpgp-applet:537
 msgid "Choose keys"
 msgstr "Izvēlēties atslēgas"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:548
+#: bin/openpgp-applet:577
 msgid "Do you trust these keys?"
 msgstr "Vai uzticaties šīm atslēgām?"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:551
+#: bin/openpgp-applet:580
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "Turpmāk norādītajām, izvēlētajām atslēgām nevar pilnībā uzticēties:"
 msgstr[1] "Turpmāk norādītajai, izvēlētajai atslēgai nevar pilnībā uzticēties:"
 msgstr[2] "Turpmāk norādītajām, izvēlētajām atslēgām nevar pilnībā uzticēties:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:569
+#: bin/openpgp-applet:598
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Vai pietiekami uzticaties šai atslēgai, lai tomēr to lietotu?"
 msgstr[1] "Vai pietiekami uzticaties šai atslēgai, lai tomēr to lietotu?"
 msgstr[2] "Vai pietiekami uzticaties šīm atslēgām, lai tomēr tās lietotu?"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:582
+#: bin/openpgp-applet:611
 msgid "No keys selected"
 msgstr "Neviena no atslēgām nav atlasīta"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:584
+#: bin/openpgp-applet:613
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
@@ -189,402 +149,383 @@ msgstr ""
 "Jums vai nu jāatlasa privāta atslēga ar kuru parakstīt ziņojumu, vai arī "
 "kāda publiska atslēga, lai šifrētu ziņojumu, vai jāveic abas izvēles."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:612
+#: bin/openpgp-applet:641
 msgid "No keys available"
 msgstr "Neviena atslēga nav pieejama"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:614
+#: bin/openpgp-applet:643
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
 "Jums vai nu nepieciešama privāta atslēga, lai parakstītu ziņojumus, vai arī "
 "publiska atslēga, lai ziņojumus šifrētu."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:742
+#: bin/openpgp-applet:771
 msgid "GnuPG error"
 msgstr "GnuPG kļūda"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:763
+#: bin/openpgp-applet:792
 msgid "Therefore the operation cannot be performed."
 msgstr "Tādējādi operāciju nav iespējams izpildīt."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:813
+#: bin/openpgp-applet:842
 msgid "GnuPG results"
 msgstr "GnuPG rezultāti"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:819
+#: bin/openpgp-applet:848
 msgid "Output of GnuPG:"
 msgstr "GnuPG izvade:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:844
+#: bin/openpgp-applet:873
 msgid "Other messages provided by GnuPG:"
 msgstr "Citi GnuPG sniegti ziņojumi:"
 
-#: config/chroot_local-includes/usr/local/bin/iceweasel:12
-msgid "Tor is not ready"
-msgstr "Tor nav sagatavots."
+#~ msgid "Tor is ready"
+#~ msgstr "Tor ir sagatavots"
 
-#: config/chroot_local-includes/usr/local/bin/iceweasel:13
-msgid "Tor is not ready. Start Tor Browser anyway?"
-msgstr "Tor nav sagatavots. Vai, neskatoties uz to, startēt Pārlūku Tor?"
+#~ msgid "You can now access the Internet."
+#~ msgstr "Jūs tagad varat piekļūt internetam."
 
-#: config/chroot_local-includes/usr/local/bin/iceweasel:14
-msgid "Start Tor Browser"
-msgstr "Startēt Pārlūku Tor"
+#~ msgid ""
+#~ "<h1>Help us fix your bug!</h1>\n"
+#~ "<p>Read <a href=\"%s\">our bug reporting instructions</a>.</p>\n"
+#~ "<p><strong>Do not include more personal information than\n"
+#~ "needed!</strong></p>\n"
+#~ "<h2>About giving us an email address</h2>\n"
+#~ "<p>If you don't mind disclosing some bits of your identity\n"
+#~ "to Tails developers, you can provide an email address to\n"
+#~ "let us ask more details about the bug. Additionally entering\n"
+#~ "a public PGP key enables us to encrypt such future\n"
+#~ "communication.</p>\n"
+#~ "<p>Anyone who can see this reply will probably infer you are\n"
+#~ "a Tails user. Time to wonder how much you trust your\n"
+#~ "Internet and mailbox providers?</p>\n"
+#~ msgstr ""
+#~ "<h1>Palīdziet mums atrisināt Jūsu problēmu!</h1>\n"
+#~ "<p>Lasiet <a href=\"%s\">mūsu kļūdu pieteikšanas instrukcijas</a>.</p>\n"
+#~ "<p><strong>Nenorādiet vairāk personiskas informācijas kā nepieciešams!</"
+#~ "strong></p>\n"
+#~ "<h2>Par e-pasta adreses norādīšanu</h2>\n"
+#~ "<p>Ja neiebilstat atklāt daļu no savas identitātes Tails izstrādātājiem, "
+#~ "variet norādīt savu e-pasta adresi, lai mēs varētu uzdot vairāk "
+#~ "jautājumus par kļūdu. Turklāt publiskas PGP atslēgas norādīšana sniegtu "
+#~ "mums iespēju šifrēt mūsu turpmāko saziņu.</p>\n"
+#~ "<p>Ikviens, kas var redzēt šo atbildi, tā varētu domāt, uzskatīs Jūs par "
+#~ "Tails lietotāju. Varbūt ir pienācis laiks izvērtēt cik daudz Jūs "
+#~ "uzticaties saviem interneta un e-pasta pakalpojumu sniedzējiem?</p>\n"
 
-#: config/chroot_local-includes/usr/local/bin/iceweasel:15
-msgid "Cancel"
-msgstr "Atcelt"
+#~ msgid "Shutdown Immediately"
+#~ msgstr "Izslēgt nekavējoties"
 
-#: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:39
-msgid "Shutdown Immediately"
-msgstr "Izslēgt nekavējoties"
+#~ msgid "Reboot Immediately"
+#~ msgstr "Pārlādēt nekavējoties"
 
-#: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:40
-msgid "Reboot Immediately"
-msgstr "Pārlādēt nekavējoties"
+#~ msgid "not available"
+#~ msgstr "nav pieejams"
 
-#: config/chroot_local-includes/usr/local/bin/tails-about:16
-msgid "not available"
-msgstr "nav pieejams"
+#~ msgid "Tails"
+#~ msgstr "Tails"
 
-#: config/chroot_local-includes/usr/local/bin/tails-about:19
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
-msgid "Tails"
-msgstr "Tails"
+#~ msgid "The Amnesic Incognito Live System"
+#~ msgstr "The Amnesic Incognito Live System"
 
-#: config/chroot_local-includes/usr/local/bin/tails-about:24
-msgid "The Amnesic Incognito Live System"
-msgstr "The Amnesic Incognito Live System"
+#~ msgid ""
+#~ "Build information:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Apkopo informāciju:\n"
+#~ "%s"
 
-#: config/chroot_local-includes/usr/local/bin/tails-about:25
-#, python-format
-msgid ""
-"Build information:\n"
-"%s"
-msgstr ""
-"Apkopo informāciju:\n"
-"%s"
+#~ msgid "About Tails"
+#~ msgstr "Par Tails"
 
-#: config/chroot_local-includes/usr/local/bin/tails-about:27
-#: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
-msgid "About Tails"
-msgstr "Par Tails"
+#~ msgid "Your additional software"
+#~ msgstr "Jūsu papildu programmatūra"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:124
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:128
-msgid "Your additional software"
-msgstr "Jūsu papildu programmatūra"
+#~ msgid ""
+#~ "The upgrade failed. This might be due to a network problem. Please check "
+#~ "your network connection, try to restart Tails, or read the system log to "
+#~ "understand better the problem."
+#~ msgstr ""
+#~ "Jaunināšana neizdevās. Iespējams, ka tas ir tīkla problēmas dēļ. Lūdzu, "
+#~ "pārbaudiet savu tīkla savienojumu vai pamēģiniet pārstartēt Tails, vai "
+#~ "lasiet sistēmas žurnālu, lai labāk saprastu problēmu."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:119
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
-msgid ""
-"The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
-"understand better the problem."
-msgstr ""
-"Jaunināšana neizdevās. Iespējams, ka tas ir tīkla problēmas dēļ. Lūdzu, "
-"pārbaudiet savu tīkla savienojumu vai pamēģiniet pārstartēt Tails, vai "
-"lasiet sistēmas žurnālu, lai labāk saprastu problēmu."
+#~ msgid "The upgrade was successful."
+#~ msgstr "Jaunināšana bija sekmīga."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:125
-msgid "The upgrade was successful."
-msgstr "Jaunināšana bija sekmīga."
+#~ msgid "Synchronizing the system's clock"
+#~ msgstr "Sinhronizē sistēmas pulksteni"
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:52
-msgid "Synchronizing the system's clock"
-msgstr "Sinhronizē sistēmas pulksteni"
+#~ msgid ""
+#~ "Tor needs an accurate clock to work properly, especially for Hidden "
+#~ "Services. Please wait..."
+#~ msgstr ""
+#~ "Lai strādātu pareizi Tor'am nepieciešams akurāts laiks. Īpaši svarīgi tas "
+#~ "ir Slēpto pakalpojumu darbībai. Lūdzu gaidiet..."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:53
-msgid ""
-"Tor needs an accurate clock to work properly, especially for Hidden "
-"Services. Please wait..."
-msgstr ""
-"Lai strādātu pareizi Tor'am nepieciešams akurāts laiks. Īpaši svarīgi tas ir "
-"Slēpto pakalpojumu darbībai. Lūdzu gaidiet..."
+#~ msgid "Failed to synchronize the clock!"
+#~ msgstr "Pulksteņa sinhronizācija bija nesekmīga!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:87
-msgid "Failed to synchronize the clock!"
-msgstr "Pulksteņa sinhronizācija bija nesekmīga!"
+#~ msgid "Network connection blocked?"
+#~ msgstr "Bloķēts tīkla savienojums?"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:38
-msgid "Network connection blocked?"
-msgstr "Bloķēts tīkla savienojums?"
+#~ msgid ""
+#~ "It looks like you are blocked from the network. This may be related to "
+#~ "the MAC spoofing feature. For more information, see the <a href=\\"
+#~ "\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html#blocked\\\">MAC spoofing documentation</a>."
+#~ msgstr ""
+#~ "Izskatās, ka esat bloķēts no tīkla. Iespējams, ka tas ir dēļ MAC "
+#~ "izlikšanās līdzekļa jeb fīčas. Papildu informācijai skatiet <a href=\\"
+#~ "\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html#blocked\\\">MAC izlikšanās dokumentāciju</a>."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:40
-msgid ""
-"It looks like you are blocked from the network. This may be related to the "
-"MAC spoofing feature. For more information, see the <a href=\\\"file:///usr/"
-"share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en."
-"html#blocked\\\">MAC spoofing documentation</a>."
-msgstr ""
-"Izskatās, ka esat bloķēts no tīkla. Iespējams, ka tas ir dēļ MAC izlikšanās "
-"līdzekļa jeb fīčas. Papildu informācijai skatiet <a href=\\\"file:///usr/"
-"share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en."
-"html#blocked\\\">MAC izlikšanās dokumentāciju</a>."
+#~ msgid "This version of Tails has known security issues:"
+#~ msgstr "Šai Tails versijai ir apzinātas šādas drošības problēmas:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:145
-msgid "This version of Tails has known security issues:"
-msgstr "Šai Tails versijai ir apzinātas šādas drošības problēmas:"
+#~ msgid "Network card ${nic} disabled"
+#~ msgstr "Tīkla karte ${nic} ir atspējota"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:29
-#, sh-format
-msgid "Network card ${nic} disabled"
-msgstr "Tīkla karte ${nic} ir atspējota"
+#~ msgid ""
+#~ "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
+#~ "temporarily disabled.\n"
+#~ "You might prefer to restart Tails and disable MAC spoofing. See the <a "
+#~ "href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html'>documentation</a>."
+#~ msgstr ""
+#~ "Tīkla kartei ${nic_name} (${nic}) neizdevās MAC izlikšanās, tamdēļ, karte "
+#~ "ir īslaicīgi atspējota.\n"
+#~ "Iespējams, ka izvēlaties pārstartēt Tails un atspējot MAC izlikšanos. "
+#~ "Skatiet <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
+#~ "startup_options/mac_spoofing.en.html'>documentation</a>."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:30
-#, sh-format
-msgid ""
-"MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
-"temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing. See the <a "
-"href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
-"mac_spoofing.en.html'>documentation</a>."
-msgstr ""
-"Tīkla kartei ${nic_name} (${nic}) neizdevās MAC izlikšanās, tamdēļ, karte ir "
-"īslaicīgi atspējota.\n"
-"Iespējams, ka izvēlaties pārstartēt Tails un atspējot MAC izlikšanos. "
-"Skatiet <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
-"startup_options/mac_spoofing.en.html'>documentation</a>."
+#~ msgid "All networking disabled"
+#~ msgstr "Atspējota visa tīklošana"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:39
-msgid "All networking disabled"
-msgstr "Atspējota visa tīklošana"
+#~ msgid ""
+#~ "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
+#~ "recovery also failed so all networking is disabled.\n"
+#~ "You might prefer to restart Tails and disable MAC spoofing. See the <a "
+#~ "href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en."
+#~ "html'>documentation</a>."
+#~ msgstr ""
+#~ "Tīkla kartei ${nic_name} (${nic}) neizdevās Mac izlikšanās. Neizdevās arī "
+#~ "kļūdas atgūšana, tamdēļ ir atspējota visa tīklošana.\n"
+#~ "Iespējams, ka izvēlaties pārstartēt Tails un atspējot MAC izlikšanos. "
+#~ "Skatiet <a href='file:///usr/share/doc/first_steps/startup_options/"
+#~ "mac_spoofing.en.html'>documentāciju</a>."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:40
-#, sh-format
-msgid ""
-"MAC spoofing failed for network card ${nic_name} (${nic}). The error "
-"recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing. See the <a "
-"href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en."
-"html'>documentation</a>."
-msgstr ""
-"Tīkla kartei ${nic_name} (${nic}) neizdevās Mac izlikšanās. Neizdevās arī "
-"kļūdas atgūšana, tamdēļ ir atspējota visa tīklošana.\n"
-"Iespējams, ka izvēlaties pārstartēt Tails un atspējot MAC izlikšanos. "
-"Skatiet <a href='file:///usr/share/doc/first_steps/startup_options/"
-"mac_spoofing.en.html'>documentāciju</a>."
+#~ msgid "error:"
+#~ msgstr "kļūda:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:62
-msgid "Starting I2P..."
-msgstr "Startē I2P..."
+#~ msgid "Error"
+#~ msgstr "Kļūda"
 
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:63
-msgid "The I2P router console will be opened on start."
-msgstr "Startējot tiks atvērta I2P maršrutētāja konsole."
+#~ msgid ""
+#~ "<b>Not enough memory available to check for upgrades.</b>\n"
+#~ "\n"
+#~ "Make sure this system satisfies the requirements for running Tails.\n"
+#~ "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
+#~ "\n"
+#~ "Try to restart Tails to check for upgrades again.\n"
+#~ "\n"
+#~ "Or do a manual upgrade.\n"
+#~ "See https://tails.boum.org/doc/first_steps/upgrade#manual"
+#~ msgstr ""
+#~ "<b>Nav pieejams pietiekami liels atmiņas daudzums, lai pārbaudītu "
+#~ "jauninājumu pieejamību.</b>\n"
+#~ "\n"
+#~ "Pārbaudiet vai šī sistēma nodrošina Tails izpildes prasības.\n"
+#~ "Skatiet datni:///usr/share/doc/tails/website/doc/about/requirements.en."
+#~ "html\n"
+#~ "\n"
+#~ "Meģiniet pārstratēt Tails, lai vēlreiz pārbaudītu jauninājumu "
+#~ "pieejamību.\n"
+#~ "\n"
+#~ "Vai veiciet manuālu jaunināšanu.\n"
+#~ "Skatiet https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:82
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:124
-msgid "I2P failed to start"
-msgstr "I2P neizdevās startēt"
+#~ msgid "Warning: virtual machine detected!"
+#~ msgstr "Brīdinājums: konstatēta virtuāla mašīna!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:83
-msgid ""
-"Make sure that you have a working Internet connection, then try to start I2P "
-"again."
-msgstr ""
-"Pārliecinieties, ka Jūsu interneta savienojums strādā, tad mēģiniet vēlreiz "
-"startēt I2P.  "
+#~ msgid ""
+#~ "Both the host operating system and the virtualization software are able "
+#~ "to monitor what you are doing in Tails."
+#~ msgstr ""
+#~ "Gan viesotāja operētājsistēma, gan virtualizācijas programmatūra spēj "
+#~ "monitorēt to, ko Jūs darāt Tails."
 
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:125
-msgid ""
-"Something went wrong when I2P was starting. Look in the logs in the "
-"following directory for more information:"
-msgstr ""
-"Kaut kas nogāja greizi, kad I2P startēja. Lai uzzinātu vairāk informāciju, "
-"skatieties žurnālos, kuri atrodas turpmāk norādītajā direktorijā:"
+#~ msgid ""
+#~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
+#~ "virtualization.en.html'>Learn more...</a>"
+#~ msgstr ""
+#~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
+#~ "virtualization.en.html'>Uzziniet vairāk...</a>"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
-msgid "error:"
-msgstr "kļūda:"
+#~ msgid "Tor is not ready"
+#~ msgstr "Tor nav sagatavots."
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
-msgid "Error"
-msgstr "Kļūda"
+#~ msgid "Tor is not ready. Start Tor Browser anyway?"
+#~ msgstr "Tor nav sagatavots. Vai, neskatoties uz to, startēt Pārlūku Tor?"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:40
-msgid ""
-"<b>Not enough memory available to check for upgrades.</b>\n"
-"\n"
-"Make sure this system satisfies the requirements for running Tails.\n"
-"See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
-"\n"
-"Try to restart Tails to check for upgrades again.\n"
-"\n"
-"Or do a manual upgrade.\n"
-"See https://tails.boum.org/doc/first_steps/upgrade#manual"
-msgstr ""
-"<b>Nav pieejams pietiekami liels atmiņas daudzums, lai pārbaudītu "
-"jauninājumu pieejamību.</b>\n"
-"\n"
-"Pārbaudiet vai šī sistēma nodrošina Tails izpildes prasības.\n"
-"Skatiet datni:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
-"\n"
-"Meģiniet pārstratēt Tails, lai vēlreiz pārbaudītu jauninājumu pieejamību.\n"
-"\n"
-"Vai veiciet manuālu jaunināšanu.\n"
-"Skatiet https://tails.boum.org/doc/first_steps/upgrade#manual"
+#~ msgid "Start Tor Browser"
+#~ msgstr "Startēt Pārlūku Tor"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:53
-msgid "Warning: virtual machine detected!"
-msgstr "Brīdinājums: konstatēta virtuāla mašīna!"
+#~ msgid "Cancel"
+#~ msgstr "Atcelt"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:55
-msgid ""
-"Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails."
-msgstr ""
-"Gan viesotāja operētājsistēma, gan virtualizācijas programmatūra spēj "
-"monitorēt to, ko Jūs darāt Tails."
+#~ msgid "Do you really want to launch the Unsafe Browser?"
+#~ msgstr "Vai tiešām vēlaties palaist Nedrošu pārlūku?"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:57
-msgid ""
-"<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
-"virtualization.en.html'>Learn more...</a>"
-msgstr ""
-"<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
-"virtualization.en.html'>Uzziniet vairāk...</a>"
+#~ msgid ""
+#~ "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only "
+#~ "use the Unsafe Browser if necessary, for example if you have to login or "
+#~ "register to activate your Internet connection."
+#~ msgstr ""
+#~ "Tīkla aktivitāte Nedrošā pārlūkā <b>nav anonīma</b>. Lietojiet Nedrošu "
+#~ "pārlūku tikai tad, kad nepieciešams, piemēram, ja Jums jāiereģistrējas "
+#~ "vai jāreģistrējas, lai aktivizētu Jūsu interneta savienojumu."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:68
-msgid "Do you really want to launch the Unsafe Browser?"
-msgstr "Vai tiešām vēlaties palaist Nedrošu pārlūku?"
+#~ msgid "_Launch"
+#~ msgstr "_Launch"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
-msgid ""
-"Network activity within the Unsafe Browser is <b>not anonymous</b>. Only use "
-"the Unsafe Browser if necessary, for example if you have to login or "
-"register to activate your Internet connection."
-msgstr ""
-"Tīkla aktivitāte Nedrošā pārlūkā <b>nav anonīma</b>. Lietojiet Nedrošu "
-"pārlūku tikai tad, kad nepieciešams, piemēram, ja Jums jāiereģistrējas vai "
-"jāreģistrējas, lai aktivizētu Jūsu interneta savienojumu."
+#~ msgid "_Exit"
+#~ msgstr "_Exit"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:71
-msgid "_Launch"
-msgstr "_Launch"
+#~ msgid "Starting the Unsafe Browser..."
+#~ msgstr "Startē Nedrošu pārlūku..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:72
-msgid "_Exit"
-msgstr "_Exit"
+#~ msgid "This may take a while, so please be patient."
+#~ msgstr "Tas var ilgt kādu laiku, tāpēc, lūdzu, esiet pacietīgs."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:82
-msgid "Starting the Unsafe Browser..."
-msgstr "Startē Nedrošu pārlūku..."
+#~ msgid "Failed to setup chroot."
+#~ msgstr "Neizdevās iestatīt chroot."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:83
-msgid "This may take a while, so please be patient."
-msgstr "Tas var ilgt kādu laiku, tāpēc, lūdzu, esiet pacietīgs."
+#~ msgid "Unsafe Browser"
+#~ msgstr "Nedrošs pārlūks"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:101
-msgid "Failed to setup chroot."
-msgstr "Neizdevās iestatīt chroot."
+#~ msgid "Shutting down the Unsafe Browser..."
+#~ msgstr "Izslēdz Nedrošu pārlūku..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:182
-#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
-msgid "Unsafe Browser"
-msgstr "Nedrošs pārlūks"
+#~ msgid ""
+#~ "This may take a while, and you may not restart the Unsafe Browser until "
+#~ "it is properly shut down."
+#~ msgstr ""
+#~ "Darbības pabeigšanai vēl ir nepieciešams kāds laiks. Nedrīkst pārstartēt "
+#~ "Nedrošo pārlūku, kamēr tas tiek pareizi izslēgts."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:204
-msgid "Shutting down the Unsafe Browser..."
-msgstr "Izslēdz Nedrošu pārlūku..."
+#~ msgid "Failed to restart Tor."
+#~ msgstr "Neizdevās pārstartēt Tor'u."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:205
-msgid ""
-"This may take a while, and you may not restart the Unsafe Browser until it "
-"is properly shut down."
-msgstr ""
-"Darbības pabeigšanai vēl ir nepieciešams kāds laiks. Nedrīkst pārstartēt "
-"Nedrošo pārlūku, kamēr tas tiek pareizi izslēgts."
+#~ msgid ""
+#~ "Another Unsafe Browser is currently running, or being cleaned up. Please "
+#~ "retry in a while."
+#~ msgstr ""
+#~ "Šobrīd darbojas vai tiek attīrīts cits nedrošs pārlūks. Lūdzu mēģiniet "
+#~ "vēlāk vēlreiz."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:217
-msgid "Failed to restart Tor."
-msgstr "Neizdevās pārstartēt Tor'u."
+#~ msgid ""
+#~ "No DNS server was obtained through DHCP or manually configured in "
+#~ "NetworkManager."
+#~ msgstr ""
+#~ "Izmantojot DHCP netika iegūts neviens DNS serveris; arī NetworkManager'ī "
+#~ "neviens DNS serveris nebija manuāli nokonfigurēts.  "
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:225
-msgid ""
-"Another Unsafe Browser is currently running, or being cleaned up. Please "
-"retry in a while."
-msgstr ""
-"Šobrīd darbojas vai tiek attīrīts cits nedrošs pārlūks. Lūdzu mēģiniet vēlāk "
-"vēlreiz."
+#~ msgid "TrueCrypt will be removed in Tails 1.2.1"
+#~ msgstr "Tails 1.2.1 tiks noņemts TrueCrypt"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:238
-msgid ""
-"No DNS server was obtained through DHCP or manually configured in "
-"NetworkManager."
-msgstr ""
-"Izmantojot DHCP netika iegūts neviens DNS serveris; arī NetworkManager'ī "
-"neviens DNS serveris nebija manuāli nokonfigurēts.  "
+#~ msgid ""
+#~ "TrueCrypt is no longer maintained and is said to be insecure by its own "
+#~ "authors. Therefore, it will be removed in Tails 1.2.1 (November 25). We "
+#~ "recommend that you learn how to <a href='file:///usr/share/doc/tails/"
+#~ "website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>open "
+#~ "TrueCrypt volumes with cryptsetup</a> as soon as possible."
+#~ msgstr ""
+#~ "TrueCrypt vairs netiek atbalstīts, un tā autori to raksturo kā nedrošu. "
+#~ "Tāpēc Tails 1.2.1 (25. novemberis) tas tiks noņemts. Mēs rekomendējam, ka "
+#~ "Jūs pēc iespējas drīz apgūstiet kā <a href='file:///usr/share/doc/tails/"
+#~ "website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>atvērt "
+#~ "TrueCrypt sējumus ar cryptsetup</a> ."
 
-#: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:11
-msgid "TrueCrypt will soon be removed from Tails"
-msgstr "TrueCrypt drīz tiks noņemts no Tails"
+#~ msgid "I2P failed to start"
+#~ msgstr "I2P neizdevās startēt"
 
-#: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:12
-msgid ""
-"TrueCrypt will soon be removed from Tails due to license and development "
-"concerns."
-msgstr ""
-"TrueCrypt drīz tiks noņemts no Tails, ar licenci un attīstību saistītu "
-"apsvērumu dēļ."
+#~ msgid ""
+#~ "Something went wrong when I2P was starting. Check the logs in /var/log/"
+#~ "i2p for more information."
+#~ msgstr ""
+#~ "I2P startējot, ir notikusi kļūda. Pārbaudiet žurnālus te /var/log/i2p , "
+#~ "lai uzzinātu vairāk."
 
-#: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
-msgid "Report an error"
-msgstr "Ziņot par kļūdu"
+#~ msgid "I2P's router console is ready"
+#~ msgstr "I2P maršrutētāja konsole ir gatava darbam."
 
-#: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
-#: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
-msgid "Tails documentation"
-msgstr "Tails dokumentācija"
+#~ msgid "You can now access I2P's router console on http://127.0.0.1:7657."
+#~ msgstr ""
+#~ "Tagad Jūs varat piekļūt I2P maršrutētāja konsolei te "
+#~ "http://127.0.0.1:7657."
 
-#: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
-msgid "Learn how to use Tails"
-msgstr "Uzziniet kā lietot Tails"
+#~ msgid "I2P is not ready"
+#~ msgstr "I2P nav gatavs darbam"
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:1
-msgid "Anonymous overlay network "
-msgstr "Pārklājuma anonīms tīkls"
+#~ msgid ""
+#~ "Eepsite tunnel not built within six minutes. Check the router console at "
+#~ "http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more "
+#~ "information. Reconnect to the network to try again."
+#~ msgstr ""
+#~ "Eepsite tunelis nav izveidots sešu minūšu laikā. Pārbaudiet rūtera "
+#~ "konsoli te http://127.0.0.1:7657/logs vai žurnālus te /var/log/i2p , lai "
+#~ "uzzinātu vairāk. Vēlreiz izveidojiet savienojumu ar tīklu, lai mēģinātu "
+#~ "vēlreiz."
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:2
-msgid "i2p"
-msgstr "i2p"
+#~ msgid "I2P is ready"
+#~ msgstr "I2P ir gatavs darbam"
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:3
-msgid "Anonymous overlay network"
-msgstr "Pārklājuma anonīms tīkls"
+#~ msgid "You can now access services on I2P."
+#~ msgstr "Tagad Jūs varat piekļūt pakalpojumiem, kas atrodas I2P."
 
-#: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
-msgid "Learn more about Tails"
-msgstr "Uzzināt vairāk par Tails"
+#~ msgid "Report an error"
+#~ msgstr "Ziņot par kļūdu"
 
-#: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
-msgid "Reboot"
-msgstr "Pārlādēt"
+#~ msgid "Tails documentation"
+#~ msgstr "Tails dokumentācija"
 
-#: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:2
-msgid "Immediately reboot computer"
-msgstr "nekavējoties pārlādēt datoru"
+#~ msgid "Learn how to use Tails"
+#~ msgstr "Uzziniet kā lietot Tails"
 
-#: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:1
-msgid "Power Off"
-msgstr "Izslēgt"
+#~ msgid "Anonymous overlay network browser"
+#~ msgstr "Tīkla anonīma pārklājuma pārlūks"
 
-#: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:2
-msgid "Immediately shut down computer"
-msgstr "Nekavējoties izslēgt datoru"
+#~ msgid "I2P Browser"
+#~ msgstr "I2P pārlūks"
 
-#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:2
-msgid "Browse the World Wide Web without anonymity"
-msgstr "Pārlūkot Tīmekli neizmantojot anonimitāti"
+#~ msgid "Learn more about Tails"
+#~ msgstr "Uzzināt vairāk par Tails"
 
-#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:3
-msgid "Unsafe Web Browser"
-msgstr "Nedroša Tīmekļa pārlūks"
+#~ msgid "Reboot"
+#~ msgstr "Pārlādēt"
 
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
-msgid "Tails specific tools"
-msgstr "Tails īpaši rīki"
+#~ msgid "Immediately reboot computer"
+#~ msgstr "nekavējoties pārlādēt datoru"
+
+#~ msgid "Power Off"
+#~ msgstr "Izslēgt"
+
+#~ msgid "Immediately shut down computer"
+#~ msgstr "Nekavējoties izslēgt datoru"
+
+#~ msgid "Tor Browser"
+#~ msgstr "Pārlūks Tor"
+
+#~ msgid "Anonymous Web Browser"
+#~ msgstr "Tīmekļa anonīms pārlūks "
+
+#~ msgid "Browse the World Wide Web without anonymity"
+#~ msgstr "Pārlūkot Tīmekli neizmantojot anonimitāti"
+
+#~ msgid "Unsafe Web Browser"
+#~ msgstr "Nedroša Tīmekļa pārlūks"
+
+#~ msgid "Tails specific tools"
+#~ msgstr "Tails īpaši rīki"
