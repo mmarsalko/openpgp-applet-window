@@ -1,7 +1,9 @@
 package Crypt::OpenPGP_Applet::GnuPG::Interface;
+use strict;
+use warnings;
 
 use Moo;
-extends 'GnuPG::Interface' => { -version => 0.50 };
+extends 'GnuPG::Interface';
 
 use namespace::autoclean;
 use Carp;
