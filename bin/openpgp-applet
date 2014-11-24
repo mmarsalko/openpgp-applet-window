@@ -181,9 +181,9 @@ Pixmaps and icons are licensed under the terms of Creative Commons ShareAlike 2.
         'wrap-license' => 1,
         'website'      => 'https://tails.boum.org/',
     )});
-    $menu->append($mexit);
-    $menu->append(Gtk2::SeparatorMenuItem->new);
     $menu->append($mabout);
+    $menu->append(Gtk2::SeparatorMenuItem->new);
+    $menu->append($mexit);
 
     $icon->signal_connect('popup-menu', sub {
         my $ticon = shift;
