@@ -69,7 +69,7 @@ use Switch;
 use DateTime;
 use File::ShareDir;
 
-use Locale::TextDomain (OpenPGP_Applet);
+use Locale::TextDomain ("OpenPGP_Applet");
 use POSIX;
 setlocale(LC_MESSAGES, "");
 
