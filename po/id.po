@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Gregori, 2014
+# L1Nus <multazam_ali@me.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"PO-Revision-Date: 2014-08-07 08:50+0000\n"
+"Last-Translator: Gregori\n"
+"Language-Team: Indonesian (http://www.transifex.com/projects/p/torproject/"
+"language/id/)\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: bin/openpgp-applet:163
+msgid "OpenPGP encryption applet"
+msgstr "Applet enkripsi OpenPGP"
+
+#: bin/openpgp-applet:166
+msgid "Exit"
+msgstr "Keluar"
+
+#: bin/openpgp-applet:168
+msgid "About"
+msgstr "Mengenai"
+
+#: bin/openpgp-applet:221
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "Enkripsi clipboard dengan _Passphrase"
+
+#: bin/openpgp-applet:224
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "Tandai/enkripsi clipboard dengan Public_Keys"
+
+#: bin/openpgp-applet:229
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Dekrip/Verifikasi Papan Simpan"
+
+#: bin/openpgp-applet:233
+msgid "_Manage Keys"
+msgstr "_Manage Keys"
+
+#: bin/openpgp-applet:273
+msgid "The clipboard does not contain valid input data."
+msgstr "Clipboard ini tidak memuat input data yang valid"
+
+#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "Kepercayaan tidak diketahui"
+
+#: bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "Kepercayaan Rendah"
+
+#: bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "Dipercayai Penu"
+
+#: bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "Kepercayaan 9001"
+
+#: bin/openpgp-applet:387
+msgid "Name"
+msgstr "Nama"
+
+#: bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "ID Kunci"
+
+#: bin/openpgp-applet:389
+msgid "Status"
+msgstr "Status"
+
+#: bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "Sidik jari:"
+
+#: bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "ID pengguna:"
+
+#: bin/openpgp-applet:453
+msgid "None (Don't sign)"
+msgstr "Tidak ada (Jangan tandai)"
+
+#: bin/openpgp-applet:516
+msgid "Select recipients:"
+msgstr "Pilih penerima:"
+
+#: bin/openpgp-applet:524
+msgid "Hide recipients"
+msgstr "Sembunyikan penerima"
+
+#: bin/openpgp-applet:527
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"Sembunyikan ID pengguna penerima pesan yang dienkripsi. Jika tidak, semua "
+"orang yang dapat melihat pesan terenkripsi dapat melihat siapa saja "
+"penerimanya."
+
+#: bin/openpgp-applet:533
+msgid "Sign message as:"
+msgstr "Tandai pesan sebagai:"
+
+#: bin/openpgp-applet:537
+msgid "Choose keys"
+msgstr "Pilih kunci"
+
+#: bin/openpgp-applet:577
+msgid "Do you trust these keys?"
+msgstr "Apakah Anda percaya kunci-kunci ini?"
+
+#: bin/openpgp-applet:580
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "Kunci terpilih berikut tidak sepenuhnya bisa dipercaya:"
+
+#: bin/openpgp-applet:598
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "Apakah Anda cukup percaya untuk tetap menggunakan kunci ini?"
+
+#: bin/openpgp-applet:611
+msgid "No keys selected"
+msgstr "Tidak ada kunci terpilih"
+
+#: bin/openpgp-applet:613
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"Anda harus memiliki private key untuk menandai pesan, atau beberapa public "
+"key untuk mengenkripsi pesan, atau keduanya."
+
+#: bin/openpgp-applet:641
+msgid "No keys available"
+msgstr "Tidak ada kunci tersedia"
+
+#: bin/openpgp-applet:643
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"Anda memerlukan private key untuk menandai pesan atau public key untuk "
+"mengenkripsi pesan."
+
+#: bin/openpgp-applet:771
+msgid "GnuPG error"
+msgstr "GnuPG bermasalah"
+
+#: bin/openpgp-applet:792
+msgid "Therefore the operation cannot be performed."
+msgstr "Karenanya pengoperasian tidak dapat dilaksanakan."
+
+#: bin/openpgp-applet:842
+msgid "GnuPG results"
+msgstr "Hasil GnuPG"
+
+#: bin/openpgp-applet:848
+msgid "Output of GnuPG:"
+msgstr "keluaran GnuPG:"
+
+#: bin/openpgp-applet:873
+msgid "Other messages provided by GnuPG:"
+msgstr "Pesan-pesan lain dari GnuPG:"

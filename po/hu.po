@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Blackywantscookies <gaborcika@citromail.hu>, 2014
+# Blackywantscookies <gaborcika@citromail.hu>, 2014
+# iskr <iscreamd@gmail.com>, 2013
+# Lajos Pasztor <mrlajos@gmail.com>, 2014
+# vargaviktor <viktor.varga@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"PO-Revision-Date: 2014-10-15 17:12+0000\n"
+"Last-Translator: Blackywantscookies <gaborcika@citromail.hu>\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/torproject/"
+"language/hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bin/openpgp-applet:163
+msgid "OpenPGP encryption applet"
+msgstr "OpenPGP titkosító applet"
+
+#: bin/openpgp-applet:166
+msgid "Exit"
+msgstr "Kilépés"
+
+#: bin/openpgp-applet:168
+msgid "About"
+msgstr "Névjegy"
+
+#: bin/openpgp-applet:221
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "Vágólap titkosítása _Jelszóval"
+
+#: bin/openpgp-applet:224
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "Vágólap aláírása/titkosítása Publikus _kulcsokkal"
+
+#: bin/openpgp-applet:229
+msgid "_Decrypt/Verify Clipboard"
+msgstr "Vágólap _Kititkosítása/Ellenőrzése"
+
+#: bin/openpgp-applet:233
+msgid "_Manage Keys"
+msgstr "_Kulcsok kezelése"
+
+#: bin/openpgp-applet:273
+msgid "The clipboard does not contain valid input data."
+msgstr "A vágólap nem tartalmaz érvényes bemeneti adatot"
+
+#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "Ismeretlen megbízhatóság"
+
+#: bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "Kis megbízhatóság"
+
+#: bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "Teljes megbizhatóság"
+
+#: bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "Legmagasabb megbizhatóság"
+
+#: bin/openpgp-applet:387
+msgid "Name"
+msgstr "Név"
+
+#: bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "Kulcs ID"
+
+#: bin/openpgp-applet:389
+msgid "Status"
+msgstr "Állapot"
+
+#: bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "Ujjlenyomat:"
+
+#: bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "Felhasználói ID:"
+msgstr[1] "Felhasználói ID-k:"
+
+#: bin/openpgp-applet:453
+msgid "None (Don't sign)"
+msgstr "Nincs (Nem ír alá)"
+
+#: bin/openpgp-applet:516
+msgid "Select recipients:"
+msgstr "Címzettek kiválasztása:"
+
+#: bin/openpgp-applet:524
+msgid "Hide recipients"
+msgstr "Címzettek elrejtése"
+
+#: bin/openpgp-applet:527
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"A titkosított üzenet összes címzettje felhasználói ID-jének  elrejtése. "
+"Egyébként aki látja a titkosított üzenetet, megtudhatja kik voltak még a "
+"címzettek."
+
+#: bin/openpgp-applet:533
+msgid "Sign message as:"
+msgstr "Üzenet aláírása mint:"
+
+#: bin/openpgp-applet:537
+msgid "Choose keys"
+msgstr "Válasszon kulcsokat"
+
+#: bin/openpgp-applet:577
+msgid "Do you trust these keys?"
+msgstr "Megbízik ebben a kulcsban?"
+
+#: bin/openpgp-applet:580
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "Az alábbi kiválaszott kulcs nem teljesen megbízható:"
+msgstr[1] "Az alábbi kiválaszott kulcsok nem teljesen megbízhatóak:"
+
+#: bin/openpgp-applet:598
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "Megbízik ebben a kulcsban annyira, hogy használja ennek ellenére?"
+msgstr[1] "Megbízik ezekben a kulcsban annyira, hogy használja ennek ellenére?"
+
+#: bin/openpgp-applet:611
+msgid "No keys selected"
+msgstr "Nincs kulcs kiválasztva"
+
+#: bin/openpgp-applet:613
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"Az üzenet aláírásához ki kell választani egy privát kulcsot, vagy valamelyik "
+"nyílvános kulcsot esetleg mindkettőt az üzenet titkosításához."
+
+#: bin/openpgp-applet:641
+msgid "No keys available"
+msgstr "Nem érhetőek el kulcsok"
+
+#: bin/openpgp-applet:643
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"Szükséged van egy privát kulcsra az üzenet aláírásához vagy egy nyílvános "
+"kulcsra a titkosításhoz."
+
+#: bin/openpgp-applet:771
+msgid "GnuPG error"
+msgstr "GnuPG hiba"
+
+#: bin/openpgp-applet:792
+msgid "Therefore the operation cannot be performed."
+msgstr "Ezért a művelet nem hajtható végre."
+
+#: bin/openpgp-applet:842
+msgid "GnuPG results"
+msgstr "GnuPG eredmények"
+
+#: bin/openpgp-applet:848
+msgid "Output of GnuPG:"
+msgstr "GnuPG kimenet:"
+
+#: bin/openpgp-applet:873
+msgid "Other messages provided by GnuPG:"
+msgstr "Egyéb GnuPG által adott üzenetek:"

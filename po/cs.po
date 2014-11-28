@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# A5h8d0wf0x <littleslyfoxie28@gmail.com>, 2014
+# Adam Slovacek <adamslovacek@gmail.com>, 2013
+# Filip Hruska <fhr@fhrnet.eu>, 2014
+# Jiří Vírava <appukonrad@gmail.com>, 2013-2014
+# mxsedlacek, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"PO-Revision-Date: 2014-10-15 17:12+0000\n"
+"Last-Translator: A5h8d0wf0x <littleslyfoxie28@gmail.com>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/torproject/"
+"language/cs/)\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: bin/openpgp-applet:163
+msgid "OpenPGP encryption applet"
+msgstr "OpenPGP šifrovací applet"
+
+#: bin/openpgp-applet:166
+msgid "Exit"
+msgstr "Konec"
+
+#: bin/openpgp-applet:168
+msgid "About"
+msgstr "O aplikaci"
+
+#: bin/openpgp-applet:221
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "Šifrovat schránku s _Heslem"
+
+#: bin/openpgp-applet:224
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "Přihlásit/Zašifrovat Schránku s Veřejnými_Klíči"
+
+#: bin/openpgp-applet:229
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Dešifrovat/Ověřit Schránku"
+
+#: bin/openpgp-applet:233
+msgid "_Manage Keys"
+msgstr "_Spravovat Klávesy"
+
+#: bin/openpgp-applet:273
+msgid "The clipboard does not contain valid input data."
+msgstr "Schránka neobsahuje validní vstupní data."
+
+#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "Neznámá důvěra"
+
+#: bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "Marginální důvěra"
+
+#: bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "Plná důvěra"
+
+#: bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "Nekonečná důvěra"
+
+#: bin/openpgp-applet:387
+msgid "Name"
+msgstr "Jméno"
+
+#: bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "ID klíče"
+
+#: bin/openpgp-applet:389
+msgid "Status"
+msgstr "Stav"
+
+#: bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "Otisk:"
+
+#: bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "Uživatelské ID:"
+msgstr[1] "Uživatelská ID:"
+msgstr[2] "Uživatelská ID:"
+
+#: bin/openpgp-applet:453
+msgid "None (Don't sign)"
+msgstr "Žádný (Nepřipojovat) "
+
+#: bin/openpgp-applet:516
+msgid "Select recipients:"
+msgstr "Označit příjemce:"
+
+#: bin/openpgp-applet:524
+msgid "Hide recipients"
+msgstr "Skrýtí příjemci"
+
+#: bin/openpgp-applet:527
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"Skrýt uživatelská jména všech příjemců šifrované zprávy. Jinak každý, kdo "
+"uvidí zašifrovanou zprávu můžete vidět, kdo jsou příjemci."
+
+#: bin/openpgp-applet:533
+msgid "Sign message as:"
+msgstr "Podepsat zprávu jako:"
+
+#: bin/openpgp-applet:537
+msgid "Choose keys"
+msgstr "Vybrat klíče"
+
+#: bin/openpgp-applet:577
+msgid "Do you trust these keys?"
+msgstr "Důvěřujete těmto klíčům?"
+
+#: bin/openpgp-applet:580
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "Následující vybraný klíč není plně důvěryhodný:"
+msgstr[1] "Následující vybrané klíče nejsou plně důvěryhodné:"
+msgstr[2] "Následující vybrané klíče nejsou plně důvěryhodné:"
+
+#: bin/openpgp-applet:598
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "Věříte tomuto klíči dostatečně na to, abyste ho přesto použili?"
+msgstr[1] "Věříte těmto klíčům dostatečně na to, abyste je přesto použili?"
+msgstr[2] "Věříte těmto klíčům dostatečně na to, abyste je přesto použili?"
+
+#: bin/openpgp-applet:611
+msgid "No keys selected"
+msgstr "Nebyly vybrány žádné klíče"
+
+#: bin/openpgp-applet:613
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"Musíte vybrat soukromý klíč na podepsání nebo veřejný klíč na zašifrování "
+"zprávy nebo oba."
+
+#: bin/openpgp-applet:641
+msgid "No keys available"
+msgstr "Žádné dostupné klíče"
+
+#: bin/openpgp-applet:643
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"Potřebujete soukromý klíč na podepsání zpráv nebo veřejný klíč na "
+"zašifrování zpráv."
+
+#: bin/openpgp-applet:771
+msgid "GnuPG error"
+msgstr "Chyba GnuPG"
+
+#: bin/openpgp-applet:792
+msgid "Therefore the operation cannot be performed."
+msgstr "Proto nemůže být operace provedena."
+
+#: bin/openpgp-applet:842
+msgid "GnuPG results"
+msgstr "GnuPG výsledky"
+
+#: bin/openpgp-applet:848
+msgid "Output of GnuPG:"
+msgstr "Výstup z GnuPG"
+
+#: bin/openpgp-applet:873
+msgid "Other messages provided by GnuPG:"
+msgstr "Další zprávy poskytnuté GnuPG:"

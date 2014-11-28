@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Ayca Omrak <aycaom@hotmail.com>, 2013
+# cmldrs <cmldrs@yandex.com>, 2014
+# imratirtil <d.imra.gundogdu@gmail.com>, 2014
+# ecocan <eecocan@yahoo.com>, 2014
+# metint, 2014
+# Tails_developers <tails@boum.org>, 2014
+# Ümit Türk <zucchinitr@gmail.com>, 2013
+# Volkan Gezer <volkangezer@gmail.com>, 2013-2014
+# Yasin Özel <iletisim@yasinozel.com.tr>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"PO-Revision-Date: 2014-11-03 21:01+0000\n"
+"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/torproject/"
+"language/tr/)\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: bin/openpgp-applet:163
+msgid "OpenPGP encryption applet"
+msgstr "OpenPGP şifreleme uygulaması"
+
+#: bin/openpgp-applet:166
+msgid "Exit"
+msgstr "Çıkış"
+
+#: bin/openpgp-applet:168
+msgid "About"
+msgstr "Hakkında"
+
+#: bin/openpgp-applet:221
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "Panoyu Anahtar Parola ile Şifrele"
+
+#: bin/openpgp-applet:224
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "Panoyu Genel Anahtarlarla İmzala/Şifrele"
+
+#: bin/openpgp-applet:229
+msgid "_Decrypt/Verify Clipboard"
+msgstr "Panoyu Deşifre Et/Onayla"
+
+#: bin/openpgp-applet:233
+msgid "_Manage Keys"
+msgstr "Anahtarları Yönet"
+
+#: bin/openpgp-applet:273
+msgid "The clipboard does not contain valid input data."
+msgstr "Pano geçerli girdi verisi içermiyor."
+
+#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "Bilinmeyen İtimat"
+
+#: bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "Marjinal İtimat"
+
+#: bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "Tam İtimat"
+
+#: bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "Aşırı İtimat"
+
+#: bin/openpgp-applet:387
+msgid "Name"
+msgstr "İsim"
+
+#: bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "Anahtar No"
+
+#: bin/openpgp-applet:389
+msgid "Status"
+msgstr "Durum"
+
+#: bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "Parmak izi:"
+
+#: bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "Kullanıcı No:"
+msgstr[1] "Kullanıcı No:"
+
+#: bin/openpgp-applet:453
+msgid "None (Don't sign)"
+msgstr "Hiçbiri (İmzalama)"
+
+#: bin/openpgp-applet:516
+msgid "Select recipients:"
+msgstr "Alıcıları seç:"
+
+#: bin/openpgp-applet:524
+msgid "Hide recipients"
+msgstr "Alıcıları gizle"
+
+#: bin/openpgp-applet:527
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"Şifreli mesajın tüm alıcılarının kullanıcı kimliklerini gizle. Aksi halde "
+"şifreli mesajı görebilen herkes alıcıları görebilecek."
+
+#: bin/openpgp-applet:533
+msgid "Sign message as:"
+msgstr "Mesajı şu olarak imzala:"
+
+#: bin/openpgp-applet:537
+msgid "Choose keys"
+msgstr "Anahtarları seçin"
+
+#: bin/openpgp-applet:577
+msgid "Do you trust these keys?"
+msgstr "Bu anahtarlara güveniyor musun ?"
+
+#: bin/openpgp-applet:580
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "Bu anahtar tamamen güvenilir değil:"
+msgstr[1] "Bu anahtarlar tamamen güvenilir değil:"
+
+#: bin/openpgp-applet:598
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "Bu anahtara kullanabilecek kadar güveniyor musunuz?"
+msgstr[1] "Bu anahtarı kullanabilecek kadar güveniyor musunuz?"
+
+#: bin/openpgp-applet:611
+msgid "No keys selected"
+msgstr "Anahtar seçilmedi"
+
+#: bin/openpgp-applet:613
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"Mesajı imzalamak için bir gizli anahtar seçmelisiniz veya mesajı şifrelemek "
+"için bir genel anahtar seçmelisiniz ya da her ikisini birden seçebilirsiniz."
+
+#: bin/openpgp-applet:641
+msgid "No keys available"
+msgstr "Anahtar bulunamadı."
+
+#: bin/openpgp-applet:643
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"Mesajı imzalamak için özel bir anahtara veya mesajları şifrelemek için genel "
+"bir anahtara ihtiyacınız var."
+
+#: bin/openpgp-applet:771
+msgid "GnuPG error"
+msgstr "GnuPG hatası"
+
+#: bin/openpgp-applet:792
+msgid "Therefore the operation cannot be performed."
+msgstr "Bu yüzden işlem gerçekleştirilemedi."
+
+#: bin/openpgp-applet:842
+msgid "GnuPG results"
+msgstr "GnuPG sonuçları"
+
+#: bin/openpgp-applet:848
+msgid "Output of GnuPG:"
+msgstr "GnuPG çıktısı: "
+
+#: bin/openpgp-applet:873
+msgid "Other messages provided by GnuPG:"
+msgstr "GnuPG'den temin edilen diğer mesajlar: "

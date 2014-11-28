@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Carley Wilson <carley.wilson@me.com>, 2014
+# Jean-Yves Toumit <saiolar-c@yahoo.fr>, 2013
+# Onizuka, 2013
+# Towatowa441, 2013
+# yahoe.001, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"PO-Revision-Date: 2014-10-15 19:00+0000\n"
+"Last-Translator: yahoe.001\n"
+"Language-Team: French (Canada) (http://www.transifex.com/projects/p/"
+"torproject/language/fr_CA/)\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: bin/openpgp-applet:163
+msgid "OpenPGP encryption applet"
+msgstr "Applet de chiffrement OpenPGP"
+
+#: bin/openpgp-applet:166
+msgid "Exit"
+msgstr "Quitter"
+
+#: bin/openpgp-applet:168
+msgid "About"
+msgstr "À propos"
+
+#: bin/openpgp-applet:221
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "Chiffrer le presse-papier avec une _phrase de passe"
+
+#: bin/openpgp-applet:224
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "Signer/chiffrer le presse-papier avec des _clefs publiques"
+
+#: bin/openpgp-applet:229
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Déchiffrer/vérifier le presse-papier"
+
+#: bin/openpgp-applet:233
+msgid "_Manage Keys"
+msgstr "_Gérer les clefs"
+
+#: bin/openpgp-applet:273
+msgid "The clipboard does not contain valid input data."
+msgstr "Le presse-papier ne contient pas de donnée entrante valide."
+
+#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "Confiance inconnue"
+
+#: bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "Confiance marginale"
+
+#: bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "Confiance complète"
+
+#: bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "Confiance ultime"
+
+#: bin/openpgp-applet:387
+msgid "Name"
+msgstr "Nom"
+
+#: bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "ID de la clef"
+
+#: bin/openpgp-applet:389
+msgid "Status"
+msgstr "État"
+
+#: bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "Empreinte :"
+
+#: bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "ID 'utilisateur :"
+msgstr[1] "IDs utilisateur :"
+
+#: bin/openpgp-applet:453
+msgid "None (Don't sign)"
+msgstr "Aucun (ne pas signer)"
+
+#: bin/openpgp-applet:516
+msgid "Select recipients:"
+msgstr "Choisir les destinataires :"
+
+#: bin/openpgp-applet:524
+msgid "Hide recipients"
+msgstr "Cacher les destinataires"
+
+#: bin/openpgp-applet:527
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"Cacher les IDs utilisateur pour tous les destinataires d'un message chiffré. "
+"Autrement n'importe qui voyant le message chiffré peut voir sont les "
+"destinataires."
+
+#: bin/openpgp-applet:533
+msgid "Sign message as:"
+msgstr "Signer le message en tant que :"
+
+#: bin/openpgp-applet:537
+msgid "Choose keys"
+msgstr "Choisir les clefs"
+
+#: bin/openpgp-applet:577
+msgid "Do you trust these keys?"
+msgstr "Faites-vous confiance à ces clefs?"
+
+#: bin/openpgp-applet:580
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "La clef choisie suivante n'est pas entièrement de confiance :"
+msgstr[1] "Les clefs choisies suivantes ne sont pas entièrement de confiance :"
+
+#: bin/openpgp-applet:598
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "Faites-vous quand même assez confiance à cette clef pour l'utiliser"
+msgstr[1] ""
+"Faites-vous quand même assez confiance à ces clefs pour les utiliser"
+
+#: bin/openpgp-applet:611
+msgid "No keys selected"
+msgstr "Aucune clef de choisie"
+
+#: bin/openpgp-applet:613
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"Vous devez sélectionner une clef privée pour signer le message, ou une clef "
+"publique pour le chiffrer, ou les deux."
+
+#: bin/openpgp-applet:641
+msgid "No keys available"
+msgstr "Aucune clef de disponible"
+
+#: bin/openpgp-applet:643
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"Vous avez besoin d'une clef privée pour signer les messages ou d'une clef "
+"publique pour les chiffrer."
+
+#: bin/openpgp-applet:771
+msgid "GnuPG error"
+msgstr "Erreur de GnuPG"
+
+#: bin/openpgp-applet:792
+msgid "Therefore the operation cannot be performed."
+msgstr "Par conséquent l'opération ne peut pas être effectuée."
+
+#: bin/openpgp-applet:842
+msgid "GnuPG results"
+msgstr "Résultats de GnuPG"
+
+#: bin/openpgp-applet:848
+msgid "Output of GnuPG:"
+msgstr "Sortie de GnuPG :"
+
+#: bin/openpgp-applet:873
+msgid "Other messages provided by GnuPG:"
+msgstr "Autres messages fournis par GnuPG :"

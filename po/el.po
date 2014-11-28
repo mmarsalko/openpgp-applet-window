@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# pappasadrian <pappasadrian@gmail.com>, 2013
+# Alex <hestia@riseup.net>, 2013
+# andromeas <andromeas@hotmail.com>, 2014
+# firespin <dartworldgr@hotmail.com>, 2014
+# kotkotkot <kotakota@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"PO-Revision-Date: 2014-06-02 00:20+0000\n"
+"Last-Translator: andromeas <andromeas@hotmail.com>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/torproject/"
+"language/el/)\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bin/openpgp-applet:163
+msgid "OpenPGP encryption applet"
+msgstr "Εφαρμογή OpenPGP κρυπτογράφησης"
+
+#: bin/openpgp-applet:166
+msgid "Exit"
+msgstr "Έξοδος"
+
+#: bin/openpgp-applet:168
+msgid "About"
+msgstr "Σχετικά"
+
+#: bin/openpgp-applet:221
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "Κρυπτογράφηση του Προχείρου με _Κωδικό"
+
+#: bin/openpgp-applet:224
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "Υπογραφή/Κρυπτογράφησ του Προχείρου με Δημόσια _Κλειδιά"
+
+#: bin/openpgp-applet:229
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Αποκρυπτογράφηση/Επαλήθευση του Προχείρου"
+
+#: bin/openpgp-applet:233
+msgid "_Manage Keys"
+msgstr "_Διαχείριση Κλειδιών"
+
+#: bin/openpgp-applet:273
+msgid "The clipboard does not contain valid input data."
+msgstr "Το πρόχειρο δεν περιέχει έγκυρα δεδομένα εισόδου"
+
+#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "Άγνωστη Εμπιστοσύνη"
+
+#: bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "Οριακή Εμπιστοσύνη"
+
+#: bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "Πλήρης Εμπιστοσύνη"
+
+#: bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "Υπέρτατη Εμπιστοσύνη"
+
+#: bin/openpgp-applet:387
+msgid "Name"
+msgstr "Όνομα"
+
+#: bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "ID Κλειδιού"
+
+#: bin/openpgp-applet:389
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "Αποτύπωμα: "
+
+#: bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "ID χρήστη:"
+msgstr[1] "ID χρήστη:"
+
+#: bin/openpgp-applet:453
+msgid "None (Don't sign)"
+msgstr "Κανένα (Μην υπογράφεις)"
+
+#: bin/openpgp-applet:516
+msgid "Select recipients:"
+msgstr "Επιλογή παραληπτών:"
+
+#: bin/openpgp-applet:524
+msgid "Hide recipients"
+msgstr "Απόκρυψη παραληπτών"
+
+#: bin/openpgp-applet:527
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"Απόκρυψη των ID χρηστών για όλους τους παραλήπτες ενός κρυπτογραφημένου "
+"μηνύματος. Σε άλλη περίπτωση οποιοσδήποτε που βλέπει ένα κρυπτογραφημένο "
+"μήνυμα μπορεί να δει ποιοί είναι οι παραλήπτες."
+
+#: bin/openpgp-applet:533
+msgid "Sign message as:"
+msgstr "Υπογραφή μηνύματος σαν:"
+
+#: bin/openpgp-applet:537
+msgid "Choose keys"
+msgstr "Επιλογή κλειδιών"
+
+#: bin/openpgp-applet:577
+msgid "Do you trust these keys?"
+msgstr "Εμπιστεύεστε αυτά τα κλειδιά;"
+
+#: bin/openpgp-applet:580
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "Το ακόλουθο επιλεγμένο κλειδί δεν είναι πλήρως έμπιστο:"
+msgstr[1] "Το ακόλουθα επιλεγμένα κλειδιά δεν είναι πλήρως έμπιστα:"
+
+#: bin/openpgp-applet:598
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "Εμπιστεύεσαι αρκετά αυτό το κλειδί ώστε να το χρησιμοποιήσεις;"
+msgstr[1] "Εμπιστεύεσαι αρκετά αυτά τα κλειδιά ώστε να τα χρησιμοποιήσεις;"
+
+#: bin/openpgp-applet:611
+msgid "No keys selected"
+msgstr "Δεν επιλέχθηκαν κλειδιά"
+
+#: bin/openpgp-applet:613
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"Πρέπει να επιλέξετε ένα ιδιωτικό κλειδί για να υπογράψετε το μήνυμα, ή "
+"κάποια δημόσια κλειδιά για να κρυπτογραφήσετε το μήνυμα, ή και τα δύο."
+
+#: bin/openpgp-applet:641
+msgid "No keys available"
+msgstr "Δεν υπάρχουν διαθέσιμα κλειδιά"
+
+#: bin/openpgp-applet:643
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"Χρειάζεστε ένα ιδιωτικό κλειδί για να υπογράφετε μηνύματα ή ένα δημόσιο "
+"κλειδί για να κρυπτογραφείτε μηνύματα."
+
+#: bin/openpgp-applet:771
+msgid "GnuPG error"
+msgstr "Σφάλμα GnuPG"
+
+#: bin/openpgp-applet:792
+msgid "Therefore the operation cannot be performed."
+msgstr "Γι'αυτό δεν μπορεί να εκτελεστεί η λειτουργία."
+
+#: bin/openpgp-applet:842
+msgid "GnuPG results"
+msgstr "Αποτελέσματα GnuPG"
+
+#: bin/openpgp-applet:848
+msgid "Output of GnuPG:"
+msgstr "Έξοδος του GnuPG:"
+
+#: bin/openpgp-applet:873
+msgid "Other messages provided by GnuPG:"
+msgstr "Άλλα μηνύματα που παρέχονται από το GnuPG:"

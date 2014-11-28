@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# ilbe123 <a3057016@drdrb.net>, 2014
+# Dr.what <javrick6@naver.com>, 2014
+# ryush00 <ryush00@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"PO-Revision-Date: 2014-07-11 23:00+0000\n"
+"Last-Translator: ryush00 <ryush00@gmail.com>\n"
+"Language-Team: Korean (http://www.transifex.com/projects/p/torproject/"
+"language/ko/)\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: bin/openpgp-applet:163
+msgid "OpenPGP encryption applet"
+msgstr "OpenPGP 암호와 애플릿"
+
+#: bin/openpgp-applet:166
+msgid "Exit"
+msgstr "종료"
+
+#: bin/openpgp-applet:168
+msgid "About"
+msgstr "정보"
+
+#: bin/openpgp-applet:221
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "_Passphrase 에서 클립보드를 암호화"
+
+#: bin/openpgp-applet:224
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "Public _Keys 에서 클립보드 서명/암호와"
+
+#: bin/openpgp-applet:229
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Decrypt/Verify 클립보드"
+
+#: bin/openpgp-applet:233
+msgid "_Manage Keys"
+msgstr "_Manage 키"
+
+#: bin/openpgp-applet:273
+msgid "The clipboard does not contain valid input data."
+msgstr "클립보드에 유효한 입력 데이터가 포함되어 있지 않습니다."
+
+#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
+msgid "Unknown Trust"
+msgstr "신뢰 수준 - 낮음"
+
+#: bin/openpgp-applet:330
+msgid "Marginal Trust"
+msgstr "신뢰 수준 - 보통"
+
+#: bin/openpgp-applet:332
+msgid "Full Trust"
+msgstr "신뢰 수준 - 높음"
+
+#: bin/openpgp-applet:334
+msgid "Ultimate Trust"
+msgstr "신뢰 수준 - 존나 높음"
+
+#: bin/openpgp-applet:387
+msgid "Name"
+msgstr "이름"
+
+#: bin/openpgp-applet:388
+msgid "Key ID"
+msgstr "Key ID"
+
+#: bin/openpgp-applet:389
+msgid "Status"
+msgstr "상태"
+
+#: bin/openpgp-applet:421
+msgid "Fingerprint:"
+msgstr "핑거 프린트:"
+
+#: bin/openpgp-applet:424
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "사용자의 ID들을 적으시오:"
+
+#: bin/openpgp-applet:453
+msgid "None (Don't sign)"
+msgstr "없음 (서명 안 함)"
+
+#: bin/openpgp-applet:516
+msgid "Select recipients:"
+msgstr "받는 사람 선택:"
+
+#: bin/openpgp-applet:524
+msgid "Hide recipients"
+msgstr "받는 사람 숨기기"
+
+#: bin/openpgp-applet:527
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"암호화 된 메시지를 받는 모든 사람의 사용자 ID를 숨깁니다. 그렇지 않으면 암호"
+"화 된 메시지를 도청하는 사람은 받는 사람이 누구인지 볼 수 있습니다."
+
+#: bin/openpgp-applet:533
+msgid "Sign message as:"
+msgstr "메시지를 다음으로 서명:"
+
+#: bin/openpgp-applet:537
+msgid "Choose keys"
+msgstr "키 선택"
+
+#: bin/openpgp-applet:577
+msgid "Do you trust these keys?"
+msgstr "이 키를 신뢰하십니까?"
+
+#: bin/openpgp-applet:580
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "선택된 키들을 충분히 신뢰할 수 없습니다:"
+
+#: bin/openpgp-applet:598
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "이 키를 사용할만큼 이 키를 신뢰하십니까?"
+
+#: bin/openpgp-applet:611
+msgid "No keys selected"
+msgstr "키 선택 안 함"
+
+#: bin/openpgp-applet:613
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr "메세지에 서명할 개인 키 또는 공인 암호키를 선택해야 합니다.-둘 다 가능"
+
+#: bin/openpgp-applet:641
+msgid "No keys available"
+msgstr "사용 가능 키 없음"
+
+#: bin/openpgp-applet:643
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"메세지에 서명하키 위한 개인키나, 메세지를 암호화 할 수 있는 공개키가 필요합니"
+"다."
+
+#: bin/openpgp-applet:771
+msgid "GnuPG error"
+msgstr "GnuPG 오류"
+
+#: bin/openpgp-applet:792
+msgid "Therefore the operation cannot be performed."
+msgstr "작업을 수행할 수 없습니다."
+
+#: bin/openpgp-applet:842
+msgid "GnuPG results"
+msgstr "GnuPG 상태"
+
+#: bin/openpgp-applet:848
+msgid "Output of GnuPG:"
+msgstr "GnuPG 출력"
+
+#: bin/openpgp-applet:873
+msgid "Other messages provided by GnuPG:"
+msgstr "GnuPG의 다른 알림"
