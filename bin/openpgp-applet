@@ -65,7 +65,6 @@ use Crypt::OpenPGP_Applet::GnuPG::Interface;
 use IO::Handle;
 use I18N::Langinfo qw{langinfo CODESET};
 use List::MoreUtils qw{none};
-use Switch;
 use DateTime;
 use File::ShareDir;
 
@@ -320,21 +319,23 @@ sub get_status {
     my $status;
     my $trusted;
     # Below taken from doc/DETAILS in GnuPG's sources
-    switch ($code) {
-        case "o" { $trusted = FALSE;
-                   $status = $encoding->decode(gettext("Unknown Trust")); }
-        case "-" { $trusted = FALSE;
-                    $status = $encoding->decode(gettext("Unknown Trust")); }
-        case "q" { $trusted = FALSE;
-                    $status = $encoding->decode(gettext("Unknown Trust")); }
-        case "m" { $trusted = FALSE;
-                    $status = $encoding->decode(gettext("Marginal Trust")); }
-        case "f" { $trusted = TRUE;
-                    $status = $encoding->decode(gettext("Full Trust")); }
-        case "u" { $trusted = TRUE;
-                    $status = $encoding->decode(gettext("Ultimate Trust")); }
-        else     { return; }
-    }
+	SWITCH: 
+	for ($code){
+        if ($_ eq "o") { $trusted = FALSE;
+                   $status = $encoding->decode(gettext("Unknown Trust")); last SWITCH; }
+        if ($_ eq "-") { $trusted = FALSE;
+                    $status = $encoding->decode(gettext("Unknown Trust")); last SWITCH; }
+        if ($_ eq "q") { $trusted = FALSE;
+                    $status = $encoding->decode(gettext("Unknown Trust")); last SWITCH; }
+        if ($_ eq "m") { $trusted = FALSE;
+                    $status = $encoding->decode(gettext("Marginal Trust")); last SWITCH; }
+        if ($_ eq "f") { $trusted = TRUE;
+                    $status = $encoding->decode(gettext("Full Trust")); last SWITCH; }
+        if ($_ eq "u") { $trusted = TRUE;
+                    $status = $encoding->decode(gettext("Ultimate Trust")); last SWITCH; }
+		return;
+
+	}
     return ($status, $trusted);
 }
 
