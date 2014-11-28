@@ -160,12 +160,12 @@ sub build_statusicon {
     my $icon = Gtk2::StatusIcon->new;
     $icon->set_visible(FALSE);
     $icon->set_from_icon_name('seahorse');
-    $icon->set_tooltip($encoding->decode(__"OpenPGP encryption applet"));
+    $icon->set_tooltip($encoding->decode(__("OpenPGP encryption applet")));
 
     my $menu   = Gtk2::Menu->new;
-    my $mexit  = Gtk2::MenuItem->new($encoding->decode(__"Exit"));
+    my $mexit  = Gtk2::MenuItem->new($encoding->decode(__("Exit")));
     $mexit->signal_connect('activate' => sub { Gtk2->main_quit; });
-    my $mabout = Gtk2::MenuItem->new($encoding->decode(__"About"));
+    my $mabout = Gtk2::MenuItem->new($encoding->decode(__("About")));
     $mabout->signal_connect('activate' => sub { Gtk2->show_about_dialog(
         $main_window,
         'program-name' => 'OpenPGP Applet',
@@ -218,19 +218,19 @@ sub build_action_menu {
     my $text_type = detect_text_type(get_validated_clipboard_text());
 
     if ($text_type eq 'text' or $text_type eq 'none') {
-        my $msymencrypt    = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__"Encrypt Clipboard with _Passphrase"));
+        my $msymencrypt    = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__("Encrypt Clipboard with _Passphrase")));
         $msymencrypt->signal_connect('activate' => sub { operate_on_clipboard(\&symmetric_encrypt, ['text']); });
         $action_menu->append($msymencrypt);
-        my $msignencrypt    = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__"Sign/Encrypt Clipboard with Public _Keys"));
+        my $msignencrypt    = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__("Sign/Encrypt Clipboard with Public _Keys")));
         $msignencrypt->signal_connect('activate' => sub { operate_on_clipboard(\&public_crypto, ['text']); });
         $action_menu->append($msignencrypt);
     }
     if ($text_type eq 'message' or $text_type eq 'signed') {
-        my $mdecryptver = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__"_Decrypt/Verify Clipboard"));
+        my $mdecryptver = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__("_Decrypt/Verify Clipboard")));
         $mdecryptver->signal_connect('activate' => sub { operate_on_clipboard(\&decrypt_verify, ['message', 'signed']); });
         $action_menu->append($mdecryptver);
     }
-    my $mmanage = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__"_Manage Keys"));
+    my $mmanage = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__("_Manage Keys")));
     $mmanage->signal_connect('activate' => sub { manage_keys(); });
     $action_menu->append($mmanage);
 
@@ -270,7 +270,7 @@ sub text_is_of_type {
         return (
             0,
             $encoding->decode(
-                __"The clipboard does not contain valid input data.")
+                __("The clipboard does not contain valid input data."))
         );
     }
     return (1);
@@ -321,17 +321,17 @@ sub get_status {
     # Below taken from doc/DETAILS in GnuPG's sources
     switch ($code) {
         case "o" { $trusted = FALSE;
-                    $status = $encoding->decode(__"Unknown Trust"); }
+                    $status = $encoding->decode(__("Unknown Trust")); }
         case "-" { $trusted = FALSE;
-                    $status = $encoding->decode(__"Unknown Trust"); }
+                    $status = $encoding->decode(__("Unknown Trust")); }
         case "q" { $trusted = FALSE;
-                    $status = $encoding->decode(__"Unknown Trust"); }
+                    $status = $encoding->decode(__("Unknown Trust")); }
         case "m" { $trusted = FALSE;
-                    $status = $encoding->decode(__"Marginal Trust"); }
+                    $status = $encoding->decode(__("Marginal Trust")); }
         case "f" { $trusted = TRUE;
-                    $status = $encoding->decode(__"Full Trust"); }
+                    $status = $encoding->decode(__("Full Trust")); }
         case "u" { $trusted = TRUE;
-                    $status = $encoding->decode(__"Ultimate Trust"); }
+                    $status = $encoding->decode(__("Ultimate Trust")); }
         else     { return; }
     }
     return ($status, $trusted);
@@ -384,9 +384,9 @@ sub make_pub_key_list {
 
     my $list = Gtk2::SimpleList->new (
         ""                                    => 'bool', # C_SELECT
-        $encoding->decode(__"Name")    => 'text', # C_NAME
-        $encoding->decode(__"Key ID")  => 'text', # C_KEYID
-        $encoding->decode(__"Status")  => 'text', # C_STATUS
+        $encoding->decode(__("Name"))    => 'text', # C_NAME
+        $encoding->decode(__("Key ID"))  => 'text', # C_KEYID
+        $encoding->decode(__("Status"))  => 'text', # C_STATUS
         ""                                    => 'text', # C_FINGERPRINT
         ""                                    => 'text', # C_USERIDS
         ""                                    => 'bool'  # C_TRUSTED
@@ -418,7 +418,7 @@ sub make_pub_key_list {
         my $row = ($path->get_indices)[0];
         my $fingerprint =
             join(" ", (${$list->{data}}[$row][C_FINGERPRINT] =~ m/..../g));
-        my $fingerprint_label = $encoding->decode(__"Fingerprint:");
+        my $fingerprint_label = $encoding->decode(__("Fingerprint:"));
         my $uids = "${$list->{data}}[$row][C_USERIDS]";
         my $uids_label = $encoding->decode(
             __n("User ID:", "User IDs:", ($uids =~ tr/\n//) + 1));
@@ -450,7 +450,7 @@ sub make_priv_key_combo {
         qw/Glib::String Glib::String Glib::String Glib::String/);
     my $iter = $list_store->append;
     $list_store->set ($iter,
-                      COMBO_NAME, $encoding->decode(__"None (Don't sign)"),
+                      COMBO_NAME, $encoding->decode(__("None (Don't sign)")),
                       COMBO_KEYID, "",
                       COMBO_FINGERPRINT, "",
                       COMBO_ROLE, "none");
@@ -513,7 +513,7 @@ sub choose_keys {
     my $pub_keys_ref = shift;
 
     my $pub_key_label = Gtk2::Label->new(
-        $encoding->decode(__"Select recipients:"));
+        $encoding->decode(__("Select recipients:")));
 
     my $pub_key_list = make_pub_key_list($pub_keys_ref);
     my $pub_key_list_scroll = Gtk2::ScrolledWindow->new;
@@ -521,7 +521,7 @@ sub choose_keys {
     $pub_key_list_scroll->add($pub_key_list);
 
     my $hide_recipients_checkbox = Gtk2::CheckButton->new(
-        $encoding->decode(__"Hide recipients"));
+        $encoding->decode(__("Hide recipients")));
     $hide_recipients_checkbox->set_has_tooltip(TRUE);
     $hide_recipients_checkbox->set_tooltip_text(
         $encoding->decode(__("Hide the user IDs of all recipients of " .
@@ -530,11 +530,11 @@ sub choose_keys {
                                   "who the recipients are.")));
 
     my $priv_key_label = Gtk2::Label->new(
-        $encoding->decode(__"Sign message as:"));
+        $encoding->decode(__("Sign message as:")));
 
     my $priv_key_combo = make_priv_key_combo($priv_keys_ref);
 
-    my $dialog = Gtk2::Dialog->new($encoding->decode(__"Choose keys"),
+    my $dialog = Gtk2::Dialog->new($encoding->decode(__("Choose keys")),
                                    $main_window, 'destroy-with-parent',
                                    'gtk-cancel' => 'cancel', 'gtk-ok' => 'ok' );
     $dialog->set_default_size(650,500);
@@ -574,7 +574,7 @@ sub choose_keys {
             my @unauth = grep { ! $_->[C_TRUSTED] } @list_selection;
             if (@unauth) {
                 my $title = $encoding->decode(
-                    __"Do you trust these keys?"
+                    __("Do you trust these keys?")
                                               );
                 my $warning = $encoding->decode(__n(
                     "The following selected key is not fully trusted:",
@@ -608,7 +608,7 @@ sub choose_keys {
 
         if (!@recipients && !$signer) {
             display_error($dialog,
-                          $encoding->decode(__"No keys selected"),
+                          $encoding->decode(__("No keys selected")),
                           $encoding->decode(__(
                               "You must select a private key to sign the " .
                               "message, or some public keys to encrypt the " .
@@ -638,7 +638,7 @@ sub public_crypto {
 
     if (@priv_keys == 0 && @pub_keys == 0) {
         display_error($main_window,
-                      $encoding->decode(__"No keys available"),
+                      $encoding->decode(__("No keys available")),
                       $encoding->decode(__(
                           "You need a private key to sign messages or a " .
                           "public key to encrypt messages."
@@ -768,7 +768,7 @@ sub gpg_operate_on_text {
     else {
         display_error(
             $main_window,
-            $encoding->decode(__"GnuPG error"),
+            $encoding->decode(__("GnuPG error")),
             $std_out . "\n\n" . $std_err
         );
         return;
@@ -839,13 +839,13 @@ sub display_output {
 
     my $dialog = Gtk2::MessageDialog->new(
         $main_window, 'destroy-with-parent', 'info', 'ok',
-        $encoding->decode(__"GnuPG results")
+        $encoding->decode(__("GnuPG results"))
     );
     my $my_width_request = 800;
     my $my_height_request = 600;
     # TRANSLATORS: GnuPG stdout (encrypted or decrypted message)
     $dialog->format_secondary_text(sprintf($encoding->decode(
-        __"Output of GnuPG:"
+        __("Output of GnuPG:")
     )));
 
     my $msg_area = $dialog->get_content_area;
@@ -870,7 +870,7 @@ sub display_output {
         my $std_err_title = Gtk2::Label->new(
             # TRANSLATORS: GnuPG stderr (other informational messages)
             $encoding->decode(
-               __"Other messages provided by GnuPG:"
+               __("Other messages provided by GnuPG:")
             ));
         $std_err_title->set_alignment(0, 0);
         $std_err_title->set_padding(10, 0);
