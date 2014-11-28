@@ -319,8 +319,8 @@ sub get_status {
     my $status;
     my $trusted;
     # Below taken from doc/DETAILS in GnuPG's sources
-	SWITCH: 
-	for ($code){
+    SWITCH: 
+    for ($code){
         if ($_ eq "o") { $trusted = FALSE;
                    $status = $encoding->decode(gettext("Unknown Trust")); last SWITCH; }
         if ($_ eq "-") { $trusted = FALSE;
@@ -333,9 +333,9 @@ sub get_status {
                     $status = $encoding->decode(gettext("Full Trust")); last SWITCH; }
         if ($_ eq "u") { $trusted = TRUE;
                     $status = $encoding->decode(gettext("Ultimate Trust")); last SWITCH; }
-		return;
+    	return;
 
-	}
+    }
     return ($status, $trusted);
 }
 
