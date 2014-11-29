@@ -155,6 +155,18 @@ sub all_clipboards {
     }
 }
 
+sub app_exit {
+    my $dialog = Gtk2::MessageDialog->new($main_window, [qw/modal destroy-with-parent/],
+                                   'warning',
+                                   'yes-no',
+                                   $encoding->decode(__("You are about to exit OpenPGP Applet. Are you sure?")));
+
+    $dialog->set_default_response('no');
+    Gtk2->main_quit if ($dialog->run eq 'yes');
+
+    $dialog->destroy;
+}
+
 sub build_statusicon {
     my $icon = Gtk2::StatusIcon->new;
     $icon->set_visible(FALSE);
@@ -163,7 +175,7 @@ sub build_statusicon {
 
     my $menu   = Gtk2::Menu->new;
     my $mexit  = Gtk2::MenuItem->new($encoding->decode(__("Exit")));
-    $mexit->signal_connect('activate' => sub { Gtk2->main_quit; });
+    $mexit->signal_connect('activate' => sub { app_exit(); });
     my $mabout = Gtk2::MenuItem->new($encoding->decode(__("About")));
     $mabout->signal_connect('activate' => sub { Gtk2->show_about_dialog(
         $main_window,
