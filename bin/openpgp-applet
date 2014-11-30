@@ -174,7 +174,9 @@ a) the GNU General Public License as published by the Free Software Foundation; 
 
 b) the "Artistic License" which comes with Perl.
 
-Pixmaps and icons are licensed under the terms of Creative Commons ShareAlike 2.0 (CC-BY-SA-2.0)
+The pixmaps and icons are licensed using the Creative Common 1.0 Universal (CC0). Humans may want to refer to http://creativecommons.org/publicdomain/zero/1.0/
+
+Please see README and LICENSE files distributed along this program for detail.
 },
         'wrap-license' => 1,
         'website'      => 'https://tails.boum.org/',
