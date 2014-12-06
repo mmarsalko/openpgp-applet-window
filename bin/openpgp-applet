@@ -651,7 +651,7 @@ sub public_crypto {
     my $chosen = choose_keys(\@priv_keys, \@pub_keys);
     my $signer = $chosen->{signer};
     my $recipients_ref = $chosen->{recipients};
-    my @recipients = @{$recipients_ref} if defined $recipients_ref;
+    my @recipients; @recipients = @{$recipients_ref} if defined $recipients_ref;
     my $always_trust = $chosen->{always_trust};
     my $hide_recipients = $chosen->{hide_recipients};
 
