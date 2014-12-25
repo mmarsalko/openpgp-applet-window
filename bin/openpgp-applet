@@ -55,9 +55,8 @@ use 5.10.0;
 our $VERSION = 0.9.1;
 
 use Glib qw{TRUE FALSE};
-use Gtk2 qw{-init};
-use Gtk2::Gdk::Keysyms;
-use Gtk2::SimpleList;
+use Gtk3 qw{-init};
+use Gtk3::SimpleList;
 
 use Encode qw{decode encode find_encoding};
 use English;
@@ -95,8 +94,8 @@ use constant COMBO_ROLE        => 3;
 my $gnupg         = Crypt::OpenPGP_Applet::GnuPG::Interface->new();
 my $codeset       = langinfo(CODESET());
 my $encoding      = find_encoding($codeset);
-my $main_window   = Gtk2::Window->new();
-my $icon_factory  = Gtk2::IconFactory->new();
+my $main_window   = Gtk3::Window->new();
+my $icon_factory  = Gtk3::IconFactory->new();
 # Set always_trust since GnuPG otherwise will fail if the key's
 # trust hasn't been set.
 my %gnupg_options = (armor => 1, always_trust => 0, meta_interactive => 0);
@@ -123,7 +122,7 @@ $statusicon->set_visible(TRUE);
 init_freshest_clipboard();
 init_icons_stock($icon_factory);
 detect_received(freshest_clipboard());
-Gtk2->main;
+Gtk3->main;
 
 
 =head1 FUNCTIONS
@@ -132,10 +131,10 @@ Gtk2->main;
 
 sub all_clipboards {
     map {
-        Gtk2::Clipboard->get($_)
+        Gtk3::Clipboard->get($_)
     } (
-        Gtk2::Gdk->SELECTION_CLIPBOARD,
-        Gtk2::Gdk->SELECTION_PRIMARY
+        Gtk3::Gdk->SELECTION_CLIPBOARD,
+        Gtk3::Gdk->SELECTION_PRIMARY
     );
 }
 
@@ -143,7 +142,7 @@ sub all_clipboards {
     my $freshest_clipboard;
 
     sub init_freshest_clipboard {
-        $freshest_clipboard = Gtk2::Clipboard->get(Gtk2::Gdk->SELECTION_CLIPBOARD);
+        $freshest_clipboard = Gtk3::Clipboard->get(Gtk3::Gdk->SELECTION_CLIPBOARD);
     }
 
     sub freshest_clipboard {
@@ -157,28 +156,28 @@ sub all_clipboards {
 
 sub app_exit {
     my $parent = shift;
-    my $dialog = Gtk2::MessageDialog->new($parent, [qw/modal destroy-with-parent/],
+    my $dialog = Gtk3::MessageDialog->new($parent, [qw/modal destroy-with-parent/],
                                    'warning',
                                    'yes-no',
                                    $encoding->decode(__("You are about to exit OpenPGP Applet. Are you sure?")));
 
     $dialog->set_default_response('no');
-    Gtk2->main_quit if ($dialog->run eq 'yes');
+    Gtk3->main_quit if ($dialog->run eq 'yes');
 
     $dialog->destroy;
 }
 
 sub build_statusicon {
-    my $icon = Gtk2::StatusIcon->new;
+    my $icon = Gtk3::StatusIcon->new;
     $icon->set_visible(FALSE);
     $icon->set_from_icon_name('seahorse');
-    $icon->set_tooltip($encoding->decode(__("OpenPGP encryption applet")));
+    $icon->set_tooltip_text($encoding->decode(__("OpenPGP encryption applet")));
 
-    my $menu   = Gtk2::Menu->new;
-    my $mexit  = Gtk2::MenuItem->new($encoding->decode(__("Exit")));
+    my $menu   = Gtk3::Menu->new;
+    my $mexit  = Gtk3::MenuItem->new($encoding->decode(__("Exit")));
     $mexit->signal_connect('activate' => sub { app_exit($main_window); });
-    my $mabout = Gtk2::MenuItem->new($encoding->decode(__("About")));
-    $mabout->signal_connect('activate' => sub { Gtk2->show_about_dialog(
+    my $mabout = Gtk3::MenuItem->new($encoding->decode(__("About")));
+    $mabout->signal_connect('activate' => sub { Gtk3->show_about_dialog(
         $main_window,
         'program-name' => 'OpenPGP Applet',
         'license'      => q{This program is free software; you can redistribute it and/or modify it under the terms of either:
@@ -195,7 +194,7 @@ Please see README and LICENSE files distributed along this program for detail.
         'website'      => 'https://tails.boum.org/',
     )});
     $menu->append($mabout);
-    $menu->append(Gtk2::SeparatorMenuItem->new);
+    $menu->append(Gtk3::SeparatorMenuItem->new);
     $menu->append($mexit);
 
     $icon->signal_connect('popup-menu', sub {
@@ -227,24 +226,24 @@ Please see README and LICENSE files distributed along this program for detail.
 }
 
 sub build_action_menu {
-    my $action_menu = Gtk2::Menu->new;
+    my $action_menu = Gtk3::Menu->new;
 
     my $text_type = detect_text_type(get_validated_clipboard_text());
 
     if ($text_type eq 'text' or $text_type eq 'none') {
-        my $msymencrypt    = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__("Encrypt Clipboard with _Passphrase")));
+        my $msymencrypt    = Gtk3::MenuItem->new_with_mnemonic($encoding->decode(__("Encrypt Clipboard with _Passphrase")));
         $msymencrypt->signal_connect('activate' => sub { operate_on_clipboard(\&symmetric_encrypt, ['text']); });
         $action_menu->append($msymencrypt);
-        my $msignencrypt    = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__("Sign/Encrypt Clipboard with Public _Keys")));
+        my $msignencrypt    = Gtk3::MenuItem->new_with_mnemonic($encoding->decode(__("Sign/Encrypt Clipboard with Public _Keys")));
         $msignencrypt->signal_connect('activate' => sub { operate_on_clipboard(\&public_crypto, ['text']); });
         $action_menu->append($msignencrypt);
     }
     if ($text_type eq 'message' or $text_type eq 'signed') {
-        my $mdecryptver = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__("_Decrypt/Verify Clipboard")));
+        my $mdecryptver = Gtk3::MenuItem->new_with_mnemonic($encoding->decode(__("_Decrypt/Verify Clipboard")));
         $mdecryptver->signal_connect('activate' => sub { operate_on_clipboard(\&decrypt_verify, ['message', 'signed']); });
         $action_menu->append($mdecryptver);
     }
-    my $mmanage = Gtk2::MenuItem->new_with_mnemonic($encoding->decode(__("_Manage Keys")));
+    my $mmanage = Gtk3::MenuItem->new_with_mnemonic($encoding->decode(__("_Manage Keys")));
     $mmanage->signal_connect('activate' => sub { manage_keys(); });
     $action_menu->append($mmanage);
 
@@ -310,6 +309,7 @@ sub get_validated_clipboard_text {
     }
 
     my $clipboard = freshest_clipboard();
+    # FIXME-GTK3 - still true with gtk3 ?
     # Note: according to the GTK documentation, the wait_for_text method
     # is supposed to always returns UTF-8. But it seems like the Perl
     # bindings decode it and we get a string of chars instead of bytes.
@@ -323,12 +323,14 @@ sub set_clipboards_text {
     my $text = shift;
     my $encoded_text = $encoding->encode($text);
 
+    # FIXME-GTK3 - still true with gtk3 ?
     # Note: according to the GTK documentation, the set_text method
     # is supposed to need input encoded in UTF-8. But it seems like the Perl
     # bindings encode it, and we need to pass a string of chars instead of bytes.
     foreach (all_clipboards()) {
         $_->set_text($text);
     }
+    # FIXME-GTK3 - still true with gtk3 ?
     # GTK fails setting the primary selection above, so let's use xclip :/
     # xclip needs encoded text.
     open(my $xclip, '|-', 'xclip') or die "Error opening pipe to xclip";
@@ -398,14 +400,14 @@ sub create_key_row {
     my $keyid   = $encoding->decode($key->short_hex_id);
 
     my $fingerprint = $encoding->decode($key->fingerprint->as_hex_string());
-    # Gtk2::SimpleList encodes these strings itself.
+    # Gtk3::SimpleList encodes these strings itself.
     return [FALSE, $name, $keyid, $status, $fingerprint, $userids, $trusted];
 }
 
 sub make_pub_key_list {
     my $pub_keys_ref = shift;
 
-    my $list = Gtk2::SimpleList->new (
+    my $list = Gtk3::SimpleList->new (
         ""                                    => 'bool', # C_SELECT
         $encoding->decode(__("Name"))    => 'text', # C_NAME
         $encoding->decode(__("Key ID"))  => 'text', # C_KEYID
@@ -429,7 +431,7 @@ sub make_pub_key_list {
     # Initially sort by name (couldn't find a cleaner way)
     $list->get_column(C_NAME)->signal_emit('clicked');
 
-    # If we used Gtk2::TreeView instead of Gtk2::SimpleList we could
+    # If we used Gtk3::TreeView instead of Gtk3::SimpleList we could
     # show all user ids directly in the list, but we make it simple
     # for us and instead show them in the tooltip.
     $list->set_has_tooltip(TRUE);
@@ -469,7 +471,7 @@ sub make_pub_key_list {
 sub make_priv_key_combo {
     my $priv_keys_ref = shift;
 
-    my $list_store = Gtk2::ListStore->new(
+    my $list_store = Gtk3::ListStore->new(
         qw/Glib::String Glib::String Glib::String Glib::String/);
     my $iter = $list_store->append;
     $list_store->set ($iter,
@@ -494,7 +496,7 @@ sub make_priv_key_combo {
                           COMBO_ROLE, "");
     }
 
-    my $sorted_list = Gtk2::TreeModelSort->new_with_model($list_store);
+    my $sorted_list = Gtk3::TreeModelSort->new_with_model($list_store);
     $sorted_list->set_default_sort_func(sub {
         my ($model, $iter1, $iter2, $data) = @_;
         my $name1 = $model->get($iter1, COMBO_NAME);
@@ -515,11 +517,11 @@ sub make_priv_key_combo {
         }
                                 });
 
-    my $combo = Gtk2::ComboBox->new_with_model($sorted_list);
-    my $renderer = Gtk2::CellRendererText->new();
+    my $combo = Gtk3::ComboBox->new_with_model($sorted_list);
+    my $renderer = Gtk3::CellRendererText->new();
     $combo->pack_start($renderer, FALSE);
     $combo->add_attribute($renderer, 'text', COMBO_NAME);
-    $renderer = Gtk2::CellRendererText->new();
+    $renderer = Gtk3::CellRendererText->new();
     $combo->pack_start($renderer, FALSE);
     $combo->add_attribute($renderer, 'text', COMBO_KEYID);
     $combo->set_row_separator_func( sub {
@@ -535,15 +537,15 @@ sub choose_keys {
     my $priv_keys_ref = shift;
     my $pub_keys_ref = shift;
 
-    my $pub_key_label = Gtk2::Label->new(
+    my $pub_key_label = Gtk3::Label->new(
         $encoding->decode(__("Select recipients:")));
 
     my $pub_key_list = make_pub_key_list($pub_keys_ref);
-    my $pub_key_list_scroll = Gtk2::ScrolledWindow->new;
+    my $pub_key_list_scroll = Gtk3::ScrolledWindow->new;
     $pub_key_list_scroll->set_policy('automatic', 'always');
     $pub_key_list_scroll->add($pub_key_list);
 
-    my $hide_recipients_checkbox = Gtk2::CheckButton->new(
+    my $hide_recipients_checkbox = Gtk3::CheckButton->new(
         $encoding->decode(__("Hide recipients")));
     $hide_recipients_checkbox->set_has_tooltip(TRUE);
     $hide_recipients_checkbox->set_tooltip_text(
@@ -552,12 +554,12 @@ sub choose_keys {
                                   "that sees the encrypted message can see " .
                                   "who the recipients are.")));
 
-    my $priv_key_label = Gtk2::Label->new(
+    my $priv_key_label = Gtk3::Label->new(
         $encoding->decode(__("Sign message as:")));
 
     my $priv_key_combo = make_priv_key_combo($priv_keys_ref);
 
-    my $dialog = Gtk2::Dialog->new($encoding->decode(__("Choose keys")),
+    my $dialog = Gtk3::Dialog->new($encoding->decode(__("Choose keys")),
                                    $main_window, 'destroy-with-parent',
                                    'gtk-cancel' => 'cancel', 'gtk-ok' => 'ok' );
     $dialog->set_default_size(650,500);
@@ -565,7 +567,7 @@ sub choose_keys {
     my $vbox = $dialog->get_content_area;
     $vbox->pack_start($pub_key_label, FALSE, FALSE, 5);
     $vbox->pack_start($pub_key_list_scroll, TRUE, TRUE, 0);
-    my $hbox = Gtk2::HBox->new;
+    my $hbox = Gtk3::HBox->new;
     $hbox->pack_start($priv_key_label, FALSE, FALSE, 0);
     $hbox->pack_start($priv_key_combo, TRUE, TRUE, 0);
     $vbox->pack_start($hbox, FALSE, FALSE, 5);
@@ -576,7 +578,7 @@ sub choose_keys {
 
     $dialog->signal_connect('key-press-event' => sub {
         my $event = $_[1];
-        return unless $event->keyval == $Gtk2::Gdk::Keysyms{Return};
+        return unless $event->keyval == $Gtk3::Gdk::KEY_Return;
         $dialog->response('ok');
         return 1;
     });
@@ -826,7 +828,7 @@ sub display_error {
     my $title = shift;
     my $msg   = shift;
 
-    my $dialog = Gtk2::MessageDialog->new(
+    my $dialog = Gtk3::MessageDialog->new(
         $parent, 'destroy-with-parent', 'error', 'ok',
         $title
     );
@@ -846,7 +848,7 @@ sub display_question {
     my $title = shift;
     my $msg   = shift;
 
-    my $dialog = Gtk2::MessageDialog->new(
+    my $dialog = Gtk3::MessageDialog->new(
         $parent, 'destroy-with-parent', 'question', 'yes-no', $title);
     $dialog->format_secondary_text($msg);
     $dialog->set_position('center');
@@ -860,7 +862,7 @@ sub display_output {
     my $std_out = shift;
     my $std_err = shift;
 
-    my $dialog = Gtk2::MessageDialog->new(
+    my $dialog = Gtk3::MessageDialog->new(
         $main_window, 'destroy-with-parent', 'info', 'ok',
         $encoding->decode(__("GnuPG results"))
     );
@@ -873,24 +875,24 @@ sub display_output {
 
     my $msg_area = $dialog->get_content_area;
 
-    my $outbuf = Gtk2::TextBuffer->new();
+    my $outbuf = Gtk3::TextBuffer->new();
     $outbuf->set_text($std_out);
     my $text_desc = Pango::FontDescription->new;
     $text_desc->set_family('Monospace');
-    my $textview_out = Gtk2::TextView->new_with_buffer($outbuf);
+    my $textview_out = Gtk3::TextView->new_with_buffer($outbuf);
     $textview_out->set_editable(FALSE);
     $textview_out->set_cursor_visible(FALSE);
     $textview_out->set_left_margin(10);
     $textview_out->set_right_margin(10);
     $textview_out->set_wrap_mode('word');
     $textview_out->modify_font($text_desc);
-    my $scrolled_win_out = Gtk2::ScrolledWindow->new;
+    my $scrolled_win_out = Gtk3::ScrolledWindow->new;
     $scrolled_win_out->set_policy('automatic', 'automatic');
     $scrolled_win_out->add($textview_out);
     $msg_area->pack_start($scrolled_win_out, TRUE, TRUE, 0);
 
     if (defined $std_err && length($std_err)) {
-        my $std_err_title = Gtk2::Label->new(
+        my $std_err_title = Gtk3::Label->new(
             # TRANSLATORS: GnuPG stderr (other informational messages)
             $encoding->decode(
                __("Other messages provided by GnuPG:")
@@ -898,16 +900,16 @@ sub display_output {
         $std_err_title->set_alignment(0, 0);
         $std_err_title->set_padding(10, 0);
         $msg_area->pack_start($std_err_title, FALSE, FALSE, 0);
-        my $std_err_buf = Gtk2::TextBuffer->new();
+        my $std_err_buf = Gtk3::TextBuffer->new();
         $std_err_buf->set_text($std_err);
-        my $textview_err = Gtk2::TextView->new_with_buffer($std_err_buf);
+        my $textview_err = Gtk3::TextView->new_with_buffer($std_err_buf);
         $textview_err->set_editable(FALSE);
         $textview_err->set_cursor_visible(FALSE);
         $textview_err->set_left_margin(10);
         $textview_err->set_right_margin(10);
         $textview_err->set_wrap_mode('word');
         $textview_err->modify_font($text_desc);
-        my $scrolled_win_err = Gtk2::ScrolledWindow->new;
+        my $scrolled_win_err = Gtk3::ScrolledWindow->new;
         $scrolled_win_err->set_policy('automatic', 'automatic');
         $scrolled_win_err->add($textview_err);
         $scrolled_win_err->set_size_request(-1, $my_height_request/5);
@@ -987,7 +989,7 @@ sub make_icon_source {
 
     my $pixmapdir = File::ShareDir::dist_dir('OpenPGP_Applet') . "/pixmaps";
     my $filename = "$pixmapdir/$base/$icon.$ext";
-    my $source = Gtk2::IconSource->new();
+    my $source = Gtk3::IconSource->new();
     $source->set_filename($filename);
     $source->set_direction_wildcarded(1);
     $source->set_state_wildcarded(1);
@@ -1008,7 +1010,7 @@ sub init_icons_stock {
     my @stock_ids = map { "OpenPGP_Applet-$_" } qw{ message none signed text };
 
     foreach my $stock_id (@stock_ids) {
-        my $iconset = Gtk2::IconSet->new();
+        my $iconset = Gtk3::IconSet->new();
         $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'button'));
         $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'menu'));
         $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'large-toolbar'));
