@@ -4,16 +4,17 @@
 #
 # Translators:
 # Cesar Enrique Sanchez Medina <cesare01@gmail.com>, 2014
-# Jose Luis <joseluis.tirado@gmail.com>, 2014
+# el buve, 2015
+# Jose Luis <joseluis.tirado@gmail.com>, 2014-2015
 # Manuel Herrera <ma_herrer@yahoo.com.mx>, 2013
-# strel, 2013-2014
+# strel, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-15 17:21+0000\n"
-"Last-Translator: strel\n"
+"PO-Revision-Date: 2015-06-17 13:32+0000\n"
+"Last-Translator: el buve\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/torproject/"
 "language/es/)\n"
 "Language: es\n"

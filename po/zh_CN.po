@@ -3,21 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Wu Ming Shi, 2013
+# khi, 2013
 # bnw, 2014
 # Meng3, 2014
 # leungsookfan <leung.sookfan@riseup.net>, 2014
 # Sanya chang <408070986@qq.com>, 2013
-# Wu Ming Shi, 2014
+# khi, 2014
 # Xiaolan <xiaolan65535@gmail.com>, 2014
-# YF <yfdyh000@gmail.com>, 2013-2014
+# YF <yfdyh000@gmail.com>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-15 17:12+0000\n"
-"Last-Translator: Wu Ming Shi\n"
+"PO-Revision-Date: 2015-06-18 18:28+0000\n"
+"Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/"
 "torproject/language/zh_CN/)\n"
 "Language: zh_CN\n"
@@ -40,19 +40,19 @@ msgstr "关于"
 
 #: bin/openpgp-applet:221
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "使用密码加密剪贴板"
+msgstr "使用密码加密剪贴板(_P)"
 
 #: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "使用公开密钥签署/加密剪贴板"
+msgstr "使用公开密钥签署/加密剪贴板(_K)"
 
 #: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"
-msgstr "解密/验证剪贴板"
+msgstr "解密/验证剪贴板(_D)"
 
 #: bin/openpgp-applet:233
 msgid "_Manage Keys"
-msgstr "管理密钥"
+msgstr "管理密钥(_M)"
 
 #: bin/openpgp-applet:273
 msgid "The clipboard does not contain valid input data."

@@ -4,6 +4,7 @@
 #
 # Translators:
 # elo, 2014
+# FooBar <thewired@riseup.net>, 2015
 # Michal Slovák <michalslovak2@hotmail.com>, 2013
 # Roman 'Kaktuxista' Benji <romanbeno273@gmail.com>, 2014
 msgid ""
@@ -11,8 +12,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-07-03 22:30+0000\n"
-"Last-Translator: elo\n"
+"PO-Revision-Date: 2015-01-30 01:51+0000\n"
+"Last-Translator: FooBar <thewired@riseup.net>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/torproject/"
 "language/sk/)\n"
 "Language: sk\n"

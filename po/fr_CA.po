@@ -7,14 +7,15 @@
 # Jean-Yves Toumit <saiolar-c@yahoo.fr>, 2013
 # Onizuka, 2013
 # Towatowa441, 2013
-# yahoe.001, 2014
+# Trans-fr, 2015
+# Trans-fr, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-15 19:00+0000\n"
-"Last-Translator: yahoe.001\n"
+"PO-Revision-Date: 2015-06-23 14:40+0000\n"
+"Last-Translator: Trans-fr\n"
 "Language-Team: French (Canada) (http://www.transifex.com/projects/p/"
 "torproject/language/fr_CA/)\n"
 "Language: fr_CA\n"
@@ -153,7 +154,7 @@ msgstr ""
 
 #: bin/openpgp-applet:641
 msgid "No keys available"
-msgstr "Aucune clef de disponible"
+msgstr "Aucune clef proposée"
 
 #: bin/openpgp-applet:643
 msgid ""

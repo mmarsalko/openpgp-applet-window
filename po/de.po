@@ -4,23 +4,28 @@
 #
 # Translators:
 # Andreas Demmelbauer, 2014
+# Claudia <claudianied@web.de>, 2015
 # trantor <clucko3@gmail.com>, 2014
+# DoKnGH26" 21 <dokngh2621@gmail.com>, 2015
+# D P, 2015
 # Ettore Atalan <atalanttore@googlemail.com>, 2014
 # gerhard <listmember@rinnberger.de>, 2013
 # Larson März <lmaerz@emailn.de>, 2013
 # Mario Baier <mario.baier26@gmx.de>, 2013
+# Mart3000, 2015
 # malexmave <inactive+malexmave@transifex.com>, 2014
 # Sandra R <drahtseilakt@live.com>, 2014
+# Sebastian <sebix+transifex@sebix.at>, 2015
 # sycamoreone <sycamoreone@riseup.net>, 2014
-# Tobias Bannert, 2014
+# Tobias Bannert <tobannert@gmail.com>, 2014
 # rike, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-16 11:31+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2015-06-16 11:48+0000\n"
+"Last-Translator: Mart3000\n"
 "Language-Team: German (http://www.transifex.com/projects/p/torproject/"
 "language/de/)\n"
 "Language: de\n"

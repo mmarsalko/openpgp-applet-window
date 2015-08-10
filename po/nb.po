@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Allan Nordhøy <comradekingu@gmail.com>, 2014
+# Allan Nordhøy <epost@anotheragency.no>, 2014-2015
+# Allan Nordhøy <epost@anotheragency.no>, 2015
 # David Gutierrez <david.gutierrez.abreu@gmail.com>, 2014
+# Erik Matson <erik@norwenglish.net>, 2015
 # Jan-Erik Ek <jan.erik.ek@gmail.com>, 2013
 # lateralus, 2014
+# Per Thorsheim <transifex@thorsheim.net>, 2015
 # pr0xity, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-11-15 23:30+0000\n"
-"Last-Translator: David Gutierrez <david.gutierrez.abreu@gmail.com>\n"
+"PO-Revision-Date: 2015-06-23 12:10+0000\n"
+"Last-Translator: Erik Matson <erik@norwenglish.net>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/"
 "torproject/language/nb/)\n"
 "Language: nb\n"
@@ -129,13 +132,13 @@ msgstr "Stoler du på disse nøklene?"
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "Følgende valgte nøkkel er ikke helt betrodd: "
-msgstr[1] "Følgende valgte nøkler er ikke helt betrodde:"
+msgstr[1] "Følgende valgte nøkler var ikke fullstendig klarert:"
 
 #: bin/openpgp-applet:598
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Stoler du nok på denne nøkkelen til å bruke den uansett?"
-msgstr[1] "Stoler du nok på disse nøklene til å bruke dem uansett?"
+msgstr[1] "Stoler du nok på disse nøklene til å bruke dem allikevel?"
 
 #: bin/openpgp-applet:611
 msgid "No keys selected"

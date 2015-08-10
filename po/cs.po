@@ -6,15 +6,18 @@
 # A5h8d0wf0x <littleslyfoxie28@gmail.com>, 2014
 # Adam Slovacek <adamslovacek@gmail.com>, 2013
 # Filip Hruska <fhr@fhrnet.eu>, 2014
+# Pivoj, 2015
 # Jiří Vírava <appukonrad@gmail.com>, 2013-2014
 # mxsedlacek, 2014
+# Tomas Palik <heidfeld@email.cz>, 2015
+# Vlastimil Burián <burian.vlastimil2@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-15 17:12+0000\n"
-"Last-Translator: A5h8d0wf0x <littleslyfoxie28@gmail.com>\n"
+"PO-Revision-Date: 2015-06-26 11:14+0000\n"
+"Last-Translator: Vlastimil Burián <burian.vlastimil2@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/torproject/"
 "language/cs/)\n"
 "Language: cs\n"

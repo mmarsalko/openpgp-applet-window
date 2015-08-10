@@ -3,18 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# pappasadrian <pappasadrian@gmail.com>, 2013
+# Adrian Pappas <pappasadrian@gmail.com>, 2013
 # Alex <hestia@riseup.net>, 2013
 # andromeas <andromeas@hotmail.com>, 2014
+# andromeas <andromeas@hotmail.com>, 2014
 # firespin <dartworldgr@hotmail.com>, 2014
+# Ellie El <ellie29@gmail.com>, 2014
+# firespin <dartworldgr@hotmail.com>, 2014
+# Georgios Vasileiadis <gvasileiadis@outlook.com.gr>, 2014
+# kotkotkot <kotakota@gmail.com>, 2013
 # kotkotkot <kotakota@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-06-02 00:20+0000\n"
-"Last-Translator: andromeas <andromeas@hotmail.com>\n"
+"PO-Revision-Date: 2014-12-04 08:50+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/torproject/"
 "language/el/)\n"
 "Language: el\n"

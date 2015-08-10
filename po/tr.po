@@ -4,21 +4,22 @@
 #
 # Translators:
 # Ayca Omrak <aycaom@hotmail.com>, 2013
+# Bullgeschichte <bullgeschichte@riseup.net>, 2015
 # cmldrs <cmldrs@yandex.com>, 2014
 # imratirtil <d.imra.gundogdu@gmail.com>, 2014
 # ecocan <eecocan@yahoo.com>, 2014
 # metint, 2014
 # Tails_developers <tails@boum.org>, 2014
 # Ümit Türk <zucchinitr@gmail.com>, 2013
-# Volkan Gezer <volkangezer@gmail.com>, 2013-2014
+# Volkan Gezer <volkangezer@gmail.com>, 2013-2015
 # Yasin Özel <iletisim@yasinozel.com.tr>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-11-03 21:01+0000\n"
-"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
+"PO-Revision-Date: 2015-06-23 00:45+0000\n"
+"Last-Translator: Bullgeschichte <bullgeschichte@riseup.net>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/torproject/"
 "language/tr/)\n"
 "Language: tr\n"
@@ -61,19 +62,19 @@ msgstr "Pano geçerli girdi verisi içermiyor."
 
 #: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
 msgid "Unknown Trust"
-msgstr "Bilinmeyen İtimat"
+msgstr "Bilinmeyen Güvenirlik"
 
 #: bin/openpgp-applet:330
 msgid "Marginal Trust"
-msgstr "Marjinal İtimat"
+msgstr "Az Bilinen Güvenirlik"
 
 #: bin/openpgp-applet:332
 msgid "Full Trust"
-msgstr "Tam İtimat"
+msgstr "Tam Güvenirlik"
 
 #: bin/openpgp-applet:334
 msgid "Ultimate Trust"
-msgstr "Aşırı İtimat"
+msgstr "Kesin Güvenirlik"
 
 #: bin/openpgp-applet:387
 msgid "Name"

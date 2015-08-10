@@ -6,14 +6,15 @@
 # Aron <aron.plotnikowski@cryptolab.net>, 2014
 # Dawid <hoek@hoek.pl>, 2014
 # Dawid <hoek@hoek.pl>, 2014
+# oirpos <kuba2707@gmail.com>, 2015
 # phla47 <phla47@gmail.com>, 2013
-# seb, 2013-2014
+# seb, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-15 22:30+0000\n"
+"PO-Revision-Date: 2015-06-25 21:41+0000\n"
 "Last-Translator: seb\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/torproject/"
 "language/pl/)\n"
@@ -162,8 +163,8 @@ msgstr "Brak kluczy"
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
-"Potrzebujesz klucza prywatnego aby podpisać wiadomość albo klucza "
-"publicznego aby zaszyfrować wiadomość."
+"Potrzebujesz klucza prywatnego, aby podpisywać wiadomości lub klucza "
+"publicznego aby szyfrować wiadomości."
 
 #: bin/openpgp-applet:771
 msgid "GnuPG error"
@@ -171,7 +172,7 @@ msgstr "Błąd GnuPG"
 
 #: bin/openpgp-applet:792
 msgid "Therefore the operation cannot be performed."
-msgstr "W związku z tym operacja nie może być wykonana."
+msgstr "W związku z tym operacja nie może zostać wykonana."
 
 #: bin/openpgp-applet:842
 msgid "GnuPG results"
@@ -179,8 +180,8 @@ msgstr "Rezultaty GnuPG"
 
 #: bin/openpgp-applet:848
 msgid "Output of GnuPG:"
-msgstr "Wydajność GnuPG:"
+msgstr "Wyniki GnuPG"
 
 #: bin/openpgp-applet:873
 msgid "Other messages provided by GnuPG:"
-msgstr "Inne wiadomości od GnuPG:"
+msgstr "Inne wiadomości dostarczone przez GnuPG:"

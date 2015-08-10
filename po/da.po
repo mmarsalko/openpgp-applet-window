@@ -5,9 +5,10 @@
 # Translators:
 # Anders Damsgaard <andersd@riseup.net>, 2013
 # bna1605 <bna1605@gmail.com>, 2014
+# Caspar Christensen, 2015
 # christianflintrup <chr@agge.net>, 2014
-# Christian Villum <villum@autofunk.dk>, 2014
-# David Nielsen <gnomeuser@gmail.com>, 2014
+# Christian Villum <villum@autofunk.dk>, 2014-2015
+# David Nielsen <gnomeuser@gmail.com>, 2014-2015
 # Niels, 2013
 # Whiz Zurrd <Whizzurrd@hmamail.com>, 2014
 msgid ""
@@ -15,8 +16,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-11-22 22:51+0000\n"
-"Last-Translator: Whiz Zurrd <Whizzurrd@hmamail.com>\n"
+"PO-Revision-Date: 2015-06-21 07:03+0000\n"
+"Last-Translator: Caspar Christensen\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/torproject/"
 "language/da/)\n"
 "Language: da\n"

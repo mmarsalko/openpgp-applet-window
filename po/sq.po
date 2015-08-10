@@ -3,179 +3,176 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Ojārs Balcers <ojars.balcers@gmail.com>, 2013-2015
+# Bujar Tafili, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2015-05-03 13:03+0000\n"
-"Last-Translator: Ojārs Balcers <ojars.balcers@gmail.com>\n"
-"Language-Team: Latvian (http://www.transifex.com/projects/p/torproject/"
-"language/lv/)\n"
-"Language: lv\n"
+"PO-Revision-Date: 2015-06-23 22:30+0000\n"
+"Last-Translator: Bujar Tafili\n"
+"Language-Team: Albanian (http://www.transifex.com/projects/p/torproject/"
+"language/sq/)\n"
+"Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bin/openpgp-applet:163
 msgid "OpenPGP encryption applet"
-msgstr "OpenPGP šifrēšanas sīklietotne"
+msgstr "Programth për fshehjen OpenPGP"
 
 #: bin/openpgp-applet:166
 msgid "Exit"
-msgstr "Iziet"
+msgstr "Dilni"
 
 #: bin/openpgp-applet:168
 msgid "About"
-msgstr "Par"
+msgstr "Rreth"
 
 #: bin/openpgp-applet:221
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Šifrēt Clipboard ar _Passphrase"
+msgstr "Fshiheni Tabelën e Shënimeve me _frazëkalim"
 
 #: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Parakstīt/šifrēt Clipboard ar Public _Keys"
+msgstr "Nënshkruajeni/Fshiheni Tabelën e Shënimeve me _Çelësa Publikë"
 
 #: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"
-msgstr "_Decrypt/Verify Clipboard"
+msgstr "_Deshifroni/Verifikoni Tabelën e Shënimeve"
 
 #: bin/openpgp-applet:233
 msgid "_Manage Keys"
-msgstr "_Manage Keys"
+msgstr "_Administroni Çelësat"
 
 #: bin/openpgp-applet:273
 msgid "The clipboard does not contain valid input data."
-msgstr "Starpliktuvē nav derīgu ievades datu."
+msgstr "Tabelën e Shënimeve nuk përmban të dhëna hyrëse të vlefshme."
 
 #: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
 msgid "Unknown Trust"
-msgstr "Nezināms uzticamības līmenis"
+msgstr "Besueshmëri e Panjohur"
 
 #: bin/openpgp-applet:330
 msgid "Marginal Trust"
-msgstr "Mazzināms uzticamības līmenis"
+msgstr "Besueshmëri Anësore"
 
 #: bin/openpgp-applet:332
 msgid "Full Trust"
-msgstr "Pilns uzticamības līmenis"
+msgstr "Besueshmëri e Plotë"
 
 #: bin/openpgp-applet:334
 msgid "Ultimate Trust"
-msgstr "Augstākais uzticamības līmenis"
+msgstr "Besueshmëri e Skajshme"
 
 #: bin/openpgp-applet:387
 msgid "Name"
-msgstr "Nosaukums"
+msgstr "Emri"
 
 #: bin/openpgp-applet:388
 msgid "Key ID"
-msgstr "Atslēgas ID"
+msgstr "ID Kyçe"
 
 #: bin/openpgp-applet:389
 msgid "Status"
-msgstr "Statuss"
+msgstr "Gjendja"
 
 #: bin/openpgp-applet:421
 msgid "Fingerprint:"
-msgstr "Ciparvirkne:"
+msgstr "Gjurmë:"
 
 #: bin/openpgp-applet:424
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "Lietotāja IDes:"
-msgstr[1] "Lietotāja ID:"
-msgstr[2] "Lietotāja IDes:"
+msgstr[0] "ID e përdoruesit"
+msgstr[1] "ID-të e përdoruesve"
 
 #: bin/openpgp-applet:453
 msgid "None (Don't sign)"
-msgstr "Nav (neparakstīt)"
+msgstr "Asnjë (Mos nënshkruani)"
 
 #: bin/openpgp-applet:516
 msgid "Select recipients:"
-msgstr "Atlasīt saņēmējus:"
+msgstr "Përzgjidhni marrësit:"
 
 #: bin/openpgp-applet:524
 msgid "Hide recipients"
-msgstr "Slēpt saņēmējus"
+msgstr "Fshihni marrësit"
 
 #: bin/openpgp-applet:527
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Slēpt visu šifrētā ziņojuma saņēmēju lietotāju IDes. Savādāk, katrs, kas "
-"redz šifrēto ziņojumu var redzēt kas ir tā saņēmēji. "
+"Fshihni ID-të e përdoruesve të të gjithë marrësve të një mesazhi të fshehur. "
+"Përndryshe, çdokush që sheh mesazhin e fshehur mund të shohë edhe se kush "
+"janë marrësit."
 
 #: bin/openpgp-applet:533
 msgid "Sign message as:"
-msgstr "Parakstīt ziņojumu kā:"
+msgstr "Nënshkruajeni mesazhin si:"
 
 #: bin/openpgp-applet:537
 msgid "Choose keys"
-msgstr "Izvēlēties atslēgas"
+msgstr "Përzgjidhni çelësat"
 
 #: bin/openpgp-applet:577
 msgid "Do you trust these keys?"
-msgstr "Vai uzticaties šīm atslēgām?"
+msgstr "A i besoni këta çelësa?"
 
 #: bin/openpgp-applet:580
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "Turpmāk norādītajām, izvēlētajām atslēgām nevar pilnībā uzticēties:"
-msgstr[1] "Turpmāk norādītajai, izvēlētajai atslēgai nevar pilnībā uzticēties:"
-msgstr[2] "Turpmāk norādītajām, izvēlētajām atslēgām nevar pilnībā uzticēties:"
+msgstr[0] "Çelësi i përzgjedhur, që vijon, s'është plotësisht i besueshëm:"
+msgstr[1] "Çelësat e përzgjedhur, që vijojnë, s'janë plotësisht të besueshëm:"
 
 #: bin/openpgp-applet:598
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Vai pietiekami uzticaties šai atslēgai, lai tomēr to lietotu?"
-msgstr[1] "Vai pietiekami uzticaties šai atslēgai, lai tomēr to lietotu?"
-msgstr[2] "Vai pietiekami uzticaties šīm atslēgām, lai tomēr tās lietotu?"
+msgstr[0] " A e besoni mjaftueshëm këtë çelës, sa ta përdorni atë gjithsesi?"
+msgstr[1] "A i besoni mjaftueshëm këta çelësa, sa t'i përdorni ata gjithsesi?"
 
 #: bin/openpgp-applet:611
 msgid "No keys selected"
-msgstr "Neviena no atslēgām nav atlasīta"
+msgstr "S'është përzgjedhur asnjë çelës"
 
 #: bin/openpgp-applet:613
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"Jums vai nu jāatlasa privāta atslēga ar kuru parakstīt ziņojumu, vai arī "
-"kāda publiska atslēga, lai šifrētu ziņojumu, vai jāveic abas izvēles."
+"Ju duhet të përzgjidhni një çelës personal për të shënuar mesazhin, apo disa "
+"çelësa publikë për ta fshehur mesazhin, ose të dyja."
 
 #: bin/openpgp-applet:641
 msgid "No keys available"
-msgstr "Neviena atslēga nav pieejama"
+msgstr "S'ka çelësa të disponueshëm"
 
 #: bin/openpgp-applet:643
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
-"Jums vai nu nepieciešama privāta atslēga, lai parakstītu ziņojumus, vai arī "
-"publiska atslēga, lai ziņojumus šifrētu."
+"Ju nevojitet një çelës personal për të shënuar mesazhin ose një çelës publik "
+"për ta fshehur atë."
 
 #: bin/openpgp-applet:771
 msgid "GnuPG error"
-msgstr "GnuPG kļūda"
+msgstr "Gabim i GnuPG"
 
 #: bin/openpgp-applet:792
 msgid "Therefore the operation cannot be performed."
-msgstr "Tādējādi operāciju nav iespējams izpildīt."
+msgstr "Për këtë arsye operacioni s'mund të kryhet."
 
 #: bin/openpgp-applet:842
 msgid "GnuPG results"
-msgstr "GnuPG rezultāti"
+msgstr "Rezultatet GnuPG"
 
 #: bin/openpgp-applet:848
 msgid "Output of GnuPG:"
-msgstr "GnuPG izvade:"
+msgstr "Produkti i GnuPG:"
 
 #: bin/openpgp-applet:873
 msgid "Other messages provided by GnuPG:"
-msgstr "Citi GnuPG sniegti ziņojumi:"
+msgstr "Mesazhet e tjera të ofruara nga GnuPG:"

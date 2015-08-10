@@ -8,19 +8,24 @@
 # cialenhh <c1914502@drdrb.com>, 2013
 # Christian Rademaker <c.rademaker87@gmail.com>, 2014
 # Cleveridge <erwin.de.laat@cleveridge.org>, 2014
+# gjlajfklajdkladj kasldfjaslkf <1bsuaz+3xy1gedeysrhc@sharklasers.com>, 2015
 # Joost Rijneveld <joostrijneveld@gmail.com>, 2014
 # LittleNacho <louisboy@msn.com>, 2013
+# Mart3000, 2015
+# Nathan Follens, 2015
 # Midgard, 2014
 # T. Des Maison <ton.siedsma@bof.nl>, 2014
 # Tjeerd <transifex@syrion.net>, 2014
+# Tonko Mulder <tonko@tonkomulder.nl>, 2015
 # Lazlo <transifex@lazlo.me>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-23 22:00+0000\n"
-"Last-Translator: T. Des Maison <ton.siedsma@bof.nl>\n"
+"PO-Revision-Date: 2015-06-19 21:26+0000\n"
+"Last-Translator: gjlajfklajdkladj kasldfjaslkf <1bsuaz"
+"+3xy1gedeysrhc@sharklasers.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/torproject/"
 "language/nl/)\n"
 "Language: nl\n"
@@ -43,11 +48,11 @@ msgstr "Over"
 
 #: bin/openpgp-applet:221
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Versleutel Klembord met  Wachtwoord"
+msgstr "Versleutel Klembord met _Wachtwoord"
 
 #: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Teken/Versleutel Klembord met Openbare Sleutels"
+msgstr "Teken/Versleutel Klembord met Publieke _Sleutels"
 
 #: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"
@@ -96,12 +101,12 @@ msgstr "Vingerafdruk:"
 #: bin/openpgp-applet:424
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "GebruikersID:"
-msgstr[1] "GebruikersID's:"
+msgstr[0] "Gebruikers-ID:"
+msgstr[1] "Gebruikers-ID's:"
 
 #: bin/openpgp-applet:453
 msgid "None (Don't sign)"
-msgstr "Geen (Onderteken niet)"
+msgstr "Geen (niet ondertekenen)"
 
 #: bin/openpgp-applet:516
 msgid "Select recipients:"
@@ -116,7 +121,7 @@ msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Verberg de gebruikersID's van alle ontvangers van een versleuteld bericht. "
+"Verberg de gebruikers-ID's van alle ontvangers van een versleuteld bericht. "
 "Anders kan iedereen die het versleuteld bericht kan lezen zien wie de "
 "ontvangers zijn."
 

@@ -5,23 +5,27 @@
 # Translators:
 # il_doc <filippo.giomi@gmail.com>, 2014
 # Francesca Ciceri <madamezou@zouish.org>, 2014
+# Francesco Tombolini <tombo@adamantio.net>, 2015
+# HostFat <hostfat@gmail.com>, 2015
 # il_doc <filippo.giomi@gmail.com>, 2014
 # jan <jan.reister@unimi.it>, 2013
 # jan <jan.reister@unimi.it>, 2013
 # Lorenzo Farinelli <farinellilorenzo@gmail.com>, 2014
+# Mett <okovita@autistici.org>, 2015
 # Monica <momocat19@gmail.com>, 2014
 # Monica <momocat19@gmail.com>, 2014
 # Random_R, 2013
 # Random_R, 2013-2014
 # Rosario Antoci <pistacho@riseup.net>, 2014
 # Rossano Praderi <dshortway@gmail.com>, 2013
+# Stefano Avezzù <Opusprimo@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-18 00:30+0000\n"
-"Last-Translator: Rosario Antoci <pistacho@riseup.net>\n"
+"PO-Revision-Date: 2015-06-16 18:26+0000\n"
+"Last-Translator: Stefano Avezzù <Opusprimo@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/torproject/"
 "language/it/)\n"
 "Language: it\n"

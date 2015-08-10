@@ -7,14 +7,14 @@
 # Assumpta Anglada <assumptaanglada@gmail.com>, 2014
 # Eloi García i Fargas, 2014
 # Humbert <humbert.costas@gmail.com>, 2014
-# laia_ <laiaadorio@gmail.com>, 2014
+# laia_, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-15 17:12+0000\n"
-"Last-Translator: laia_ <laiaadorio@gmail.com>\n"
+"PO-Revision-Date: 2015-05-04 16:33+0000\n"
+"Last-Translator: laia_\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/torproject/"
 "language/ca/)\n"
 "Language: ca\n"

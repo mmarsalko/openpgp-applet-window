@@ -5,9 +5,10 @@
 # Translators:
 # adriano <eb.ae@aol.com>, 2013
 # signal89 <ali.faraji90@gmail.com>, 2014
+# Ali, 2015
 # Danial Keshani <dani@daanial.com>, 2013
 # Mohammad Hossein <desmati@gmail.com>, 2014
-# Gilberto, 2014
+# Gilberto, 2014-2015
 # johnholzer <johnholtzer123@gmail.com>, 2014
 # jonothan hipkey <j.hipkey4502@gmail.com>, 2014
 # M. Heydar Elahi <m.heydar.elahi@gmail.com>, 2014
@@ -17,8 +18,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-20 20:40+0000\n"
-"Last-Translator: jonothan hipkey <j.hipkey4502@gmail.com>\n"
+"PO-Revision-Date: 2015-06-21 08:27+0000\n"
+"Last-Translator: Gilberto\n"
 "Language-Team: Persian (http://www.transifex.com/projects/p/torproject/"
 "language/fa/)\n"
 "Language: fa\n"
@@ -81,7 +82,7 @@ msgstr "نام"
 
 #: bin/openpgp-applet:388
 msgid "Key ID"
-msgstr "آی‌دی کلید"
+msgstr "کلید-شناسه"
 
 #: bin/openpgp-applet:389
 msgid "Status"
@@ -154,7 +155,7 @@ msgstr ""
 
 #: bin/openpgp-applet:641
 msgid "No keys available"
-msgstr "هیچ کلیدی در دسترس نیست"
+msgstr "هیچ کلیدی در دست‌رس نیست"
 
 #: bin/openpgp-applet:643
 msgid ""
@@ -181,4 +182,4 @@ msgstr "خروجی GnuPG:"
 
 #: bin/openpgp-applet:873
 msgid "Other messages provided by GnuPG:"
-msgstr "سایر پیغام هایی که GnuPG محیا کرده است:"
+msgstr "سایر پیغام‌هایی که GnuPG ارائه کرده است:"

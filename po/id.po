@@ -3,15 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Gregori, 2014
+# Astryd Viandila Dahlan <astrydviandila@yahoo.com>, 2015
+# cholif yulian <cholifyulian123@gmail.com>, 2015
+# Dwi Cahyono, 2015
+# Ibnu Daru AJi, 2014
 # L1Nus <multazam_ali@me.com>, 2014
+# Zamani Karmana <zamani.karmana@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-08-07 08:50+0000\n"
-"Last-Translator: Gregori\n"
+"PO-Revision-Date: 2015-06-25 12:37+0000\n"
+"Last-Translator: Zamani Karmana <zamani.karmana@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/torproject/"
 "language/id/)\n"
 "Language: id\n"
@@ -30,35 +34,35 @@ msgstr "Keluar"
 
 #: bin/openpgp-applet:168
 msgid "About"
-msgstr "Mengenai"
+msgstr "Tentang"
 
 #: bin/openpgp-applet:221
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Enkripsi clipboard dengan _Passphrase"
+msgstr "Enkripsi Papan Klip dengan _Frasa Sandi"
 
 #: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Tandai/enkripsi clipboard dengan Public_Keys"
+msgstr "Tandai/Enkripsi Papan Klip dengan _Kunci Publik"
 
 #: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"
-msgstr "_Dekrip/Verifikasi Papan Simpan"
+msgstr "_Dekrip/Verifikasi Papan Klip"
 
 #: bin/openpgp-applet:233
 msgid "_Manage Keys"
-msgstr "_Manage Keys"
+msgstr "_Kelola Kunci"
 
 #: bin/openpgp-applet:273
 msgid "The clipboard does not contain valid input data."
-msgstr "Clipboard ini tidak memuat input data yang valid"
+msgstr "Papan klip ini tidak berisi data masukan yang valid."
 
 #: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
 msgid "Unknown Trust"
-msgstr "Kepercayaan tidak diketahui"
+msgstr "Kepercayaan Tidak Dikenal"
 
 #: bin/openpgp-applet:330
 msgid "Marginal Trust"
-msgstr "Kepercayaan Rendah"
+msgstr "Kepercayaan Marginal"
 
 #: bin/openpgp-applet:332
 msgid "Full Trust"

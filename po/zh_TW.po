@@ -4,16 +4,20 @@
 #
 # Translators:
 # cges30901 <cges30901@gmail.com>, 2014
+# cges30901 <cges30901@gmail.com>, 2014
 # danfong <danfong.hsieh@gmail.com>, 2014
+# danfong <danfong.hsieh@gmail.com>, 2014
+# LNDDYL, 2014
 # Po-Chun Huang <aphroteus@gmail.com>, 2014
-# Chi-Lu Yang, 2014
+# x4r <xatierlike@gmail.com>, 2015
+# LNDDYL, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-16 01:50+0000\n"
-"Last-Translator: Po-Chun Huang <aphroteus@gmail.com>\n"
+"PO-Revision-Date: 2015-05-10 07:41+0000\n"
+"Last-Translator: frank <slm789456123@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/"
 "torproject/language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -40,7 +44,7 @@ msgstr "使用 _Passphrase 對剪貼簿進行加密"
 
 #: bin/openpgp-applet:224
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "使用 Public _Keys 簽署/加密剪貼簿"
+msgstr "使用 公鑰 簽署/加密剪貼簿"
 
 #: bin/openpgp-applet:229
 msgid "_Decrypt/Verify Clipboard"

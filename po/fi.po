@@ -3,7 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# karvjorm <karvonen.jorma@gmail.com>, 2014
+# Jorma Karvonen <karvonen.jorma@gmail.com>, 2015
+# Jorma Karvonen <karvonen.jorma@gmail.com>, 2014
 # Tomi Toivio <tomi@sange.fi>, 2013
 # tonttula, 2013
 # Finland355 <ville.ehrukainen2@gmail.com>, 2014
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-15 17:12+0000\n"
-"Last-Translator: karvjorm <karvonen.jorma@gmail.com>\n"
+"PO-Revision-Date: 2015-03-04 15:12+0000\n"
+"Last-Translator: Jorma Karvonen <karvonen.jorma@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/torproject/"
 "language/fi/)\n"
 "Language: fi\n"

@@ -3,20 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# alfalb.as, 2015
 # André Monteiro <andre.monteir@gmail.com>, 2014
 # sierleunam <cfb53275@opayq.com>, 2014
 # testsubject67 <deborinha97@hotmail.com>, 2014
+# Henrique R., 2015
 # Koh Pyreit <kohpyreit@gmail.com>, 2013
-# Andrew_Melim <nokostya.translation@gmail.com>, 2014
-# Pedro Albuquerque <palbuquerque73@gmail.com>, 2014
+# Andrew Melim <nokostya.translation@gmail.com>, 2014
+# Pedro Albuquerque <palbuquerque73@gmail.com>, 2014-2015
 # TiagoJMMC <tiagojmmc@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2014-11-23 00:54+0100\n"
-"PO-Revision-Date: 2014-10-20 17:00+0000\n"
-"Last-Translator: Pedro Albuquerque <palbuquerque73@gmail.com>\n"
+"PO-Revision-Date: 2015-06-18 13:19+0000\n"
+"Last-Translator: Henrique R.\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/torproject/"
 "language/pt/)\n"
 "Language: pt\n"
