@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
-"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"POT-Creation-Date: 2015-08-10 15:55+0200\n"
 "PO-Revision-Date: 2015-05-04 16:33+0000\n"
 "Last-Translator: laia_\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/torproject/"
@@ -24,88 +24,96 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bin/openpgp-applet:163
+msgid "You are about to exit OpenPGP Applet. Are you sure?"
+msgstr ""
+
+#: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
 msgstr "Applet de xifrat OpenPGP"
 
-#: bin/openpgp-applet:166
+#: bin/openpgp-applet:178
 msgid "Exit"
 msgstr "Surt"
 
-#: bin/openpgp-applet:168
+#: bin/openpgp-applet:180
 msgid "About"
 msgstr "En quant a"
 
-#: bin/openpgp-applet:221
+#: bin/openpgp-applet:235
 msgid "Encrypt Clipboard with _Passphrase"
 msgstr "Xifra el Portapapers amb la _Contrasenya"
 
-#: bin/openpgp-applet:224
+#: bin/openpgp-applet:238
 msgid "Sign/Encrypt Clipboard with Public _Keys"
 msgstr "Signar/Xifrar el Portapapers amb les _Claus Públiques"
 
-#: bin/openpgp-applet:229
+#: bin/openpgp-applet:243
 msgid "_Decrypt/Verify Clipboard"
 msgstr "_Desxifrar/Xifrar el Portapapers"
 
-#: bin/openpgp-applet:233
+#: bin/openpgp-applet:247
 msgid "_Manage Keys"
 msgstr "_Gestió de Claus"
 
-#: bin/openpgp-applet:273
+#: bin/openpgp-applet:251
+msgid "_Open Text Editor"
+msgstr "_Obre l'editor de textos"
+
+#: bin/openpgp-applet:295
 msgid "The clipboard does not contain valid input data."
 msgstr "El portapapers no conté dades d'entrada vàlides."
 
-#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
+#: bin/openpgp-applet:347 bin/openpgp-applet:349 bin/openpgp-applet:351
 msgid "Unknown Trust"
 msgstr "Confiança desconeguda"
 
-#: bin/openpgp-applet:330
+#: bin/openpgp-applet:353
 msgid "Marginal Trust"
 msgstr "Confiança marginal"
 
-#: bin/openpgp-applet:332
+#: bin/openpgp-applet:355
 msgid "Full Trust"
 msgstr "Plena confiança"
 
-#: bin/openpgp-applet:334
+#: bin/openpgp-applet:357
 msgid "Ultimate Trust"
 msgstr "Confiança fins al final"
 
-#: bin/openpgp-applet:387
+#: bin/openpgp-applet:410
 msgid "Name"
 msgstr "Nom"
 
-#: bin/openpgp-applet:388
+#: bin/openpgp-applet:411
 msgid "Key ID"
 msgstr "ID de la Clau"
 
-#: bin/openpgp-applet:389
+#: bin/openpgp-applet:412
 msgid "Status"
 msgstr "Estat"
 
-#: bin/openpgp-applet:421
+#: bin/openpgp-applet:444
 msgid "Fingerprint:"
 msgstr "Empremta digital:"
 
-#: bin/openpgp-applet:424
+#: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] "ID d'usuari:"
 msgstr[1] "IDs d'usuari:"
 
-#: bin/openpgp-applet:453
+#: bin/openpgp-applet:476
 msgid "None (Don't sign)"
 msgstr "Cap (no signat)"
 
-#: bin/openpgp-applet:516
+#: bin/openpgp-applet:539
 msgid "Select recipients:"
 msgstr "Sel·lecciona destinataris"
 
-#: bin/openpgp-applet:524
+#: bin/openpgp-applet:547
 msgid "Hide recipients"
 msgstr "Oculta destinataris"
 
-#: bin/openpgp-applet:527
+#: bin/openpgp-applet:550
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
@@ -114,35 +122,35 @@ msgstr ""
 "Altrament, qualsevol persona que vegi el missatge xifrat veurà qui són els "
 "destinataris."
 
-#: bin/openpgp-applet:533
+#: bin/openpgp-applet:556
 msgid "Sign message as:"
 msgstr "Signa el missatge com:"
 
-#: bin/openpgp-applet:537
+#: bin/openpgp-applet:560
 msgid "Choose keys"
 msgstr "Tria les claus"
 
-#: bin/openpgp-applet:577
+#: bin/openpgp-applet:600
 msgid "Do you trust these keys?"
 msgstr "Confies en aquestes claus?"
 
-#: bin/openpgp-applet:580
+#: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "La clau seleccionada no és de plena confiança:"
 msgstr[1] "Les claus seleccionades no són de plena confiança:"
 
-#: bin/openpgp-applet:598
+#: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Tens prou confiança amb aquesta clau per fer-ne ús?"
 msgstr[1] "Tens prou confiança amb aquestes claus per usar-les?"
 
-#: bin/openpgp-applet:611
+#: bin/openpgp-applet:634
 msgid "No keys selected"
 msgstr "Cap clau seleccionada"
 
-#: bin/openpgp-applet:613
+#: bin/openpgp-applet:636
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
@@ -150,33 +158,33 @@ msgstr ""
 "Has de seleccionar una clau privada per signar el missatge, o alguna clau "
 "pública per xifrar el missatge, o ambdues."
 
-#: bin/openpgp-applet:641
+#: bin/openpgp-applet:664
 msgid "No keys available"
 msgstr "No hi ha claus disponibles"
 
-#: bin/openpgp-applet:643
+#: bin/openpgp-applet:666
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
 "Necessites una clau privada per signar missatges o una clau pública per "
 "xifrar missatges."
 
-#: bin/openpgp-applet:771
+#: bin/openpgp-applet:794
 msgid "GnuPG error"
 msgstr "Error GnuPG"
 
-#: bin/openpgp-applet:792
+#: bin/openpgp-applet:815
 msgid "Therefore the operation cannot be performed."
 msgstr "Per tant, la operació no es pot realitzar."
 
-#: bin/openpgp-applet:842
+#: bin/openpgp-applet:865
 msgid "GnuPG results"
 msgstr "Resultats GnuPG"
 
-#: bin/openpgp-applet:848
+#: bin/openpgp-applet:871
 msgid "Output of GnuPG:"
 msgstr "Sortida de GnuPG:"
 
-#: bin/openpgp-applet:873
+#: bin/openpgp-applet:896
 msgid "Other messages provided by GnuPG:"
 msgstr "Altres missatges entregats per GnuPG:"

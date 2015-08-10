@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
-"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"POT-Creation-Date: 2015-08-10 15:55+0200\n"
 "PO-Revision-Date: 2014-12-04 08:50+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/torproject/"
@@ -29,88 +29,96 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bin/openpgp-applet:163
+msgid "You are about to exit OpenPGP Applet. Are you sure?"
+msgstr ""
+
+#: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
 msgstr "Εφαρμογή OpenPGP κρυπτογράφησης"
 
-#: bin/openpgp-applet:166
+#: bin/openpgp-applet:178
 msgid "Exit"
 msgstr "Έξοδος"
 
-#: bin/openpgp-applet:168
+#: bin/openpgp-applet:180
 msgid "About"
 msgstr "Σχετικά"
 
-#: bin/openpgp-applet:221
+#: bin/openpgp-applet:235
 msgid "Encrypt Clipboard with _Passphrase"
 msgstr "Κρυπτογράφηση του Προχείρου με _Κωδικό"
 
-#: bin/openpgp-applet:224
+#: bin/openpgp-applet:238
 msgid "Sign/Encrypt Clipboard with Public _Keys"
 msgstr "Υπογραφή/Κρυπτογράφησ του Προχείρου με Δημόσια _Κλειδιά"
 
-#: bin/openpgp-applet:229
+#: bin/openpgp-applet:243
 msgid "_Decrypt/Verify Clipboard"
 msgstr "_Αποκρυπτογράφηση/Επαλήθευση του Προχείρου"
 
-#: bin/openpgp-applet:233
+#: bin/openpgp-applet:247
 msgid "_Manage Keys"
 msgstr "_Διαχείριση Κλειδιών"
 
-#: bin/openpgp-applet:273
+#: bin/openpgp-applet:251
+msgid "_Open Text Editor"
+msgstr ""
+
+#: bin/openpgp-applet:295
 msgid "The clipboard does not contain valid input data."
 msgstr "Το πρόχειρο δεν περιέχει έγκυρα δεδομένα εισόδου"
 
-#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
+#: bin/openpgp-applet:347 bin/openpgp-applet:349 bin/openpgp-applet:351
 msgid "Unknown Trust"
 msgstr "Άγνωστη Εμπιστοσύνη"
 
-#: bin/openpgp-applet:330
+#: bin/openpgp-applet:353
 msgid "Marginal Trust"
 msgstr "Οριακή Εμπιστοσύνη"
 
-#: bin/openpgp-applet:332
+#: bin/openpgp-applet:355
 msgid "Full Trust"
 msgstr "Πλήρης Εμπιστοσύνη"
 
-#: bin/openpgp-applet:334
+#: bin/openpgp-applet:357
 msgid "Ultimate Trust"
 msgstr "Υπέρτατη Εμπιστοσύνη"
 
-#: bin/openpgp-applet:387
+#: bin/openpgp-applet:410
 msgid "Name"
 msgstr "Όνομα"
 
-#: bin/openpgp-applet:388
+#: bin/openpgp-applet:411
 msgid "Key ID"
 msgstr "ID Κλειδιού"
 
-#: bin/openpgp-applet:389
+#: bin/openpgp-applet:412
 msgid "Status"
 msgstr "Κατάσταση"
 
-#: bin/openpgp-applet:421
+#: bin/openpgp-applet:444
 msgid "Fingerprint:"
 msgstr "Αποτύπωμα: "
 
-#: bin/openpgp-applet:424
+#: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] "ID χρήστη:"
 msgstr[1] "ID χρήστη:"
 
-#: bin/openpgp-applet:453
+#: bin/openpgp-applet:476
 msgid "None (Don't sign)"
 msgstr "Κανένα (Μην υπογράφεις)"
 
-#: bin/openpgp-applet:516
+#: bin/openpgp-applet:539
 msgid "Select recipients:"
 msgstr "Επιλογή παραληπτών:"
 
-#: bin/openpgp-applet:524
+#: bin/openpgp-applet:547
 msgid "Hide recipients"
 msgstr "Απόκρυψη παραληπτών"
 
-#: bin/openpgp-applet:527
+#: bin/openpgp-applet:550
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
@@ -119,35 +127,35 @@ msgstr ""
 "μηνύματος. Σε άλλη περίπτωση οποιοσδήποτε που βλέπει ένα κρυπτογραφημένο "
 "μήνυμα μπορεί να δει ποιοί είναι οι παραλήπτες."
 
-#: bin/openpgp-applet:533
+#: bin/openpgp-applet:556
 msgid "Sign message as:"
 msgstr "Υπογραφή μηνύματος σαν:"
 
-#: bin/openpgp-applet:537
+#: bin/openpgp-applet:560
 msgid "Choose keys"
 msgstr "Επιλογή κλειδιών"
 
-#: bin/openpgp-applet:577
+#: bin/openpgp-applet:600
 msgid "Do you trust these keys?"
 msgstr "Εμπιστεύεστε αυτά τα κλειδιά;"
 
-#: bin/openpgp-applet:580
+#: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "Το ακόλουθο επιλεγμένο κλειδί δεν είναι πλήρως έμπιστο:"
 msgstr[1] "Το ακόλουθα επιλεγμένα κλειδιά δεν είναι πλήρως έμπιστα:"
 
-#: bin/openpgp-applet:598
+#: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Εμπιστεύεσαι αρκετά αυτό το κλειδί ώστε να το χρησιμοποιήσεις;"
 msgstr[1] "Εμπιστεύεσαι αρκετά αυτά τα κλειδιά ώστε να τα χρησιμοποιήσεις;"
 
-#: bin/openpgp-applet:611
+#: bin/openpgp-applet:634
 msgid "No keys selected"
 msgstr "Δεν επιλέχθηκαν κλειδιά"
 
-#: bin/openpgp-applet:613
+#: bin/openpgp-applet:636
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
@@ -155,33 +163,33 @@ msgstr ""
 "Πρέπει να επιλέξετε ένα ιδιωτικό κλειδί για να υπογράψετε το μήνυμα, ή "
 "κάποια δημόσια κλειδιά για να κρυπτογραφήσετε το μήνυμα, ή και τα δύο."
 
-#: bin/openpgp-applet:641
+#: bin/openpgp-applet:664
 msgid "No keys available"
 msgstr "Δεν υπάρχουν διαθέσιμα κλειδιά"
 
-#: bin/openpgp-applet:643
+#: bin/openpgp-applet:666
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
 "Χρειάζεστε ένα ιδιωτικό κλειδί για να υπογράφετε μηνύματα ή ένα δημόσιο "
 "κλειδί για να κρυπτογραφείτε μηνύματα."
 
-#: bin/openpgp-applet:771
+#: bin/openpgp-applet:794
 msgid "GnuPG error"
 msgstr "Σφάλμα GnuPG"
 
-#: bin/openpgp-applet:792
+#: bin/openpgp-applet:815
 msgid "Therefore the operation cannot be performed."
 msgstr "Γι'αυτό δεν μπορεί να εκτελεστεί η λειτουργία."
 
-#: bin/openpgp-applet:842
+#: bin/openpgp-applet:865
 msgid "GnuPG results"
 msgstr "Αποτελέσματα GnuPG"
 
-#: bin/openpgp-applet:848
+#: bin/openpgp-applet:871
 msgid "Output of GnuPG:"
 msgstr "Έξοδος του GnuPG:"
 
-#: bin/openpgp-applet:873
+#: bin/openpgp-applet:896
 msgid "Other messages provided by GnuPG:"
 msgstr "Άλλα μηνύματα που παρέχονται από το GnuPG:"

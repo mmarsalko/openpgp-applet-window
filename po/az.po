@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
-"POT-Creation-Date: 2014-11-23 00:54+0100\n"
+"POT-Creation-Date: 2015-08-10 15:55+0200\n"
 "PO-Revision-Date: 2014-12-30 17:30+0000\n"
 "Last-Translator: E <ehuseynzade@gmail.com>\n"
 "Language-Team: Azerbaijani (http://www.transifex.com/projects/p/torproject/"
@@ -20,88 +20,96 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bin/openpgp-applet:163
+msgid "You are about to exit OpenPGP Applet. Are you sure?"
+msgstr ""
+
+#: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
 msgstr "OpenPGP şifrələnmə apleti"
 
-#: bin/openpgp-applet:166
+#: bin/openpgp-applet:178
 msgid "Exit"
 msgstr "Çıx"
 
-#: bin/openpgp-applet:168
+#: bin/openpgp-applet:180
 msgid "About"
 msgstr "Haqqında"
 
-#: bin/openpgp-applet:221
+#: bin/openpgp-applet:235
 msgid "Encrypt Clipboard with _Passphrase"
 msgstr "Mübadilə Buferini _Şifrə İfadəsi ilə şifrələ"
 
-#: bin/openpgp-applet:224
+#: bin/openpgp-applet:238
 msgid "Sign/Encrypt Clipboard with Public _Keys"
 msgstr "İctimai _Açarlarla Mübadilə Buferinə/i Daxil Ol/Şifrələ"
 
-#: bin/openpgp-applet:229
+#: bin/openpgp-applet:243
 msgid "_Decrypt/Verify Clipboard"
 msgstr "Mübadilə Buferin/i _Şifrəsini Aç/Təsdiqlə"
 
-#: bin/openpgp-applet:233
+#: bin/openpgp-applet:247
 msgid "_Manage Keys"
 msgstr "Açarları _İdarə et"
 
-#: bin/openpgp-applet:273
+#: bin/openpgp-applet:251
+msgid "_Open Text Editor"
+msgstr ""
+
+#: bin/openpgp-applet:295
 msgid "The clipboard does not contain valid input data."
 msgstr "Mübadilə buferində düzgün giriş məlumatı yoxdur."
 
-#: bin/openpgp-applet:324 bin/openpgp-applet:326 bin/openpgp-applet:328
+#: bin/openpgp-applet:347 bin/openpgp-applet:349 bin/openpgp-applet:351
 msgid "Unknown Trust"
 msgstr "Bilinməyən İnam"
 
-#: bin/openpgp-applet:330
+#: bin/openpgp-applet:353
 msgid "Marginal Trust"
 msgstr "Son İnam"
 
-#: bin/openpgp-applet:332
+#: bin/openpgp-applet:355
 msgid "Full Trust"
 msgstr "Tam İnam"
 
-#: bin/openpgp-applet:334
+#: bin/openpgp-applet:357
 msgid "Ultimate Trust"
 msgstr "Başlıca İnam"
 
-#: bin/openpgp-applet:387
+#: bin/openpgp-applet:410
 msgid "Name"
 msgstr "Name"
 
-#: bin/openpgp-applet:388
+#: bin/openpgp-applet:411
 msgid "Key ID"
 msgstr "Açar ID-si"
 
-#: bin/openpgp-applet:389
+#: bin/openpgp-applet:412
 msgid "Status"
 msgstr "Status"
 
-#: bin/openpgp-applet:421
+#: bin/openpgp-applet:444
 msgid "Fingerprint:"
 msgstr "Barmaq izi:"
 
-#: bin/openpgp-applet:424
+#: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] "İstifadəçi ID-si:"
 msgstr[1] "İstifadəçi ID-ləri:"
 
-#: bin/openpgp-applet:453
+#: bin/openpgp-applet:476
 msgid "None (Don't sign)"
 msgstr "Heç biri (Giriş etmə)"
 
-#: bin/openpgp-applet:516
+#: bin/openpgp-applet:539
 msgid "Select recipients:"
 msgstr "Qəbul ediciləri seç:"
 
-#: bin/openpgp-applet:524
+#: bin/openpgp-applet:547
 msgid "Hide recipients"
 msgstr "Qəbul ediciləri gizlə"
 
-#: bin/openpgp-applet:527
+#: bin/openpgp-applet:550
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
@@ -109,36 +117,36 @@ msgstr ""
 "Şifrələnmiş mesajı qəbul edənlərin hamısının istifadəçi ID-ni gizlə. Əks "
 "halda, şifrələnmiş mesajı görən hər hansı şəxs onu qəbul edəni də görə bilər."
 
-#: bin/openpgp-applet:533
+#: bin/openpgp-applet:556
 msgid "Sign message as:"
 msgstr "Mesajı belə imzala:"
 
-#: bin/openpgp-applet:537
+#: bin/openpgp-applet:560
 msgid "Choose keys"
 msgstr "Açarları seç"
 
-#: bin/openpgp-applet:577
+#: bin/openpgp-applet:600
 msgid "Do you trust these keys?"
 msgstr "Bu açarlara inanırsan?"
 
-#: bin/openpgp-applet:580
+#: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "Bu seçilmiş açar tam inamlı deyil:"
 msgstr[1] "Bu seçilmiş açarlar tam inamlı deyil:"
 
-#: bin/openpgp-applet:598
+#: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Heç nəyə baxmayaraq bu açarı istifadə edəcək qədər ona inanırsan?"
 msgstr[1] ""
 "Heç nəyə baxmayaraq bu açarları istifadə edəcək qədər onlara inanırsan?"
 
-#: bin/openpgp-applet:611
+#: bin/openpgp-applet:634
 msgid "No keys selected"
 msgstr "Açar seçilməyib"
 
-#: bin/openpgp-applet:613
+#: bin/openpgp-applet:636
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
@@ -146,32 +154,32 @@ msgstr ""
 "Mesajı imzalamaq üçün şəxsi açar, şifrələmək üçün hər hansı ictimai açar, ya "
 "da hər ikisini seçməlisən."
 
-#: bin/openpgp-applet:641
+#: bin/openpgp-applet:664
 msgid "No keys available"
 msgstr "Açar yoxdur"
 
-#: bin/openpgp-applet:643
+#: bin/openpgp-applet:666
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
 "Mesajı imzalamaq üçün şəxsi, şifrələmək üçün isə ictimai açara ehtiyacın var."
 
-#: bin/openpgp-applet:771
+#: bin/openpgp-applet:794
 msgid "GnuPG error"
 msgstr "GnuPG xətası"
 
-#: bin/openpgp-applet:792
+#: bin/openpgp-applet:815
 msgid "Therefore the operation cannot be performed."
 msgstr "Buna görə də əməliyyat yerinə yetirilə bilmir."
 
-#: bin/openpgp-applet:842
+#: bin/openpgp-applet:865
 msgid "GnuPG results"
 msgstr "GnuPG nəticələr"
 
-#: bin/openpgp-applet:848
+#: bin/openpgp-applet:871
 msgid "Output of GnuPG:"
 msgstr "GnuPG nəticəsi:"
 
-#: bin/openpgp-applet:873
+#: bin/openpgp-applet:896
 msgid "Other messages provided by GnuPG:"
 msgstr "GnuPG tərəfindən təqdim edilmiş başqa mesajlar:"
