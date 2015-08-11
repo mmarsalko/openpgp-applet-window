@@ -8,7 +8,7 @@ extends 'GnuPG::Interface';
 use namespace::autoclean;
 use Carp;
 
-sub get_public_keys_light ( $@ ) {
+sub get_public_keys_light {
     my ( $self, @key_ids ) = @_;
 
     return $self->get_keys_light(
@@ -17,7 +17,7 @@ sub get_public_keys_light ( $@ ) {
     );
 }
 
-sub get_secret_keys_light ( $@ ) {
+sub get_secret_keys_light {
     my ( $self, @key_ids ) = @_;
 
     return $self->get_keys_light(
