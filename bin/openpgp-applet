@@ -6,7 +6,7 @@ OpenPGP_Applet - GNOME applet for OpenPGP text encryption
 
 =head1 VERSION
 
-Version 0.9
+Version 0.9.1
 
 =head1 DESCRIPTION
 
@@ -52,7 +52,7 @@ use strict;
 use warnings FATAL => 'all';
 use 5.10.0;
 
-our $VERSION = 0.9;
+our $VERSION = 0.9.1;
 
 use Glib qw{TRUE FALSE};
 use Gtk2 qw{-init};
