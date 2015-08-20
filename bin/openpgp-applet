@@ -131,10 +131,10 @@ Gtk3->main;
 
 sub all_clipboards {
     map {
-        Gtk3::Clipboard->get($_)
+        Gtk3::Clipboard::get($_)
     } (
-        Gtk3::Gdk->SELECTION_CLIPBOARD,
-        Gtk3::Gdk->SELECTION_PRIMARY
+        Gtk3::Gdk::Atom::intern('CLIPBOARD', Glib::FALSE),
+        Gtk3::Gdk::Atom::intern('PRIMARY', Glib::FALSE)
     );
 }
 
@@ -142,7 +142,7 @@ sub all_clipboards {
     my $freshest_clipboard;
 
     sub init_freshest_clipboard {
-        $freshest_clipboard = Gtk3::Clipboard->get(Gtk3::Gdk->SELECTION_CLIPBOARD);
+        $freshest_clipboard = Gtk3::Clipboard::get(Gtk3::Gdk::Atom::intern('CLIPBOARD', Glib::FALSE));
     }
 
     sub freshest_clipboard {
