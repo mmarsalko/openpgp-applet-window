@@ -94,7 +94,7 @@ use constant COMBO_ROLE        => 3;
 my $gnupg         = Crypt::OpenPGP_Applet::GnuPG::Interface->new();
 my $codeset       = langinfo(CODESET());
 my $encoding      = find_encoding($codeset);
-my $main_window   = Gtk3::Window::new();
+my $main_window   = Gtk3::Window->new();
 my $icon_factory  = Gtk3::IconFactory->new();
 # Set always_trust since GnuPG otherwise will fail if the key's
 # trust hasn't been set.
@@ -140,6 +140,7 @@ sub all_clipboards {
 
 {
     my $freshest_clipboard;
+
     sub init_freshest_clipboard {
         $freshest_clipboard = Gtk3::Clipboard::get(Gtk3::Gdk::Atom::intern('CLIPBOARD', Glib::FALSE));
     }
@@ -155,7 +156,7 @@ sub all_clipboards {
 
 sub app_exit {
     my $parent = shift;
-    my $dialog = Gtk3::MessageDialog::new($parent, [qw/modal destroy-with-parent/],
+    my $dialog = Gtk3::MessageDialog->new($parent, [qw/modal destroy-with-parent/],
                                    'warning',
                                    'yes-no',
                                    $encoding->decode(__("You are about to exit OpenPGP Applet. Are you sure?")));
@@ -406,7 +407,7 @@ sub create_key_row {
 sub make_pub_key_list {
     my $pub_keys_ref = shift;
 
-    my $list = Gtk3::SimpleList::new (
+    my $list = Gtk3::SimpleList->new (
         ""                                    => 'bool', # C_SELECT
         $encoding->decode(__("Name"))    => 'text', # C_NAME
         $encoding->decode(__("Key ID"))  => 'text', # C_KEYID
@@ -470,7 +471,7 @@ sub make_pub_key_list {
 sub make_priv_key_combo {
     my $priv_keys_ref = shift;
 
-    my $list_store = Gtk3::ListStore::new(
+    my $list_store = Gtk3::ListStore->new(
         qw/Glib::String Glib::String Glib::String Glib::String/);
     my $iter = $list_store->append;
     $list_store->set ($iter,
@@ -495,7 +496,7 @@ sub make_priv_key_combo {
                           COMBO_ROLE, "");
     }
 
-    my $sorted_list = Gtk3::TreeModelSort::new_with_model($list_store);
+    my $sorted_list = Gtk3::TreeModelSort->new_with_model($list_store);
     $sorted_list->set_default_sort_func(sub {
         my ($model, $iter1, $iter2, $data) = @_;
         my $name1 = $model->get($iter1, COMBO_NAME);
@@ -516,11 +517,11 @@ sub make_priv_key_combo {
         }
                                 });
 
-    my $combo = Gtk3::ComboBox::new_with_model($sorted_list);
-    my $renderer = Gtk3::CellRendererText::new();
+    my $combo = Gtk3::ComboBox->new_with_model($sorted_list);
+    my $renderer = Gtk3::CellRendererText->new();
     $combo->pack_start($renderer, FALSE);
     $combo->add_attribute($renderer, 'text', COMBO_NAME);
-    $renderer = Gtk3::CellRendererText::new();
+    $renderer = Gtk3::CellRendererText->new();
     $combo->pack_start($renderer, FALSE);
     $combo->add_attribute($renderer, 'text', COMBO_KEYID);
     $combo->set_row_separator_func( sub {
@@ -536,15 +537,15 @@ sub choose_keys {
     my $priv_keys_ref = shift;
     my $pub_keys_ref = shift;
 
-    my $pub_key_label = Gtk3::Label::new(
+    my $pub_key_label = Gtk3::Label->new(
         $encoding->decode(__("Select recipients:")));
 
     my $pub_key_list = make_pub_key_list($pub_keys_ref);
-    my $pub_key_list_scroll = Gtk3::ScrolledWindow::new;
+    my $pub_key_list_scroll = Gtk3::ScrolledWindow->new;
     $pub_key_list_scroll->set_policy('automatic', 'always');
     $pub_key_list_scroll->add($pub_key_list);
 
-    my $hide_recipients_checkbox = Gtk3::CheckButton::new(
+    my $hide_recipients_checkbox = Gtk3::CheckButton->new(
         $encoding->decode(__("Hide recipients")));
     $hide_recipients_checkbox->set_has_tooltip(TRUE);
     $hide_recipients_checkbox->set_tooltip_text(
@@ -553,12 +554,12 @@ sub choose_keys {
                                   "that sees the encrypted message can see " .
                                   "who the recipients are.")));
 
-    my $priv_key_label = Gtk3::Label::new(
+    my $priv_key_label = Gtk3::Label->new(
         $encoding->decode(__("Sign message as:")));
 
     my $priv_key_combo = make_priv_key_combo($priv_keys_ref);
 
-    my $dialog = Gtk3::Dialog::new($encoding->decode(__("Choose keys")),
+    my $dialog = Gtk3::Dialog->new($encoding->decode(__("Choose keys")),
                                    $main_window, 'destroy-with-parent',
                                    'gtk-cancel' => 'cancel', 'gtk-ok' => 'ok' );
     $dialog->set_default_size(650,500);
@@ -566,7 +567,7 @@ sub choose_keys {
     my $vbox = $dialog->get_content_area;
     $vbox->pack_start($pub_key_label, FALSE, FALSE, 5);
     $vbox->pack_start($pub_key_list_scroll, TRUE, TRUE, 0);
-    my $hbox = Gtk3::HBox::new;
+    my $hbox = Gtk3::HBox->new;
     $hbox->pack_start($priv_key_label, FALSE, FALSE, 0);
     $hbox->pack_start($priv_key_combo, TRUE, TRUE, 0);
     $vbox->pack_start($hbox, FALSE, FALSE, 5);
@@ -827,7 +828,7 @@ sub display_error {
     my $title = shift;
     my $msg   = shift;
 
-    my $dialog = Gtk3::MessageDialog::new(
+    my $dialog = Gtk3::MessageDialog->new(
         $parent, 'destroy-with-parent', 'error', 'ok',
         $title
     );
@@ -847,7 +848,7 @@ sub display_question {
     my $title = shift;
     my $msg   = shift;
 
-    my $dialog = Gtk3::MessageDialog::new(
+    my $dialog = Gtk3::MessageDialog->new(
         $parent, 'destroy-with-parent', 'question', 'yes-no', $title);
     $dialog->format_secondary_text($msg);
     $dialog->set_position('center');
@@ -861,7 +862,7 @@ sub display_output {
     my $std_out = shift;
     my $std_err = shift;
 
-    my $dialog = Gtk3::MessageDialog::new(
+    my $dialog = Gtk3::MessageDialog->new(
         $main_window, 'destroy-with-parent', 'info', 'ok',
         $encoding->decode(__("GnuPG results"))
     );
@@ -874,24 +875,24 @@ sub display_output {
 
     my $msg_area = $dialog->get_content_area;
 
-    my $outbuf = Gtk3::TextBuffer::new();
+    my $outbuf = Gtk3::TextBuffer->new();
     $outbuf->set_text($std_out);
     my $text_desc = Pango::FontDescription->new;
     $text_desc->set_family('Monospace');
-    my $textview_out = Gtk3::TextView::new_with_buffer($outbuf);
+    my $textview_out = Gtk3::TextView->new_with_buffer($outbuf);
     $textview_out->set_editable(FALSE);
     $textview_out->set_cursor_visible(FALSE);
     $textview_out->set_left_margin(10);
     $textview_out->set_right_margin(10);
     $textview_out->set_wrap_mode('word');
     $textview_out->modify_font($text_desc);
-    my $scrolled_win_out = Gtk3::ScrolledWindow::new;
+    my $scrolled_win_out = Gtk3::ScrolledWindow->new;
     $scrolled_win_out->set_policy('automatic', 'automatic');
     $scrolled_win_out->add($textview_out);
     $msg_area->pack_start($scrolled_win_out, TRUE, TRUE, 0);
 
     if (defined $std_err && length($std_err)) {
-        my $std_err_title = Gtk3::Label::new(
+        my $std_err_title = Gtk3::Label->new(
             # TRANSLATORS: GnuPG stderr (other informational messages)
             $encoding->decode(
                __("Other messages provided by GnuPG:")
@@ -899,16 +900,16 @@ sub display_output {
         $std_err_title->set_alignment(0, 0);
         $std_err_title->set_padding(10, 0);
         $msg_area->pack_start($std_err_title, FALSE, FALSE, 0);
-        my $std_err_buf = Gtk3::TextBuffer::new();
+        my $std_err_buf = Gtk3::TextBuffer->new();
         $std_err_buf->set_text($std_err);
-        my $textview_err = Gtk3::TextView::new_with_buffer($std_err_buf);
+        my $textview_err = Gtk3::TextView->new_with_buffer($std_err_buf);
         $textview_err->set_editable(FALSE);
         $textview_err->set_cursor_visible(FALSE);
         $textview_err->set_left_margin(10);
         $textview_err->set_right_margin(10);
         $textview_err->set_wrap_mode('word');
         $textview_err->modify_font($text_desc);
-        my $scrolled_win_err = Gtk3::ScrolledWindow::new;
+        my $scrolled_win_err = Gtk3::ScrolledWindow->new;
         $scrolled_win_err->set_policy('automatic', 'automatic');
         $scrolled_win_err->add($textview_err);
         $scrolled_win_err->set_size_request(-1, $my_height_request/5);
