@@ -995,7 +995,7 @@ sub make_icon_source {
     $source->set_state_wildcarded(1);
     if (defined $size) {
         $source->set_size_wildcarded(0);
-        $source->set_size($size);
+        $source->set_size(Gtk3::IconSize::from_name($size));
     } else {
         $source->set_size_wildcarded(1);
     }
@@ -1010,12 +1010,12 @@ sub init_icons_stock {
     my @stock_ids = map { "OpenPGP_Applet-$_" } qw{ message none signed text };
 
     foreach my $stock_id (@stock_ids) {
-        my $iconset = Gtk3::IconSet::new();
-        $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'button'));
-        $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'menu'));
-        $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'large-toolbar'));
-        $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'small-toolbar'));
-        $iconset->add_source(make_icon_source($stock_id, "48x48",    "png", 'dialog'));
+        my $iconset = Gtk3::IconSet->new();
+        $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'gtk-button'));
+        $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'gtk-menu'));
+        $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'gtk-large-toolbar'));
+        $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'gtk-small-toolbar'));
+        $iconset->add_source(make_icon_source($stock_id, "48x48",    "png", 'gtk-dialog'));
         $iconset->add_source(make_icon_source($stock_id, "scalable", "svg"));
         $factory->add($stock_id, $iconset);
     }
