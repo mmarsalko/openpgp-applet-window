@@ -174,9 +174,9 @@ sub build_statusicon {
     $icon->set_tooltip_text($encoding->decode(__("OpenPGP encryption applet")));
 
     my $menu   = Gtk3::Menu->new;
-    my $mexit  = Gtk3::MenuItem->new($encoding->decode(__("Exit")));
+    my $mexit  = Gtk3::MenuItem->new_with_mnemonic($encoding->decode(__("Exit")));
     $mexit->signal_connect('activate' => sub { app_exit($main_window); });
-    my $mabout = Gtk3::MenuItem->new($encoding->decode(__("About")));
+    my $mabout = Gtk3::MenuItem->new_with_mnemonic($encoding->decode(__("About")));
     $mabout->signal_connect('activate' => sub { Gtk3->show_about_dialog(
         $main_window,
         'program-name' => 'OpenPGP Applet',
@@ -1010,7 +1010,7 @@ sub init_icons_stock {
     my @stock_ids = map { "OpenPGP_Applet-$_" } qw{ message none signed text };
 
     foreach my $stock_id (@stock_ids) {
-        my $iconset = Gtk3::IconSet->new();
+        my $iconset = Gtk3::IconSet::new();
         $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'button'));
         $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'menu'));
         $iconset->add_source(make_icon_source($stock_id, "22x22",    "png", 'large-toolbar'));
