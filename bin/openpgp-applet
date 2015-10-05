@@ -209,7 +209,7 @@ Please see README and LICENSE files distributed along this program for detail.
         my $ticon = shift;
         my $event = shift;
         return unless $event->button == 1;
-        my $action_menu = build_action_menu();
+        our $action_menu = build_action_menu();
         $action_menu->show_all;
         $action_menu->popup(undef, undef, undef, undef, $event->button, $event->time);
     });
