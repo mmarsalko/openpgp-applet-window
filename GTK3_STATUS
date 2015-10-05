@@ -1,0 +1,17 @@
+What doesn't work :
+- encrypt / sign
+- decrypt / verify
+
+    Apparently, similar issue with function call on both (missing args):
+    Gtk3::Clipboard::set_text: passed too few parameters (expected 3, got 2) at ./bin/openpgp-applet line 331.
+
+- errors while browsing available keys :
+*** unhandled exception in callback:
+***   Can't locate object method "get_indices" via package "6" (perhaps you forgot to load "6"?) at ./bin/openpgp-applet line 443.
+***  ignoring at /usr/share/perl5/Gtk3.pm line 767.
+Related to the usage of Gtk3::SimpleList, apparently. Doesn't seem to work exactly the same as the Gtk2 counterpart.
+
+what works :
+- app launches without error
+- menus (both)
+- getting content of primary and secondary clipboards and change the icon accordingly
