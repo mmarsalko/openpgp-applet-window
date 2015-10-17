@@ -828,7 +828,7 @@ sub display_error {
         $parent, 'destroy-with-parent', 'error', 'ok',
         $title
     );
-    $dialog->format_secondary_text($msg);
+    $dialog->set_secondary_text($msg);
     $dialog->signal_connect(
         response => sub { my $self = shift; $self->destroy; }
     );
@@ -846,7 +846,7 @@ sub display_question {
 
     my $dialog = Gtk3::MessageDialog->new(
         $parent, 'destroy-with-parent', 'question', 'yes-no', $title);
-    $dialog->format_secondary_text($msg);
+    $dialog->set('secondary_text' => $msg);
     $dialog->set_position('center');
     my $answer = $dialog->run;
     $dialog->destroy;
@@ -865,7 +865,7 @@ sub display_output {
     my $my_width_request = 800;
     my $my_height_request = 600;
     # TRANSLATORS: GnuPG stdout (encrypted or decrypted message)
-    $dialog->format_secondary_text(sprintf($encoding->decode(
+    $dialog->set('secondary_text' => sprintf($encoding->decode(
         __("Output of GnuPG:")
     )));
 
