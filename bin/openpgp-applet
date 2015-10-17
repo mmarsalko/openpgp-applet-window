@@ -323,12 +323,8 @@ sub set_clipboards_text {
     my $text = shift;
     my $encoded_text = $encoding->encode($text);
 
-    # FIXME-GTK3 - still true with gtk3 ?
-    # Note: according to the GTK documentation, the set_text method
-    # is supposed to need input encoded in UTF-8. But it seems like the Perl
-    # bindings encode it, and we need to pass a string of chars instead of bytes.
     foreach (all_clipboards()) {
-        $_->set_text($text);
+        $_->set_text($encoded_text,-1);
     }
     # FIXME-GTK3 - still true with gtk3 ?
     # GTK fails setting the primary selection above, so let's use xclip :/
