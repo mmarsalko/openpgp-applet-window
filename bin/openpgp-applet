@@ -573,7 +573,7 @@ sub choose_keys {
 
     $dialog->signal_connect('key-press-event' => sub {
         my $event = $_[1];
-        return unless $event->keyval == $Gtk3::Gdk::KEY_Return;
+        return unless $event->keyval == Gtk3::Gdk::KEY_Return;
         $dialog->response('ok');
         return 1;
     });
