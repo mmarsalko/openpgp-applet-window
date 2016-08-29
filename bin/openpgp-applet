@@ -827,7 +827,7 @@ sub display_error {
         $parent, 'destroy-with-parent', 'error', 'ok',
         $title
     );
-    $dialog->set_secondary_text($msg);
+    $dialog->set('secondary_text' => $msg);
     $dialog->signal_connect(
         response => sub { my $self = shift; $self->destroy; }
     );
