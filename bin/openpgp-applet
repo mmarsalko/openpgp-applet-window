@@ -23,9 +23,6 @@ offer terminal interaction unless explicitly run from there, it relies
 in practice on some kind of GnuPG agent such as pinentry, Seahorse 2.x
 or GNOME keyring 3.x to manage passphrase input.
 
-'xclip' (http://xclip.sourceforge.net) is used to get input from clipboard.
-
-
 =head1 SEE ALSO
 
 User documentation, with screenshots, can be found on https://tails.boum.org/doc/encryption_and_privacy/gpgapplet/
@@ -327,12 +324,6 @@ sub set_clipboards_text {
     foreach (all_clipboards()) {
         $_->set_text($encoded_text,-1);
     }
-    # FIXME-GTK3 - still true with gtk3 ?
-    # GTK fails setting the primary selection above, so let's use xclip :/
-    # xclip needs encoded text.
-    open(my $xclip, '|-', 'xclip') or die "Error opening pipe to xclip";
-    print $xclip $encoded_text or die "Error copying data to X clipboard";
-    close $xclip or die "Error closing pipe to xclip";
 }
 
 sub get_status {
