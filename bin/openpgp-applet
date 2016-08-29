@@ -92,6 +92,7 @@ use constant COMBO_FINGERPRINT => 2;
 use constant COMBO_ROLE        => 3;
 
 my $gnupg         = Crypt::OpenPGP_Applet::GnuPG::Interface->new();
+$gnupg->call('gpg2');
 my $codeset       = langinfo(CODESET());
 my $encoding      = find_encoding($codeset);
 my $main_window   = Gtk3::Window->new();
