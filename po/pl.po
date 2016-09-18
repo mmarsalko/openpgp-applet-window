@@ -1,23 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Aron <aron.plotnikowski@cryptolab.net>, 2014
-# Dawid <hoek@hoek.pl>, 2014
-# Dawid <hoek@hoek.pl>, 2014
-# oirpos <kuba2707@gmail.com>, 2015
-# phla47 <phla47@gmail.com>, 2013
-# seb, 2013-2015
+# sebx, 2015
+# sebx, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-06-25 21:41+0000\n"
-"Last-Translator: seb\n"
-"Language-Team: Polish (http://www.transifex.com/projects/p/torproject/"
-"language/pl/)\n"
+"PO-Revision-Date: 2016-03-21 16:27+0000\n"
+"Last-Translator: sebx\n"
+"Language-Team: Polish (http://www.transifex.com/otf/torproject/language/"
+"pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +23,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "Zamierzasz wyjść z OpenPGP Applet. Czy jesteś tego pewny?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -35,7 +31,7 @@ msgstr "Aplikacja szyfrowania OpenPGP"
 
 #: bin/openpgp-applet:178
 msgid "Exit"
-msgstr "Wyjście"
+msgstr "Zamknij"
 
 #: bin/openpgp-applet:180
 msgid "About"
@@ -47,7 +43,7 @@ msgstr "Szyfruj schowek _Hasłem"
 
 #: bin/openpgp-applet:238
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Podpisz/Szyfruj schowek przy pomocy Kluczy _Publicznych"
+msgstr "Podpisz/Szyfruj schowek przy pomocy Publicznych _Kluczy"
 
 #: bin/openpgp-applet:243
 msgid "_Decrypt/Verify Clipboard"
@@ -59,11 +55,11 @@ msgstr "_Zarządzanie Kluczami"
 
 #: bin/openpgp-applet:251
 msgid "_Open Text Editor"
-msgstr "_Otwórz Edytor Tekstu"
+msgstr "_Otwórz Edytor Tekstowy"
 
 #: bin/openpgp-applet:295
 msgid "The clipboard does not contain valid input data."
-msgstr "Schowek nie zawiera ważnych danych wejściowych."
+msgstr "Schowek nie zawiera poprawnych danych."
 
 #: bin/openpgp-applet:347 bin/openpgp-applet:349 bin/openpgp-applet:351
 msgid "Unknown Trust"
@@ -91,18 +87,18 @@ msgstr "Klucz ID:"
 
 #: bin/openpgp-applet:412
 msgid "Status"
-msgstr "Stan"
+msgstr "Status"
 
 #: bin/openpgp-applet:444
 msgid "Fingerprint:"
-msgstr "Mapowanie (odcisk palca):"
+msgstr "Fingerprint:"
 
 #: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] "ID użytkownika:"
-msgstr[1] "Użytkownika IDs:"
-msgstr[2] "Użytkownika IDs:"
+msgstr[1] "ID użytkowników:"
+msgstr[2] "ID użytkowników:"
 
 #: bin/openpgp-applet:476
 msgid "None (Don't sign)"
@@ -141,27 +137,27 @@ msgstr "Czy ufasz tym kluczom?"
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "Wybrany klucz nie jest do końca zaufany:"
-msgstr[1] "Wybrany klucz nie jest do końca zaufany:"
+msgstr[1] "Wybrane klucze nie są do końca zaufane:"
 msgstr[2] "Wybrane klucze nie są do końca zaufane:"
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Czy wystarczająco temu kluczowi, aby z niego korzystać?"
+msgstr[0] "Czy wystarczająco ufasz temu kluczowi, aby z niego korzystać?"
 msgstr[1] "Czy wystarczająco ufasz tym kluczom, aby z nich korzystać?"
 msgstr[2] "Czy wystarczająco ufasz tym kluczom, aby z nich korzystać?"
 
 #: bin/openpgp-applet:634
 msgid "No keys selected"
-msgstr "Nie wybrano kluczy"
+msgstr "Nie wybrano żadnych kluczy"
 
 #: bin/openpgp-applet:636
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"Musisz wybrać klucz prywatny aby podpisać wiadomość, lub klucz publiczny aby "
-"zaszyfrować wiadomość, lub oba."
+"Musisz wybrać klucz prywatny, aby podpisać wiadomość, lub jakiś klucz "
+"publiczny, aby zaszyfrować wiadomość, lub oba."
 
 #: bin/openpgp-applet:664
 msgid "No keys available"
@@ -171,8 +167,8 @@ msgstr "Brak kluczy"
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
-"Potrzebujesz klucza prywatnego, aby podpisywać wiadomości lub klucza "
-"publicznego aby szyfrować wiadomości."
+"Potrzebujesz klucza prywatnego, aby podpisywać wiadomości, lub klucza "
+"publicznego aby je szyfrować."
 
 #: bin/openpgp-applet:794
 msgid "GnuPG error"

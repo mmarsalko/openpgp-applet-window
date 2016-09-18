@@ -1,25 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# khi, 2013
-# bnw, 2014
-# Meng3, 2014
-# leungsookfan <leung.sookfan@riseup.net>, 2014
-# Sanya chang <408070986@qq.com>, 2013
-# khi, 2014
-# Xiaolan <xiaolan65535@gmail.com>, 2014
-# YF <yfdyh000@gmail.com>, 2013-2015
+# Mingye Wang <arthur200126@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-06-18 18:28+0000\n"
-"Last-Translator: YF <yfdyh000@gmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/"
-"torproject/language/zh_CN/)\n"
+"PO-Revision-Date: 2016-06-01 16:10+0000\n"
+"Last-Translator: Mingye Wang <arthur200126@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/otf/torproject/"
+"language/zh_CN/)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +21,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "你将要退出 OpenPGP 加密小程序。确定吗？"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -48,7 +41,7 @@ msgstr "使用密码加密剪贴板(_P)"
 
 #: bin/openpgp-applet:238
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "使用公开密钥签署/加密剪贴板(_K)"
+msgstr "使用公钥签名/加密剪贴板(_K)"
 
 #: bin/openpgp-applet:243
 msgid "_Decrypt/Verify Clipboard"
@@ -84,7 +77,7 @@ msgstr "最高信任"
 
 #: bin/openpgp-applet:410
 msgid "Name"
-msgstr "名字"
+msgstr "名称"
 
 #: bin/openpgp-applet:411
 msgid "Key ID"
@@ -96,16 +89,16 @@ msgstr "状态"
 
 #: bin/openpgp-applet:444
 msgid "Fingerprint:"
-msgstr "密钥指纹："
+msgstr "指纹："
 
 #: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "用户ID："
+msgstr[0] "用户 ID："
 
 #: bin/openpgp-applet:476
 msgid "None (Don't sign)"
-msgstr "无（不签署）"
+msgstr "无（不签名）"
 
 #: bin/openpgp-applet:539
 msgid "Select recipients:"
@@ -125,7 +118,7 @@ msgstr ""
 
 #: bin/openpgp-applet:556
 msgid "Sign message as:"
-msgstr "签署信息为："
+msgstr "签名信息作为："
 
 #: bin/openpgp-applet:560
 msgid "Choose keys"
@@ -138,12 +131,12 @@ msgstr "是否信任这些密钥？"
 #: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "以下选中密钥非完全信任："
+msgstr[0] "以下已选中的密钥未被完全信任："
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "是否对这些密钥足够信任以继续使用？"
+msgstr[0] "你是否足够信任这些密钥以至于使用它们？"
 
 #: bin/openpgp-applet:634
 msgid "No keys selected"

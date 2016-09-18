@@ -1,22 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# sunpower92 <fumihito92@gmail.com>, 2014
-# タカハシ <gomidori@live.jp>, 2013-2014
-# Masaki Saito <rezoolab@gmail.com>, 2013
-# mksyslab, 2014
-# 藤前　甲 <m1440809437@hiru-dea.com>, 2014
+# Tokumei Nanashi, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2014-12-26 04:42+0000\n"
-"Last-Translator: 藤前　甲 <m1440809437@hiru-dea.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/torproject/"
-"language/ja/)\n"
+"PO-Revision-Date: 2016-03-21 16:27+0000\n"
+"Last-Translator: Tokumei Nanashi\n"
+"Language-Team: Japanese (http://www.transifex.com/otf/torproject/language/"
+"ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +21,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "OpenPGPアプレットを終了します。よろしいですか？"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -41,23 +37,23 @@ msgstr "バージョン情報"
 
 #: bin/openpgp-applet:235
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "_Passphrase でクリップボードを暗号化"
+msgstr "パスワードでクリップボードを暗号化 (_P)"
 
 #: bin/openpgp-applet:238
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Public _Keys でクリップボードを署名/暗号化"
+msgstr "公開鍵でクリップボードを署名/暗号化 (_K)"
 
 #: bin/openpgp-applet:243
 msgid "_Decrypt/Verify Clipboard"
-msgstr "_Decrypt/Verify クリップボード"
+msgstr "クリップボード暗号化の解除/確認 (_D)"
 
 #: bin/openpgp-applet:247
 msgid "_Manage Keys"
-msgstr "_Manage キー"
+msgstr "キーの管理 (_M)"
 
 #: bin/openpgp-applet:251
 msgid "_Open Text Editor"
-msgstr ""
+msgstr "テキストエディターを開く (_O)"
 
 #: bin/openpgp-applet:295
 msgid "The clipboard does not contain valid input data."

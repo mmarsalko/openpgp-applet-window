@@ -1,21 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Ana B, 2014
-# Miskha <edinaaa.b@gmail.com>, 2014
-# skiddiep <lyricaltumor@gmail.com>, 2015
-# Neven Lovrić <neven@lovric.net>, 2014
+# Igor <lyricaltumor@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-02-25 13:32+0000\n"
-"Last-Translator: skiddiep <lyricaltumor@gmail.com>\n"
-"Language-Team: Croatian (Croatia) (http://www.transifex.com/projects/p/"
-"torproject/language/hr_HR/)\n"
+"PO-Revision-Date: 2016-08-30 09:42+0000\n"
+"Last-Translator: Igor <lyricaltumor@gmail.com>\n"
+"Language-Team: Croatian (Croatia) (http://www.transifex.com/otf/torproject/"
+"language/hr_HR/)\n"
 "Language: hr_HR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,11 +22,11 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "Izaći ćete iz OpenPGP aplikacije. Jeste li sigurni?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
-msgstr "OpenPGP aplikacija za kodiranje"
+msgstr "OpenPGP aplikacija za enkripciju"
 
 #: bin/openpgp-applet:178
 msgid "Exit"
@@ -41,11 +38,11 @@ msgstr "O"
 
 #: bin/openpgp-applet:235
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Šifriraj Clipboard s _Lozinkom"
+msgstr "Enkriptiraj Clipboard s _Lozinkom"
 
 #: bin/openpgp-applet:238
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Potpiši/Šifriraj Clipboard s Javnim_Ključevima"
+msgstr "Potpiši/Šifriraj Clipboard s javnim _ključevima"
 
 #: bin/openpgp-applet:243
 msgid "_Decrypt/Verify Clipboard"
@@ -57,7 +54,7 @@ msgstr "_Upravljaj ključevima"
 
 #: bin/openpgp-applet:251
 msgid "_Open Text Editor"
-msgstr ""
+msgstr "_Otvori uređivač teksta"
 
 #: bin/openpgp-applet:295
 msgid "The clipboard does not contain valid input data."
@@ -81,7 +78,7 @@ msgstr "Ultimativno Povjerenje"
 
 #: bin/openpgp-applet:410
 msgid "Name"
-msgstr "Naziv"
+msgstr "Ime"
 
 #: bin/openpgp-applet:411
 msgid "Key ID"
@@ -93,18 +90,18 @@ msgstr "Status"
 
 #: bin/openpgp-applet:444
 msgid "Fingerprint:"
-msgstr "Otisak:"
+msgstr "Otisak prsta:"
 
 #: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "ID korisnika"
-msgstr[1] "ID-i korisnika"
-msgstr[2] "Identifikacije korisnik:"
+msgstr[0] "Korisnički ID:"
+msgstr[1] "Korisnički ID:"
+msgstr[2] "Korisnički ID-evi:"
 
 #: bin/openpgp-applet:476
 msgid "None (Don't sign)"
-msgstr "Nijedan (Ne prijavljuj)"
+msgstr "Nijedan (Ne potpisuj)"
 
 #: bin/openpgp-applet:539
 msgid "Select recipients:"
@@ -119,8 +116,8 @@ msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Sakrij identifikacije svih primatelja kodirane poruke. Inače svatko tko vidi "
-"kodiranu poruku može vidjeti tko su primatelji."
+"Sakrij identifikacije svih primatelja enkriptirane poruke. U suprotnom "
+"svatko tko vidi enkriptiranu poruku može vidjeti tko su primatelji."
 
 #: bin/openpgp-applet:556
 msgid "Sign message as:"
@@ -137,17 +134,16 @@ msgstr "Vjerujete li ovim ključevima?"
 #: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "Sljedeci izabrani ključ nije potpuno siguran :"
-msgstr[1] "Sljedeći izabrani ključevi nisu potpuno sigurni :"
-msgstr[2] "Sljedećim izabranim ključevima se ne vjeruje u potpunosti:"
+msgstr[0] "Sljedećem odabranom ključu se ne vjeruje u potpunosti:"
+msgstr[1] "Sljedećem odabranom ključu se ne vjeruje u potpunosti:"
+msgstr[2] "Sljedećim odabranim ključevima se ne vjeruje u potpunosti:"
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Da li vjeruješ ovom ključu dovoljno da ga svejedno upotrijebiš ? "
-msgstr[1] ""
-"Da li vjeruješ ovim ključevima dovoljno da ih svejedno upotrijebiš ? "
-msgstr[2] "Vjerujete li ovim ključevima dovoljno da ih svejedno upotrijebite?"
+msgstr[0] "Vjerujete li ovom ključu dovoljno da ga svejedno koristite?"
+msgstr[1] "Vjerujete li ovom ključu dovoljno da ga svejedno koristite?"
+msgstr[2] "Vjerujete li ovim ključevima dovoljno da ih svejedno koristite?"
 
 #: bin/openpgp-applet:634
 msgid "No keys selected"
@@ -158,8 +154,8 @@ msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"Morate izabrati privatni ključ da biste potpisali poruku , ili neke javne "
-"ključeve da biste kodirali poruku, ili oboje."
+"Morate izabrati privatni ključ da biste potpisali poruku, ili neke javne "
+"ključeve da biste enkriptirali poruku, ili oboje."
 
 #: bin/openpgp-applet:664
 msgid "No keys available"
@@ -170,7 +166,7 @@ msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
 "Trebate privatni ključ da biste potpisali poruke ili javni ključ da biste ih "
-"kodirali."
+"enkriptirali."
 
 #: bin/openpgp-applet:794
 msgid "GnuPG error"
@@ -186,7 +182,7 @@ msgstr "GnuPG rezultati"
 
 #: bin/openpgp-applet:871
 msgid "Output of GnuPG:"
-msgstr "GnuPG učinak:"
+msgstr "GnuPG izlazne vrijednosti:"
 
 #: bin/openpgp-applet:896
 msgid "Other messages provided by GnuPG:"

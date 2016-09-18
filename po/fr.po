@@ -1,26 +1,27 @@
-# #-#-#-#-#  amnesia.po (The Tor Project)  #-#-#-#-#
-# Tails
-# Copyright (C) 2012 Tails devlopers
-# This file is distributed under the same license as the Tails package.
-# Tails developers <tails@boum.org>
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tails developers
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Gwennole Hangard <gwennole.hangard@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-01-18 12:44-0000\n"
-"Last-Translator: amnesia <amnesia@boum.org>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-03-21 16:27+0000\n"
+"Last-Translator: Gwennole Hangard <gwennole.hangard@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/otf/torproject/language/"
+"fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.4\n"
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "Vous allez sortir de l'Applet OpenPGP. Est-vous sûr ?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -52,7 +53,7 @@ msgstr "_Gérer les Clés"
 
 #: bin/openpgp-applet:251
 msgid "_Open Text Editor"
-msgstr ""
+msgstr "_Ouvrir l'éditeur de texte"
 
 #: bin/openpgp-applet:295
 msgid "The clipboard does not contain valid input data."
@@ -64,7 +65,7 @@ msgstr "Confiance inconnue"
 
 #: bin/openpgp-applet:353
 msgid "Marginal Trust"
-msgstr "Confiance marginale"
+msgstr "Confiance minime"
 
 #: bin/openpgp-applet:355
 msgid "Full Trust"
@@ -72,7 +73,7 @@ msgstr "Confiance complète"
 
 #: bin/openpgp-applet:357
 msgid "Ultimate Trust"
-msgstr "Confiance ultime"
+msgstr "Confiance absolue"
 
 #: bin/openpgp-applet:410
 msgid "Name"
@@ -84,11 +85,11 @@ msgstr "Identifiant de la clé"
 
 #: bin/openpgp-applet:412
 msgid "Status"
-msgstr "Statut"
+msgstr "État"
 
 #: bin/openpgp-applet:444
 msgid "Fingerprint:"
-msgstr "Empreinte :"
+msgstr "Empreinte:"
 
 #: bin/openpgp-applet:447
 msgid "User ID:"
@@ -113,9 +114,9 @@ msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Cacher les identifiants d'utilisateur pour tous les destinataires du message "
-"chiffré. Sans quoi n'importe qui voyant le message chiffré peut savoir à qui "
-"il est destiné."
+"Cacher les identifiants utilisateur de tous les destinataires d'un message "
+"chiffré. Sans quoi n'importe qui interceptant le message chiffré peut savoir "
+"à qui il est destiné."
 
 #: bin/openpgp-applet:556
 msgid "Sign message as:"
@@ -132,9 +133,8 @@ msgstr "Faites-vous confiance à ces clés ?"
 #: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "La clé sélectionnée suivante n'est pas totalement de confiance :"
-msgstr[1] ""
-"Les clés sélectionnées suivantes ne sont pas totalement de confiance :"
+msgstr[0] "La clé suivante n'est pas totalement fiable :"
+msgstr[1] "Les clés suivantes ne sont pas totalement fiables :"
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
@@ -153,7 +153,7 @@ msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"Vous devez sélectionner une clé privée pour signer le message, ou une clé "
+"Vous devez sélectionner une clé privée pour signer le message, une clé "
 "publique pour le chiffrer, ou les deux."
 
 #: bin/openpgp-applet:664
@@ -173,11 +173,11 @@ msgstr "Erreur de GnuPG"
 
 #: bin/openpgp-applet:815
 msgid "Therefore the operation cannot be performed."
-msgstr "L'opération ne peut pas être effectuée."
+msgstr "L'opération ne peut donc pas être effectuée."
 
 #: bin/openpgp-applet:865
 msgid "GnuPG results"
-msgstr "Résultat de GnuPG"
+msgstr "Résultats de GnuPG"
 
 #: bin/openpgp-applet:871
 msgid "Output of GnuPG:"
@@ -185,4 +185,4 @@ msgstr "Voici la sortie de GnuPG :"
 
 #: bin/openpgp-applet:896
 msgid "Other messages provided by GnuPG:"
-msgstr "Autres messages de GnuPG :"
+msgstr "Autres messages fournis par GnuPG :"

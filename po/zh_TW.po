@@ -1,25 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# cges30901 <cges30901@gmail.com>, 2014
-# cges30901 <cges30901@gmail.com>, 2014
-# danfong <danfong.hsieh@gmail.com>, 2014
-# danfong <danfong.hsieh@gmail.com>, 2014
-# LNDDYL, 2014
-# Po-Chun Huang <aphroteus@gmail.com>, 2014
-# x4r <xatierlike@gmail.com>, 2015
-# LNDDYL, 2014
+# Kin Kwok, 2016
+# Wen-Gan Li <wgli@wgli.net>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-05-10 07:41+0000\n"
-"Last-Translator: frank <slm789456123@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/"
-"torproject/language/zh_TW/)\n"
+"PO-Revision-Date: 2016-04-13 09:40+0000\n"
+"Last-Translator: Kin Kwok\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/"
+"language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +22,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "你正準備離開OpenPGP 加密程式。你確定嗎 ?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -60,7 +54,7 @@ msgstr "_Manage 金鑰"
 
 #: bin/openpgp-applet:251
 msgid "_Open Text Editor"
-msgstr "文件编辑器"
+msgstr "_Open Text Editor"
 
 #: bin/openpgp-applet:295
 msgid "The clipboard does not contain valid input data."
@@ -101,7 +95,7 @@ msgstr "指紋:"
 #: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "使用者識別碼:"
+msgstr[0] "使用者 IDs："
 
 #: bin/openpgp-applet:476
 msgid "None (Don't sign)"
@@ -138,12 +132,12 @@ msgstr "您信任這些金鑰嗎?"
 #: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "下列所選的金鑰不是完全受信任:"
+msgstr[0] "以下所選擇的金鑰都是無法完全信任："
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "您可以信任這些金鑰到足以使用它們嗎?"
+msgstr[0] "你真的信任這些的金鑰並使用它們 ?"
 
 #: bin/openpgp-applet:634
 msgid "No keys selected"

@@ -1,26 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Communia <ameaneantie@riseup.net>, 2013-2015
-# carlo giusepe tadei valente sasaki <carlo.gt.valente@gmail.com>, 2014
-# Eduardo Bonsi, 2013-2014
-# Eduardo Luis Voltolini Tafner, 2013
-# Isabel Ferreira, 2014
-# john smith, 2015
-# Lucas Possatti, 2014
-# Matheus Boni Vicari <matheus_boni_vicari@hotmail.com>, 2014
-# Matheus  Martins, 2013
+# Communia <ameaneantie@riseup.net>, 2015-2016
+# Danton Medrado, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-06-18 19:17+0000\n"
+"PO-Revision-Date: 2016-03-30 20:26+0000\n"
 "Last-Translator: Communia <ameaneantie@riseup.net>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
-"torproject/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/otf/torproject/"
+"language/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,11 +22,11 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "Você está prestes a sair do Applet OpenPGP. Você quer sair mesmo?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
-msgstr "Applet de encriptação OpenPGP"
+msgstr "Miniaplicativo de criptografia OpenPGP"
 
 #: bin/openpgp-applet:178
 msgid "Exit"
@@ -45,7 +38,7 @@ msgstr "Sobre"
 
 #: bin/openpgp-applet:235
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Criptografar a Área de Transferência com a_frase secreta"
+msgstr "Criptografar a Área de Transferência com _frase secreta"
 
 #: bin/openpgp-applet:238
 msgid "Sign/Encrypt Clipboard with Public _Keys"
@@ -81,7 +74,7 @@ msgstr "Confiança Completa"
 
 #: bin/openpgp-applet:357
 msgid "Ultimate Trust"
-msgstr "Confiança definitiva"
+msgstr "Confiança Total"
 
 #: bin/openpgp-applet:410
 msgid "Name"
@@ -89,7 +82,7 @@ msgstr "Nome"
 
 #: bin/openpgp-applet:411
 msgid "Key ID"
-msgstr "Identidade da Chave"
+msgstr "Chave de Identidade"
 
 #: bin/openpgp-applet:412
 msgid "Status"
@@ -102,8 +95,8 @@ msgstr "Impressão digital:"
 #: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "Identidade de Usuário:"
-msgstr[1] "Identidades de Usuário:"
+msgstr[0] "Identidade da pessoa usuária"
+msgstr[1] "Identidade da pessoa usuária"
 
 #: bin/openpgp-applet:476
 msgid "None (Don't sign)"
@@ -111,20 +104,20 @@ msgstr "Nenhuma (Não assinar)"
 
 #: bin/openpgp-applet:539
 msgid "Select recipients:"
-msgstr "Selecione os destinatários:"
+msgstr "Selecionar contatos destinatários:"
 
 #: bin/openpgp-applet:547
 msgid "Hide recipients"
-msgstr "Ocultar destinatários"
+msgstr "Ocultar contatos destinatários"
 
 #: bin/openpgp-applet:550
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Oculte as IDs de usuário de todos os destinatários de uma mensagem "
-"criptografada. Caso contrário, qualquer um que vir a mensagem criptografada "
-"poderá saber quem são os destinatários."
+"Ocultar as IDs de usuário de todos os endereços destinatários de uma "
+"mensagem criptografada. Caso contrário, qualquer pessoa que vir a mensagem "
+"criptografada, verá as identidades."
 
 #: bin/openpgp-applet:556
 msgid "Sign message as:"
@@ -132,7 +125,7 @@ msgstr "Assinar a mensagem como:"
 
 #: bin/openpgp-applet:560
 msgid "Choose keys"
-msgstr "Escolha as chaves"
+msgstr "Escolher as chaves"
 
 #: bin/openpgp-applet:600
 msgid "Do you trust these keys?"
@@ -141,14 +134,15 @@ msgstr "Você confia nestas chaves?"
 #: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "A chave selecionada seguinte não é plenamente confiável:"
-msgstr[1] "As seguintes chaves selecionadas não são totalmente confiáveis​​:"
+msgstr[0] "A seguinte chave selecionada não é totalmente confiável:"
+msgstr[1] "As seguintes chaves selecionadas não são totalmente confiáveis:"
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Você confia nesta chave o suficiente para usá-la mesmo assim?"
-msgstr[1] "Você confia nestas chaves o suficiente para usá-las mesmo assim?"
+msgstr[0] ""
+"Você confia suficientemente nessas chaves para usá-las de qualquer maneira?"
+msgstr[1] "Você confia suficientemente nestas chaves para usá-las assim mesmo?"
 
 #: bin/openpgp-applet:634
 msgid "No keys selected"
@@ -159,8 +153,8 @@ msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"Você deve selecionar uma chave privada para assinar a mensagem, ou algumas "
-"chaves públicas para criptografar a mensagem, ou ambas as opções."
+"Você deve selecionar ou uma chave privada para assinar a mensagem ou algumas "
+"chaves públicas para criptografar a mensagem ou ambas as opções."
 
 #: bin/openpgp-applet:664
 msgid "No keys available"
@@ -179,7 +173,7 @@ msgstr "Erro do GnuPG"
 
 #: bin/openpgp-applet:815
 msgid "Therefore the operation cannot be performed."
-msgstr "Portanto, a operação não pode ser executada."
+msgstr " a operação não pode ser executada."
 
 #: bin/openpgp-applet:865
 msgid "GnuPG results"
@@ -191,4 +185,4 @@ msgstr "Saída do GnuPG:"
 
 #: bin/openpgp-applet:896
 msgid "Other messages provided by GnuPG:"
-msgstr "Outras mensagens fornecidas pelo GnuPG:"
+msgstr "Outras mensagens fornecidas por GnuPG:"

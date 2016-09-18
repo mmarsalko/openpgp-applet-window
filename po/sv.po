@@ -1,26 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Emil Johansson <emil.a.johansson@gmail.com>, 2015
-# Filip Nyquist <fillerix@fillerix.se>, 2015
-# GabSeb, 2014
-# falk3n <johan.falkenstrom@gmail.com>, 2014
-# Michael Cavén, 2014
-# ph AA, 2015
-# phst <transifex@sturman.se>, 2015
-# leveebreaks, 2014
-# WinterFairy <winterfairy@riseup.net>, 2013-2014
+# Anders Nilsson <locally@devode.se>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-03-05 18:02+0000\n"
-"Last-Translator: Filip Nyquist <fillerix@fillerix.se>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/torproject/"
-"language/sv/)\n"
+"PO-Revision-Date: 2016-03-21 16:27+0000\n"
+"Last-Translator: Anders Nilsson <locally@devode.se>\n"
+"Language-Team: Swedish (http://www.transifex.com/otf/torproject/language/"
+"sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +21,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "Du håller på att avsluta OpenPGP Applet. Är du säker?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -61,7 +53,7 @@ msgstr "_Hantera nycklar"
 
 #: bin/openpgp-applet:251
 msgid "_Open Text Editor"
-msgstr ""
+msgstr "_Öppna textredigerare"
 
 #: bin/openpgp-applet:295
 msgid "The clipboard does not contain valid input data."
@@ -102,8 +94,8 @@ msgstr "Fingeravtryck:"
 #: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "Användar ID:"
-msgstr[1] "Användar IDn:"
+msgstr[0] "Användar-ID:"
+msgstr[1] "Användar-IDn:"
 
 #: bin/openpgp-applet:476
 msgid "None (Don't sign)"
@@ -122,7 +114,7 @@ msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Dölj användar IDn för alla mottagare av krypterade meddelanden. Annars kan "
+"Dölj användar-IDn för alla mottagare av krypterade meddelanden. Annars kan "
 "vem som helst som ser meddelandet också se vilka mottagarna är."
 
 #: bin/openpgp-applet:556
@@ -146,8 +138,8 @@ msgstr[1] "Följande valda nycklar är inte helt betrodda:"
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Litar du på den här nyckeln tillräckligt för att använda den ändå?"
-msgstr[1] "Litar du på de här nycklarna tillräckligt för att använda dem ändå?"
+msgstr[0] "Litar du tillräckligt på den här nyckeln för att använda den ändå?"
+msgstr[1] "Litar du tillräckligt på de här nycklarna för att använda dem ändå?"
 
 #: bin/openpgp-applet:634
 msgid "No keys selected"

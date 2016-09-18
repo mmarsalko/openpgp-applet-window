@@ -1,22 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Jorma Karvonen <karvonen.jorma@gmail.com>, 2015
-# Jorma Karvonen <karvonen.jorma@gmail.com>, 2014
-# Tomi Toivio <tomi@sange.fi>, 2013
-# tonttula, 2013
-# Finland355 <ville.ehrukainen2@gmail.com>, 2014
+# Propa G, 2016
+# Thomas <lab777ee@hotmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-03-04 15:12+0000\n"
-"Last-Translator: Jorma Karvonen <karvonen.jorma@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/projects/p/torproject/"
-"language/fi/)\n"
+"PO-Revision-Date: 2016-09-08 14:41+0000\n"
+"Last-Translator: Thomas <lab777ee@hotmail.com>\n"
+"Language-Team: Finnish (http://www.transifex.com/otf/torproject/language/"
+"fi/)\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +22,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "Olet poistumassa OpenPGP sovelmasta. Oletko varma?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -57,7 +54,7 @@ msgstr "_Hallitse avaimia"
 
 #: bin/openpgp-applet:251
 msgid "_Open Text Editor"
-msgstr ""
+msgstr "_Avaa tekstinmuokkain"
 
 #: bin/openpgp-applet:295
 msgid "The clipboard does not contain valid input data."
@@ -98,7 +95,7 @@ msgstr "Sormenjälki:"
 #: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "Käyttäjätunniste:"
+msgstr[0] "Käyttäjätunnisteet:"
 msgstr[1] "Käyttäjätunnisteet:"
 
 #: bin/openpgp-applet:476
@@ -137,14 +134,16 @@ msgstr "Luotatko näihin avaimiin?"
 #: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "Seuraavaan valittuun avaimeen ei lueteta täysin:"
-msgstr[1] "Seuraaviin valittuihin avaimiin ei luoteta täysin:"
+msgstr[0] "Seuraava valittu avain ei ole kokonaan luotettu:"
+msgstr[1] "Seuraavat valitut avaimet eivät ole kokonaan luotettuja:"
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Luotatko tähän avaimeen kylliksi käyttääksesi sitä silti?"
-msgstr[1] "Luotatko näihin avaimiin kylliksi käyttääksesi niitä silti?"
+msgstr[0] ""
+"Luotatko tähän aivaimeen tarpeeksi käyttääksesi sitä joka tapauksessa?"
+msgstr[1] ""
+"Luotatko näihin avaimiin tarpeeksi käyttääksesi niitä joka tapauksessa?"
 
 #: bin/openpgp-applet:634
 msgid "No keys selected"

@@ -1,25 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Allan Nordhøy <epost@anotheragency.no>, 2014-2015
-# Allan Nordhøy <epost@anotheragency.no>, 2015
-# David Gutierrez <david.gutierrez.abreu@gmail.com>, 2014
-# Erik Matson <erik@norwenglish.net>, 2015
-# Jan-Erik Ek <jan.erik.ek@gmail.com>, 2013
-# lateralus, 2014
-# Per Thorsheim <transifex@thorsheim.net>, 2015
-# pr0xity, 2014
+# Allan Nordhøy <epost@anotheragency.no>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-06-23 12:10+0000\n"
-"Last-Translator: Erik Matson <erik@norwenglish.net>\n"
-"Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/"
-"torproject/language/nb/)\n"
+"PO-Revision-Date: 2016-04-02 13:50+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/otf/torproject/"
+"language/nb/)\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,11 +21,11 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "Du er i ferd med å avslutte OpenPGP-miniprogrammet. Bekreft."
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
-msgstr "OpenPGP krypterings applet"
+msgstr "OpenPGP krypterings-miniprogram"
 
 #: bin/openpgp-applet:178
 msgid "Exit"
@@ -44,7 +37,7 @@ msgstr "Om"
 
 #: bin/openpgp-applet:235
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Krypter utklippstavlen med _Passordsetning"
+msgstr "Krypter utklippstavlen med _passordssetning"
 
 #: bin/openpgp-applet:238
 msgid "Sign/Encrypt Clipboard with Public _Keys"
@@ -52,7 +45,7 @@ msgstr "Signer/krypter utklipp med offentlige _nøkler"
 
 #: bin/openpgp-applet:243
 msgid "_Decrypt/Verify Clipboard"
-msgstr "_Dekrypter/verifiser utklipp"
+msgstr "_Dekrypter/bekreft utklipp"
 
 #: bin/openpgp-applet:247
 msgid "_Manage Keys"
@@ -80,7 +73,7 @@ msgstr "Full tillit"
 
 #: bin/openpgp-applet:357
 msgid "Ultimate Trust"
-msgstr "Total tillit"
+msgstr "Fullstendig tillit"
 
 #: bin/openpgp-applet:410
 msgid "Name"
@@ -101,8 +94,8 @@ msgstr "Fingeravtrykk:"
 #: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "Bruker-ID:"
-msgstr[1] "Bruker-IDer:"
+msgstr[0] "BrukerID:"
+msgstr[1] "BrukerID-er:"
 
 #: bin/openpgp-applet:476
 msgid "None (Don't sign)"
@@ -121,7 +114,7 @@ msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Gjem bruker-IDene til alle mottakere av en kryptert melding. Hvis ikke kan "
+"Gjem bruker-ID-ene til alle mottakere av en kryptert melding. Hvis ikke kan "
 "alle som ser den krypterte meldingen se hvem mottakerne er."
 
 #: bin/openpgp-applet:556
@@ -139,14 +132,14 @@ msgstr "Stoler du på disse nøklene?"
 #: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "Følgende valgte nøkkel er ikke helt betrodd: "
-msgstr[1] "Følgende valgte nøkler var ikke fullstendig klarert:"
+msgstr[0] "Følgende valgte nøkkel er ikke fullstending betrodd:"
+msgstr[1] "Følgende valgte nøkler er ikke fullstending betrodd:"
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Stoler du nok på denne nøkkelen til å bruke den uansett?"
-msgstr[1] "Stoler du nok på disse nøklene til å bruke dem allikevel?"
+msgstr[0] "Har du nok tiltro til denne nøkkelen til å bruke den likevell?"
+msgstr[1] "Har du nok tiltro til disse nøklene til å bruke dem likevell?"
 
 #: bin/openpgp-applet:634
 msgid "No keys selected"
@@ -158,7 +151,7 @@ msgid ""
 "encrypt the message, or both."
 msgstr ""
 "Du må velge en privat nøkkel for å signere meldingen, eller noen offentlige "
-"nøkler for å krypere meldingen, eller begge deler. "
+"nøkler for å krypere den, eller begge deler. "
 
 #: bin/openpgp-applet:664
 msgid "No keys available"

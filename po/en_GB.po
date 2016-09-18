@@ -1,19 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Andi Chandler <andi@gowling.com>, 2014-2015
-# Billy Humphreys <sysop@enderbbs.enderservices.tk>, 2014
-# Richard Shaylor <rshaylor@me.com>, 2014
+# Andi Chandler <andi@gowling.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-05-12 16:33+0000\n"
+"PO-Revision-Date: 2016-03-21 16:27+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
-"Language-Team: English (United Kingdom) (http://www.transifex.com/projects/p/"
+"Language-Team: English (United Kingdom) (http://www.transifex.com/otf/"
 "torproject/language/en_GB/)\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +21,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "You are about to exit OpenPGP Applet. Are you sure?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"

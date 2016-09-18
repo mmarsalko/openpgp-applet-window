@@ -1,18 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# once, 2014
+# Dasa M <littlearchr8@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2014-07-27 11:30+0000\n"
-"Last-Translator: once\n"
-"Language-Team: Slovak (Slovakia) (http://www.transifex.com/projects/p/"
-"torproject/language/sk_SK/)\n"
+"PO-Revision-Date: 2016-07-12 20:08+0000\n"
+"Last-Translator: Dasa M <littlearchr8@gmail.com>\n"
+"Language-Team: Slovak (Slovakia) (http://www.transifex.com/otf/torproject/"
+"language/sk_SK/)\n"
 "Language: sk_SK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "Chystáte sa ukončiť OpenPGP applet. Ste si istý?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -53,7 +53,7 @@ msgstr "_Spravovať kľúče"
 
 #: bin/openpgp-applet:251
 msgid "_Open Text Editor"
-msgstr ""
+msgstr "_Otvoriť textový editor"
 
 #: bin/openpgp-applet:295
 msgid "The clipboard does not contain valid input data."
@@ -95,7 +95,7 @@ msgstr "Odtlačok:"
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] "Identifikátor užívateľa:"
-msgstr[1] "Identifikátor užívateľa:"
+msgstr[1] "Identifikátory užívateľa:"
 msgstr[2] "Identifikátory užívateľa:"
 
 #: bin/openpgp-applet:476
@@ -133,15 +133,15 @@ msgstr "Dôverujete týmto kľúčom?"
 #: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "Nasledujúci zvolený kľúč nemá plnú dôveru:"
-msgstr[1] "Nasledujúci zvolený kľúč nemá plnú dôveru:"
-msgstr[2] "Nasledujúce zvolené kľúče nemájú plnú dôveru:"
+msgstr[0] "Nasledujúcemu vybranému kľúču nemožno úplne veriť:"
+msgstr[1] "Nasledujúcim vybraným kľúčom nemožno úplne veriť:"
+msgstr[2] "Nasledujúcim vybraným kľúčom nemožno úplne veriť:"
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Dôverujete tomuto kľúču natoľko, aby ste ho použili?"
-msgstr[1] "Dôverujete tomuto kľúčo natoľko, aby ste ho použili?"
+msgstr[1] "Dôverujete týmto kľúčom natoľko, aby ste ich použili?"
 msgstr[2] "Dôverujete týmto kľúčom natoľko, aby ste ich použili?"
 
 #: bin/openpgp-applet:634

@@ -1,25 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Anders Damsgaard <andersd@riseup.net>, 2013
-# bna1605 <bna1605@gmail.com>, 2014
-# Caspar Christensen, 2015
-# christianflintrup <chr@agge.net>, 2014
-# Christian Villum <villum@autofunk.dk>, 2014-2015
-# David Nielsen <gnomeuser@gmail.com>, 2014-2015
-# Niels, 2013
-# Whiz Zurrd <Whizzurrd@hmamail.com>, 2014
+# Tommy Gade, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-06-21 07:03+0000\n"
-"Last-Translator: Caspar Christensen\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/torproject/"
-"language/da/)\n"
+"PO-Revision-Date: 2016-03-21 16:27+0000\n"
+"Last-Translator: Tommy Gade\n"
+"Language-Team: Danish (http://www.transifex.com/otf/torproject/language/"
+"da/)\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,6 +22,7 @@ msgstr ""
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
 msgstr ""
+"Du afslutter nu OpenPGP programmet. Er du helt sikker på at du vil afslutte?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -101,8 +95,8 @@ msgstr "Fingeraftryk:"
 #: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "Bruger ID:"
-msgstr[1] "Bruger ID'er:"
+msgstr[0] "Bruger:"
+msgstr[1] "Brugere:"
 
 #: bin/openpgp-applet:476
 msgid "None (Don't sign)"
@@ -146,7 +140,7 @@ msgstr[1] "Stoler ikke fuldt på de følgende nøgler:"
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] ""
-"Stoler du tilstrækkeligt på disse nøgler til alligevel at anvende dem?"
+"Stoler du tilstrækkeligt på disse nøgler til at anvende dem alligevel?"
 msgstr[1] ""
 "Stoler du tilstrækkeligt på disse nøgler til at anvende dem alligevel?"
 

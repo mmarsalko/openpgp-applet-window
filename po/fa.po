@@ -1,27 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# adriano <eb.ae@aol.com>, 2013
-# signal89 <ali.faraji90@gmail.com>, 2014
-# Ali, 2015
-# Danial Keshani <dani@daanial.com>, 2013
-# Mohammad Hossein <desmati@gmail.com>, 2014
-# Gilberto, 2014-2015
-# johnholzer <johnholtzer123@gmail.com>, 2014
-# jonothan hipkey <j.hipkey4502@gmail.com>, 2014
-# M. Heydar Elahi <m.heydar.elahi@gmail.com>, 2014
-# Mohammad Hossein <desmati@gmail.com>, 2014
+# Gilberto, 2015
+# M.H.S.Ajami, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-06-21 08:27+0000\n"
-"Last-Translator: Gilberto\n"
-"Language-Team: Persian (http://www.transifex.com/projects/p/torproject/"
-"language/fa/)\n"
+"PO-Revision-Date: 2016-03-21 16:27+0000\n"
+"Last-Translator: M.H.S.Ajami\n"
+"Language-Team: Persian (http://www.transifex.com/otf/torproject/language/"
+"fa/)\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +22,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "شما قصد خروج از اپلت OpenPGP را دارید. از این کار اطمینان دارید؟"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -141,7 +133,7 @@ msgstr "آیا به این کلیدهای رمزنگاری اطمینان دار
 #: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "کلیدهایی زیر کاملاً قابل اطمینان نیستند:"
+msgstr[0] "کلیدهای انتخاب شده‌ی زیر کاملاً قابل اطمینان نیستند: "
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"

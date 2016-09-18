@@ -1,33 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# jjjdddsssxxx <a227675@drdrb.net>, 2014
-# Adriaan Callaerts <adriaan.callaerts@gmail.com>, 2013
-# cialenhh <c1914502@drdrb.com>, 2013
-# Christian Rademaker <c.rademaker87@gmail.com>, 2014
-# Cleveridge <erwin.de.laat@cleveridge.org>, 2014
-# gjlajfklajdkladj kasldfjaslkf <1bsuaz+3xy1gedeysrhc@sharklasers.com>, 2015
-# Joost Rijneveld <joostrijneveld@gmail.com>, 2014
-# LittleNacho <louisboy@msn.com>, 2013
-# Mart3000, 2015
-# Nathan Follens, 2015
-# Midgard, 2014
-# T. Des Maison <ton.siedsma@bof.nl>, 2014
-# Tjeerd <transifex@syrion.net>, 2014
-# Tonko Mulder <tonko@tonkomulder.nl>, 2015
-# Lazlo <transifex@lazlo.me>, 2013
+# Pieter Waegeman <github@tijg.be>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-06-19 21:26+0000\n"
-"Last-Translator: gjlajfklajdkladj kasldfjaslkf <1bsuaz"
-"+3xy1gedeysrhc@sharklasers.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/projects/p/torproject/"
-"language/nl/)\n"
+"PO-Revision-Date: 2016-03-21 16:27+0000\n"
+"Last-Translator: Pieter Waegeman <github@tijg.be>\n"
+"Language-Team: Dutch (http://www.transifex.com/otf/torproject/language/nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +20,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "Je verlaat de OpenPGP-applicatie. Ben je zeker?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -109,8 +93,8 @@ msgstr "Vingerafdruk:"
 #: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "Gebruikers-ID:"
-msgstr[1] "Gebruikers-ID's:"
+msgstr[0] "GebruikerID:"
+msgstr[1] "GebruikerID's:"
 
 #: bin/openpgp-applet:476
 msgid "None (Don't sign)"
@@ -148,14 +132,14 @@ msgstr "Vertrouw je deze sleutels?"
 #: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "De volgende geselecteerde sleutel is niet helemaal vertrouwd:"
-msgstr[1] "De volgende geselecteerde sleutels zijn niet helemaal vertrouwd:"
+msgstr[0] "De volgende geselecteerde sleutel is niet helemaal betrouwbaar:"
+msgstr[1] "De volgende geselecteerde sleutels zijn niet helemaal betrouwbaar:"
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Vertrouw je deze sleutel genoeg om hem toch te gebruiken?"
-msgstr[1] "Vertrouw je deze sleutels genoeg om ze toch te gebruiken?"
+msgstr[0] "Vertrouw je deze sleutel genoeg om toch te gebruiken?"
+msgstr[1] "Vertrouw je deze sleutels genoeg om toch te gebruiken?"
 
 #: bin/openpgp-applet:634
 msgid "No keys selected"

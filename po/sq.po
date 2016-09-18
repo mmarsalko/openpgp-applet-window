@@ -1,18 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Bujar Tafili, 2015
+# Bujar Tafili, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-06-23 22:30+0000\n"
+"PO-Revision-Date: 2016-03-22 20:42+0000\n"
 "Last-Translator: Bujar Tafili\n"
-"Language-Team: Albanian (http://www.transifex.com/projects/p/torproject/"
-"language/sq/)\n"
+"Language-Team: Albanian (http://www.transifex.com/otf/torproject/language/"
+"sq/)\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "Jeni duke dalë nga OpenPGP Applet. Jeni i sigurt?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -133,13 +133,13 @@ msgstr "A i besoni këta çelësa?"
 #: bin/openpgp-applet:603
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "Çelësi i përzgjedhur, që vijon, s'është plotësisht i besueshëm:"
+msgstr[0] "Çelësi i përzgjedhur, që vijoj, s'është plotësisht i besueshëm:"
 msgstr[1] "Çelësat e përzgjedhur, që vijojnë, s'janë plotësisht të besueshëm:"
 
 #: bin/openpgp-applet:621
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] " A e besoni mjaftueshëm këtë çelës, sa ta përdorni atë gjithsesi?"
+msgstr[0] "A e beson mjaftueshëm këtë çelës, sa ta përdorësh atë gjithsesi?"
 msgstr[1] "A i besoni mjaftueshëm këta çelësa, sa t'i përdorni ata gjithsesi?"
 
 #: bin/openpgp-applet:634

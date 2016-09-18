@@ -1,33 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR Tails developers
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# il_doc <filippo.giomi@gmail.com>, 2014
-# Francesca Ciceri <madamezou@zouish.org>, 2014
-# Francesco Tombolini <tombo@adamantio.net>, 2015
-# HostFat <hostfat@gmail.com>, 2015
-# il_doc <filippo.giomi@gmail.com>, 2014
-# jan <jan.reister@unimi.it>, 2013
-# jan <jan.reister@unimi.it>, 2013
-# Lorenzo Farinelli <farinellilorenzo@gmail.com>, 2014
-# Mett <okovita@autistici.org>, 2015
-# Monica <momocat19@gmail.com>, 2014
-# Monica <momocat19@gmail.com>, 2014
-# Random_R, 2013
-# Random_R, 2013-2014
-# Rosario Antoci <pistacho@riseup.net>, 2014
-# Rossano Praderi <dshortway@gmail.com>, 2013
-# Stefano Avezzù <Opusprimo@gmail.com>, 2015
+# Daniele Faraglia <daniele.faraglia@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2015-08-10 15:55+0200\n"
-"PO-Revision-Date: 2015-06-16 18:26+0000\n"
-"Last-Translator: Stefano Avezzù <Opusprimo@gmail.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/torproject/"
-"language/it/)\n"
+"PO-Revision-Date: 2016-06-02 14:44+0000\n"
+"Last-Translator: Daniele Faraglia <daniele.faraglia@gmail.com>\n"
+"Language-Team: Italian (http://www.transifex.com/otf/torproject/language/"
+"it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +21,7 @@ msgstr ""
 
 #: bin/openpgp-applet:163
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr ""
+msgstr "Stai cercando di chiudere l'Applet OpenPGP. Sei sicuro?"
 
 #: bin/openpgp-applet:175
 msgid "OpenPGP encryption applet"
@@ -104,13 +89,13 @@ msgstr "Stato"
 
 #: bin/openpgp-applet:444
 msgid "Fingerprint:"
-msgstr "Impronta:"
+msgstr "Fingerprint:"
 
 #: bin/openpgp-applet:447
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "ID utente:"
-msgstr[1] "ID utenti:"
+msgstr[0] "ID utente"
+msgstr[1] "ID utenti"
 
 #: bin/openpgp-applet:476
 msgid "None (Don't sign)"
