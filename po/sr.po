@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
-"POT-Creation-Date: 2015-08-10 15:55+0200\n"
+"POT-Creation-Date: 2017-08-05 15:07-0400\n"
 "PO-Revision-Date: 2015-03-29 20:33+0000\n"
 "Last-Translator: JanaDi <dijana1706@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/torproject/"
@@ -22,98 +22,98 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: bin/openpgp-applet:163
+#: bin/openpgp-applet:160
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
 msgstr ""
 
-#: bin/openpgp-applet:175
+#: bin/openpgp-applet:172
 msgid "OpenPGP encryption applet"
 msgstr "Отворити аплет PGP enkripcije"
 
-#: bin/openpgp-applet:178
+#: bin/openpgp-applet:175
 msgid "Exit"
 msgstr "Излаз"
 
-#: bin/openpgp-applet:180
+#: bin/openpgp-applet:177
 msgid "About"
 msgstr "О нама"
 
-#: bin/openpgp-applet:235
+#: bin/openpgp-applet:232
 msgid "Encrypt Clipboard with _Passphrase"
 msgstr "Извршити енкрипцију клипборда са _Passphrase"
 
-#: bin/openpgp-applet:238
+#: bin/openpgp-applet:235
 msgid "Sign/Encrypt Clipboard with Public _Keys"
 msgstr "Извршити Енкрипцију/Потисивање клипборда са Public _Keys"
 
-#: bin/openpgp-applet:243
+#: bin/openpgp-applet:240
 msgid "_Decrypt/Verify Clipboard"
 msgstr "_Декриптовати/Верификовати Клипборд"
 
-#: bin/openpgp-applet:247
+#: bin/openpgp-applet:244
 msgid "_Manage Keys"
 msgstr "_Управљање Кључевима"
 
-#: bin/openpgp-applet:251
+#: bin/openpgp-applet:248
 msgid "_Open Text Editor"
 msgstr ""
 
-#: bin/openpgp-applet:295
+#: bin/openpgp-applet:292
 msgid "The clipboard does not contain valid input data."
 msgstr "Клипборд не садржи валидне улазне податке"
 
-#: bin/openpgp-applet:347 bin/openpgp-applet:349 bin/openpgp-applet:351
+#: bin/openpgp-applet:337 bin/openpgp-applet:339 bin/openpgp-applet:341
 msgid "Unknown Trust"
 msgstr "Непознато Поверење"
 
-#: bin/openpgp-applet:353
+#: bin/openpgp-applet:343
 msgid "Marginal Trust"
 msgstr "Маргинално Поверење"
 
-#: bin/openpgp-applet:355
+#: bin/openpgp-applet:345
 msgid "Full Trust"
 msgstr "Потпуно Поверење"
 
-#: bin/openpgp-applet:357
+#: bin/openpgp-applet:347
 msgid "Ultimate Trust"
 msgstr "Ултимативно Поверење"
 
-#: bin/openpgp-applet:410
+#: bin/openpgp-applet:400
 msgid "Name"
 msgstr "Име"
 
-#: bin/openpgp-applet:411
+#: bin/openpgp-applet:401
 msgid "Key ID"
 msgstr "Идентификација Кључа"
 
-#: bin/openpgp-applet:412
+#: bin/openpgp-applet:402
 msgid "Status"
 msgstr "Статус"
 
-#: bin/openpgp-applet:444
+#: bin/openpgp-applet:433
 msgid "Fingerprint:"
 msgstr "Отисак прста:"
 
-#: bin/openpgp-applet:447
+#: bin/openpgp-applet:436
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] "Корисничка идентификација:"
 msgstr[1] "Корисничке идентификације:"
 msgstr[2] "Идентификације корисника:"
 
-#: bin/openpgp-applet:476
+#: bin/openpgp-applet:465
 msgid "None (Don't sign)"
 msgstr "Ништа (Не потписивати)"
 
-#: bin/openpgp-applet:539
+#: bin/openpgp-applet:528
 msgid "Select recipients:"
 msgstr "Изабрати примаоце:"
 
-#: bin/openpgp-applet:547
+#: bin/openpgp-applet:536
 msgid "Hide recipients"
 msgstr "Сакрити примаоце"
 
-#: bin/openpgp-applet:550
+#: bin/openpgp-applet:539
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
@@ -121,37 +121,37 @@ msgstr ""
 "Сакријте идентификације свих корисника шифроване поруке. Иначе ће свако ко "
 "види шифровану поруку моћи да види ко су примаоци."
 
-#: bin/openpgp-applet:556
+#: bin/openpgp-applet:545
 msgid "Sign message as:"
 msgstr "Потпишите поруку као:"
 
-#: bin/openpgp-applet:560
+#: bin/openpgp-applet:549
 msgid "Choose keys"
 msgstr "Изаберите кључеве"
 
-#: bin/openpgp-applet:600
+#: bin/openpgp-applet:589
 msgid "Do you trust these keys?"
 msgstr "Да ли верујете овим кључевима?"
 
-#: bin/openpgp-applet:603
+#: bin/openpgp-applet:592
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "Следећем изабраном кључу се не може потпуно веровати:"
 msgstr[1] "Следећим изабраним кључевима се не може потпуно веровати:"
 msgstr[2] "Следећим изабраним кључевима се не може потпуно веровати:"
 
-#: bin/openpgp-applet:621
+#: bin/openpgp-applet:610
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Да ли довољно верујете овом кључу да би га ипак користили?"
 msgstr[1] "Да ли довољно верујете овим кључевима да би их ипак користили?"
 msgstr[2] "Да ли довољно верујете овим кључевима да би их ипак користили?"
 
-#: bin/openpgp-applet:634
+#: bin/openpgp-applet:623
 msgid "No keys selected"
 msgstr "Ниједан кључ није изабран"
 
-#: bin/openpgp-applet:636
+#: bin/openpgp-applet:625
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
@@ -159,33 +159,33 @@ msgstr ""
 "Морате изабрати приватни кључ за потписивање поруке или неке јавне кључеве "
 "да шифрујете поруку, или обоје."
 
-#: bin/openpgp-applet:664
+#: bin/openpgp-applet:653
 msgid "No keys available"
 msgstr "Нема доступних кључева"
 
-#: bin/openpgp-applet:666
+#: bin/openpgp-applet:655
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
 "Треба вам приватни кључ за потписивање порука или јавни кључ за шифровање "
 "порука."
 
-#: bin/openpgp-applet:794
+#: bin/openpgp-applet:783
 msgid "GnuPG error"
 msgstr "GnuPG  грешка"
 
-#: bin/openpgp-applet:815
+#: bin/openpgp-applet:804
 msgid "Therefore the operation cannot be performed."
 msgstr "Самим тим, операција се не може извршити."
 
-#: bin/openpgp-applet:865
+#: bin/openpgp-applet:854
 msgid "GnuPG results"
 msgstr "GnuPG резултати"
 
-#: bin/openpgp-applet:871
+#: bin/openpgp-applet:860
 msgid "Output of GnuPG:"
 msgstr "Излаз од GnuPG:"
 
-#: bin/openpgp-applet:896
+#: bin/openpgp-applet:885
 msgid "Other messages provided by GnuPG:"
 msgstr "Остале поруке које пружа GnuPG:"

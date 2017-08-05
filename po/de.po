@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
-"POT-Creation-Date: 2015-08-10 15:55+0200\n"
+"POT-Creation-Date: 2017-08-05 15:07-0400\n"
 "PO-Revision-Date: 2016-03-21 16:27+0000\n"
 "Last-Translator: spriver <spriver@autistici.org>\n"
 "Language-Team: German (http://www.transifex.com/otf/torproject/language/"
@@ -20,97 +20,97 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: bin/openpgp-applet:163
+#: bin/openpgp-applet:160
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
 msgstr "Sie sind dabei, OpenPGP zu verlassen. Sind Sie sicher?"
 
-#: bin/openpgp-applet:175
+#: bin/openpgp-applet:172
 msgid "OpenPGP encryption applet"
 msgstr "OpenPGP-Verschlüsselungs-Applet"
 
-#: bin/openpgp-applet:178
+#: bin/openpgp-applet:175
 msgid "Exit"
 msgstr "Beenden"
 
-#: bin/openpgp-applet:180
+#: bin/openpgp-applet:177
 msgid "About"
 msgstr "Über"
 
-#: bin/openpgp-applet:235
+#: bin/openpgp-applet:232
 msgid "Encrypt Clipboard with _Passphrase"
 msgstr "Zwischenablage mit _Passphrase verschlüsseln"
 
-#: bin/openpgp-applet:238
+#: bin/openpgp-applet:235
 msgid "Sign/Encrypt Clipboard with Public _Keys"
 msgstr "Zwischenablage mit öffentlichem _Schlüssel signieren/verschlüsseln"
 
-#: bin/openpgp-applet:243
+#: bin/openpgp-applet:240
 msgid "_Decrypt/Verify Clipboard"
 msgstr "Zwischenablage _entschlüsseln/überprüfen"
 
-#: bin/openpgp-applet:247
+#: bin/openpgp-applet:244
 msgid "_Manage Keys"
 msgstr "Schlüssel _verwalten"
 
-#: bin/openpgp-applet:251
+#: bin/openpgp-applet:248
 msgid "_Open Text Editor"
 msgstr "_Textbearbeitung öffnen"
 
-#: bin/openpgp-applet:295
+#: bin/openpgp-applet:292
 msgid "The clipboard does not contain valid input data."
 msgstr "Die Zwischenablage beinhaltet keine gültigen Eingabedaten."
 
-#: bin/openpgp-applet:347 bin/openpgp-applet:349 bin/openpgp-applet:351
+#: bin/openpgp-applet:337 bin/openpgp-applet:339 bin/openpgp-applet:341
 msgid "Unknown Trust"
 msgstr "Unbekanntes Vertrauen"
 
-#: bin/openpgp-applet:353
+#: bin/openpgp-applet:343
 msgid "Marginal Trust"
 msgstr "Geringfügiges Vertrauen"
 
-#: bin/openpgp-applet:355
+#: bin/openpgp-applet:345
 msgid "Full Trust"
 msgstr "Volles Vertrauen"
 
-#: bin/openpgp-applet:357
+#: bin/openpgp-applet:347
 msgid "Ultimate Trust"
 msgstr "Unbegrenztes Vertrauen"
 
-#: bin/openpgp-applet:410
+#: bin/openpgp-applet:400
 msgid "Name"
 msgstr "Name"
 
-#: bin/openpgp-applet:411
+#: bin/openpgp-applet:401
 msgid "Key ID"
 msgstr "Schlüsselkennung"
 
-#: bin/openpgp-applet:412
+#: bin/openpgp-applet:402
 msgid "Status"
 msgstr "Status"
 
-#: bin/openpgp-applet:444
+#: bin/openpgp-applet:433
 msgid "Fingerprint:"
 msgstr "Fingerabdruck:"
 
-#: bin/openpgp-applet:447
+#: bin/openpgp-applet:436
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] "Benutzererkennung"
 msgstr[1] "Benutzerkennungen"
 
-#: bin/openpgp-applet:476
+#: bin/openpgp-applet:465
 msgid "None (Don't sign)"
 msgstr "Keine (Nicht signieren)"
 
-#: bin/openpgp-applet:539
+#: bin/openpgp-applet:528
 msgid "Select recipients:"
 msgstr "Empfänger auswählen:"
 
-#: bin/openpgp-applet:547
+#: bin/openpgp-applet:536
 msgid "Hide recipients"
 msgstr "Empfänger verstecken"
 
-#: bin/openpgp-applet:550
+#: bin/openpgp-applet:539
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
@@ -118,35 +118,35 @@ msgstr ""
 "Verstecken Sie die Benutzerkennungen von allen Empfängern. Ansonsten weiß "
 "jeder, der die verschlüsselte Nachricht sieht, wer die Empfänger sind."
 
-#: bin/openpgp-applet:556
+#: bin/openpgp-applet:545
 msgid "Sign message as:"
 msgstr "Nachricht signieren als:"
 
-#: bin/openpgp-applet:560
+#: bin/openpgp-applet:549
 msgid "Choose keys"
 msgstr "Schlüssel auswählen"
 
-#: bin/openpgp-applet:600
+#: bin/openpgp-applet:589
 msgid "Do you trust these keys?"
 msgstr "Vertrauen Sie diesen Schlüsseln?"
 
-#: bin/openpgp-applet:603
+#: bin/openpgp-applet:592
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "Dem folgenden Schlüssel wird nicht komplett vertraut."
 msgstr[1] "Den folgenden ausgewählten Schlüsseln wird nicht komplett vertraut:"
 
-#: bin/openpgp-applet:621
+#: bin/openpgp-applet:610
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Vertrauen Sie diesem Schlüssel genug, um ihn dennoch zu verwenden?"
 msgstr[1] "Vertrauen Sie diesen Schlüsseln genug, um sie dennoch zu verwenden?"
 
-#: bin/openpgp-applet:634
+#: bin/openpgp-applet:623
 msgid "No keys selected"
 msgstr "Keine Schlüssel ausgewählt"
 
-#: bin/openpgp-applet:636
+#: bin/openpgp-applet:625
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
@@ -154,33 +154,33 @@ msgstr ""
 "Sie müssen einen privaten Schlüssel auswählen um die Nachricht zu signieren, "
 "oder öffentliche Schlüssel um die Nachricht zu verschlüsseln. Oder beides."
 
-#: bin/openpgp-applet:664
+#: bin/openpgp-applet:653
 msgid "No keys available"
 msgstr "Keine Schlüssel verfügbar"
 
-#: bin/openpgp-applet:666
+#: bin/openpgp-applet:655
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
 "Sie benötigen private Schlüssel, um Nachrichten zu signieren oder einen "
 "öffentlichen Schlüssel um Nachrichten zu verschlüsseln."
 
-#: bin/openpgp-applet:794
+#: bin/openpgp-applet:783
 msgid "GnuPG error"
 msgstr "GnuPG-Fehler"
 
-#: bin/openpgp-applet:815
+#: bin/openpgp-applet:804
 msgid "Therefore the operation cannot be performed."
 msgstr "Deshalb kann der Vorgang nicht ausgeführt werden."
 
-#: bin/openpgp-applet:865
+#: bin/openpgp-applet:854
 msgid "GnuPG results"
 msgstr "GnuPG-Ergebnisse"
 
-#: bin/openpgp-applet:871
+#: bin/openpgp-applet:860
 msgid "Output of GnuPG:"
 msgstr "Ausgabe von GnuPG:"
 
-#: bin/openpgp-applet:896
+#: bin/openpgp-applet:885
 msgid "Other messages provided by GnuPG:"
 msgstr "Andere Nachrichten von GnuPG:"

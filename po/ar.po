@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
-"POT-Creation-Date: 2015-08-10 15:55+0200\n"
+"POT-Creation-Date: 2017-08-05 15:07-0400\n"
 "PO-Revision-Date: 2014-12-05 17:21+0000\n"
 "Last-Translator: Osama M. Mneina <o.mneina@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/torproject/"
@@ -31,79 +31,79 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: bin/openpgp-applet:163
+#: bin/openpgp-applet:160
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
 msgstr ""
 
-#: bin/openpgp-applet:175
+#: bin/openpgp-applet:172
 msgid "OpenPGP encryption applet"
 msgstr "إضافة OpenPGP للتشفير"
 
-#: bin/openpgp-applet:178
+#: bin/openpgp-applet:175
 msgid "Exit"
 msgstr "خروج"
 
-#: bin/openpgp-applet:180
+#: bin/openpgp-applet:177
 msgid "About"
 msgstr "عن"
 
-#: bin/openpgp-applet:235
+#: bin/openpgp-applet:232
 msgid "Encrypt Clipboard with _Passphrase"
 msgstr "شفر ذاكرة النسخ المؤقتة بالعبارة السرية"
 
-#: bin/openpgp-applet:238
+#: bin/openpgp-applet:235
 msgid "Sign/Encrypt Clipboard with Public _Keys"
 msgstr "شفر/وقع الكترونيا على ذاكرة النسخ المؤقتة بالمفتاح العام"
 
-#: bin/openpgp-applet:243
+#: bin/openpgp-applet:240
 msgid "_Decrypt/Verify Clipboard"
 msgstr "افتح تشفير/تحقق من التوقيع الالكتروني على ذاكرة النسخ المؤقتة"
 
-#: bin/openpgp-applet:247
+#: bin/openpgp-applet:244
 msgid "_Manage Keys"
 msgstr "إدارة المفاتيح"
 
-#: bin/openpgp-applet:251
+#: bin/openpgp-applet:248
 msgid "_Open Text Editor"
 msgstr ""
 
-#: bin/openpgp-applet:295
+#: bin/openpgp-applet:292
 msgid "The clipboard does not contain valid input data."
 msgstr "ذاكرة النسخ المؤقتة لا تحتوي مدخلات سليمة."
 
-#: bin/openpgp-applet:347 bin/openpgp-applet:349 bin/openpgp-applet:351
+#: bin/openpgp-applet:337 bin/openpgp-applet:339 bin/openpgp-applet:341
 msgid "Unknown Trust"
 msgstr "غير موثوق به"
 
-#: bin/openpgp-applet:353
+#: bin/openpgp-applet:343
 msgid "Marginal Trust"
 msgstr "ثقة جزئية"
 
-#: bin/openpgp-applet:355
+#: bin/openpgp-applet:345
 msgid "Full Trust"
 msgstr "ثقة كاملة"
 
-#: bin/openpgp-applet:357
+#: bin/openpgp-applet:347
 msgid "Ultimate Trust"
 msgstr "ثقة نهائية"
 
-#: bin/openpgp-applet:410
+#: bin/openpgp-applet:400
 msgid "Name"
 msgstr "الاسم"
 
-#: bin/openpgp-applet:411
+#: bin/openpgp-applet:401
 msgid "Key ID"
 msgstr "هوية المفتاح"
 
-#: bin/openpgp-applet:412
+#: bin/openpgp-applet:402
 msgid "Status"
 msgstr "الحالة"
 
-#: bin/openpgp-applet:444
+#: bin/openpgp-applet:433
 msgid "Fingerprint:"
 msgstr "بصمة المفتاح:"
 
-#: bin/openpgp-applet:447
+#: bin/openpgp-applet:436
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] " "
@@ -113,19 +113,19 @@ msgstr[3] "هويات المستخدمين:"
 msgstr[4] "هويات المستخدمين:"
 msgstr[5] "هويات المستخدمين:"
 
-#: bin/openpgp-applet:476
+#: bin/openpgp-applet:465
 msgid "None (Don't sign)"
 msgstr "دون اختيار (لا توقع الكترونيا)"
 
-#: bin/openpgp-applet:539
+#: bin/openpgp-applet:528
 msgid "Select recipients:"
 msgstr "اختر المستلمين:"
 
-#: bin/openpgp-applet:547
+#: bin/openpgp-applet:536
 msgid "Hide recipients"
 msgstr "إخفاء المستلمين"
 
-#: bin/openpgp-applet:550
+#: bin/openpgp-applet:539
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
@@ -133,19 +133,19 @@ msgstr ""
 "اخفي هويات المستلمين لكل الرسائل المشفرة. اذا لم تقم بهذا فسيستطيع كل من "
 "يشاهد الرسائل المشفرة أن يعرف من أرسلت له."
 
-#: bin/openpgp-applet:556
+#: bin/openpgp-applet:545
 msgid "Sign message as:"
 msgstr "وقع الرسالة الكترونيا بصفة:"
 
-#: bin/openpgp-applet:560
+#: bin/openpgp-applet:549
 msgid "Choose keys"
 msgstr "اختار المفاتيح"
 
-#: bin/openpgp-applet:600
+#: bin/openpgp-applet:589
 msgid "Do you trust these keys?"
 msgstr "هل تثق بهذه المفاتيح؟"
 
-#: bin/openpgp-applet:603
+#: bin/openpgp-applet:592
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] " "
@@ -155,7 +155,7 @@ msgstr[3] "المفاتيح التالية غير موثوقة بالكامل:"
 msgstr[4] "المفاتيح التالية غير موثوقة بالكامل:"
 msgstr[5] "المفاتيح التالية غير موثوقة بالكامل:"
 
-#: bin/openpgp-applet:621
+#: bin/openpgp-applet:610
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] " "
@@ -165,11 +165,11 @@ msgstr[3] "هل تثق بهذه المفاتيح بالقدر الكافي لا�
 msgstr[4] "هل تثق بهذه المفاتيح بالقدر الكافي لاستخدامها على أية حال؟"
 msgstr[5] "هل تثق بهذه المفاتيح بالقدر الكافي لاستخدامها على أية حال؟"
 
-#: bin/openpgp-applet:634
+#: bin/openpgp-applet:623
 msgid "No keys selected"
 msgstr "لا يوجد مفاتيح محددة"
 
-#: bin/openpgp-applet:636
+#: bin/openpgp-applet:625
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
@@ -177,33 +177,33 @@ msgstr ""
 "يجب عليك اختيار مفتاح تشفير خاص لتوقيع الرسالة الكترونيا، أو بعض المفاتيح "
 "العامة لتشفير الرسالة، أو كلاهما معاً:"
 
-#: bin/openpgp-applet:664
+#: bin/openpgp-applet:653
 msgid "No keys available"
 msgstr "لا يوجد مفاتيح متاحة"
 
-#: bin/openpgp-applet:666
+#: bin/openpgp-applet:655
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
 "تحتاج لمفتاح تشفير خاص لتوقيع الرسائل الكترونياً، أو مفتاح تشفير عام لتشفير "
 "الرسائل."
 
-#: bin/openpgp-applet:794
+#: bin/openpgp-applet:783
 msgid "GnuPG error"
 msgstr "خطأ في GnuPG"
 
-#: bin/openpgp-applet:815
+#: bin/openpgp-applet:804
 msgid "Therefore the operation cannot be performed."
 msgstr "ولهذا لا يمكن اتمام العملية."
 
-#: bin/openpgp-applet:865
+#: bin/openpgp-applet:854
 msgid "GnuPG results"
 msgstr "نتائج GnuPG"
 
-#: bin/openpgp-applet:871
+#: bin/openpgp-applet:860
 msgid "Output of GnuPG:"
 msgstr "مخرجات GnuPG:"
 
-#: bin/openpgp-applet:896
+#: bin/openpgp-applet:885
 msgid "Other messages provided by GnuPG:"
 msgstr "رسائل أخرى من GnuPG:"

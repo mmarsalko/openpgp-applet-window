@@ -3,180 +3,184 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Agustín Wu <losangwuyts@gmail.com>, 2016
-# 大圈洋蔥, 2016
-# Wen-Gan Li <wgli@wgli.net>, 2015
+# Bjørn I. <bjorn.svindseth@online.no>, 2016
+# Finn Brudal <finnbrudal@yahoo.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2017-08-05 15:07-0400\n"
-"PO-Revision-Date: 2016-12-21 03:39+0000\n"
-"Last-Translator: Agustín Wu <losangwuyts@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/"
-"language/zh_TW/)\n"
-"Language: zh_TW\n"
+"PO-Revision-Date: 2016-07-30 04:53+0000\n"
+"Last-Translator: Finn Brudal <finnbrudal@yahoo.com>\n"
+"Language-Team: Norwegian Nynorsk (http://www.transifex.com/otf/torproject/"
+"language/nn/)\n"
+"Language: nn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bin/openpgp-applet:160
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr "你正準備離開 OpenPGP 加密程式。你確定嗎 ?"
+msgstr "Du er i ferd med å avslutta OpenGPG-appen. Er du trygg?"
 
 #: bin/openpgp-applet:172
 msgid "OpenPGP encryption applet"
-msgstr "OpenPGP 加密小程式"
+msgstr "OpenPGP krypteringsapp"
 
 #: bin/openpgp-applet:175
 msgid "Exit"
-msgstr "離開"
+msgstr "Avslutt"
 
 #: bin/openpgp-applet:177
 msgid "About"
-msgstr "關於"
+msgstr "Om"
 
 #: bin/openpgp-applet:232
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "使用 _Passphrase 對剪貼簿進行加密"
+msgstr "Krypter Utklippstavla med _Passuttrykk"
 
 #: bin/openpgp-applet:235
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "使用公開金鑰簽署或加密剪貼簿"
+msgstr "Underskriv/Krypter Utklippstavla med Offentlege _Lyklar"
 
 #: bin/openpgp-applet:240
 msgid "_Decrypt/Verify Clipboard"
-msgstr "_Decrypt/驗證剪貼簿"
+msgstr "_Dekrypter/Godkjenn Utklippstavla"
 
 #: bin/openpgp-applet:244
 msgid "_Manage Keys"
-msgstr "_Manage 金鑰"
+msgstr "_Handsam nøklar"
 
 #: bin/openpgp-applet:248
 msgid "_Open Text Editor"
-msgstr "_Open 文字編輯器"
+msgstr "_Opn tekstredaktør"
 
 #: bin/openpgp-applet:292
 msgid "The clipboard does not contain valid input data."
-msgstr "剪貼簿不包含有效的輸入資料。"
+msgstr "Utklippstavla inneheld ikkje gyldige innputtdata."
 
 #: bin/openpgp-applet:337 bin/openpgp-applet:339 bin/openpgp-applet:341
 msgid "Unknown Trust"
-msgstr "不明的信任"
+msgstr "Ukjend lit"
 
 #: bin/openpgp-applet:343
 msgid "Marginal Trust"
-msgstr "邊緣化信任"
+msgstr "Marginal lit"
 
 #: bin/openpgp-applet:345
 msgid "Full Trust"
-msgstr "完全信任"
+msgstr "Full lit"
 
 #: bin/openpgp-applet:347
 msgid "Ultimate Trust"
-msgstr "終極信任"
+msgstr "Ytste lit"
 
 #: bin/openpgp-applet:400
 msgid "Name"
-msgstr "名稱"
+msgstr "Namn"
 
 #: bin/openpgp-applet:401
 msgid "Key ID"
-msgstr "金鑰 ID"
+msgstr "Nøkkel-ID"
 
 #: bin/openpgp-applet:402
 msgid "Status"
-msgstr "狀態"
+msgstr "Status"
 
 #: bin/openpgp-applet:433
 msgid "Fingerprint:"
-msgstr "指紋："
+msgstr "Fingeravrykk:"
 
 #: bin/openpgp-applet:436
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "使用者 IDs："
+msgstr[0] "Brukar-ID"
+msgstr[1] "Brukar-ID-ar"
 
 #: bin/openpgp-applet:465
 msgid "None (Don't sign)"
-msgstr "無(不簽署)"
+msgstr "Ingen (ikkje underskriv)"
 
 #: bin/openpgp-applet:528
 msgid "Select recipients:"
-msgstr "選擇收件者:"
+msgstr "Vel mottakarar:"
 
 #: bin/openpgp-applet:536
 msgid "Hide recipients"
-msgstr "隱藏收件者"
+msgstr "Gøym mottakarar"
 
 #: bin/openpgp-applet:539
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"將加密郵件中所有收件者的使用者識別碼隱藏，否則任何看到加密郵件的人都可看到此"
-"郵件之收件者。"
+"Gøym nyttar-IDane åt alle mottakarane av ei krypterd melding. Elles kann "
+"einkvar som ser den krypterde meldingi sjå kven mottakarane er."
 
 #: bin/openpgp-applet:545
 msgid "Sign message as:"
-msgstr "訊息簽署："
+msgstr "Underskriv melding som:"
 
 #: bin/openpgp-applet:549
 msgid "Choose keys"
-msgstr "選擇金鑰"
+msgstr "Vel nøklar"
 
 #: bin/openpgp-applet:589
 msgid "Do you trust these keys?"
-msgstr "您信任這些金鑰嗎？"
+msgstr "Stolar du på desse nøklane?"
 
 #: bin/openpgp-applet:592
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "以下所選擇的金鑰無法完全信任："
+msgstr[0] "Den fylgjande valde lykelen er ikkje fullt tiltrudd:"
+msgstr[1] "Dei fylgjande valde lyklane er ikkje fullt tiltrudde:"
 
 #: bin/openpgp-applet:610
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "您真的信任這些金鑰並繼續使用它們？"
+msgstr[0] "Stolar du nok på denne lykelen til å nytta han likevel?"
+msgstr[1] "Stolar du nok på desse lyklane til å nytta deim likevel?"
 
 #: bin/openpgp-applet:623
 msgid "No keys selected"
-msgstr "沒有選擇金鑰"
+msgstr "Ingi lyklar valde"
 
 #: bin/openpgp-applet:625
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"您必須選擇一把私密金鑰來對訊息進行簽署，抑或是用幾把公開金鑰來將訊息加密，或"
-"兩個方式同時使用。"
+"Du lyt velja ei privatlykel for å underskriva meldingi, eller nokre "
+"offentlege lyklar for å kryptere meldingi, eller båe."
 
 #: bin/openpgp-applet:653
 msgid "No keys available"
-msgstr "無可用的金鑰"
+msgstr "Ingi lyklar åtgjengelege"
 
 #: bin/openpgp-applet:655
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
-msgstr "您需要一把私密金鑰來對訊息進行簽署，或者一把公開金鑰來將訊息加密。"
+msgstr ""
+"Du treng ein privatlykel for å underskrive meldingar eller ein offentlig "
+"lykel for å kryptere meldingar."
 
 #: bin/openpgp-applet:783
 msgid "GnuPG error"
-msgstr "GnuPG 錯誤"
+msgstr "GnuPG-feil"
 
 #: bin/openpgp-applet:804
 msgid "Therefore the operation cannot be performed."
-msgstr "因此不能執行操作。"
+msgstr "Difor kan ikkje handlingi verta utførd."
 
 #: bin/openpgp-applet:854
 msgid "GnuPG results"
-msgstr "GnuPG 結果"
+msgstr "GnuPG-resultat"
 
 #: bin/openpgp-applet:860
 msgid "Output of GnuPG:"
-msgstr "GnuPG 的輸出："
+msgstr "Utputt frå GnuPG:"
 
 #: bin/openpgp-applet:885
 msgid "Other messages provided by GnuPG:"
-msgstr "由 GnuPG 提供的其他訊息："
+msgstr "Andre meldingar leverde av GnuPG:"

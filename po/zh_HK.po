@@ -3,19 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Agustín Wu <losangwuyts@gmail.com>, 2016
-# 大圈洋蔥, 2016
-# Wen-Gan Li <wgli@wgli.net>, 2015
+# Kin Kwok, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2017-08-05 15:07-0400\n"
-"PO-Revision-Date: 2016-12-21 03:39+0000\n"
-"Last-Translator: Agustín Wu <losangwuyts@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/"
-"language/zh_TW/)\n"
-"Language: zh_TW\n"
+"PO-Revision-Date: 2016-04-08 04:08+0000\n"
+"Last-Translator: Kin Kwok\n"
+"Language-Team: Chinese (Hong Kong) (http://www.transifex.com/otf/torproject/"
+"language/zh_HK/)\n"
+"Language: zh_HK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,11 +21,11 @@ msgstr ""
 
 #: bin/openpgp-applet:160
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr "你正準備離開 OpenPGP 加密程式。你確定嗎 ?"
+msgstr "離開OpenPGP加密程式。確定？"
 
 #: bin/openpgp-applet:172
 msgid "OpenPGP encryption applet"
-msgstr "OpenPGP 加密小程式"
+msgstr "OpenPGP加密小程式"
 
 #: bin/openpgp-applet:175
 msgid "Exit"
@@ -39,35 +37,35 @@ msgstr "關於"
 
 #: bin/openpgp-applet:232
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "使用 _Passphrase 對剪貼簿進行加密"
+msgstr "使用_Passphrase對剪貼簿進行加密"
 
 #: bin/openpgp-applet:235
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "使用公開金鑰簽署或加密剪貼簿"
+msgstr "使用公匙簽署╱加密剪貼簿"
 
 #: bin/openpgp-applet:240
 msgid "_Decrypt/Verify Clipboard"
-msgstr "_Decrypt/驗證剪貼簿"
+msgstr "_Decrypt╱驗證剪貼簿"
 
 #: bin/openpgp-applet:244
 msgid "_Manage Keys"
-msgstr "_Manage 金鑰"
+msgstr "_Manage鎖匙"
 
 #: bin/openpgp-applet:248
 msgid "_Open Text Editor"
-msgstr "_Open 文字編輯器"
+msgstr "_Open Text Editor"
 
 #: bin/openpgp-applet:292
 msgid "The clipboard does not contain valid input data."
-msgstr "剪貼簿不包含有效的輸入資料。"
+msgstr "剪貼簿未包含有效嘅輸入資料。"
 
 #: bin/openpgp-applet:337 bin/openpgp-applet:339 bin/openpgp-applet:341
 msgid "Unknown Trust"
-msgstr "不明的信任"
+msgstr "不明嘅信任"
 
 #: bin/openpgp-applet:343
 msgid "Marginal Trust"
-msgstr "邊緣化信任"
+msgstr "臨界信任"
 
 #: bin/openpgp-applet:345
 msgid "Full Trust"
@@ -83,7 +81,7 @@ msgstr "名稱"
 
 #: bin/openpgp-applet:401
 msgid "Key ID"
-msgstr "金鑰 ID"
+msgstr "鎖匙ID"
 
 #: bin/openpgp-applet:402
 msgid "Status"
@@ -91,20 +89,20 @@ msgstr "狀態"
 
 #: bin/openpgp-applet:433
 msgid "Fingerprint:"
-msgstr "指紋："
+msgstr "數碼指紋："
 
 #: bin/openpgp-applet:436
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "使用者 IDs："
+msgstr[0] "用戶識別碼："
 
 #: bin/openpgp-applet:465
 msgid "None (Don't sign)"
-msgstr "無(不簽署)"
+msgstr "無(未簽署)"
 
 #: bin/openpgp-applet:528
 msgid "Select recipients:"
-msgstr "選擇收件者:"
+msgstr "選取收件者："
 
 #: bin/openpgp-applet:536
 msgid "Hide recipients"
@@ -115,68 +113,66 @@ msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"將加密郵件中所有收件者的使用者識別碼隱藏，否則任何看到加密郵件的人都可看到此"
-"郵件之收件者。"
+"隱藏加密郵件全部收件者嘅用戶識別碼。否則任何人見到加密嘅郵件都可以睇出邊個係"
+"收件者。"
 
 #: bin/openpgp-applet:545
 msgid "Sign message as:"
-msgstr "訊息簽署："
+msgstr "郵件簽名為："
 
 #: bin/openpgp-applet:549
 msgid "Choose keys"
-msgstr "選擇金鑰"
+msgstr "選取鎖匙"
 
 #: bin/openpgp-applet:589
 msgid "Do you trust these keys?"
-msgstr "您信任這些金鑰嗎？"
+msgstr "信任呢啲鎖匙嗎？"
 
 #: bin/openpgp-applet:592
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "以下所選擇的金鑰無法完全信任："
+msgstr[0] "下列所選嘅鎖匙未被完全信任："
 
 #: bin/openpgp-applet:610
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "您真的信任這些金鑰並繼續使用它們？"
+msgstr[0] "可以信任呢啲鎖匙到足以使用佢哋嗎？"
 
 #: bin/openpgp-applet:623
 msgid "No keys selected"
-msgstr "沒有選擇金鑰"
+msgstr "未選取鎖匙"
 
 #: bin/openpgp-applet:625
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
-msgstr ""
-"您必須選擇一把私密金鑰來對訊息進行簽署，抑或是用幾把公開金鑰來將訊息加密，或"
-"兩個方式同時使用。"
+msgstr "須選取私人鎖匙對郵件進行簽名，或一啲公匙嚟加密郵件，或兩者兼行。"
 
 #: bin/openpgp-applet:653
 msgid "No keys available"
-msgstr "無可用的金鑰"
+msgstr "無可用鎖匙"
 
 #: bin/openpgp-applet:655
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
-msgstr "您需要一把私密金鑰來對訊息進行簽署，或者一把公開金鑰來將訊息加密。"
+msgstr "須選取私人鎖匙對郵件進行簽名，或公匙嚟加密郵件。"
 
 #: bin/openpgp-applet:783
 msgid "GnuPG error"
-msgstr "GnuPG 錯誤"
+msgstr "GnuPG錯誤"
 
 #: bin/openpgp-applet:804
 msgid "Therefore the operation cannot be performed."
-msgstr "因此不能執行操作。"
+msgstr "因此唔能夠執行操作。"
 
 #: bin/openpgp-applet:854
 msgid "GnuPG results"
-msgstr "GnuPG 結果"
+msgstr "GnuPG結果"
 
 #: bin/openpgp-applet:860
 msgid "Output of GnuPG:"
-msgstr "GnuPG 的輸出："
+msgstr "GnuPG嘅輸出："
 
 #: bin/openpgp-applet:885
 msgid "Other messages provided by GnuPG:"
-msgstr "由 GnuPG 提供的其他訊息："
+msgstr "由GnuPG提供嘅其他訊息："
