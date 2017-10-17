@@ -57,21 +57,21 @@ use Glib qw{TRUE FALSE};
 use Gtk3 qw{-init};
 use Gtk3::SimpleList;
 
+
+use Crypt::OpenPGP_Applet::GnuPG::Interface;
+use DateTime;
 use Encode qw{decode encode find_encoding};
 use English;
-use Crypt::OpenPGP_Applet::GnuPG::Interface;
-use IO::Handle;
-use I18N::Langinfo qw{langinfo CODESET};
-use List::MoreUtils qw{none};
-use DateTime;
-use File::ShareDir;
-use IO::Select;
 use Errno qw(EPIPE);
+use File::ShareDir;
+use I18N::Langinfo qw{langinfo CODESET};
+use IO::Handle;
+use IO::Select;
+use List::MoreUtils qw{none};
+use POSIX;
 
 use Locale::TextDomain ("OpenPGP_Applet");
-use POSIX;
 setlocale(LC_MESSAGES, "");
-
 
 =head1 GLOBALS
 
