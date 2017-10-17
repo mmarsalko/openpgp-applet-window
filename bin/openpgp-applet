@@ -51,7 +51,7 @@ use 5.10.0;
 
 our $VERSION = 1.0;
 
-my $DEBUG = 0;
+my $DEBUG = $ENV{'DEBUG'};
 
 use Glib qw{TRUE FALSE};
 use Gtk3 qw{-init};
@@ -394,6 +394,92 @@ sub create_key_row {
     my $fingerprint = $encoding->decode($key->fingerprint->as_hex_string());
     # Gtk3::SimpleList encodes these strings itself.
     return [FALSE, $name, $keyid, $status, $fingerprint, $userids, $trusted];
+}
+
+sub make_pub_key_tree {
+    my $pub_keys_ref = shift;
+
+    my $treestore = Gtk3::TreeStore->new(,
+        'Glib::Boolean',       # C_SELECT
+        'Glib::String',        # C_NAME
+        'Glib::String',        # C_KEYID
+        'Glib::String',        # C_STATUS
+        'Glib::String',        # C_FINGERPRINT
+        'Glib::String',        # C_USERIDS
+        'Glib::Boolean'        # C_TRUSTED
+    );
+    for my $key (@{$pub_key_ref}) {
+        my $iter = $treestore->append();
+        my $iter = $treestore->insert_with_values(
+            $iter,
+            C_NAME,         $key[C_NAME],
+            C_KEYID,        $key[C_KEYID],
+            C_STATUS,       $key[C_STATUS],
+            C_FINGERPRINT,  $key[C_FINGERPRINT],
+            C_USERIDS,      $key[C_USERIDS],
+            C_TRUSTED,      $key[C_TRUSTED]
+            );
+    }
+
+
+    my $tree = Gtk3::SimpleList->new (
+        ""                                    => 'bool', # C_SELECT
+        $encoding->decode(__("Name"))    => 'text', # C_NAME
+        $encoding->decode(__("Key ID"))  => 'text', # C_KEYID
+        $encoding->decode(__("Status"))  => 'text', # C_STATUS
+        ""                                    => 'text', # C_FINGERPRINT
+        ""                                    => 'text', # C_USERIDS
+        ""                                    => 'bool'  # C_TRUSTED
+        );
+    foreach my $i (VISIBLE_COLS) {
+        my $col = $list->get_column($i);
+        $col->set_max_width(400);
+        $col->set_resizable(TRUE);
+        $col->set_sort_column_id($i);
+    }
+    foreach my $i (HIDDEN_COLS) {
+        $list->get_column($i)->set_visible(FALSE);
+    }
+    $tree->set_search_column(C_NAME);
+    $list->get_selection->set_mode('single');
+    $list->get_selection->unselect_all;
+    # Initially sort by name (couldn't find a cleaner way)
+    $list->get_column(C_NAME)->signal_emit('clicked');
+
+    # If we used Gtk3::TreeView instead of Gtk3::SimpleList we could
+    # show all user ids directly in the list, but we make it simple
+    # for us and instead show them in the tooltip.
+    $list->set_has_tooltip(TRUE);
+    $list->signal_connect('query-tooltip' => sub {
+        my ($wx, $wy, $tooltip) = ($_[1], $_[2], $_[4]);
+        my ($x, $y) = $list->convert_widget_to_bin_window_coords($wx, $wy);
+        my $row = $list->get_path_at_pos($x, $y);
+        return FALSE unless defined $row;
+        my $fingerprint =
+            join(" ", (${$list->{data}}[$row][C_FINGERPRINT] =~ m/..../g));
+        my $fingerprint_label = $encoding->decode(__("Fingerprint:"));
+        my $uids = "${$list->{data}}[$row][C_USERIDS]";
+        my $uids_label = $encoding->decode(
+            __n("User ID:", "User IDs:", ($uids =~ tr/\n//) + 1));
+        my $text = sprintf("%s\n%s\n%s\n%s", $uids_label, $uids,
+                           $fingerprint_label, $fingerprint);
+        $tooltip->set_text("$text");
+        return TRUE;
+    });
+
+    $list->signal_connect('row-activated' => sub {
+        # Since we use 'single' selection mode, there can only be one
+        my $index = ($list->get_selected_indices)[0];
+        my $old_val = $list->{data}->[$index]->[C_SELECT];
+        $list->{data}->[$index]->[C_SELECT] = !$old_val;
+    });
+
+    push @{$list->{data}},
+        grep { $_ } map { create_key_row($_) } @{$pub_keys_ref};
+
+    $list->select(0);
+
+    return $list;
 }
 
 sub make_pub_key_list {
