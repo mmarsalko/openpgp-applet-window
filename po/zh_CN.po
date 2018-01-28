@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Tails developers
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the OpenPGP_Applet package.
 #
 # Translators:
-# Chi-Hsun Tsai <chihsun.tsai@gmail.com>, 2017
+# Chi-Hsun Tsai, 2017
 # Mingye Wang <arthur200126@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2017-08-05 15:07-0400\n"
-"PO-Revision-Date: 2017-03-16 02:02+0000\n"
-"Last-Translator: Chi-Hsun Tsai <chihsun.tsai@gmail.com>\n"
+"PO-Revision-Date: 2017-09-23 21:55+0000\n"
+"Last-Translator: Chi-Hsun Tsai\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otf/torproject/"
 "language/zh_CN/)\n"
 "Language: zh_CN\n"

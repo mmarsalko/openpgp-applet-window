@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Tails developers
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the OpenPGP_Applet package.
 #
 # Translators:
-# Gilberto, 2015
+# NoProfile, 2015
 # M.H.S.Ajami, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2017-08-05 15:07-0400\n"
-"PO-Revision-Date: 2016-03-21 16:27+0000\n"
+"PO-Revision-Date: 2018-01-27 08:33+0000\n"
 "Last-Translator: M.H.S.Ajami\n"
 "Language-Team: Persian (http://www.transifex.com/otf/torproject/language/"
 "fa/)\n"
