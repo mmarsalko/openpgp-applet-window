@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Tails developers
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the OpenPGP_Applet package.
 #
 # Translators:
 # sebx, 2015
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2017-08-05 15:07-0400\n"
-"PO-Revision-Date: 2016-03-21 16:27+0000\n"
+"PO-Revision-Date: 2017-10-30 22:05+0000\n"
 "Last-Translator: sebx\n"
 "Language-Team: Polish (http://www.transifex.com/otf/torproject/language/"
 "pl/)\n"
@@ -18,8 +18,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: bin/openpgp-applet:160
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
@@ -99,6 +100,7 @@ msgid_plural "User IDs:"
 msgstr[0] "ID użytkownika:"
 msgstr[1] "ID użytkowników:"
 msgstr[2] "ID użytkowników:"
+msgstr[3] "ID użytkowników:"
 
 #: bin/openpgp-applet:465
 msgid "None (Don't sign)"
@@ -139,6 +141,7 @@ msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "Wybrany klucz nie jest do końca zaufany:"
 msgstr[1] "Wybrane klucze nie są do końca zaufane:"
 msgstr[2] "Wybrane klucze nie są do końca zaufane:"
+msgstr[3] "Wybrane klucze nie są do końca zaufane:"
 
 #: bin/openpgp-applet:610
 msgid "Do you trust this key enough to use it anyway?"
@@ -146,6 +149,7 @@ msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Czy wystarczająco ufasz temu kluczowi, aby z niego korzystać?"
 msgstr[1] "Czy wystarczająco ufasz tym kluczom, aby z nich korzystać?"
 msgstr[2] "Czy wystarczająco ufasz tym kluczom, aby z nich korzystać?"
+msgstr[3] "Czy wystarczająco ufasz tym kluczom, aby z nich korzystać?"
 
 #: bin/openpgp-applet:623
 msgid "No keys selected"

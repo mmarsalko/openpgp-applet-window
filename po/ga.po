@@ -3,186 +3,202 @@
 # This file is distributed under the same license as the OpenPGP_Applet package.
 #
 # Translators:
-# Josefina Uachave <evuachave@gmail.com>, 2016
-# Manuela Silva <manuela.silva@sky.com>, 2017
-# Sérgio Marques <smarquespt@gmail.com>, 2016
+# Kevin Scannell <kscanne@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2017-08-05 15:07-0400\n"
-"PO-Revision-Date: 2017-09-22 17:51+0000\n"
-"Last-Translator: Manuela Silva <manuela.silva@sky.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/otf/torproject/language/"
-"pt/)\n"
-"Language: pt\n"
+"PO-Revision-Date: 2017-10-02 22:27+0000\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish (http://www.transifex.com/otf/torproject/language/ga/)\n"
+"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
 
 #: bin/openpgp-applet:160
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr "Está prestes a sair da Míni Aplicação OpenPGP. Tem a certeza?"
+msgstr "Tá tú ar tí scor den Fheidhmchláirín OpenPGP. An bhfuil tú cinnte?"
 
 #: bin/openpgp-applet:172
 msgid "OpenPGP encryption applet"
-msgstr "Míni aplicação de encriptação OpenPGP"
+msgstr "Feidhmchláirín criptithe OpenPGP"
 
 #: bin/openpgp-applet:175
 msgid "Exit"
-msgstr "Sair"
+msgstr "Scoir"
 
 #: bin/openpgp-applet:177
 msgid "About"
-msgstr "Sobre"
+msgstr "Eolas"
 
 #: bin/openpgp-applet:232
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Encriptar Área de Transferência com _Frase de Palavra-passe "
+msgstr "Criptigh an Ghearrthaisce le _Frása Faire"
 
 #: bin/openpgp-applet:235
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Assinar/Encriptar a Área de Transferência com Chaves_Públicas"
+msgstr "Sínigh/Criptigh an Ghearrthaisce le h_Eochracha Poiblí"
 
 #: bin/openpgp-applet:240
 msgid "_Decrypt/Verify Clipboard"
-msgstr "_Desencriptar/Verificar a Área de Transferência"
+msgstr "_Díchriptigh/Deimhnigh an Ghearrthaisce"
 
 #: bin/openpgp-applet:244
 msgid "_Manage Keys"
-msgstr "_Gerir Chaves"
+msgstr "_Bainistigh Eochracha"
 
 #: bin/openpgp-applet:248
 msgid "_Open Text Editor"
-msgstr "Abrir edit_or de texto"
+msgstr "_Oscail Eagarthóir Téacs"
 
 #: bin/openpgp-applet:292
 msgid "The clipboard does not contain valid input data."
-msgstr "A área de transferência não contém dados válidos."
+msgstr "Níl sonraí bailí ionchurtha sa ghearrthaisce."
 
 #: bin/openpgp-applet:337 bin/openpgp-applet:339 bin/openpgp-applet:341
 msgid "Unknown Trust"
-msgstr "Fidedignidade desconhecida"
+msgstr "Muinín Anaithnid"
 
 #: bin/openpgp-applet:343
 msgid "Marginal Trust"
-msgstr "Fidedignidade marginal"
+msgstr "Muinín Theorannach"
 
 #: bin/openpgp-applet:345
 msgid "Full Trust"
-msgstr "Fidedignidade total"
+msgstr "Muinín Iomlán"
 
 #: bin/openpgp-applet:347
 msgid "Ultimate Trust"
-msgstr "Fidedignidade máxima"
+msgstr "An Mhuinín Is Airde"
 
 #: bin/openpgp-applet:400
 msgid "Name"
-msgstr "Nome"
+msgstr "Ainm"
 
 #: bin/openpgp-applet:401
 msgid "Key ID"
-msgstr "ID da chave"
+msgstr "Aitheantas na hEochrach"
 
 #: bin/openpgp-applet:402
 msgid "Status"
-msgstr "Estado"
+msgstr "Stádas"
 
 #: bin/openpgp-applet:433
 msgid "Fingerprint:"
-msgstr "Assinatura digital:"
+msgstr "Méarlorg:"
 
 #: bin/openpgp-applet:436
 msgid "User ID:"
 msgid_plural "User IDs:"
-msgstr[0] "ID do utilizador:"
-msgstr[1] "ID(s) do utilizador:"
+msgstr[0] "Aitheantas Úsáideora:"
+msgstr[1] "Aitheantais Úsáideora:"
+msgstr[2] "Aitheantais Úsáideora:"
+msgstr[3] "Aitheantais Úsáideora:"
+msgstr[4] "Aitheantais Úsáideora:"
 
 #: bin/openpgp-applet:465
 msgid "None (Don't sign)"
-msgstr "Nenhum (não assinar)"
+msgstr "Gan eochair (Ná sínigh)"
 
 #: bin/openpgp-applet:528
 msgid "Select recipients:"
-msgstr "Seleccionar destinatários:"
+msgstr "Roghnaigh faighteoirí:"
 
 #: bin/openpgp-applet:536
 msgid "Hide recipients"
-msgstr "Ocultar destinatários"
+msgstr "Folaigh na faighteoirí"
 
 #: bin/openpgp-applet:539
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Esconda os IDs de utilizador de todos os destinatários de uma mensagem "
-"encriptada. De outra forma qualquer pessoa que veja a mensagem encriptada "
-"pode ver quem são os destinatários."
+"Cuir aitheantais na bhfaighteoirí i bhfolach nuair a sheolann tú "
+"teachtaireacht chriptithe. É seo, nó beidh aon duine a fheiceann an "
+"teachtaireacht chriptithe in ann feiceáil cé hiad na faighteoirí."
 
 #: bin/openpgp-applet:545
 msgid "Sign message as:"
-msgstr "Assinar a mensagem como:"
+msgstr "Sínigh an teachtaireacht mar:"
 
 #: bin/openpgp-applet:549
 msgid "Choose keys"
-msgstr "Escolher as chaves"
+msgstr "Roghnaigh eochracha"
 
 #: bin/openpgp-applet:589
 msgid "Do you trust these keys?"
-msgstr "Confia nestas chaves?"
+msgstr "An bhfuil muinín agat as na heochracha seo?"
 
 #: bin/openpgp-applet:592
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
-msgstr[0] "A seguinte chave selecionada não é totalmente fidedigna:"
-msgstr[1] "As seguintes chaves selecionadas não são totalmente fidedignas:"
+msgstr[0] "Ní chuirtear muinín iomlán san eochair seo a leanas:"
+msgstr[1] "Ní chuirtear muinín iomlán sa dá eochair seo a leanas:"
+msgstr[2] "Ní chuirtear muinín iomlán sna heochracha seo a leanas:"
+msgstr[3] "Ní chuirtear muinín iomlán sna heochracha seo a leanas:"
+msgstr[4] "Ní chuirtear muinín iomlán sna heochracha seo a leanas:"
 
 #: bin/openpgp-applet:610
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Confia mesmo nesta chave para a utilizar mesmo assim?"
-msgstr[1] "Confia mesmo nestas chaves para as utilizar mesmo assim?"
+msgstr[0] ""
+"An bhfuil dóthain muiníne agat as an eochair seo lena húsáid mar sin féin?"
+msgstr[1] ""
+"An bhfuil dóthain muiníne agat as na heochracha seo lena n-úsáid mar sin "
+"féin?"
+msgstr[2] ""
+"An bhfuil dóthain muiníne agat as na heochracha seo lena n-úsáid mar sin "
+"féin?"
+msgstr[3] ""
+"An bhfuil dóthain muiníne agat as na heochracha seo lena n-úsáid mar sin "
+"féin?"
+msgstr[4] ""
+"An bhfuil dóthain muiníne agat as na heochracha seo lena n-úsáid mar sin "
+"féin?"
 
 #: bin/openpgp-applet:623
 msgid "No keys selected"
-msgstr "Nenhuma chave selecionada"
+msgstr "Níl aon eochair roghnaithe"
 
 #: bin/openpgp-applet:625
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr ""
-"Tem de seleccionar ou uma chave privada para assinar a mensagem, ou chaves "
-"privadas para encriptar a mensagem, ou ambas."
+"Caithfidh tú eochair phríobháideach a roghnú chun an teachtaireacht a "
+"shíniú, nó eochracha poiblí chun an teachtaireacht a chriptiú, nó an dá rud."
 
 #: bin/openpgp-applet:653
 msgid "No keys available"
-msgstr "Não existem chaves disponíveis"
+msgstr "Níl aon eochair ar fáil"
 
 #: bin/openpgp-applet:655
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
-"É necessário uma chave privada para assinar mensagens, ou uma chave pública "
-"para encriptar mensagens."
+"Teastaíonn uait eochair phríobháideach le teachtaireachtaí a shíniú, nó "
+"eochair phoiblí le teachtaireachtaí a chriptiú."
 
 #: bin/openpgp-applet:783
 msgid "GnuPG error"
-msgstr "Erro GnuPG"
+msgstr "Earráid GnuPG"
 
 #: bin/openpgp-applet:804
 msgid "Therefore the operation cannot be performed."
-msgstr "Desta maneira a operação não pôde ser realizada:"
+msgstr "Dá bharr sin ní féidir an oibríocht a chur i gcrích."
 
 #: bin/openpgp-applet:854
 msgid "GnuPG results"
-msgstr "Resultados do GnuPG"
+msgstr "Torthaí GnuPG"
 
 #: bin/openpgp-applet:860
 msgid "Output of GnuPG:"
-msgstr "Resultado do GnuPG"
+msgstr "Aschur ó GnuPG:"
 
 #: bin/openpgp-applet:885
 msgid "Other messages provided by GnuPG:"
-msgstr "Outras mensagens do GnuPG:"
+msgstr "Teachtaireachtaí eile ó GnuPG:"

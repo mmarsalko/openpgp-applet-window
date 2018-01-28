@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Tails developers
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the OpenPGP_Applet package.
 #
 # Translators:
 # Anders Nilsson <anders@devode.se>, 2015
-# Jonatan Nyberg <jonatan@autistici.org>, 2017
+# Jonatan Nyberg, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2017-08-05 15:07-0400\n"
-"PO-Revision-Date: 2017-04-14 02:19+0000\n"
-"Last-Translator: Jonatan Nyberg <jonatan@autistici.org>\n"
+"PO-Revision-Date: 2017-09-22 17:51+0000\n"
+"Last-Translator: Jonatan Nyberg\n"
 "Language-Team: Swedish (http://www.transifex.com/otf/torproject/language/"
 "sv/)\n"
 "Language: sv\n"

@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tails developers
+# This file is distributed under the same license as the OpenPGP_Applet package.
+#
+# Translators:
+# Senthil Kumar <paranthaba@gmail.com>, 2017-2018
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2017-08-05 15:07-0400\n"
+"PO-Revision-Date: 2018-01-23 15:43+0000\n"
+"Last-Translator: Senthil Kumar <paranthaba@gmail.com>\n"
+"Language-Team: Tamil (http://www.transifex.com/otf/torproject/language/ta/)\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bin/openpgp-applet:160
+msgid "You are about to exit OpenPGP Applet. Are you sure?"
+msgstr "நீங்கள் OpenPGP ஆப்லெட் லிருந்து  வெளியேறப் போகிறீர்கள். நிச்சயமாகவா?"
+
+#: bin/openpgp-applet:172
+msgid "OpenPGP encryption applet"
+msgstr "OpenPGP மறைகுறியாக்க ஆப்லெட்"
+
+#: bin/openpgp-applet:175
+msgid "Exit"
+msgstr "வெளியேறு"
+
+#: bin/openpgp-applet:177
+msgid "About"
+msgstr "பற்றி"
+
+#: bin/openpgp-applet:232
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "கிளிப்போர்டை _கடவுத்தொடர் மூலம் மறைகுறியாக்கு"
+
+#: bin/openpgp-applet:235
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "பொது_சாவிகள் மூலம் இடைநிலைபலகையை கையொப்பமிடு/குறியீடாக்கு"
+
+#: bin/openpgp-applet:240
+msgid "_Decrypt/Verify Clipboard"
+msgstr "இடைநிலைபலகையை _குறியீடுநீக்கு/பரிசோதி"
+
+#: bin/openpgp-applet:244
+msgid "_Manage Keys"
+msgstr "_விசை மேலாண்மை"
+
+#: bin/openpgp-applet:248
+msgid "_Open Text Editor"
+msgstr "_உரை தொகுத்து அமைப்பானை திற"
+
+#: bin/openpgp-applet:292
+msgid "The clipboard does not contain valid input data."
+msgstr "கிளிப்போர்டில் சரியான உள்ளீடு தரவு இல்லை."
+
+#: bin/openpgp-applet:337 bin/openpgp-applet:339 bin/openpgp-applet:341
+msgid "Unknown Trust"
+msgstr "அறியப்படாத டிரஸ்ட்"
+
+#: bin/openpgp-applet:343
+msgid "Marginal Trust"
+msgstr "இறுதிநிலை டிரஸ்ட்"
+
+#: bin/openpgp-applet:345
+msgid "Full Trust"
+msgstr "முழு நம்பிக்கை"
+
+#: bin/openpgp-applet:347
+msgid "Ultimate Trust"
+msgstr "இறுதி நம்பிக்கை"
+
+#: bin/openpgp-applet:400
+msgid "Name"
+msgstr "பெயர்"
+
+#: bin/openpgp-applet:401
+msgid "Key ID"
+msgstr "விசை ID"
+
+#: bin/openpgp-applet:402
+msgid "Status"
+msgstr "நிலை"
+
+#: bin/openpgp-applet:433
+msgid "Fingerprint:"
+msgstr "கைரேகை:"
+
+#: bin/openpgp-applet:436
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "பயனர் IDகள்:"
+msgstr[1] "பயனர் IDகள்:"
+
+#: bin/openpgp-applet:465
+msgid "None (Don't sign)"
+msgstr "இல்லை (கையெழுத்திட வேண்டாம்)"
+
+#: bin/openpgp-applet:528
+msgid "Select recipients:"
+msgstr "பெறுநர்களை தேர்ந்தெடு:"
+
+#: bin/openpgp-applet:536
+msgid "Hide recipients"
+msgstr "பெறுநர்களை மறை:"
+
+#: bin/openpgp-applet:539
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr ""
+"ஒரு குறியீடாக்கப்பட்ட சேதியின் அனைத்து பெறுனர்களின் பயனர் IDகளை மறைத்துவை. இல்லையென்றால் "
+"அந்த குறியீடாக்கப்பட்ட சேதியை பார்க்கும் யாராலும் பெறுனர்கள் யார் என காண இயலும்."
+
+#: bin/openpgp-applet:545
+msgid "Sign message as:"
+msgstr "சேதியில் இவ்வாறு கையொப்பமிடு:"
+
+#: bin/openpgp-applet:549
+msgid "Choose keys"
+msgstr "சாவிகளை தேர்ந்தெடு"
+
+#: bin/openpgp-applet:589
+msgid "Do you trust these keys?"
+msgstr "இந்த சாவிகள் உங்கள் நம்பிக்கைக்கு உரியதா?"
+
+#: bin/openpgp-applet:592
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "பின்வரும் தேர்ந்தெடுக்கப்பட்ட சாவிகள் முழுமையாக நம்பத்தகுந்தவை அல்ல:"
+msgstr[1] "பின்வரும் தேர்ந்தெடுக்கப்பட்ட சாவிகள் முழுமையாக நம்பத்தகுந்தவை அல்ல:"
+
+#: bin/openpgp-applet:610
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "இந்த சாவிகள் பயன்படுத்துவதில் போதுமான நம்பிக்கை உள்ளதா?"
+msgstr[1] "இந்த சாவிகள் பயன்படுத்துவதில் போதுமான நம்பிக்கை உள்ளதா?"
+
+#: bin/openpgp-applet:623
+msgid "No keys selected"
+msgstr "எந்தவொரு சாவிகளும் தேர்ந்தெடுக்கப்படவில்லை"
+
+#: bin/openpgp-applet:625
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr ""
+"நீங்கள் இந்த சேதியை கையொப்பமிட ஒரு தனிப்பட்ட சாவியை தேர்ந்தெடுக்க வேண்டும், அல்லது சில "
+"பொது சாவிகளைக் கொண்டு சேதியை குறியீடாக்கம் செய்ய வேண்டும் அல்லது இரண்டும் செய்ய வேண்டும்."
+
+#: bin/openpgp-applet:653
+msgid "No keys available"
+msgstr "எந்தவொரு சாவிகளும் கிடைக்கப்பெறவில்லை"
+
+#: bin/openpgp-applet:655
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr ""
+"உங்களுக்கு சேதிகளை கையொப்பமிட ஒரு தனிப்பட்ட சாவி அல்லது சேதிகளை குறியீடாக்க ஒரு பொது "
+"சாவி தேவை."
+
+#: bin/openpgp-applet:783
+msgid "GnuPG error"
+msgstr "GnuPG பிழை"
+
+#: bin/openpgp-applet:804
+msgid "Therefore the operation cannot be performed."
+msgstr "ஆகையால் இந்த நடவடிக்கையை செய்ய இயலாது."
+
+#: bin/openpgp-applet:854
+msgid "GnuPG results"
+msgstr "GnuPG முடிவுகள்"
+
+#: bin/openpgp-applet:860
+msgid "Output of GnuPG:"
+msgstr "GnuPG யின் வெளியீடு::"
+
+#: bin/openpgp-applet:885
+msgid "Other messages provided by GnuPG:"
+msgstr "GnuPG தந்த மற்ற சேதிகள்:"
