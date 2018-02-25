@@ -29,46 +29,46 @@ https://tails.boum.org/doc/encryption_and_privacy/gpgapplet/
 
 INSTALLATION
 
-	OpenPGP_Applet is packaged as a (mostly) standard Perl module.
+    OpenPGP_Applet is packaged as a (mostly) standard Perl module.
 
-	To install, you'll need Perl and a few Perl module available from CPAN and,
-	chances are, as package for your OS.
+    To install, you'll need Perl and a few Perl module available from CPAN and,
+    chances are, as package for your OS.
 
-	Just run 
+    Just run 
 
-		perl Makefile.PL
+        perl Makefile.PL
 
-	If you miss some required modules, it will warn you. Install them (via CPAN or
-	using your preferred packaging system)¸
+    If you miss some required modules, it will warn you. Install them (via CPAN or
+    using your preferred packaging system)¸
 
-	Then, as root or using sudo :
+    Then, as root or using sudo :
 
-		make install
+        make install
 
-	Installation will take place in /usr/local by default.
+    Installation will take place in /usr/local by default.
 
 
 USAGE
 
-	To launch the applet, run "openpgp-applet". It should sit in the system tray or
-	the notification area.
+    To launch the applet, run "openpgp-applet". It should sit in the system tray or
+    the notification area.
 
-	If you encounter issues, find a bug, or want to suggest a feature, please
+    If you encounter issues, find a bug, or want to suggest a feature, please
     open an issue on https://salsa.debian.org/openpgp-applet-team/openpgp-applet
 
 LICENSE
 
-	This program is free software; you can redistribute it and/or modify it
-	under the terms of either:
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of either:
 
-	a) the GNU General Public License as published by the Free Software
-	   Foundation; either version 1, or (at your option) any later version, or
+    a) the GNU General Public License as published by the Free Software
+       Foundation; either version 1, or (at your option) any later version, or
 
-	b) the "Artistic License" which comes with Perl.
+    b) the "Artistic License" which comes with Perl.
 
-    	Both are included in the LICENSE file. 
+        Both are included in the LICENSE file. 
 
-	The pixmaps and icons under share/pixmaps are licensed using the
-	Creative Common 1.0 Universal (CC0), included in
-	LICENSE file as well. Humans may want to refer to
-	http://creativecommons.org/publicdomain/zero/1.0/
+    The pixmaps and icons under share/pixmaps are licensed using the
+    Creative Common 1.0 Universal (CC0), included in
+    LICENSE file as well. Humans may want to refer to
+    http://creativecommons.org/publicdomain/zero/1.0/
