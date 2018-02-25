@@ -4,15 +4,15 @@
 #
 # Translators:
 # Chris Park <utopinator@gmail.com>, 2016
-# sangmin lee <sangminlee7648@gmail.com>, 2016
-# Yongmin Hong <revi@pobox.com>, 2017
+# Sangmin Lee <sangminlee7648@gmail.com>, 2016
+# Revi_, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2017-08-05 15:07-0400\n"
-"PO-Revision-Date: 2017-09-22 17:51+0000\n"
-"Last-Translator: Yongmin Hong <revi@pobox.com>\n"
+"PO-Revision-Date: 2018-02-20 19:11+0000\n"
+"Last-Translator: Florencia Herra Vega <flohdot@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/otf/torproject/language/"
 "ko/)\n"
 "Language: ko\n"
