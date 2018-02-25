@@ -1,5 +1,7 @@
 Copyright (c) 1999-2018 Tails developers <tails@boum.org>
 
+Homepage: https://openpgp-applet-team.pages.debian.net/
+
 Development mailing list:
 https://mailman.boum.org/listinfo/openpgp-applet-devel
 
@@ -51,12 +53,8 @@ USAGE
 	To launch the applet, run "openpgp-applet". It should sit in the system tray or
 	the notification area.
 
-	If you encounter issues, find a bug, or want to suggest a feature, point your
-	browser to https://tails.boum.org and check the Help/Support section for
-	instructions.
-
-TODO
-	I18N translations, available in the Tails version, are missing.
+	If you encounter issues, find a bug, or want to suggest a feature, please
+    open an issue on https://salsa.debian.org/openpgp-applet-team/openpgp-applet
 
 LICENSE
 
