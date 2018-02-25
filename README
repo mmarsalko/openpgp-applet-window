@@ -17,7 +17,7 @@ Asymmetric decryption and clipboard verification are also supported.
 Formerly a part of Tails - tails.boum.org, now available separately.
 
 
-IMPORTANT: 
+IMPORTANT:
 
 OpenPGP_Applet does not handle passphrase input. Since it also does not offer
 terminal interaction unless explicitly run from there, it relies in practice on
@@ -34,7 +34,7 @@ INSTALLATION
     To install, you'll need Perl and a few Perl module available from CPAN and,
     chances are, as package for your OS.
 
-    Just run 
+    Just run
 
         perl Makefile.PL
 
@@ -66,9 +66,9 @@ LICENSE
 
     b) the "Artistic License" which comes with Perl.
 
-        Both are included in the LICENSE file. 
+        Both are included in the LICENSE file.
 
     The pixmaps and icons under share/pixmaps are licensed using the
-    Creative Common 1.0 Universal (CC0), included in
-    LICENSE file as well. Humans may want to refer to
+    Creative Common 1.0 Universal (CC0), included in LICENSE file as
+    well. Humans may want to refer to
     http://creativecommons.org/publicdomain/zero/1.0/
