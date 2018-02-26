@@ -4,14 +4,15 @@
 #
 # Translators:
 # Communia <ameaneantie@riseup.net>, 2015-2017
+# anominino anomino <anominino@riseup.net>, 2018
 # Danton Medrado, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2017-08-05 15:07-0400\n"
-"PO-Revision-Date: 2017-09-23 21:55+0000\n"
-"Last-Translator: Communia <ameaneantie@riseup.net>\n"
+"PO-Revision-Date: 2018-02-20 19:11+0000\n"
+"Last-Translator: blueboy\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/otf/torproject/"
 "language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -74,7 +75,7 @@ msgstr "Confiança Completa"
 
 #: bin/openpgp-applet:347
 msgid "Ultimate Trust"
-msgstr "Confiança Total"
+msgstr "Confiança Absoluta"
 
 #: bin/openpgp-applet:400
 msgid "Name"
@@ -115,9 +116,9 @@ msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr ""
-"Ocultar as IDs de usuário de todos os endereços destinatários de uma "
-"mensagem criptografada. Caso contrário, qualquer pessoa que vir a mensagem "
-"criptografada saberá quem são os destinatários."
+"Ocultar as IDs de usuário de todos os destinatários de uma mensagem "
+"criptografada. Ou qualquer pessoa que veja a mensagem criptografadapode ver "
+"quem são os destinatários."
 
 #: bin/openpgp-applet:545
 msgid "Sign message as:"
@@ -173,7 +174,7 @@ msgstr "Erro do GnuPG"
 
 #: bin/openpgp-applet:804
 msgid "Therefore the operation cannot be performed."
-msgstr " a operação não pode ser executada."
+msgstr " Por isso a operação não pode ser realizada."
 
 #: bin/openpgp-applet:854
 msgid "GnuPG results"

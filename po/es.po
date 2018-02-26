@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the OpenPGP_Applet package.
 #
 # Translators:
-# Emma Peel, 2016
+# Emma Peel, 2016,2018
 # strel, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: tails@boum.org\n"
 "POT-Creation-Date: 2017-08-05 15:07-0400\n"
-"PO-Revision-Date: 2017-10-12 10:31+0000\n"
+"PO-Revision-Date: 2018-02-12 02:02+0000\n"
 "Last-Translator: Emma Peel\n"
 "Language-Team: Spanish (http://www.transifex.com/otf/torproject/language/"
 "es/)\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: bin/openpgp-applet:160
 msgid "You are about to exit OpenPGP Applet. Are you sure?"
-msgstr "Está a punto de salir del applet OpenPGP. ¿Está seguro?"
+msgstr "Estás a punto de salir del applet OpenPGP. ¿Estás seguro?"
 
 #: bin/openpgp-applet:172
 msgid "OpenPGP encryption applet"
