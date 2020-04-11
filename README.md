@@ -1,7 +1,13 @@
 # openpgp-applet-window
 
 ![Applet Window](screenshot.png "Applet Window")
+
 This is a fork of the openpgp-applet that replaces the 'applet' part of the applet with a window. This allows the app to be used on systems with newer versions of Gnome that don't support GTK StatusIcons.
+
+
+To use it, clone the repository and run bin/openpgp-applet
+
+
 The original repository exists at: https://salsa.debian.org/openpgp-applet-team/openpgp-applet
 
 # Original readme
