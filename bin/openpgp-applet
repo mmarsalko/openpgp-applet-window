@@ -91,6 +91,7 @@ use constant COMBO_NAME        => 0;
 use constant COMBO_KEYID       => 1;
 use constant COMBO_FINGERPRINT => 2;
 use constant COMBO_ROLE        => 3;
+use Glib::Object::Introspection;
 
 my $gnupg         = Crypt::OpenPGP_Applet::GnuPG::Interface->new();
 $gnupg->call('gpg2');
@@ -119,11 +120,21 @@ my @pgp_headers = ($pgp_encrypted_msg, $pgp_signed_msg);
 
 =cut
 
+my $window = Gtk3::Window->new;
+my $vbox = Gtk3::VBox->new;
+my $image = Gtk3::Image->new;
+
+$vbox->set_size_request(250, 200);
+$window->add($vbox);
+
 my $statusicon = build_statusicon();
+$vbox->pack_start($statusicon, TRUE, 0, 0);
 $statusicon->set_visible(TRUE);
 init_freshest_clipboard();
 init_icons_stock($icon_factory);
 detect_received(freshest_clipboard());
+$window->show_all();
+
 Gtk3->main;
 
 
@@ -170,11 +181,11 @@ sub app_exit {
 }
 
 sub build_statusicon {
-    my $icon = Gtk3::StatusIcon->new;
+    my $icon = Gtk3::Button->new;
+    $image->set_from_file('../share/pixmaps/scalable/OpenPGP_Applet-key.svg');
     $icon->set_visible(FALSE);
-    $icon->set_from_icon_name('seahorse');
+    $icon->set_image($image);
     $icon->set_tooltip_text($encoding->decode(__("OpenPGP encryption applet")));
-
     my $menu   = Gtk3::Menu->new;
     my $mexit  = Gtk3::MenuItem->new_with_mnemonic($encoding->decode(__("Exit")));
     $mexit->signal_connect('activate' => sub { app_exit($main_window); });
@@ -423,26 +434,27 @@ sub make_pub_key_list {
     # Initially sort by name (couldn't find a cleaner way)
     $list->get_column(C_NAME)->signal_emit('clicked');
 
+    # BUG: This code spams the key list with empty keys. Disabled, since it doesn't seem necessary.
     # If we used Gtk3::TreeView instead of Gtk3::SimpleList we could
     # show all user ids directly in the list, but we make it simple
     # for us and instead show them in the tooltip.
-    $list->set_has_tooltip(TRUE);
-    $list->signal_connect('query-tooltip' => sub {
-        my ($wx, $wy, $tooltip) = ($_[1], $_[2], $_[4]);
-        my ($x, $y) = $list->convert_widget_to_bin_window_coords($wx, $wy);
-        my $row = $list->get_path_at_pos($x, $y);
-        return FALSE unless defined $row;
-        my $fingerprint =
-            join(" ", (${$list->{data}}[$row][C_FINGERPRINT] =~ m/..../g));
-        my $fingerprint_label = $encoding->decode(__("Fingerprint:"));
-        my $uids = "${$list->{data}}[$row][C_USERIDS]";
-        my $uids_label = $encoding->decode(
-            __n("User ID:", "User IDs:", ($uids =~ tr/\n//) + 1));
-        my $text = sprintf("%s\n%s\n%s\n%s", $uids_label, $uids,
-                           $fingerprint_label, $fingerprint);
-        $tooltip->set_text("$text");
-        return TRUE;
-    });
+    # $list->set_has_tooltip(TRUE);
+    # $list->signal_connect('query-tooltip' => sub {
+    #     my ($wx, $wy, $tooltip) = ($_[1], $_[2], $_[4]);
+    #     my ($x, $y) = $list->convert_widget_to_bin_window_coords($wx, $wy);
+    #     my $row = $list->get_path_at_pos($x, $y);
+    #     return FALSE unless defined $row;
+    #     my $fingerprint =
+    #         join(" ", (${$list->{data}}[$row][C_FINGERPRINT] =~ m/..../g));
+    #     my $fingerprint_label = $encoding->decode(__("Fingerprint:"));
+    #     my $uids = "${$list->{data}}[$row][C_USERIDS]";
+    #     my $uids_label = $encoding->decode(
+    #         __n("User ID:", "User IDs:", ($uids =~ tr/\n//) + 1));
+    #     my $text = sprintf("%s\n%s\n%s\n%s", $uids_label, $uids,
+    #                        $fingerprint_label, $fingerprint);
+    #     $tooltip->set_text("$text");
+    #     return TRUE;
+    # });
 
     $list->signal_connect('row-activated' => sub {
         # Since we use 'single' selection mode, there can only be one
@@ -1037,7 +1049,7 @@ sub _gpg_communicate {
 sub update_icon {
     my $text_type = shift;
 
-    $statusicon->set_from_stock("OpenPGP_Applet-${text_type}");
+    $image->set_from_file("../share/pixmaps/scalable/OpenPGP_Applet-${text_type}.svg");
 }
 
 sub detect_received {
