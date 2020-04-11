@@ -1,3 +1,11 @@
+# openpgp-applet-window
+
+![Applet Window](screenshot.png "Applet Window")
+This is a fork of the openpgp-applet that replaces the 'applet' part of the applet with a window. This allows the app to be used on systems with newer versions of Gnome that don't support GTK StatusIcons.
+The original repository exists at: https://salsa.debian.org/openpgp-applet-team/openpgp-applet
+
+# Original readme
+
 Copyright (c) 1999-2018 Tails developers <tails@boum.org>
 
 Homepage: https://openpgp-applet-team.pages.debian.net/
@@ -6,7 +14,6 @@ Development mailing list:
 https://lists.autistici.org/list/openpgp-applet-devel.html
 
 **** OpenPGP_Applet - GNOME applet for OpenPGP text encryption ****
-
 
 OpenPGP_Applet is a GNOME applet written in Perl that allows encryption and
 decryption of the clipboard's content with a symmetric cipher using a
