@@ -182,7 +182,8 @@ sub app_exit {
 
 sub build_statusicon {
     my $icon = Gtk3::Button->new;
-    $image->set_from_file('../share/pixmaps/scalable/OpenPGP_Applet-key.svg');
+    $image->set_from_stock("OpenPGP_Applet-none", 6, 0);
+
     $icon->set_visible(FALSE);
     $icon->set_image($image);
     $icon->set_tooltip_text($encoding->decode(__("OpenPGP encryption applet")));
@@ -1049,7 +1050,7 @@ sub _gpg_communicate {
 sub update_icon {
     my $text_type = shift;
 
-    $image->set_from_file("../share/pixmaps/scalable/OpenPGP_Applet-${text_type}.svg");
+    $image->set_from_stock("OpenPGP_Applet-${text_type}", 6, 0);
 }
 
 sub detect_received {
